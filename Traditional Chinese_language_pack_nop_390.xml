@@ -17912,16 +17912,16 @@
     <Value>{0}.{1}。{2}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.BuyingDisabled">
-    <Value>此商品不能購買</Value>
+    <Value>此商品無法購買</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.CannotLoadProduct">
-    <Value>商品編號({0})不能加載</Value>
+    <Value>商品編號({0})無法載入</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.CannotMixStandardAndAutoshipProducts">
     <Value>每一個訂單只允許包含一種商品類型</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.CartIsEmpty">
-    <Value>您的購物車是空的！</Value>
+    <Value>購物車目前沒有任何商品！</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.CheckoutAttributes.PriceAdjustment">
     <Value>{0} [{1}]</Value>
@@ -17956,7 +17956,7 @@
   <LocaleResource Name="ShoppingCart.CustomerEnteredPrice.RangeError">
     <Value>價格必須是從{0}到{1}之間</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.discount.cannotbeusedanymore">
+  <LocaleResource Name="ShoppingCart.Discount.CannotBeUsedAnymore">
     <Value>對不起，您已經使用這個折扣</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Discount.CannotBeUsedWithGiftCards">
@@ -17966,13 +17966,13 @@
     <Value>很抱歉，此優惠已過期</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Discount.NotStartedYet">
-    <Value>很抱歉，此活動還未開始</Value>
+    <Value>很抱歉，活動還未開始</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.DiscountCouponCode">
     <Value>折扣碼</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.DiscountCouponCode.Applied">
-    <Value>已使用折扣碼</Value>
+    <Value>折扣碼已經被使用</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.DiscountCouponCode.Button">
     <Value>使用折扣碼</Value>
@@ -17999,12 +17999,12 @@
     <Value>{0} ({1})</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.StateProvince">
-    <Value>鄉鎮市區</Value>
+    <Value>鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.Tooltip">
     <Value>請填寫目的地以便估算運費</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.estimateshipping.zippostalcode">
+  <LocaleResource Name="ShoppingCart.EstimateShipping.ZipPostalCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.FileUploaded">
@@ -18273,7 +18273,7 @@
     <Value>請輸入密碼來訪問此內容：</Value>
   </LocaleResource>
   <LocaleResource Name="Topic.WrongPassword">
-    <Value>錯誤的密碼</Value>
+    <Value>密碼錯誤</Value>
   </LocaleResource>
   <LocaleResource Name="Vendors">
     <Value>供應商</Value>
@@ -18387,7 +18387,7 @@
     <Value>電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.YourEmailAddress.Required">
-    <Value>請輸入電子信箱</Value>
+    <Value>請輸入您的電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.HeaderQuantity">
     <Value>({0})</Value>
