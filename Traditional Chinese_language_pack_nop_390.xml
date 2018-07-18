@@ -436,7 +436,7 @@
     <Value>以訪客身分結帳</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.CheckoutAsGuestOrRegister">
-    <Value>註冊帳戶或匿名結帳</Value>
+    <Value>以訪客或是會員結帳</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Fields.Email">
     <Value>Email</Value>
@@ -664,7 +664,7 @@
     <Value>新增新的禮品卡('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewManufacturer">
-    <Value>新增新的品牌('{0}')</Value>
+    <Value>新增新的製造商('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewProduct">
     <Value>新增新的商品('{0}')</Value>
@@ -679,7 +679,7 @@
     <Value>新增新的屬性規格('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewTopic">
-    <Value>新增一張新圖片 ("{0}")</Value>
+    <Value>新增主題 ("{0}")</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewWidget">
     <Value>新增新的小工具(編號：{0})</Value>
@@ -709,7 +709,7 @@
     <Value>刪除品牌('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteOrder">
-    <Value>刪除當前訂單 (ID = {0})</Value>
+    <Value>刪除訂單 (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteProduct">
     <Value>刪除商品('{0}')</Value>
@@ -802,7 +802,7 @@
     <Value>新增商品評論('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.AddToCompareList">
-    <Value>新增商品到商品比較('{0}')</Value>
+    <Value>新增商品到商品比較列表('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.AddToShoppingCart">
     <Value>新增商品到購物車('{0}')</Value>
@@ -907,7 +907,7 @@
     <Value>鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.StateProvince.Required">
-    <Value>請選擇鄉鎮市區</Value>
+    <Value>請輸入鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.ZipPostalCode">
     <Value>郵遞區號</Value>
@@ -1123,13 +1123,13 @@
     <Value>請輸入連絡電話</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.StateProvince">
-    <Value>鄉鎮市區</Value>
+    <Value>鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.StateProvince.Hint">
     <Value>輸入鄉鎮市區</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.StateProvince.Required">
-    <Value>請選擇鄉鎮市區</Value>
+    <Value>請輸入鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.ZipPostalCode">
     <Value>郵遞區號</Value>
@@ -8249,7 +8249,7 @@
     <Value>這個交貨日期的顯示順序。1代表列表的頂部。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Fields.Name">
-    <Value>名稱</Value>
+    <Value>姓名</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Fields.Name.Hint">
     <Value>輸入交貨日期名稱。</Value>
@@ -8263,10 +8263,10 @@
   <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Updated">
     <Value>交貨日期已經更新成功。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures">
     <Value>度量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions">
     <Value>尺寸</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.displayorder">
@@ -8287,7 +8287,7 @@
   <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.systemkeyword">
     <Value>系統關鍵字</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights">
     <Value>重量</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.displayorder">
@@ -8438,7 +8438,7 @@
     <Value>配送方式限制</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Description">
     <Value>您可以限制不同的縣市使用不同的配送方式。</Value>
@@ -8530,10 +8530,10 @@
   <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyAddress.Hint">
     <Value>請輸入公司地址。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.stores.fields.companyname">
+  <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyName">
     <Value>公司名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.stores.fields.companyname.hint">
+  <<LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyName.Hint">
     <Value>請輸入公司名稱。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyPhoneNumber">
@@ -14798,13 +14798,13 @@
     <Value>加密</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Hashed">
-    <Value>哈希</Value>
+    <Value>雜湊</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.AdminApproval">
     <Value>管理員審核</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.Disabled">
-    <Value>禁止註冊</Value>
+    <Value>目前禁止註冊</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.EmailValidation">
     <Value>郵件驗證</Value>
@@ -14842,7 +14842,7 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.ShippingNotRequired">
     <Value>不需要配送</Value>
   </LocaleResource>
-  <LocaleResource Name="enums.nop.core.domain.tax.taxbasedon.billingaddress">
+  <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.BillingAddress">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.DefaultAddress">
@@ -14876,7 +14876,7 @@
     <Value>安裝好的</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.NotInstalledOnly">
-    <Value>沒有安裝好的</Value>
+    <Value>沒有安裝好</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.Automatic">
     <Value>自動</Value>
@@ -14978,22 +14978,22 @@
     <Value>YouTube</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.Information">
-    <Value>資訊</Value>
+    <Value>訊息</Value>
   </LocaleResource>
   <LocaleResource Name="footer.myaccount">
     <Value>會員中心</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.TaxShipping.ExclTax">
-    <Value>所有價格都是輸入不包括稅。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
+    <Value>所有價格不含稅。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.TaxShipping.InclTax">
-    <Value>所有的價格都進入了包括稅收。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
+    <Value>所有價格皆含稅。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="forum.activediscussions">
-    <Value>熱門貼文</Value>
+    <Value>熱門討論</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.ActiveDiscussions.ViewAll">
-    <Value>更多</Value>
+    <Value>觀看更多</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.ActiveDiscussionsFeedDescription">
     <Value>熱門主題</Value>
@@ -15188,7 +15188,7 @@
     <Value>7天</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Search.LimitResultsToPrevious.AllResults">
-    <Value>所有</Value>
+    <Value>所有結果</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Search.SearchInForum">
     <Value>所屬版塊</Value>
@@ -15404,7 +15404,7 @@
     <Value>名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.Product(s).Price">
-    <Value>價格</Value>
+    <Value>售價</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.Product(s).Quantity">
     <Value>數量</Value>
@@ -15413,7 +15413,7 @@
     <Value>商品料號（SKU）: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.Product(s).Total">
-    <Value>小計</Value>
+    <Value>合計</Value>
   </LocaleResource>
   <LocaleResource Name="messages.order.rewardpoints">
     <Value>{0}紅利積點：</Value>
@@ -15422,7 +15422,7 @@
     <Value>配送：</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.SubTotal">
-    <Value>總計：</Value>
+    <Value>小計:</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.SubTotalDiscount">
     <Value>折扣：</Value>
@@ -15475,7 +15475,7 @@
   <LocaleResource Name="News.Comments.OnlyRegisteredUsersLeaveComments">
     <Value>只有註冊用戶才能評論</Value>
   </LocaleResource>
-  <LocaleResource Name="news.comments.seeafterapproving">
+  <LocaleResource Name="News.Comments.SeeAfterApproving">
     <Value>新聞評論已成功添加， 您將在商店管理員批准後看到它。</Value>
   </LocaleResource>
   <LocaleResource Name="News.Comments.SubmitButton">
@@ -15484,7 +15484,7 @@
   <LocaleResource Name="News.Comments.SuccessfullyAdded">
     <Value>評論成功</Value>
   </LocaleResource>
-  <LocaleResource Name="news.moreinfo">
+  <LocaleResource Name="News.MoreInfo">
     <Value>詳情</Value>
   </LocaleResource>
   <LocaleResource Name="News.RSS">
