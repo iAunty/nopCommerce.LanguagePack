@@ -12223,7 +12223,7 @@
   <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Email.Required">
     <Value>電子信箱是必須的。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.newslettersubscriptions.fields.store">
+  <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Store">
     <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.ImportEmailsSuccess">
@@ -12260,13 +12260,13 @@
     <Value>電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.List.SearchEmail.Hint">
-    <Value>特定電子信箱搜尋。</Value>
+    <Value>搜尋特定電子信箱。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.List.SearchStore">
     <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.List.SearchStore.Hint">
-    <Value>特定商店搜尋。</Value>
+    <Value>搜尋特定商店。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.List.StartDate">
     <Value>開始日期</Value>
@@ -12625,14 +12625,14 @@
   <LocaleResource Name="Admin.SalesReport.Country.EndDate.Hint">
     <Value>結束日期搜尋。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.country.fields.countryname">
-    <Value>縣市</Value>
+  <LocaleResource Name="Admin.SalesReport.Country.Fields.CountryName">
+    <Value>國家</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.country.fields.sumorders">
+  <LocaleResource Name="Admin.SalesReport.Country.Fields.SumOrders">
     <Value>訂單總數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.country.fields.totalorders">
-    <Value>多少訂單</Value>
+  <LocaleResource Name="Admin.SalesReport.Country.Fields.TotalOrders">
+    <Value>所有訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.OrderStatus">
     <Value>訂單狀態</Value>
@@ -12665,7 +12665,7 @@
     <Value>條件</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Incomplete.Total">
-    <Value>小計</Value>
+    <Value>合計</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Incomplete.TotalIncompleteOrders">
     <Value>未完成訂單總數 (未決的訂單狀態)</Value>
@@ -12857,7 +12857,7 @@
     <Value>系統維護</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.BackupCreated">
-    <Value>備份文件已創建</Value>
+    <Value>備份文件已建立</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.BackupDeleted">
     <Value>備份文件 "{0}" 已刪除</Value>
@@ -12866,10 +12866,10 @@
     <Value>開始備份</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.DatabaseBackups">
-    <Value>數據庫備份</Value>
+    <Value>資料庫備份</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.DatabaseRestored">
-    <Value>數據庫已還原</Value>
+    <Value>資料庫已經還原</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Delete">
     <Value>刪除</Value>
@@ -12878,13 +12878,13 @@
     <Value>下載</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.FileName">
-    <Value>文件名</Value>
+    <Value>文件名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.FileSize">
     <Value>文件大小</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Progress">
-    <Value>正在處理數據庫備份...</Value>
+    <Value>正在處理資料庫備份...</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Restore">
     <Value>還原</Value>
@@ -12917,7 +12917,7 @@
     <Value>搜尋開始日期。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.DeleteExportedFiles.TotalDeleted">
-    <Value>{0}文件已被刪除</Value>
+    <Value>{0}個文件已被刪除</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.DeleteGuests">
     <Value>刪除匿名用戶</Value>
@@ -13913,10 +13913,10 @@
     <Value>通知我</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.NotifyMeWhenAvailable">
-    <Value>可用時通知我</Value>
+    <Value>當商品有貨時通知我</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.OnlyRegistered">
-    <Value>只有註冊用戶可以使用這個特性</Value>
+    <Value>只有註冊用戶可以使用這個功能</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.PopupTitle">
     <Value>當有庫存時，發送一封電子郵件</Value>
@@ -13928,7 +13928,7 @@
     <Value>退訂</Value>
   </LocaleResource>
   <LocaleResource Name="Bestsellers">
-    <Value>熱賣</Value>
+    <Value>熱賣商品</Value>
   </LocaleResource>
   <LocaleResource Name="blog">
     <Value>部落格</Value>
@@ -13949,7 +13949,7 @@
     <Value>輸入評論</Value>
   </LocaleResource>
   <LocaleResource Name="Blog.Comments.CreatedOn">
-    <Value>創建時間</Value>
+    <Value>建立時間</Value>
   </LocaleResource>
   <LocaleResource Name="Blog.Comments.LeaveYourComment">
     <Value>留下您的評論</Value>
@@ -14021,7 +14021,7 @@
     <Value>列表</Value>
   </LocaleResource>
   <LocaleResource Name="Categories">
-    <Value>分類</Value>
+    <Value>商品分類</Value>
   </LocaleResource>
   <LocaleResource Name="Categories.Breadcrumb.Top">
     <Value>首頁</Value>
@@ -14057,7 +14057,7 @@
     <Value>帳單送到這個地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.Button">
-    <Value>訂單結算</Value>
+    <Value>結帳</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ConfirmButton">
     <Value>確認</Value>
@@ -14068,8 +14068,8 @@
   <LocaleResource Name="Checkout.ConfirmYourOrder">
     <Value>確認您的訂單</Value>
   </LocaleResource>
-  <LocaleResource Name="checkout.enterbillingaddress">
-    <Value>輸入帳單寄送地址</Value>
+  <LocaleResource Name="Checkout.EnterBillingAddress">
+    <Value>請輸入帳單寄送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.EnterShippingAddress">
     <Value>輸入送貨地址</Value>
@@ -14084,7 +14084,7 @@
     <Value>最低訂單總金額 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.NewAddress">
-    <Value>新地址</Value>
+    <Value>新增地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.NextButton">
     <Value>下一步</Value>
@@ -14168,7 +14168,7 @@
     <Value>{0} ({1})</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ShippingAddress">
-    <Value>送貨地址</Value>
+    <Value>配送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ShippingIsNotAllowed">
     <Value>配送方式不許可</Value>
@@ -14204,7 +14204,7 @@
     <Value>(閱讀)</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ThankYou">
-    <Value>謝謝</Value>
+    <Value>感謝您</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ThankYou.Continue">
     <Value>繼續</Value>
@@ -14222,10 +14222,10 @@
     <Value>全部</Value>
   </LocaleResource>
   <LocaleResource Name="Common.AreYouSure">
-    <Value>確定？</Value>
+    <Value>您確定嗎 ?</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Back">
-    <Value>退回</Value>
+    <Value>上一步</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Cancel">
     <Value>取消</Value>
@@ -14237,10 +14237,10 @@
     <Value>配置</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Confirm">
-    <Value>確認</Value>
+    <Value>確認送出</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Continue">
-    <Value>繼續</Value>
+    <Value>下一步</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Day">
     <Value>天</Value>
@@ -14249,10 +14249,10 @@
     <Value>刪除</Value>
   </LocaleResource>
   <LocaleResource Name="Common.DeleteConfirmation">
-    <Value>您確認刪除當前項？</Value>
+    <Value>您確定要刪除這個項目?</Value>
   </LocaleResource>
   <LocaleResource Name="Common.DeleteConfirmationParam">
-    <Value>您確認刪除 "{0}"？</Value>
+    <Value>您確定要刪除 "{0}"?</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Edit">
     <Value>編輯</Value>
@@ -14633,22 +14633,22 @@
     <Value>顯示郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowFirstName">
-    <Value>顯示名稱</Value>
+    <Value>顯示姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowFullNames">
     <Value>顯示全名</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowUsernames">
-    <Value>顯示用戶名</Value>
+    <Value>顯示用戶名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Clear">
-    <Value>明文</Value>
+    <Value>明碼</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Encrypted">
     <Value>加密</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Hashed">
-    <Value>哈希</Value>
+    <Value>雜湊</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
     <Value>所有用戶</Value>
