@@ -61,13 +61,13 @@
     <Value>商品</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword">
-    <Value>修改密碼</Value>
+    <Value>變更密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Button">
-    <Value>修改密碼</Value>
+    <Value>變更密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Errors.EmailIsNotProvided">
-    <Value>請輸入電子信箱</Value>
+    <Value>請輸入 Email</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Errors.EmailNotFound">
     <Value>未找到電子信箱</Value>
@@ -78,38 +78,41 @@
   <LocaleResource Name="Account.ChangePassword.Errors.PasswordIsNotProvided">
     <Value>請輸入密碼</Value>
   </LocaleResource>
-  <LocaleResource Name="account.changepassword.errors.passwordmatcheswithprevious">
+  <LocaleResource Name="Account.ChangePassword.Errors.PasswordMatchesWithPrevious">
     <Value>您輸入的密碼與您使用的最後一個密碼相同，請創建一個新密碼。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.ConfirmNewPassword">
-    <Value>確認密碼</Value>
+    <Value>確認新密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.ConfirmNewPassword.Required">
-    <Value>請輸入確認密碼</Value>
+    <Value>請輸入確認新密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword">
-    <Value>新密碼</Value>
+    <Value>新的密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword.EnteredPasswordsDoNotMatch">
-    <Value>兩次密碼不匹配，請重新輸入</Value>
+    <Value>新的密碼與確認新密碼不一致</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword.LengthValidation">
-    <Value>密碼長度至少{0} 個字符</Value>
+    <Value>新的密碼長度至少 {0} 字元</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword.Required">
-    <Value>請輸入新密碼</Value>
+    <Value>請輸入新的密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.OldPassword">
-    <Value>當前密碼</Value>
+    <Value>舊的密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.OldPassword.Required">
-    <Value>請輸入當前密碼</Value>
+    <Value>請輸入舊的密碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.ChangePassword.PasswordIsExpired">
+    <Value>你的舊密碼已經到期，請更換一個</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Success">
     <Value>密碼修改成功</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.Available">
-    <Value>該用戶名可用</Value>
+    <Value>該用戶名稱可可用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.Button">
     <Value>檢查是否可用</Value>
@@ -127,7 +130,7 @@
     <Value>公司資訊</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerAddresses">
-    <Value>地址清單</Value>
+    <Value>配送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerAddresses.AddNew">
     <Value>新增地址</Value>
@@ -190,7 +193,7 @@
     <Value>查看訂單(編號：{0})</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders.ReturnItems">
-    <Value>需要退貨</Value>
+    <Value>退貨項目</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerProductReviews">
     <Value>商品評論</Value>
@@ -205,7 +208,7 @@
     <Value>評論商品</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests">
-    <Value>退貨請求</Value>
+    <Value>退貨紀錄</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests.Action">
     <Value>退貨要求：</Value>
@@ -277,40 +280,46 @@
     <Value>請輸入確認密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Country.Required">
-    <Value>請輸入縣市</Value>
+    <Value>請輸入國家</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.DateOfBirth">
-    <Value>出生日期</Value>
+    <Value>生日</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.DateOfBirth.MinimumAge">
     <Value>您必須 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.DateOfBirth.Required">
-    <Value>請生日日期</Value>
+    <Value>請輸入生日日期</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Email">
-    <Value>電子信箱</Value>
+    <Value>Email</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Email.EnteredEmailsDoNotMatch">
     <Value>填寫信箱和確認信箱不匹配.</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Email.Required">
-    <Value>請輸入電子信箱</Value>
+    <Value>請輸入Email</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Fields.EmailToRevalidate">
+    <Value>新的 email</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Fields.EmailToRevalidate.Note">
+    <Value>(無效)</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Fax">
-    <Value>手機號碼</Value>
+    <Value>傳真</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Fax.Required">
-    <Value>請輸入手機號碼</Value>
+    <Value>請輸入傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.FirstName">
-    <Value>名字</Value>
+    <Value>姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.FirstName.Required">
-    <Value>請輸入名字</Value>
+    <Value>請輸入姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Gender">
     <Value>性別</Value>
@@ -424,16 +433,16 @@
     <Value>登入</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.CheckoutAsGuest">
-    <Value>匿名結帳</Value>
+    <Value>以訪客身分結帳</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.CheckoutAsGuestOrRegister">
     <Value>註冊帳戶或匿名結帳</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Fields.Email">
-    <Value>電子信箱</Value>
+    <Value>Email</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Fields.Email.Required">
-    <Value>請填寫電子信箱</Value>
+    <Value>請輸入Email</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Fields.Password">
     <Value>密碼</Value>
@@ -456,7 +465,7 @@
   <LocaleResource Name="Account.Login.NewCustomerText">
     <Value>建立一個帳號，您可以加快購物流程，知道訂單的最新狀態，同時可以追蹤之前的訂單</Value>
   </LocaleResource>
-  <LocaleResource Name="account.login.returningcustomer">
+  <LocaleResource Name="Account.Login.ReturningCustomer">
     <Value>會員登入</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Unsuccessful">
@@ -538,15 +547,15 @@
     <Value>請輸入舊密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.PasswordHasBeenChanged">
-    <Value>密碼修改成功</Value>
+    <Value>您的密碼已經變更成功</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.RecoverButton">
-    <Value>發送郵件</Value>
+    <Value>送出申請</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.Tooltip">
     <Value>請在下面輸入您的電子信箱地址，我們將發送重置密碼連結到您的信箱地址</Value>
   </LocaleResource>
-  <LocaleResource Name="account.passwordrecovery.wrongtoken">
+  <LocaleResource Name="Account.PasswordRecovery.WrongToken">
     <Value>錯誤的恢復密碼安全代碼(token)</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Preferences">
@@ -556,10 +565,10 @@
     <Value>註冊</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Button">
-    <Value>註冊</Value>
+    <Value>註冊新帳號?</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.EmailAlreadyExists">
-    <Value>該電子信箱已被使用</Value>
+    <Value>電子郵件已經有人使用了喔</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.EmailIsNotProvided">
     <Value>未找到電子信箱</Value>
@@ -568,7 +577,7 @@
     <Value>請輸入密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.UsernameAlreadyExists">
-    <Value>該用戶名已被使用</Value>
+    <Value>使用者名稱已經有人使用了喔</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.UsernameIsNotProvided">
     <Value>請輸入使用者名稱</Value>
@@ -586,7 +595,7 @@
     <Value>需要電子信箱驗證，一封帶有啟用帳戶的郵件已發送到您的電子信箱中</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Result.Standard">
-    <Value>註冊成功</Value>
+    <Value>新帳號註冊成功！</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Unsuccessful">
     <Value>註冊失敗，請重試</Value>
@@ -619,22 +628,22 @@
     <Value>圖片</Value>
   </LocaleResource>
   <LocaleResource Name="Account.VendorInfo.Picture.ErrorMessage">
-    <Value>只允許您新增一張圖片</Value>
+    <Value>只能新增一張圖片</Value>
   </LocaleResource>
   <LocaleResource Name="Account.VendorInfo.Picture.Remove">
     <Value>刪除圖片</Value>
   </LocaleResource>
   <LocaleResource Name="Account.YourAddress">
-    <Value>我的地址</Value>
+    <Value>您的地址</Value>
   </LocaleResource>
   <LocaleResource Name="Account.YourContactInformation">
-    <Value>聯繫資訊</Value>
+    <Value>您的聯絡資訊</Value>
   </LocaleResource>
   <LocaleResource Name="Account.YourPassword">
-    <Value>我的密碼</Value>
+    <Value>您的密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.YourPersonalDetails">
-    <Value>基本資訊</Value>
+    <Value>個人資料</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCategory">
     <Value>新增新的分類('{0}')</Value>
@@ -16981,10 +16990,10 @@
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Formula">
     <Value>計算公式率</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.formula.value">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Formula.Value">
     <Value>[additional fixed cost] + ([order total weight] - [lower weight limit]) * [rate per weight unit] + [order subtotal] * [charge percentage]</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.shippingbyweight">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.ShippingByWeight">
     <Value>By Weight</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedRateShipping.Fields.Rate">
