@@ -1156,7 +1156,7 @@
     <Value>協銷聯盟會員</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Customers.Name">
-    <Value>名稱</Value>
+    <Value>姓名</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Deleted">
     <Value>刪除協銷聯盟成功</Value>
@@ -1219,7 +1219,7 @@
     <Value>訂單搜尋的結束日期。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchFirstName">
-    <Value>名字</Value>
+    <Value>姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchFirstName.Hint">
     <Value>通過名字搜尋。</Value>
@@ -1231,19 +1231,19 @@
     <Value>通過友好URL搜尋。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchLastName">
-    <Value>姓氏</Value>
+    <Value>名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchLastName.Hint">
-    <Value>通過姓氏搜尋。</Value>
+    <Value>通過名字搜尋。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders">
     <Value>訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.CreatedOn">
-    <Value>創建於</Value>
+    <Value>建立於</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.orders.customordernumber">
-    <Value>訂單ID</Value>
+  <LocaleResource Name="Admin.Affiliates.Orders.CustomOrderNumber">
+    <Value>訂單編號 #</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.EndDate">
     <Value>結束日期</Value>
@@ -1759,7 +1759,7 @@
     <Value>選擇顏色來代替顏色的文本選項(it"ll be displayed as "color square").</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Options.Fields.Name">
-    <Value>名稱</Value>
+    <Value>姓名</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Options.Fields.Name.Hint">
     <Value>名稱</Value>
@@ -18281,7 +18281,7 @@
   <LocaleResource Name="Vendors.ApplyAccount">
     <Value>申請供應商帳戶</Value>
   </LocaleResource>
-  <LocaleResource Name="vendors.applyaccount.alreadyapplied">
+  <LocaleResource Name="Vendors.ApplyAccount.AlreadyApplied">
     <Value>您已經申請了供應商帳戶，請註冊一個新帳戶來申請供應商帳戶。</Value>
   </LocaleResource>
   <LocaleResource Name="Vendors.ApplyAccount.Button">
@@ -18351,7 +18351,7 @@
     <Value>願望清單中沒有任何商品！</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend">
-    <Value>郵件給朋友</Value>
+    <Value>Email 給好友</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.Button">
     <Value>發送郵件</Value>
@@ -18365,8 +18365,8 @@
   <LocaleResource Name="Wishlist.EmailAFriend.FriendEmail.Required">
     <Value>請輸入收件人信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="Wishlist.EmailAFriend.OnlyRegisteredUsers">
-    <Value>只有註冊用戶才能使用該功能</Value>
+  <LocaleResource Name="wishlist.emailafriend.onlyregisteredusers">
+    <Value>只有註冊會員才能使用此功能，請先登入。</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.PersonalMessage">
     <Value>消息</Value>
@@ -18381,10 +18381,10 @@
     <Value>發給願望清單給朋友</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.YourEmailAddress">
-    <Value>電子信箱</Value>
+    <Value>您的電子郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.YourEmailAddress.Hint">
-    <Value>電子信箱</Value>
+    <Value>請輸入您的電子郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.YourEmailAddress.Required">
     <Value>請輸入您的電子信箱</Value>
