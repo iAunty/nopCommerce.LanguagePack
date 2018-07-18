@@ -148,7 +148,7 @@
     <Value>還沒有任何訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders.OrderDate">
-    <Value>下單時間</Value>
+    <Value>訂單日期</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders.OrderDetails">
     <Value>訂單詳情</Value>
@@ -159,8 +159,8 @@
   <LocaleResource Name="Account.CustomerOrders.OrderStatus">
     <Value>訂單狀態</Value>
   </LocaleResource>
-  <LocaleResource Name="account.customerorders.ordertotal">
-    <Value>訂單小計</Value>
+  <LocaleResource Name="Account.CustomerOrders.OrderTotal">
+    <Value>訂單金額</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders.RecurringOrders">
     <Value>定期付款</Value>
@@ -250,25 +250,25 @@
     <Value>(閱讀)</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.AcceptPrivacyPolicy.Required">
-    <Value>接受我們的隱私政策</Value>
+    <Value>請先同意服務條款與隱私權政策</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.City">
-    <Value>城市</Value>
+    <Value>縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.City.Required">
-    <Value>請輸入城市</Value>
+    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Company">
-    <Value>公司</Value>
+    <Value>公司名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Company.Required">
     <Value>請輸入公司名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.ConfirmEmail">
-    <Value>確認信箱</Value>
+    <Value>確認郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.ConfirmEmail.Required">
-    <Value>信箱必填.</Value>
+    <Value>請輸入電子郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.ConfirmPassword">
     <Value>確認密碼</Value>
@@ -322,61 +322,61 @@
     <Value>男</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.LastName">
-    <Value>姓氏</Value>
+    <Value>名字</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.LastName.Required">
-    <Value>請輸入姓氏</Value>
+    <Value>請輸入名字</Value>
   </LocaleResource>
-  <LocaleResource Name="account.fields.newsletter">
-    <Value>電子報訂閱</Value>
+  <LocaleResource Name="Account.Fields.Newsletter">
+    <Value>訂閱電子報</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Password">
-    <Value>密碼</Value>
+    <Value>設定密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Password.EnteredPasswordsDoNotMatch">
-    <Value>兩次密碼不匹配，請重新輸入</Value>
+    <Value>設定密碼跟確認密碼不一致，請重新輸入</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Password.LengthValidation">
-    <Value>密碼長度至少{0} 個字符</Value>
+    <Value>密碼長度至少{0} 個字</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Password.Required">
     <Value>請輸入密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Phone">
-    <Value>電話號碼</Value>
+    <Value>行動電話</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Phone.Required">
-    <Value>請輸入電話號碼</Value>
+    <Value>請輸入行動電話</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Signature">
     <Value>個性簽名</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.StateProvince">
-    <Value>鄉鎮市區</Value>
+    <Value>鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.StateProvince.Required">
-    <Value>請輸入州/省名</Value>
+    <Value>請輸入鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.StreetAddress">
-    <Value>街道地址</Value>
+    <Value>地址</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.StreetAddress.Required">
-    <Value>請輸入街道地址</Value>
+    <Value>請輸入地址</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.StreetAddress2">
-    <Value>街道地址2</Value>
+    <Value>地址2</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.StreetAddress2.Required">
-    <Value>請輸入街道地址2</Value>
+    <Value>請輸入地址2</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Timezone">
     <Value>時區</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Username">
-    <Value>用戶名</Value>
+    <Value>用戶名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Username.Required">
-    <Value>請輸入用戶名</Value>
+    <Value>請輸入用戶名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.VatNumber">
     <Value>增值稅號碼</Value>
@@ -390,14 +390,14 @@
   <LocaleResource Name="Account.Fields.VatNumberStatus">
     <Value>狀態 {0}</Value>
   </LocaleResource>
-  <LocaleResource Name="account.fields.zippostalcode">
+  <LocaleResource Name="Account.Fields.ZipPostalCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="account.fields.zippostalcode.required">
+  <LocaleResource Name="Account.Fields.ZipPostalCode.Required">
     <Value>請輸入郵遞區號</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ForumSubscriptions">
-    <Value>論壇訂閱</Value>
+    <Value>訂閱論壇</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ForumSubscriptions.DeleteSelected">
     <Value>刪除所選</Value>
@@ -420,7 +420,7 @@
   <LocaleResource Name="Account.ImpersonatedAs.Finish.Hint">
     <Value>點擊這裡完成模擬會話</Value>
   </LocaleResource>
-  <LocaleResource Name="account.login">
+  <LocaleResource Name="Account.Login">
     <Value>登入</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.CheckoutAsGuest">
@@ -439,46 +439,46 @@
     <Value>密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Fields.RememberMe">
-    <Value>記住我？</Value>
+    <Value>記住我?</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.Fields.UserName">
-    <Value>用戶名</Value>
+    <Value>使用者名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.ForgotPassword">
-    <Value>忘記密碼？</Value>
+    <Value>忘記密碼?</Value>
   </LocaleResource>
-  <LocaleResource Name="account.login.loginbutton">
+  <LocaleResource Name="Account.Login.LoginButton">
     <Value>登入</Value>
   </LocaleResource>
-  <LocaleResource Name="account.login.newcustomer">
+  <LocaleResource Name="Account.Login.NewCustomer">
     <Value>加入會員</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.NewCustomerText">
-    <Value>創建一個帳號，您可以加快購物流程，知道訂單的最新狀態，同時可以跟蹤之前的訂單</Value>
+    <Value>建立一個帳號，您可以加快購物流程，知道訂單的最新狀態，同時可以追蹤之前的訂單</Value>
   </LocaleResource>
   <LocaleResource Name="account.login.returningcustomer">
     <Value>會員登入</Value>
   </LocaleResource>
-  <LocaleResource Name="account.login.unsuccessful">
-    <Value>登入失敗，請重試</Value>
+  <LocaleResource Name="Account.Login.Unsuccessful">
+    <Value>登入失敗。請更正錯誤再登入。</Value>
   </LocaleResource>
   <LocaleResource Name="account.login.welcome">
-    <Value>歡迎您，請登入！</Value>
+    <Value>歡迎，請登入！</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials">
-    <Value>用戶名或密碼錯誤，請重試</Value>
+    <Value>您的帳號或密碼不正確。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.CustomerNotExist">
-    <Value>沒有找到的會員帳戶</Value>
+    <Value>帳號不存在</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.Deleted">
-    <Value>刪除會員</Value>
+    <Value>帳號已被刪除</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.NotActive">
-    <Value>帳戶不是活動的</Value>
+    <Value>帳號沒有啟用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.NotRegistered">
-    <Value>沒有註冊帳戶</Value>
+    <Value>帳號尚未註冊</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Logout">
     <Value>登出</Value>
