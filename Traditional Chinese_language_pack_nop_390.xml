@@ -571,7 +571,7 @@
     <Value>電子郵件已經有人使用了喔</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.EmailIsNotProvided">
-    <Value>未找到電子信箱</Value>
+    <Value>請輸入Email</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.PasswordIsNotProvided">
     <Value>請輸入密碼</Value>
@@ -796,7 +796,7 @@
     <Value>新增部落格評論</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.AddNewsComment">
-    <Value>新增新聞評論</Value>
+    <Value>新增評論</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.AddProductReview">
     <Value>新增商品評論('{0}')</Value>
@@ -810,13 +810,13 @@
   <LocaleResource Name="ActivityLog.PublicStore.AddToWishlist">
     <Value>新增商品到願望清單('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="activitylog.publicstore.contactus">
+  <LocaleResource Name="ActivityLog.PublicStore.ContactUs">
     <Value>來自聯絡我們</Value>
   </LocaleResource>
   <LocaleResource Name="activitylog.publicstore.login">
     <Value>登入</Value>
   </LocaleResource>
-  <LocaleResource Name="activitylog.publicstore.logout">
+  <LocaleResource Name="ActivityLog.PublicStore.Logout">
     <Value>登出</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.PlaceOrder">
@@ -838,25 +838,25 @@
     <Value>地址</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Address1">
-    <Value>街道地址</Value>
+    <Value>地址1</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Address1.Required">
-    <Value>請輸入街道地址</Value>
+    <Value>請輸入地址1</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Address2">
-    <Value>街道地址2</Value>
+    <Value>地址 2</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Address2.Required">
-    <Value>請輸入街道地址2</Value>
+    <Value>請輸入地址2</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.City">
-    <Value>城市</Value>
+    <Value>縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.City.Required">
-    <Value>請輸入城市</Value>
+    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Company">
-    <Value>公司</Value>
+    <Value>公司名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Company.Required">
     <Value>請輸入公司名稱</Value>
@@ -939,91 +939,91 @@
   <LocaleResource Name="Admin.Address">
     <Value>地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes">
-    <Value>用戶表單欄位</Value>
+  <LocaleResource Name="Admin.Address.AddressAttributes">
+    <Value>顧客地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.added">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Added">
     <Value>新的表單欄位已經成功新增。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.addnew">
-    <Value>新增表單欄位</Value>
+  <LocaleResource Name="Admin.Address.AddressAttributes.AddNew">
+    <Value>新增地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.backtolist">
+  <LocaleResource Name="Admin.Address.AddressAttributes.BackToList">
     <Value>回到地址表單欄位</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.deleted">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Deleted">
     <Value>這個表單欄位已經成功刪除。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.description">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Description">
     <Value>如果預設表單欄位不能滿足您的需求， 您可以使用下面的功能增加表單欄位。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.editattributedetails">
+  <LocaleResource Name="Admin.Address.AddressAttributes.EditAttributeDetails">
     <Value>編輯表單欄位詳細資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.attributecontroltype">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.AttributeControlType">
     <Value>控制形式</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.attributecontroltype.hint">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.AttributeControlType.Hint">
     <Value>選擇如何顯示您的表單欄位。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.displayorder">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.displayorder.hint">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.DisplayOrder.Hint">
     <Value>顯示順序。 1表示第一個項目在列表裡。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.isrequired">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.IsRequired">
     <Value>必填欄位</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.isrequired.hint">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.IsRequired.Hint">
     <Value>會員必須選擇一個欄位值然後他們才可以繼續。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.name">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.fields.name.hint">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Fields.Name.Hint">
     <Value>表單欄位的名稱。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.AddressAttributes.Fields.Name.Required">
     <Value>請提供名字。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.info">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Info">
     <Value>表單欄位資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.updated">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Updated">
     <Value>表單欄位已經更新成功。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values">
     <Value>欄位值</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.addnew">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.AddNew">
     <Value>新增新的欄位值</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.editvaluedetails">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.EditValueDetails">
     <Value>編輯詳細欄位值</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.fields.displayorder">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.DisplayOrder.Hint">
     <Value>屬性值的顯示順序。 1 代表第一個條目在屬性列表裡。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.fields.ispreselected">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.IsPreSelected">
     <Value>預先選擇的</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.fields.ispreselected.hint">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.IsPreSelected.Hint">
     <Value>預設該欄位值為選取狀態。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.fields.name">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.Name">
     <Value>名字</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.fields.name.hint">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.Name.Hint">
     <Value>欄位值的名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.AddressAttributes.Values.Fields.Name.Required">
     <Value>請提供一個名字。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.addressattributes.values.savebeforeedit">
+  <LocaleResource Name="Admin.Address.AddressAttributes.Values.SaveBeforeEdit">
     <Value>在編輯之前請保存表單欄位</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Address1">
@@ -1045,13 +1045,13 @@
     <Value>請輸入地址2</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.City">
-    <Value>城市</Value>
+    <Value>縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.City.Hint">
-    <Value>輸入城市</Value>
+    <Value>輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.City.Required">
-    <Value>請輸入城市</Value>
+    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Company">
     <Value>公司</Value>
@@ -1069,58 +1069,58 @@
     <Value>公司抬頭為必填</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country.Hint">
-    <Value>選擇縣市</Value>
+    <Value>選擇國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country.Required">
-    <Value>請選擇縣市</Value>
+    <Value>請輸入國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email">
-    <Value>電子信箱</Value>
+    <Value>Email</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email.Hint">
-    <Value>輸入電子信箱</Value>
+    <Value>輸入Email</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email.Required">
-    <Value>請輸入電子信箱</Value>
+    <Value>請輸入Email</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FaxNumber">
-    <Value>手機號碼</Value>
+    <Value>傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FaxNumber.Hint">
-    <Value>輸入手機號碼</Value>
+    <Value>輸入傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FaxNumber.Required">
-    <Value>請輸入手機號碼</Value>
+    <Value>請輸入傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FirstName">
-    <Value>名</Value>
+    <Value>姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FirstName.Hint">
-    <Value>輸入名</Value>
+    <Value>請輸入姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FirstName.Required">
-    <Value>請輸入名</Value>
+    <Value>請輸入姓氏</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.LastName">
-    <Value>姓</Value>
+    <Value>名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.LastName.Hint">
-    <Value>輸入姓</Value>
+    <Value>請輸入名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.LastName.Required">
-    <Value>請輸入姓</Value>
+    <Value>請輸入名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.PhoneNumber">
-    <Value>電話號碼</Value>
+    <Value>連絡電話</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.PhoneNumber.Hint">
     <Value>輸入電話號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.PhoneNumber.Required">
-    <Value>請輸入電話號碼</Value>
+    <Value>請輸入連絡電話</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.StateProvince">
     <Value>鄉鎮市區</Value>
@@ -1131,20 +1131,20 @@
   <LocaleResource Name="Admin.Address.Fields.StateProvince.Required">
     <Value>請選擇鄉鎮市區</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.fields.zippostalcode">
+  <LocaleResource Name="Admin.Address.Fields.ZipPostalCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.fields.zippostalcode.hint">
+  <LocaleResource Name="Admin.Address.Fields.ZipPostalCode.Hint">
     <Value>輸入郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.fields.zippostalcode.required">
+  <LocaleResource Name="Admin.Address.Fields.ZipPostalCode.Required">
     <Value>請輸入郵遞區號</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.OtherNonUS">
     <Value>其他(非美國)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.SelectCountry">
-    <Value>請選擇縣市</Value>
+    <Value>請選擇國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.SelectState">
     <Value>請選擇鄉鎮市區</Value>
@@ -1170,7 +1170,7 @@
   <LocaleResource Name="Admin.Affiliates.Deleted">
     <Value>刪除協銷聯盟成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.description">
+  <LocaleResource Name="Admin.Affiliates.Description">
     <Value>聯盟營銷是一種基於互聯網的營銷實踐，其中關聯企業為所產生的網站流量（每個訪問者或客戶）獲得獎勵。這是一個基於網絡的付費計劃，旨在補償聯屬合作夥伴將合格的潛在客戶或銷售從他們的網站驅動到商家網站。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.EditAffiliateDetails">
@@ -1179,19 +1179,19 @@
   <LocaleResource Name="Admin.Affiliates.Fields.Active">
     <Value>啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.fields.active.hint">
+  <LocaleResource Name="Admin.Affiliates.Fields.Active.Hint">
     <Value>顯示協銷聯盟是否已生效。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.fields.admincomment">
+  <LocaleResource Name="Admin.Affiliates.Fields.AdminComment">
     <Value>管理員備註</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.fields.admincomment.hint">
+  <LocaleResource Name="Admin.Affiliates.Fields.AdminComment.Hint">
     <Value>管理員備註。僅供內部使用。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Fields.FriendlyUrlName">
     <Value>友好URL名</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.fields.friendlyurlname.hint">
+  <LocaleResource Name="Admin.Affiliates.Fields.FriendlyUrlName.Hint">
     <Value>在生成的聯盟URL （聯盟ID將被使用。）中使用友好URL名將有助於協銷活動。此欄留空將使用聯盟ID。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Fields.ID">
@@ -1212,7 +1212,7 @@
   <LocaleResource Name="Admin.Affiliates.List.LoadOnlyWithOrders">
     <Value>僅同訂單一起加載</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.list.loadonlywithorders.hint">
+  <LocaleResource Name="Admin.Affiliates.List.LoadOnlyWithOrders.Hint">
     <Value>選取該項目，將僅加載已下訂單的協銷聯盟 (被協銷聯盟會員)。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.OrdersCreatedFromUtc">
@@ -1258,7 +1258,7 @@
     <Value>結束日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.EndDate.Hint">
-    <Value>搜尋的結束日期。</Value>
+    <Value>搜尋結束日期。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.Order">
     <Value>訂單</Value>
@@ -1269,19 +1269,19 @@
   <LocaleResource Name="Admin.Affiliates.Orders.OrderStatus.Hint">
     <Value>通過特定訂單狀態， 如完成。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.orders.ordertotal">
+  <LocaleResource Name="Admin.Affiliates.Orders.OrderTotal">
     <Value>訂單小計</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.PaymentStatus">
     <Value>付款狀態</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.orders.paymentstatus.hint">
+  <LocaleResource Name="Admin.Affiliates.Orders.PaymentStatus.Hint">
     <Value>搜尋通過付款狀態，如已付。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.ShippingStatus">
     <Value>配送狀態</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.affiliates.orders.shippingstatus.hint">
+  <LocaleResource Name="Admin.Affiliates.Orders.ShippingStatus.Hint">
     <Value>搜尋通過貨運狀態，如還未出貨。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.StartDate">
@@ -1422,7 +1422,7 @@
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.EnableCondition">
     <Value>啟用條件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.attributes.checkoutattributes.condition.enablecondition.hint">
+  <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.EnableCondition.Hint">
     <Value>當啟用此屬性（可見）時，檢查已指定條件（取決於其他屬性）。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.NoAttributeExists">
