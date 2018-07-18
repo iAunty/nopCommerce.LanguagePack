@@ -483,20 +483,20 @@
   <LocaleResource Name="Account.Logout">
     <Value>登出</Value>
   </LocaleResource>
-  <LocaleResource Name="account.myaccount">
+  <LocaleResource Name="Account.MyAccount">
     <Value>會員中心</Value>
   </LocaleResource>
-  <LocaleResource Name="account.navigation">
+  <LocaleResource Name="Account.Navigation">
     <Value>會員中心</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Options">
     <Value>其它選項</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery">
-    <Value>找回密碼</Value>
+    <Value>忘記密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.ChangePasswordButton">
-    <Value>修改密碼</Value>
+    <Value>送出修改密碼申請</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.ConfirmNewPassword">
     <Value>確認密碼</Value>
@@ -505,37 +505,37 @@
     <Value>請輸入確認密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.Email">
-    <Value>您的電子信箱地址</Value>
+    <Value>電子郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.Email.Required">
-    <Value>請輸入電子信箱</Value>
+    <Value>請輸入電子郵件</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.EmailHasBeenSent">
-    <Value>一封帶有找回密碼說明的郵件已發送到您的電子信箱中</Value>
+    <Value>重設密碼的方式已經發到您的郵件信箱。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.EmailNotFound">
-    <Value>未找到電子信箱</Value>
+    <Value>您填寫的電子信箱有錯喔！</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.LinkExpired">
-    <Value>您的密碼回覆連結已經過期</Value>
+    <Value>您的重設密碼連結已經失效。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.NewPassword">
-    <Value>新密碼</Value>
+    <Value>新的密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.NewPassword.EnteredPasswordsDoNotMatch">
-    <Value>兩次密碼不匹配，請重新輸入</Value>
+    <Value>新的密碼與確認密碼不一致。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.NewPassword.LengthValidation">
-    <Value>密碼長度至少{0} 個字符</Value>
+    <Value>新的密碼最少要有 {0} 個字元。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.NewPassword.Required">
-    <Value>請輸入新密碼</Value>
+    <Value>請輸入新密碼。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.OldPassword">
-    <Value>當前密碼</Value>
+    <Value>舊密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.OldPassword.Required">
-    <Value>請輸入當前密碼</Value>
+    <Value>請輸入舊密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.PasswordHasBeenChanged">
     <Value>密碼修改成功</Value>
@@ -571,7 +571,7 @@
     <Value>該用戶名已被使用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Errors.UsernameIsNotProvided">
-    <Value>請輸入用戶名</Value>
+    <Value>請輸入使用者名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Register.Result.AdminApproval">
     <Value>註冊成功，請等待管理員審核</Value>
@@ -607,7 +607,7 @@
     <Value>電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.VendorInfo.Email.Required">
-    <Value>電子信箱必填.</Value>
+    <Value>電子信箱必填</Value>
   </LocaleResource>
   <LocaleResource Name="Account.VendorInfo.Name">
     <Value>供應商名稱</Value>
@@ -859,51 +859,51 @@
     <Value>公司抬頭</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Country.Required">
-    <Value>請選擇縣市</Value>
+    <Value>請輸入國家</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Email">
-    <Value>電子信箱</Value>
+    <Value>Email</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Email.Required">
-    <Value>請輸入電子信箱</Value>
+    <Value>請輸入 Email</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FaxNumber">
-    <Value>手機號碼</Value>
+    <Value>傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FaxNumber.Required">
-    <Value>請輸入手機號碼</Value>
+    <Value>請輸入傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FirstName">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Address.Fields.FirstName.Required">
-    <Value>請輸入名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Address.Fields.LastName">
     <Value>姓氏</Value>
   </LocaleResource>
-  <LocaleResource Name="Address.Fields.LastName.Required">
+  <LocaleResource Name="Address.Fields.FirstName.Required">
     <Value>請輸入姓氏</Value>
   </LocaleResource>
+  <LocaleResource Name="Address.Fields.LastName">
+    <Value>名字</Value>
+  </LocaleResource>
+  <LocaleResource Name="Address.Fields.LastName.Required">
+    <Value>請輸入名字</Value>
+  </LocaleResource>
   <LocaleResource Name="Address.Fields.PhoneNumber">
-    <Value>電話號碼</Value>
+    <Value>連絡電話</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.PhoneNumber.Required">
-    <Value>請輸入電話號碼</Value>
+    <Value>請輸入連絡電話</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.StateProvince">
-    <Value>鄉鎮市區</Value>
+    <Value>鄉鎮 / 區</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.StateProvince.Required">
     <Value>請選擇鄉鎮市區</Value>
   </LocaleResource>
-  <LocaleResource Name="address.fields.zippostalcode">
+  <LocaleResource Name="Address.Fields.ZipPostalCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="address.fields.zippostalcode.required">
+  <LocaleResource Name="Address.Fields.ZipPostalCode.Required">
     <Value>請輸入郵遞區號</Value>
   </LocaleResource>
   <LocaleResource Name="Address.OtherNonUS">
