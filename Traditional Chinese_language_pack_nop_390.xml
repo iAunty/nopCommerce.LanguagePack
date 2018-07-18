@@ -14705,7 +14705,7 @@
     <Value>轉載</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Debug">
-    <Value>調試</Value>
+    <Value>除錯</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Error">
     <Value>錯誤</Value>
@@ -14717,7 +14717,7 @@
     <Value>資訊中心</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Warning">
-    <Value>報警</Value>
+    <Value>警告</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Messages.MessageDelayPeriod.Days">
     <Value>天數</Value>
@@ -14762,7 +14762,7 @@
     <Value>拒絕請求</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
-    <Value>退貨授權</Value>
+    <Value>授權退貨</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Authorized">
     <Value>授權</Value>
@@ -14813,10 +14813,10 @@
     <Value>不重要的</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.WithoutWww">
-    <Value>網頁不應該包含 WWW 前綴</Value>
+    <Value>網頁前面不應該包含"www"</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.WithWww">
-    <Value>網頁應該包含 WWW 前綴</Value>
+    <Value>網頁前面應該包含"www"</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.Delivered">
     <Value>已交貨</Value>
@@ -14873,10 +14873,10 @@
     <Value>自動</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.Manual">
-    <Value>人工</Value>
+    <Value>手動</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.NotSupported">
-    <Value>不支持</Value>
+    <Value>不支援</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Web.Framework.Security.Captcha.ReCaptchaVersion.Version1">
     <Value>Version 1.0</Value>
@@ -14918,10 +14918,10 @@
     <Value>從結果中篩選</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.PriceRangeFilter">
-    <Value>價格過濾</Value>
+    <Value>根據價格過濾</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.PriceRangeFilter.Over">
-    <Value>{0} 以上</Value>
+    <Value>超過 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.PriceRangeFilter.Remove">
     <Value>移除過濾</Value>
@@ -14930,13 +14930,13 @@
     <Value>{0}以下</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.SpecificationFilter">
-    <Value>屬性過濾</Value>
+    <Value>根據屬性過濾</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.SpecificationFilter.CurrentlyFilteredBy">
     <Value>當前過濾</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.SpecificationFilter.Remove">
-    <Value>刪除過濾器</Value>
+    <Value>移除過濾</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.SpecificationFilter.Separator">
     <Value>or </Value>
@@ -14957,7 +14957,7 @@
     <Value>Facebook</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.FollowUs.GooglePlus">
-    <Value>谷歌+</Value>
+    <Value>Google+</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.FollowUs.RSS">
     <Value>RSS</Value>
@@ -15094,7 +15094,7 @@
   <LocaleResource Name="Forum.Options">
     <Value>選項</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.pagetitle.activediscussions">
+  <LocaleResource Name="Forum.PageTitle.ActiveDiscussions">
     <Value>熱門貼文</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.PageTitle.Default">
@@ -15116,7 +15116,7 @@
     <Value>編輯</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.PageTitle.TopicNew">
-    <Value>發帖</Value>
+    <Value>新主題</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Posted">
     <Value>發表於</Value>
@@ -15224,13 +15224,13 @@
     <Value>轉載</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Submit">
-    <Value>提交</Value>
+    <Value>送出</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.TextCannotBeEmpty">
     <Value>請輸入內容</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Topics">
-    <Value>貼文</Value>
+    <Value>主題</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Topics.Count">
     <Value>{0}條主題</Value>
@@ -15256,19 +15256,19 @@
   <LocaleResource Name="Forum.Views">
     <Value>瀏覽</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.votes">
+  <LocaleResource Name="Forum.Votes">
     <Value>投票</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.votes.alreadyvoted">
+  <LocaleResource Name="Forum.Votes.AlreadyVoted">
     <Value>您已經投過此貼文</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.votes.login">
+  <LocaleResource Name="Forum.Votes.Login">
     <Value>必須登入才能投票給貼文</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.votes.maxvotesreached">
+  <LocaleResource Name="Forum.Votes.MaxVotesReached">
     <Value>一天只能投{0}次</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.votes.ownpost">
+  <LocaleResource Name="Forum.Votes.OwnPost">
     <Value>不能投給自己</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.WatchForum">
@@ -16915,8 +16915,8 @@
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.AdditionalFixedCost.hint">
     <Value>指定一個額外的固定成本/購物車這個選項。設定為0,如果您不想讓一個額外的固定成本。</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.country">
-    <Value>縣市</Value>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Country">
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.datahtml">
     <Value>數據</Value>
@@ -16924,7 +16924,7 @@
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.From">
     <Value>訂單重量(from)</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.From.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.From.Hint">
     <Value>訂單重量(從多重)</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LimitMethodsToCreated">
@@ -16978,7 +16978,7 @@
   <LocaleResource Name="plugins.shipping.fixedorbyweight.fixed">
     <Value>Fixed Rate</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.formula">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Formula">
     <Value>計算公式率</Value>
   </LocaleResource>
   <LocaleResource Name="plugins.shipping.fixedorbyweight.formula.value">
@@ -17255,7 +17255,7 @@
     <Value>{0}({1}票-{2}%)</Value>
   </LocaleResource>
   <LocaleResource Name="PrivacyNotice">
-    <Value>隱私聲明</Value>
+    <Value>隱私權政策</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Inbox">
     <Value>收件箱</Value>
@@ -17351,19 +17351,19 @@
     <Value>收件人電子信箱：</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.View.ViewMessage">
-    <Value>顯示</Value>
+    <Value>顯示訊息</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.YouHaveUnreadPM">
     <Value>收件箱有{0}條未讀消息</Value>
   </LocaleResource>
   <LocaleResource Name="Products.AlsoPurchased">
-    <Value>用戶購買此商品還買了</Value>
+    <Value>購買此商品的顧客還買了</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability">
     <Value>庫存資訊</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability.Backordering">
-    <Value>暫時缺貨 - 有貨時第一時間配送</Value>
+    <Value>暫時缺貨 - 有貨的話第一時間配送</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability.InStock">
     <Value>有貨</Value>
@@ -17372,7 +17372,7 @@
     <Value>{0}件，有貨</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability.OutOfStock">
-    <Value>缺貨</Value>
+    <Value>商品銷售一空</Value>
   </LocaleResource>
   <LocaleResource Name="Products.BasePrice">
     <Value>等於 {0} 每 {1} {2}</Value>
@@ -17387,13 +17387,13 @@
     <Value>商品比較</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.AddToCompareList">
-    <Value>商品比較</Value>
+    <Value>加到商品比較清單</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.Clear">
     <Value>清除列表</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.FullDescription">
-    <Value>完整資訊</Value>
+    <Value>完整描述</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.List">
     <Value>商品比較列表</Value>
@@ -17405,7 +17405,7 @@
     <Value>您有沒有要比較的項目。</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.Price">
-    <Value>價格</Value>
+    <Value>售價</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.ShortDescription">
     <Value>簡短說明</Value>
