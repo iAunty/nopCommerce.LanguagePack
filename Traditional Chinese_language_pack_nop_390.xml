@@ -18044,16 +18044,16 @@
     <Value>您節省了</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumQuantity">
-    <Value>購買數量最多為{0}</Value>
+    <Value>能購買數量最多為{0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumShoppingCartItems">
-    <Value>購物車最多能容納的單獨商品數量是{0}</Value>
+    <Value>購物車最多能容納的不同商品數量為{0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumUploadedFileSize">
-    <Value>文件的最大尺寸為{0} KB</Value>
+    <Value>檔案的最大尺寸為{0} KB</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumWishlistItems">
-    <Value>願望清單最多能容納的單獨商品數量是{0}</Value>
+    <Value>願望清單最多能容納的不同商品數量為{0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Mini.Items">
     <Value>{0}個商品</Value>
@@ -18071,7 +18071,7 @@
     <Value>單價</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Mini.ViewCart">
-    <Value>轉到購物車</Value>
+    <Value>我的購物車</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MinimumQuantity">
     <Value>購買數量最少為{0}</Value>
@@ -18086,7 +18086,7 @@
     <Value>預購</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Product(s)">
-    <Value>商品</Value>
+    <Value>商品名稱</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.ProductDeleted">
     <Value>商品已刪除</Value>
@@ -18237,7 +18237,7 @@
     <Value>閱覽下面的站點地圖， 通過每個網頁的連結和您將每個小節找到什麼的簡介</Value>
   </LocaleResource>
   <LocaleResource Name="Sitemap.General">
-    <Value>通用資訊</Value>
+    <Value>一般</Value>
   </LocaleResource>
   <LocaleResource Name="Sitemap.Manufacturers">
     <Value>品牌</Value>
