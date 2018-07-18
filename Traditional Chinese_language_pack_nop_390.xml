@@ -17522,10 +17522,10 @@
     <Value>在此點擊將被自動提示當我們新增新項目到我們的網站</Value>
   </LocaleResource>
   <LocaleResource Name="Products.NoAssociatedProducts">
-    <Value>這個商品已售盡</Value>
+    <Value>這個商品已經賣完</Value>
   </LocaleResource>
-  <LocaleResource Name="products.price">
-    <Value>網路價</Value>
+  <LocaleResource Name="Products.Price">
+    <Value>售價</Value>
   </LocaleResource>
   <LocaleResource Name="products.price.oldprice">
     <Value>店面價</Value>
@@ -17582,7 +17582,7 @@
     <Value>數量</Value>
   </LocaleResource>
   <LocaleResource Name="Products.RecentlyViewedProducts">
-    <Value>最近瀏覽商品</Value>
+    <Value>最近瀏覽過的商品</Value>
   </LocaleResource>
   <LocaleResource Name="Products.RelatedProducts">
     <Value>相關商品</Value>
@@ -17618,10 +17618,10 @@
     <Value>熱門標籤</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Tags.Popular.ViewAll">
-    <Value>查看所有</Value>
+    <Value>查看全部</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Tags.ProductsTaggedWith">
-    <Value>商品標籤為：'{0}'</Value>
+    <Value>商品標籤 '{0}'</Value>
   </LocaleResource>
   <LocaleResource Name="Products.TierPrices">
     <Value>梯度價-買得越多，省得越多</Value>
@@ -17639,7 +17639,7 @@
     <Value>加入願望請單</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.DateOfBirth">
     <Value>出生日期</Value>
@@ -17648,10 +17648,10 @@
     <Value>全名</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.JoinDate">
-    <Value>註冊日期</Value>
+    <Value>加入日期</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.LatestPosts">
-    <Value>我的貼文</Value>
+    <Value>最近貼文</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.LatestPosts.NoPosts">
     <Value>未找到貼文</Value>
@@ -17666,7 +17666,7 @@
     <Value>資料：{0}</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.Statistics">
-    <Value>資料</Value>
+    <Value>統計</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.Topic">
     <Value>主題</Value>
@@ -17690,13 +17690,13 @@
     <Value>退貨數量</Value>
   </LocaleResource>
   <LocaleResource Name="ReturnRequests.ReturnAction">
-    <Value>退貨操作</Value>
+    <Value>退貨</Value>
   </LocaleResource>
   <LocaleResource Name="ReturnRequests.ReturnReason">
     <Value>退貨原因</Value>
   </LocaleResource>
   <LocaleResource Name="ReturnRequests.SelectProduct(s)">
-    <Value>選擇要退款的商品？</Value>
+    <Value>您想要退回那個商品？</Value>
   </LocaleResource>
   <LocaleResource Name="ReturnRequests.Submit">
     <Value>提交</Value>
@@ -17711,73 +17711,76 @@
     <Value>上傳檔案</Value>
   </LocaleResource>
   <LocaleResource Name="ReturnRequests.WhyReturning">
-    <Value>退款原因？</Value>
+    <Value>請問退款原因？</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews">
-    <Value>評論</Value>
+    <Value>評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Date">
-    <Value>日期</Value>
+    <Value>評價日期</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.ExistingReviews">
-    <Value>現有評論</Value>
+    <Value>商品評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Rating">
     <Value>評分</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Rating.Bad">
-    <Value>很一般</Value>
+    <Value>不喜歡</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Rating.Excellent">
-    <Value>非常好</Value>
+    <Value>非常喜歡</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.ReviewText">
-    <Value>內容</Value>
+    <Value>評價內容</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.ReviewText.Required">
-    <Value>請輸入評論內容</Value>
+    <Value>請輸入評價內容</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Title">
-    <Value>標題</Value>
+    <Value>評價標題</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Title.MaxLengthValidation">
-    <Value>允許最多評論{0}字數 </Value>
+    <Value>評價標題最多 {0} 字元</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Title.Required">
-    <Value>請輸入評論標題</Value>
+    <Value>請輸入評價標題</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.From">
-    <Value>來自</Value>
+    <Value>評價者</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Helpfulness.OnlyRegistered">
-    <Value>只有註冊用戶可評論</Value>
+    <Value>只有會員才可以投票</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Helpfulness.SuccessfullyVoted">
     <Value>投票成功</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Helpfulness.WasHelpful?">
-    <Value>這個評價是否有幫助？</Value>
+    <Value>這則商品評價有用嗎?</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Helpfulness.YourOwnReview">
     <Value>您不能給您自己的評論投票</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.OnlyRegisteredUsersCanWriteReviews">
-    <Value>只有註冊用戶才能使用該功能</Value>
+    <Value>只有會員才可以對商品評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Overview.AddNew">
-    <Value>新增您的評論</Value>
+    <Value>新增評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Overview.First">
-    <Value>爭取評論頭條</Value>
+    <Value>成為第一個評價該產品</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Overview.Reviews">
-    <Value>評論</Value>
+    <Value>評價</Value>
   </LocaleResource>
   <LocaleResource Name="reviews.productreviewpossibleonlyafterpurchasing">
-    <Value>請購買商品後才可以評論</Value>
+    <Value>只有購買此商品的人，才可以對此商品進行評價</Value>
   </LocaleResource>
-  <LocaleResource Name="Reviews.ProductReviewsFor">
-    <Value>評論</Value>
+  <LocaleResource Name="reviews.productreviewsfor">
+    <Value>商品評價</Value>
+  </LocaleResource>
+  <LocaleResource Name="reviews.reply">
+    <Value>管理者回覆了該評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.SeeAfterApproving">
     <Value>請等待管理員審核</Value>
@@ -17834,12 +17837,12 @@
     <Value>允許的最低消費紅利積點是{0}。{1}</Value>
   </LocaleResource>
   <LocaleResource Name="RewardPoints.NoHistory">
-    <Value>沒有任何歷史記錄</Value>
+    <Value>目前沒有購物金使用紀錄</Value>
   </LocaleResource>
   <LocaleResource Name="Search">
     <Value>搜尋</Value>
   </LocaleResource>
-  <LocaleResource Name="search.advancedsearch">
+  <LocaleResource Name="Search.AdvancedSearch">
     <Value>進階搜尋</Value>
   </LocaleResource>
   <LocaleResource Name="Search.Button">
@@ -17855,16 +17858,16 @@
     <Value>包含商品子分類</Value>
   </LocaleResource>
   <LocaleResource Name="Search.Manufacturer">
-    <Value>品牌</Value>
+    <Value>製造商</Value>
   </LocaleResource>
   <LocaleResource Name="Search.NoResultsText">
-    <Value>未找到符合要求的商品</Value>
+    <Value>未找到符合的商品</Value>
   </LocaleResource>
   <LocaleResource Name="Search.PriceRange">
     <Value>價格範圍</Value>
   </LocaleResource>
   <LocaleResource Name="Search.PriceRange.From">
-    <Value>來自</Value>
+    <Value>從</Value>
   </LocaleResource>
   <LocaleResource Name="Search.PriceRange.To">
     <Value>到</Value>
@@ -17873,13 +17876,13 @@
     <Value>站內搜尋</Value>
   </LocaleResource>
   <LocaleResource Name="Search.SearchInDescriptions">
-    <Value>在商品描述中搜尋</Value>
+    <Value>搜尋商品描述</Value>
   </LocaleResource>
   <LocaleResource Name="Search.SearchTerm">
     <Value>搜尋關鍵字</Value>
   </LocaleResource>
   <LocaleResource Name="Search.SearchTermMinimumLengthIsNCharacters">
-    <Value>搜尋關鍵字最小為{0}個字符</Value>
+    <Value>搜尋關鍵字最小為{0}個字</Value>
   </LocaleResource>
   <LocaleResource Name="Search.Vendor">
     <Value>供應商</Value>
@@ -17993,7 +17996,7 @@
     <Value>運費估算</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.ShippingOptionWithRate">
     <Value>{0} ({1})</Value>
@@ -18035,13 +18038,13 @@
     <Value>({0})</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Image">
-    <Value>圖片</Value>
+    <Value>商品圖片</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.ItemTotal">
     <Value>小計</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.ItemYouSave">
-    <Value>您節省了</Value>
+    <Value>您節省了: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumQuantity">
     <Value>能購買數量最多為{0}</Value>
@@ -18131,7 +18134,7 @@
     <Value>租用開始日期必須小於結束日期</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Rental.StartDateShouldBeFuture">
-    <Value>租賃起始日期應該是將來的日期</Value>
+    <Value>租賃起始日期應該是未來的日期</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.RequiredProductWarning">
     <Value>新增商品到購物車失敗</Value>
