@@ -17264,7 +17264,7 @@
     <Value>日期</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Inbox.DeleteSelected">
-    <Value>刪除所選</Value>
+    <Value>刪除選擇項目</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Inbox.FromColumn">
     <Value>來自</Value>
@@ -17291,7 +17291,7 @@
     <Value>取消</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Send.Message">
-    <Value>內容：</Value>
+    <Value>訊息:</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Send.PostMessage">
     <Value>發送私人訊息</Value>
@@ -17300,7 +17300,7 @@
     <Value>發送</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Send.Subject">
-    <Value>主題：</Value>
+    <Value>主題:</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Send.Subject.Required">
     <Value>請輸入郵件主題</Value>
@@ -17312,7 +17312,7 @@
     <Value>日期</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Sent.DeleteSelected">
-    <Value>刪除所選</Value>
+    <Value>刪除所選的項目</Value>
   </LocaleResource>
   <LocaleResource Name="PrivateMessages.Sent.SubjectColumn">
     <Value>標題</Value>
@@ -17411,7 +17411,7 @@
     <Value>簡短說明</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Compare.Title">
-    <Value>商品比較列表</Value>
+    <Value>商品比較</Value>
   </LocaleResource>
   <LocaleResource Name="Products.DeliveryDate">
     <Value>交貨日期</Value>
@@ -17426,10 +17426,10 @@
     <Value>下載樣本</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend">
-    <Value>郵件給朋友</Value>
+    <Value>Email 給好友</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend.Button">
-    <Value>發送郵件</Value>
+    <Value>發送Email</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend.FriendEmail">
     <Value>好友的電子信箱</Value>
@@ -17450,10 +17450,10 @@
     <Value>個人消息</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend.SuccessfullySent">
-    <Value>郵件發送成功</Value>
+    <Value>您的郵件已經成功送出</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend.Title">
-    <Value>郵件給朋友</Value>
+    <Value>Email 給好友</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend.YourEmailAddress">
     <Value>電子信箱</Value>
@@ -17462,7 +17462,7 @@
     <Value>電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EmailAFriend.YourEmailAddress.Required">
-    <Value>請輸入您的電子信箱</Value>
+    <Value>請輸入您的Email</Value>
   </LocaleResource>
   <LocaleResource Name="Products.EnterProductPrice">
     <Value>請輸入價格</Value>
@@ -17477,19 +17477,19 @@
     <Value>主打商品</Value>
   </LocaleResource>
   <LocaleResource Name="Products.FreeShipping">
-    <Value>免費貨運</Value>
+    <Value>免費</Value>
   </LocaleResource>
   <LocaleResource Name="Products.GiftCard.Message">
-    <Value>消息</Value>
+    <Value>訊息</Value>
   </LocaleResource>
   <LocaleResource Name="Products.GiftCard.RecipientEmail">
-    <Value>收貨人的電子信箱</Value>
+    <Value>收貨人的Email</Value>
   </LocaleResource>
   <LocaleResource Name="Products.GiftCard.RecipientName">
     <Value>收貨人的姓名</Value>
   </LocaleResource>
   <LocaleResource Name="Products.GiftCard.SenderEmail">
-    <Value>您的電子資訊地址</Value>
+    <Value>您的Email</Value>
   </LocaleResource>
   <LocaleResource Name="Products.GiftCard.SenderName">
     <Value>您的姓名</Value>
@@ -17498,10 +17498,10 @@
     <Value>GTIN</Value>
   </LocaleResource>
   <LocaleResource Name="Products.InclTaxSuffix">
-    <Value>{0} 包含稅</Value>
+    <Value>{0} 含稅</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Manufacturer">
-    <Value>品牌</Value>
+    <Value>製造商</Value>
   </LocaleResource>
   <LocaleResource Name="Products.ManufacturerPartNumber">
     <Value>品牌部件號</Value>
@@ -17527,8 +17527,8 @@
   <LocaleResource Name="Products.Price">
     <Value>售價</Value>
   </LocaleResource>
-  <LocaleResource Name="products.price.oldprice">
-    <Value>店面價</Value>
+  <LocaleResource Name="Products.Price.OldPrice">
+    <Value>原價</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Price.Rental.Days">
     <Value>{0} 每 {1} 天</Value>
@@ -17593,8 +17593,8 @@
   <LocaleResource Name="Products.RentalStartDate">
     <Value>開始日期</Value>
   </LocaleResource>
-  <LocaleResource Name="products.sku">
-    <Value>商品料號（SKU）</Value>
+  <LocaleResource Name="Products.Sku">
+    <Value>商品料號(SKU)</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Specs">
     <Value>商品規格</Value>
@@ -17627,15 +17627,15 @@
     <Value>梯度價-買得越多，省得越多</Value>
   </LocaleResource>
   <LocaleResource Name="Products.TierPrices.Price">
-    <Value>價格</Value>
+    <Value>售價</Value>
   </LocaleResource>
   <LocaleResource Name="Products.TierPrices.Quantity">
     <Value>數量</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Vendor">
-    <Value>數量</Value>
+    <Value>供應商</Value>
   </LocaleResource>
-  <LocaleResource Name="products.wishlist.addtowishlist">
+  <LocaleResource Name="Products.Wishlist.AddToWishlist">
     <Value>加入願望請單</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.Country">
