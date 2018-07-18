@@ -115,13 +115,13 @@
     <Value>檢查是否可用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.CurrentUsername">
-    <Value>當前用戶名</Value>
+    <Value>目前使用者名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.EnterUsername">
-    <Value>請輸入用戶名</Value>
+    <Value>請輸入使用者名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.NotAvailable">
-    <Value>該用戶名不可用</Value>
+    <Value>該使用者名稱無法使用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CompanyDetails">
     <Value>公司資訊</Value>
@@ -130,7 +130,7 @@
     <Value>地址清單</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerAddresses.AddNew">
-    <Value>新增新地址</Value>
+    <Value>新增地址</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerAddresses.Edit">
     <Value>編輯</Value>
@@ -139,7 +139,7 @@
     <Value>還沒有任何地址</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerInfo">
-    <Value>基本資訊</Value>
+    <Value>基本資料</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders">
     <Value>我的訂單</Value>
@@ -207,7 +207,7 @@
   <LocaleResource Name="Account.CustomerReturnRequests">
     <Value>退貨請求</Value>
   </LocaleResource>
-  <LocaleResource Name="account.customerreturnrequests.action">
+  <LocaleResource Name="Account.CustomerReturnRequests.Action">
     <Value>退貨要求：</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests.Comments">
@@ -235,13 +235,13 @@
     <Value>電子信箱地址過長</Value>
   </LocaleResource>
   <LocaleResource Name="Account.EmailUsernameErrors.NewEmailIsNotValid">
-    <Value>電子信箱無效</Value>
+    <Value>新的電子信箱無效</Value>
   </LocaleResource>
   <LocaleResource Name="Account.EmailUsernameErrors.UsernameAlreadyExists">
-    <Value>該用戶名已被使用</Value>
+    <Value>該使用者名稱已經被使用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.EmailUsernameErrors.UsernameTooLong">
-    <Value>用戶名過長</Value>
+    <Value>使用者名稱過長</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.AcceptPrivacyPolicy">
     <Value>我接受隱私政策</Value>
@@ -18216,7 +18216,7 @@
     <Value>{0}％稅</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.UnitPrice">
-    <Value>價格</Value>
+    <Value>商品單價</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.UpdateCart">
     <Value>更新購物車</Value>
