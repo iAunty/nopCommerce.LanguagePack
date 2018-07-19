@@ -8269,43 +8269,43 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions">
     <Value>尺寸</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.displayorder">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.isprimarydimension">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.IsPrimaryDimension">
     <Value>是主尺寸</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.markasprimarydimension">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.MarkAsPrimaryDimension">
     <Value>標記為主尺寸</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.name">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.ratio">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Ratio">
     <Value>尺寸比率</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.dimensions.fields.systemkeyword">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.SystemKeyword">
     <Value>系統關鍵字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights">
     <Value>重量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.displayorder">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.isprimaryweight">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.IsPrimaryWeight">
     <Value>是主重量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.markasprimaryweight">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.MarkAsPrimaryWeight">
     <Value>標記為主重量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.name">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.ratio">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Ratio">
     <Value>重量比率</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.measures.weights.fields.systemkeyword">
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.SystemKeyword">
     <Value>系統關鍵字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Methods">
@@ -8323,7 +8323,7 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Methods.Deleted">
     <Value>刪除配送方式成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.methods.description">
+  <LocaleResource Name="Admin.Configuration.Shipping.Methods.Description">
     <Value>離線運費計算方法（例如“Fixed Rate”或“By Weight”）使用的運送方式</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Methods.EditMethodDetails">
@@ -8342,7 +8342,7 @@
     <Value>顯示順序</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Methods.Fields.Name">
-    <Value>名稱</Value>
+    <Value>姓名</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Methods.Fields.Name.Hint">
     <Value>名稱</Value>
@@ -8359,11 +8359,11 @@
   <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders">
     <Value>取貨管理</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.pickuppointproviders.backtolist">
+  <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.BackToList">
     <Value>返回提取點列表</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Configure">
-    <Value>配置</Value>
+    <Value>設置</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8594,10 +8594,10 @@
     <Value>商店URL</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.Url.Hint">
-    <Value>商店的URL，比如http://www.yourstore.com/</Value>
+    <Value>您商店的網址，例如http://www.yourstore.com/</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.Url.Required">
-    <Value>請輸入商店URL</Value>
+    <Value>請輸入商店網址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Updated">
     <Value>商店資訊已經成功更新</Value>
