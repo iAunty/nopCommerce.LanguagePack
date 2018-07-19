@@ -1644,7 +1644,7 @@
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Cost">
     <Value>成本</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.attributes.productattributes.predefinedvalues.fields.cost.hint">
+  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Cost.Hint">
     <Value>這個屬性值成本是組成這個屬性所有部件的成本之和。 這可能是購買價格如果從外部供應商購買這些部件, 或者原材料和各種製造環節成本總和。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.DisplayOrder">
@@ -1698,7 +1698,7 @@
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.UsedByProducts.Product">
     <Value>商品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.attributes.productattributes.usedbyproducts.published">
+  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.UsedByProducts.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes">
@@ -1809,16 +1809,16 @@
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.bulkedit.fields.oldprice">
+  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.OldPrice">
     <Value>店面價</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.bulkedit.fields.price">
+  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Price">
     <Value>網路價</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.bulkedit.fields.published">
+  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.bulkedit.fields.sku">
+  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.StockQuantity">
@@ -1920,10 +1920,10 @@
   <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder.Hint">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.categories.fields.includeintopmenu">
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.IncludeInTopMenu">
     <Value>顯示在頂部選單中</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.categories.fields.includeintopmenu.hint">
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.IncludeInTopMenu.Hint">
     <Value>顯示在頂部選單。如果這一分類是一個子類,那麼確保其父類的此屬性也被啟用.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.LimitedToStores">
@@ -1998,10 +1998,10 @@
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PriceRanges.Hint">
     <Value>設定價格範圍後，可以通過價格範圍過濾該分類下的商品.格式為：'0-199;200-300;301-;'</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.categories.fields.published">
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.categories.fields.published.hint">
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.SeName">
@@ -2214,10 +2214,10 @@
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PriceRanges.Hint">
     <Value>設定價格範圍後，可以通過價格範圍過濾該分類下的商品.格式為：'0-199;200-300;301-;'</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.manufacturers.fields.published">
+  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.manufacturers.fields.published.hint">
+  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SeName">
@@ -7115,7 +7115,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.AutoUpdateOrderTotalsOnEditingOrder">
     <Value>自動更新訂單小計</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.autoupdateordertotalsoneditingorder.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.AutoUpdateOrderTotalsOnEditingOrder.Hint">
     <Value>在後台訂單中修改商品項目，訂單小計會自動更新（**注意：此功能目前在BETA測試狀態）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.Checkout">
@@ -7157,7 +7157,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Description.YYYY">
     <Value>{YYYY} - 訂單建立年份</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.customordernumbermask.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Hint">
     <Value>訂單編號規則</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.order.deactivategiftcardsaftercancellingorder">
@@ -7178,16 +7178,16 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.DisableBillingAddressCheckoutStep.Hint">
     <Value>檢查付款期間禁用「帳單地址」步驟。帳單地址將使用預設的註冊數據，預先填寫並保存(如果啟用了訪客可以結算，剛不能使用這個選項)。確保有合適地址,不能在沒有地址的情況下預先填寫不需要(或禁用)。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.disableordercompletedpage">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DisableOrderCompletedPage">
     <Value>不使用"訂單已完成"頁</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.DisableOrderCompletedPage.Hint">
     <Value>當禁用時，會員會自動重定向到的訂單詳細資訊頁面。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.exportwithproducts">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ExportWithProducts">
     <Value>匯出訂單時，同時匯出商品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.exportwithproducts.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ExportWithProducts.Hint">
     <Value>訂單匯出時，同時匯出商品</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.GiftCards_Activated">
@@ -8468,10 +8468,10 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.Address">
     <Value>倉庫地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.warehouses.fields.admincomment">
+  <LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.AdminComment">
     <Value>管理員備註</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.warehouses.fields.admincomment.hint">
+  <LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.AdminComment.Hint">
     <Value>管理員備註，僅限內部使用。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.Name">
@@ -8648,7 +8648,7 @@
   <LocaleResource Name="admin.contentmanagement.blog.blogcategory">
     <Value>部落格分類管理</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.blog.blogposts">
+  <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts">
     <Value>部落格日誌</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Added">
@@ -10274,16 +10274,16 @@
   <LocaleResource Name="Admin.Customers.Customers.ReSendActivationMessage.Success">
     <Value>啟用電子郵件已成功發送。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.rewardpoints">
+  <LocaleResource Name="Admin.Customers.Customers.RewardPoints">
     <Value>我的紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.rewardpoints.activatedlater">
+  <LocaleResource Name="Admin.Customers.Customers.RewardPoints.ActivatedLater">
     <Value>紅利積點將在{0}被啟用</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.RewardPoints.AddButton">
     <Value>新增</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.rewardpoints.addtitle">
+  <LocaleResource Name="Admin.Customers.Customers.RewardPoints.AddTitle">
     <Value>新增紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsMessage">
@@ -10301,7 +10301,7 @@
   <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsValue">
     <Value>值</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.rewardpoints.fields.addrewardpointsvalue.hint">
+  <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsValue.Hint">
     <Value>用戶紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Date">
@@ -10310,10 +10310,10 @@
   <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Message">
     <Value>說明</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.rewardpoints.fields.points">
+  <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Points">
     <Value>紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.rewardpoints.fields.pointsbalance">
+  <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.PointsBalance">
     <Value>剩餘紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Store">
@@ -10571,10 +10571,10 @@
   <LocaleResource Name="Admin.GiftCards.Fields.CreatedOn.Hint">
     <Value>創建日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.giftcards.fields.customordernumber">
+  <LocaleResource Name="Admin.GiftCards.Fields.CustomOrderNumber">
     <Value>訂單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.giftcards.fields.customordernumber.hint">
+  <LocaleResource Name="Admin.GiftCards.Fields.CustomOrderNumber.Hint">
     <Value>購買禮品卡的訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode">
@@ -10619,10 +10619,10 @@
   <LocaleResource Name="Admin.GiftCards.Fields.Order.Hint">
     <Value>訂單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.giftcards.fields.orderid">
+  <LocaleResource Name="Admin.GiftCards.Fields.OrderId">
     <Value>訂單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.giftcards.fields.orderid.hint">
+  <LocaleResource Name="Admin.GiftCards.Fields.OrderId.Hint">
     <Value>購買禮品卡的訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.GiftCards.Fields.RecipientEmail">
@@ -10661,7 +10661,7 @@
   <LocaleResource Name="Admin.GiftCards.History.CreatedOn">
     <Value>使用時間</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.giftcards.history.customordernumber">
+  <LocaleResource Name="Admin.GiftCards.History.CustomOrderNumber">
     <Value>自定義訂單編號</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.GiftCards.History.Order">
@@ -10709,7 +10709,7 @@
   <LocaleResource Name="admin.header.loggedinas">
     <Value>登入為：{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.header.logout">
+  <LocaleResource Name="Admin.Header.Logout">
     <Value>登出</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Header.PublicStore">
@@ -10727,7 +10727,7 @@
   <LocaleResource Name="Admin.Help.Forums">
     <Value>官方論壇</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.help.supportservices">
+  <LocaleResource Name="Admin.Help.SupportServices">
     <Value>進階支持服務</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Help.Topics">
@@ -10787,7 +10787,7 @@
   <LocaleResource Name="Admin.Orders.Address.StateProvince">
     <Value>鄉鎮市區</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.address.zippostalcode">
+  <LocaleResource Name="Admin.Orders.Address.ZipPostalCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.BackToList">
@@ -10811,10 +10811,10 @@
   <LocaleResource Name="Admin.Orders.Fields.AuthorizationTransactionID.Hint">
     <Value>授權交易編號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.billingaddress">
+  <LocaleResource Name="Admin.Orders.Fields.BillingAddress">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.billingaddress.hint">
+  <LocaleResource Name="Admin.Orders.Fields.BillingAddress.Hint">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.CancelCC">
