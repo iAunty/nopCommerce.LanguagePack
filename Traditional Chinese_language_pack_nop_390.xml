@@ -6958,10 +6958,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Media.MiniCartThumbPictureSize.Hint">
     <Value>迷您購物車縮略圖大小</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.multiplethumbdirectories">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.MultipleThumbDirectories">
     <Value>多個圖片目錄</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.multiplethumbdirectories.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.MultipleThumbDirectories.Hint">
     <Value>勾選此項，將啟用多個索引圖片目錄。 使用時機：如果您的空間商有限定資料夾的子目錄數。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Media.PicturesStoredIntoDatabase">
@@ -7006,7 +7006,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize.Hint">
     <Value>供應商縮略圖的預設大小（像素）。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.mode.advanced">
+  <LocaleResource Name="Admin.Configuration.Settings.Mode.Advanced">
     <Value>進階模式</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Mode.Basic">
@@ -7054,7 +7054,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.News.NewsCommentsMustBeApproved">
     <Value>新聞評論需審核</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.news.newscommentsmustbeapproved.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.News.NewsCommentsMustBeApproved.Hint">
     <Value>新聞評論需被管理員審核</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.News.NotifyAboutNewNewsComments">
@@ -7069,10 +7069,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.News.ShowHeaderRSSUrl.Hint">
     <Value>在瀏覽器地址欄顯示新聞RSS訂閱快捷連結</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.news.shownewscommentsperstore">
+  <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsCommentsPerStore">
     <Value>顯示此商店的新聞評論</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.news.shownewscommentsperstore.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsCommentsPerStore.Hint">
     <Value>只顯示會員所在商店的新聞評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsOnMainPage">
@@ -7084,7 +7084,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order">
     <Value>訂單設定</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.activategiftcardsaftercompletingorder">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder">
     <Value>禮品卡啟用時訂單狀態是"已完成"</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.order.activategiftcardsaftercompletingorder.hint">
@@ -7303,7 +7303,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestActions.Updated">
     <Value>該退貨請求已經更新成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask">
     <Value>退貨請求編號規則</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.dd">
@@ -7321,7 +7321,7 @@
   <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.yyyy">
     <Value>{YYYY} - 退貨請求建立年份</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Hint">
     <Value>退貨請求編號規則， 例如： RMA-{ID}-{YYYY}-{MM}-{DD}.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons">
@@ -7363,10 +7363,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Updated">
     <Value>該退貨原因已經更新成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestsallowfiles">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsAllowFiles">
     <Value>允許上傳文件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestsallowfiles.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsAllowFiles.Hint">
     <Value>允許會員在退貨申請時，可以上傳文件</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsDescription1">
@@ -7414,7 +7414,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AllowAddingOnlyExistingAttributeCombinations">
     <Value>允許組合已存在的屬性</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.producteditor.allowbackinstocksubscriptions">
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AllowBackInStockSubscriptions">
     <Value>允許會員預先訂購</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AllowCustomerReviews">
@@ -7423,13 +7423,13 @@
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AllowedQuantities">
     <Value>允許的數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.producteditor.availableenddate">
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AvailableEndDate">
     <Value>可用的結束日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.producteditor.availableforpreorder">
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AvailableForPreOrder">
     <Value>接受預購</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.producteditor.availablestartdate">
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AvailableStartDate">
     <Value>可用的開始日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.Backorders">
@@ -7558,7 +7558,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.NotReturnable">
     <Value>不可退貨</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.producteditor.oldprice">
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.OldPrice">
     <Value>店面價</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.OneColumnProductPage">
@@ -7585,7 +7585,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.ProductType">
     <Value>商品類型</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.producteditor.published">
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.PurchasedWithOrders">
@@ -7642,34 +7642,34 @@
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.Weight">
     <Value>重量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints">
     <Value>紅利積點管理</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.activatepointsimmediately">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ActivatePointsImmediately">
     <Value>紅利積點可立即使用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.activatepointsimmediately.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ActivatePointsImmediately.Hint">
     <Value>訂單完成後，會員獲得紅利積點，可以立即使用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.activationdelay">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ActivationDelay">
     <Value>啟用紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.activationdelay.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ActivationDelay.Hint">
     <Value>指定會員得到購物今後，必須經過多少天或小時，才能被使用。e.g.設定紅利積點七天後可被啟動，訂單轉成已完成後，會員得到紅利積點，但必須等七天後才能使用</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.BlockTitle.Common">
     <Value>一般設定</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.description">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Description">
     <Value>紅利積點回饋計劃可以讓會員在商店完成一些動作的時候賺取紅利積點。紅利積點可以通過如註冊或是下單購買來獲得</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.displayhowmuchwillbeearned">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.DisplayHowMuchWillBeEarned">
     <Value>顯示該筆銷費所獲得的紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.displayhowmuchwillbeearned.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.DisplayHowMuchWillBeEarned.Hint">
     <Value>在訂單結算前會員看到將獲得多少積點。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.earning">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Earning">
     <Value>賺取紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Earning.Hint1">
@@ -7678,34 +7678,34 @@
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Earning.Hint2">
     <Value>將獲得</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.earning.hint3">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Earning.Hint3">
     <Value>紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Enabled">
     <Value>啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.enabled.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Enabled.Hint">
     <Value>啟用紅利積點功能</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ExchangeRate">
     <Value>匯率</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.exchangerate.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ExchangeRate.Hint">
     <Value>紅利積點匯率</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.exchangerate.hint2">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.ExchangeRate.Hint2">
     <Value>1紅利積點=</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.minimumrewardpointstouse">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.MinimumRewardPointsToUse">
     <Value>最少紅利積點要求</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.minimumrewardpointstouse.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.MinimumRewardPointsToUse.Hint">
     <Value>顧客在積累X紅利積點以後才可以使用。如果不想啟用此項，請設為0</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.pagesize">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PageSize">
     <Value>顯示筆數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.pagesize.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PageSize.Hint">
     <Value>在前台會員中心的紅利積點頁面，顯示會員紅利積點的筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsAccumulatedForAllStores">
@@ -7714,10 +7714,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsAccumulatedForAllStores.Hint">
     <Value>對所有的商店使用積點獎勵，使他們能夠在所有商店使用。否則，每家店擁有自己的獎勵積點，它們只能在自己商店中使用。警告：不建議生產環境改變與已創造了幾個商店。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_amount">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Amount">
     <Value>購買獲得的紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_amount.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Amount.Hint">
     <Value>指定購買獲得的紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_awarded">
@@ -7738,10 +7738,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Canceled.Pending">
     <Value>訂單狀態不能設定為待處理</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforregistration">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForRegistration">
     <Value>註冊用戶獲得紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforregistration.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForRegistration.Hint">
     <Value>紅利積點數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping">
@@ -7753,13 +7753,13 @@
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.AllowPickUpInStore.Hint">
     <Value>這個值代表是否啟用「店內提貨」選項在結賬過程中。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.blocktitle.checkout">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.BlockTitle.Checkout">
     <Value>結賬</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.BlockTitle.Common">
     <Value>一般設定</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Shipping.Blocktitle.Notifications">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.BlockTitle.Notifications">
     <Value>提醒</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.BypassShippingMethodSelectionIfOnlyOne">
@@ -7768,16 +7768,16 @@
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.BypassShippingMethodSelectionIfOnlyOne.Hint">
     <Value>如果只有一種配送方法則直接使用。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.considerassociatedproductsdimensions">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.ConsiderAssociatedProductsDimensions">
     <Value>計算產品屬性的尺寸和重量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.considerassociatedproductsdimensions.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.ConsiderAssociatedProductsDimensions.Hint">
     <Value>檢查產品屬性尺寸和運送重量，如果主要產品已經包含它們，請取消勾選。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.displaypickuppointsonmap">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayPickupPointsOnMap">
     <Value>在地圖上顯示取貨地點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.displaypickuppointsonmap.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayPickupPointsOnMap.Hint">
     <Value>在地圖上顯示取貨地點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayShipmentEventsToCustomers">
@@ -7822,10 +7822,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey.Hint">
     <Value>Specify Google maps API key.</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.hideshippingtotal">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.HideShippingTotal">
     <Value>商品若是不須配送，隱藏運費估算</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.hideshippingtotal.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.HideShippingTotal.Hint">
     <Value>商品為不須配送時，隱藏運費估算</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.NotifyCustomerAboutShippingFromMultipleLocations">
@@ -7846,10 +7846,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.ShippingOriginAddress.Hint">
     <Value>貨運起始地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.shiptosameaddress">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.ShipToSameAddress">
     <Value>配送到相同地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shipping.shiptosameaddress.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Shipping.ShipToSameAddress.Hint">
     <Value>結帳輸入帳單地址時，會"配送到相同地址"選項讓會員勾取，打勾表示帳單配送地址相同，會員不必再輸入一次。另請注意，所有付款縣市/地區都應支持發貨（“允許發貨”複選框勾選）。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.UseWarehouseLocation">
@@ -7885,13 +7885,13 @@
   <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.BlockTitle.MiniShoppingCart">
     <Value>迷您購物車</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shoppingcart.blocktitle.wishlist">
+  <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.BlockTitle.Wishlist">
     <Value>願望清單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shoppingcart.cartssharedbetweenstores">
+  <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.CartsSharedBetweenStores">
     <Value>購物車在商店間通用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.shoppingcart.cartssharedbetweenstores.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.CartsSharedBetweenStores.Hint">
     <Value>多商店時，購物車和願望清單可以在商店間通用</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.CrossSellsNumber">
@@ -8002,16 +8002,16 @@
   <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.Common">
     <Value>一般設定</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Tax.Blocktitle.Payment">
+  <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.Payment">
     <Value>付款方式</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Tax.Blocktitle.Shipping">
+  <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.Shipping">
     <Value>配送方式</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.TaxDispaying">
     <Value>稅務顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.tax.blocktitle.vat">
+  <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.VAT">
     <Value>增值稅</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Tax.DefaultTaxAddress">
@@ -8143,10 +8143,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxBasedOnPickupPointAddress">
     <Value>根據取貨地址計算稅務</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.tax.taxbasedonpickuppointaddress.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxBasedOnPickupPointAddress.Hint">
     <Value>使用取貨地址（當選擇提貨點時）進行稅務計算的值。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Tax.Taxcategories.None">
+  <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxCategories.None">
     <Value>none</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxDisplayType">
@@ -8170,22 +8170,22 @@
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowCustomersToContactVendors.Hint">
     <Value>選擇從而允許會員聯繫供應商。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.allowsearchbyvendor">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowSearchByVendor">
     <Value>搜尋時，允許用供應商篩選</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.allowsearchbyvendor.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowSearchByVendor.Hint">
     <Value>在進階搜尋時，允許用供應商做篩選</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.allowvendorstoeditinfo">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToEditInfo">
     <Value>允許供應商更改基本資料</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.allowvendorstoeditinfo.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToEditInfo.Hint">
     <Value>允許供應商在前台會員中心，更改自己的基本資料。請注意，如果您有多國語言（在這種情況下只能編輯標準值），則不支持本地化屬性（name, description）。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.allowvendorstoimportproducts">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToImportProducts">
     <Value>允許供應商匯入商品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.allowvendorstoimportproducts.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToImportProducts.Hint">
     <Value>允許供應商匯入商品</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.BlockTitle.Catalog">
