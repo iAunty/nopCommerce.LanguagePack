@@ -14180,7 +14180,7 @@
     <Value>配送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ShippingIsNotAllowed">
-    <Value>配送方式不許可</Value>
+    <Value>配送方式無法使用</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ShippingMethod">
     <Value>配送方式</Value>
@@ -14189,13 +14189,13 @@
     <Value>請注意您的訂單將由多個地點出貨</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ShippingOptionCouldNotBeLoaded">
-    <Value>配送選項不能被加載</Value>
+    <Value>配送選項無法被載入</Value>
   </LocaleResource>
-  <LocaleResource Name="checkout.shiptosameaddress">
+  <LocaleResource Name="Checkout.ShipToSameAddress">
     <Value>配送到相同地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.ShipToThisAddress">
-    <Value>配送到這一地址</Value>
+    <Value>配送到這個地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.SubmittingOrder">
     <Value>提交訂單資訊…</Value>
@@ -14243,7 +14243,7 @@
     <Value>關閉</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Config">
-    <Value>配置</Value>
+    <Value>設定</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Confirm">
     <Value>確認送出</Value>
@@ -14279,7 +14279,7 @@
     <Value>下載</Value>
   </LocaleResource>
   <LocaleResource Name="Common.FileUploader.DropFiles">
-    <Value>將文件上傳</Value>
+    <Value>把文件拖曳到這裡上傳</Value>
   </LocaleResource>
   <LocaleResource Name="Common.FileUploader.Processing">
     <Value>正在上傳文件...</Value>
@@ -14300,9 +14300,9 @@
     <Value>首頁</Value>
   </LocaleResource>
   <LocaleResource Name="Common.LoadingNextStep">
-    <Value>加載下一個步...</Value>
+    <Value>準備下一步...</Value>
   </LocaleResource>
-  <LocaleResource Name="common.managepage">
+  <LocaleResource Name="Common.ManagePage">
     <Value>管理頁面</Value>
   </LocaleResource>
   <LocaleResource Name="Common.Month">
@@ -14362,7 +14362,7 @@
   <LocaleResource Name="ConditionsOfUse">
     <Value>使用條件</Value>
   </LocaleResource>
-  <LocaleResource Name="contactus">
+  <LocaleResource Name="ContactUs">
     <Value>聯絡我們</Value>
   </LocaleResource>
   <LocaleResource Name="ContactUs.Button">
@@ -14423,7 +14423,7 @@
     <Value>輸入您的電子信箱地址</Value>
   </LocaleResource>
   <LocaleResource Name="ContactVendor.Email.Required">
-    <Value>輸入電子信箱地址</Value>
+    <Value>請輸入Email</Value>
   </LocaleResource>
   <LocaleResource Name="contactvendor.emailsubject">
     <Value>{0}. 聯絡我們</Value>
@@ -14447,18 +14447,18 @@
     <Value>輸入您的名字</Value>
   </LocaleResource>
   <LocaleResource Name="ContactVendor.Subject">
-    <Value>主題</Value>
+    <Value>主旨</Value>
   </LocaleResource>
   <LocaleResource Name="ContactVendor.Subject.Hint">
-    <Value>輸入主題</Value>
+    <Value>輸入主旨</Value>
   </LocaleResource>
   <LocaleResource Name="ContactVendor.Subject.Required">
-    <Value>請輸入主題</Value>
+    <Value>請輸入主旨</Value>
   </LocaleResource>
   <LocaleResource Name="ContactVendor.YourEnquiryHasBeenSent">
     <Value>您的正式的查詢已經發送給了供應商。</Value>
   </LocaleResource>
-  <LocaleResource Name="content.copyrightnotice">
+  <LocaleResource Name="Content.CopyrightNotice">
     <Value>版權所有 &amp;copy; {0} {1} 保留所有權利</Value>
   </LocaleResource>
   <LocaleResource Name="Currencies">
@@ -15493,26 +15493,26 @@
   <LocaleResource Name="News.RSS.Hint">
     <Value>點擊訂閱商品最新資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="news.viewall">
+  <LocaleResource Name="News.ViewAll">
     <Value>[查看所有]</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.Button">
     <Value>提交</Value>
   </LocaleResource>
-  <LocaleResource Name="newsletter.email.placeholder">
-    <Value>再次輸入您的電子信箱...</Value>
+  <LocaleResource Name="Newsletter.Email.Placeholder">
+    <Value>請再次輸入您的電子信箱...</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.Email.Wrong">
-    <Value>輸入有效的電子信箱</Value>
+    <Value>請輸入有效的電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.Options.Send">
     <Value>發送</Value>
   </LocaleResource>
-  <LocaleResource Name="newsletter.options.subscribe">
+  <LocaleResource Name="Newsletter.Options.Subscribe">
     <Value>訂閱</Value>
   </LocaleResource>
-  <LocaleResource Name="newsletter.options.unsubscribe">
-    <Value>撤銷訂閱</Value>
+  <LocaleResource Name="Newsletter.Options.Unsubscribe">
+    <Value>取消訂閱</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.ResultActivated">
     <Value>您的訂閱已被啟用</Value>
@@ -15521,18 +15521,18 @@
     <Value>您的訂閱已被停用</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.Subscribe">
-    <Value>訂閱</Value>
+    <Value>登入以訂閱</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.SubscribeEmailSent">
     <Value>感謝您的訂閱！我們已經發送了一封驗證電子郵件，請到郵件中啟用訂閱</Value>
   </LocaleResource>
-  <LocaleResource Name="newsletter.title">
-    <Value>電子報訂閱</Value>
+  <LocaleResource Name="Newsletter.Title">
+    <Value>訂閱電子報</Value>
   </LocaleResource>
   <LocaleResource Name="Newsletter.UnsubscribeEmailSent">
     <Value>驗證電子郵件已經發出。 謝謝！</Value>
   </LocaleResource>
-  <LocaleResource Name="nop.web.framework.validators.maxdecimal">
+  <LocaleResource Name="Nop.Web.Framework.Validators.MaxDecimal">
     <Value>The value is out of range. Maximum value is {0}.99</Value>
   </LocaleResource>
   <LocaleResource Name="order.billingaddress">
@@ -15676,7 +15676,7 @@
   <LocaleResource Name="Order.Shipments.Product(s).Quantity">
     <Value>配送數量</Value>
   </LocaleResource>
-  <LocaleResource Name="order.shipments.product(s).sku">
+  <LocaleResource Name="Order.Shipments.Product(s).SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Shipments.ShippedDate">
@@ -15773,7 +15773,7 @@
     <Value>下一頁</Value>
   </LocaleResource>
   <LocaleResource Name="Pager.PageLinkTitle">
-    <Value>頁碼 {0}</Value>
+    <Value>第 {0} 頁</Value>
   </LocaleResource>
   <LocaleResource Name="Pager.Previous">
     <Value>上一頁</Value>
@@ -15781,7 +15781,7 @@
   <LocaleResource Name="Pager.PreviousPageTitle">
     <Value>上一頁</Value>
   </LocaleResource>
-  <LocaleResource Name="pagetitle.account">
+  <LocaleResource Name="PageTitle.Account">
     <Value>會員中心</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.AccountActivation">
@@ -15821,7 +15821,7 @@
     <Value>品牌</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.NewProducts">
-    <Value>新品</Value>
+    <Value>新商品</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.NewsArchive">
     <Value>新聞</Value>
@@ -15833,7 +15833,7 @@
     <Value>無法找到頁面</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.PasswordRecovery">
-    <Value>找回密碼</Value>
+    <Value>忘記密碼</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.PrivateMessages">
     <Value>私人訊息</Value>
@@ -15851,7 +15851,7 @@
     <Value>個人資訊</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.RecentlyAddedProducts">
-    <Value>最新商品</Value>
+    <Value>最新新增商品</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.RecentlyViewedProducts">
     <Value>最近瀏覽商品</Value>
@@ -15880,7 +15880,7 @@
   <LocaleResource Name="PageTitle.StoreClosed">
     <Value>商店關閉</Value>
   </LocaleResource>
-  <LocaleResource Name="pagetitle.vendorinfo">
+  <LocaleResource Name="PageTitle.VendorInfo">
     <Value>供應商資料</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.Vendors">
@@ -15923,13 +15923,13 @@
     <Value>卡號無效</Value>
   </LocaleResource>
   <LocaleResource Name="Payment.ExpirationDate">
-    <Value>失效日期</Value>
+    <Value>有效日期</Value>
   </LocaleResource>
   <LocaleResource Name="Payment.ExpireMonth.Required">
-    <Value>請輸入失效日期</Value>
+    <Value>請輸有效日期</Value>
   </LocaleResource>
   <LocaleResource Name="Payment.ExpireYear.Required">
-    <Value>請輸入失效日期</Value>
+    <Value>請輸入有效日期</Value>
   </LocaleResource>
   <LocaleResource Name="Payment.SelectCreditCard">
     <Value>選擇信用卡</Value>
@@ -15953,7 +15953,7 @@
     <Value>折扣：</Value>
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.Fax">
-    <Value>手機號碼：{0}</Value>
+    <Value>傳真號碼: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.GiftCardInfo">
     <Value>禮品卡({0})：</Value>
@@ -16927,8 +16927,8 @@
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Country">
     <Value>國家</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.datahtml">
-    <Value>數據</Value>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.DataHtml">
+    <Value>資料</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.From">
     <Value>訂單重量(from)</Value>
@@ -16939,52 +16939,52 @@
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LimitMethodsToCreated">
     <Value>限制運輸的方法來配置的</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LimitMethodsToCreated.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LimitMethodsToCreated.Hint">
     <Value>如果您檢查這個選項,那麼您的會員將有限的運輸選項配置。否則,他們將能夠選擇任何現有的運輸選項甚至他們這裡沒有配置(在這種情況下,零運費)。</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LowerWeightLimit">
     <Value>較低的重量限制</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LowerWeightLimit.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LowerWeightLimit.Hint">
     <Value>降低重量限制。這一領域可用於「每額外的重量單位」場景。</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.PercentageRateOfSubtotal">
     <Value>小計(of工作量百分比</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.PercentageRateOfSubtotal.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.PercentageRateOfSubtotal.Hint">
     <Value>小計(百分比)負責。</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.rate">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Rate">
     <Value>Rate</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.RatePerWeightUnit">
     <Value>每單位重量率</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.RatePerWeightUnit.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.RatePerWeightUnit.Hint">
     <Value>每單位重量率</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.shippingmethod">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.ShippingMethod">
     <Value>配送方式</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.stateprovince">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.StateProvince">
     <Value>鄉鎮區</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.store">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Store">
     <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.To">
     <Value>訂單重量(To)</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.To.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.To.Hint">
     <Value>訂單重量(到多重)</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.warehouse">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Warehouse">
     <Value>倉庫</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fields.zip">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Zip">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.fixed">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fixed">
     <Value>Fixed Rate</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Formula">
