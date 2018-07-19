@@ -4012,7 +4012,7 @@
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTimeUtc">
     <Value>結束日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.tierprices.fields.price">
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Price">
     <Value>價格</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Quantity">
@@ -4021,7 +4021,7 @@
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.StartDateTimeUtc">
     <Value>開始日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.tierprices.fields.store">
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store">
     <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store.All">
@@ -4300,7 +4300,7 @@
   <LocaleResource Name="Admin.Configuration.Countries.Fields.AllowsBilling">
     <Value>允許賬單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.countries.fields.allowsbilling.hint">
+  <LocaleResource Name="Admin.Configuration.Countries.Fields.AllowsBilling.Hint">
     <Value>允許帳單寄送地址填寫該縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.Fields.AllowsShipping">
@@ -4345,10 +4345,10 @@
   <LocaleResource Name="Admin.Configuration.Countries.Fields.NumericIsoCode.Hint">
     <Value>縣市的ISO數字代碼，完整的ISO代碼列表請參考 http://en.wikipedia.org/wiki/ISO_3166-1_numeric</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.countries.fields.published">
+  <LocaleResource Name="Admin.Configuration.Countries.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.countries.fields.published.hint">
+  <LocaleResource Name="Admin.Configuration.Countries.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.Fields.SubjectToVat">
@@ -4387,7 +4387,7 @@
   <LocaleResource Name="Admin.Configuration.Countries.ImportSuccess">
     <Value>{0}鄉鎮市區已成功匯入。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.countries.importtip">
+  <LocaleResource Name="Admin.Configuration.Countries.ImportTip">
     <Value>您可以在以下頁面下載其他國家/地區列表的CSV文件：</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.Info">
@@ -4792,16 +4792,16 @@
   <LocaleResource Name="Admin.Configuration.Languages.Fields.Name.Required">
     <Value>請輸入名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.fields.published">
+  <LocaleResource Name="Admin.Configuration.Languages.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.fields.published.hint">
+  <LocaleResource Name="Admin.Configuration.Languages.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Fields.Rtl">
     <Value>從右到左</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.fields.rtl.hint">
+  <LocaleResource Name="Admin.Configuration.Languages.Fields.Rtl.Hint">
     <Value>啟用從右到左的語言支持，使用中的版型也應支持RTL（要求有相應的CSS文件）。此選項只影響到商店前台</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Fields.UniqueSeoCode">
@@ -4852,19 +4852,19 @@
   <LocaleResource Name="Admin.Configuration.Languages.Resources.NameAlreadyExists">
     <Value>改資源字符串已存在：{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.resources.savebeforeedit">
+  <LocaleResource Name="Admin.Configuration.Languages.Resources.SaveBeforeEdit">
     <Value>請先儲存語言後，才能針對語言進行資源更新</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.resources.searchresourcename">
+  <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceName">
     <Value>資源名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.resources.searchresourcename.hint">
+  <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceName.Hint">
     <Value>搜尋資源名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.resources.searchresourcevalue">
+  <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceValue">
     <Value>資源值</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.languages.resources.searchresourcevalue.hint">
+  <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceValue.Hint">
     <Value>搜尋資源值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Resources.View">
@@ -5140,7 +5140,7 @@
   <LocaleResource Name="Admin.Configuration.Plugins.Misc.Configure">
     <Value>配置</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Officialfeed">
+  <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed">
     <Value>官方提供其它資源</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Category">
@@ -5152,7 +5152,7 @@
   <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Download">
     <Value>下載</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.plugins.officialfeed.instructions">
+  <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Instructions">
     <Value>&lt;p&gt;在這裡，您可以找到其他nopcommerce的合作夥伴、社群，所開發的第三方擴展和主題，也可以在nopcommerce  &lt;a href="http://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&amp;utm_medium=official-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;&lt;/p&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Name">
@@ -5251,7 +5251,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Blog.BlogCommentsMustBeApproved">
     <Value>部落格評論需審核</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.blog.blogcommentsmustbeapproved.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Blog.BlogCommentsMustBeApproved.Hint">
     <Value>部落格評論需被管理員審核</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Blog.Enabled">
@@ -5278,10 +5278,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Blog.PostsPageSize.Hint">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.blog.showblogcommentsperstore">
+  <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowBlogCommentsPerStore">
     <Value>顯示此商店的部落格評論</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.blog.showblogcommentsperstore.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowBlogCommentsPerStore.Hint">
     <Value>顯示此商店的部落格評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowBlogOnMainPage">
@@ -5332,28 +5332,28 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.AdditionalSections">
     <Value>附加選項</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.catalogpages">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.CatalogPages">
     <Value>分類頁面</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Compare">
     <Value>商品比較</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.exportimport">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.ExportImport">
     <Value>匯出/匯入</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.performance">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Performance">
     <Value>效能</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.productfields">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.ProductFields">
     <Value>產品資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.productpage">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.ProductPage">
     <Value>商品頁面</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.productreviews">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.ProductReviews">
     <Value>商品評論</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.productsorting">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.ProductSorting">
     <Value>商品排序</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Search">
@@ -5362,10 +5362,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Share">
     <Value>分享</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.tags">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Tags">
     <Value>標籤</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.blocktitle.tax">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Tax">
     <Value>稅</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.CacheProductPrices">
@@ -5644,7 +5644,7 @@
   <LocaleResource Name="admin.configuration.settings.catalog.searchpagepagesizeoptions">
     <Value>搜尋頁，顯示筆數的選項 （逗號分隔）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.searchpagepagesizeoptions.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions.Hint">
     <Value>搜尋頁，顯示筆數選項的逗號分隔列表 （如 10, 5, 15, 20）。第一個選項是預設的選項筆數，如果沒選擇任何選項。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageProductsPerPage">
@@ -5728,25 +5728,25 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowShareButton.Hint">
     <Value>在商品頁顯示分享按鈕</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showskuoncatalogpages">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnCatalogPages">
     <Value>在分類頁面顯示商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showskuoncatalogpages.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnCatalogPages.Hint">
     <Value>在分類頁面顯示商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showskuonproductdetailspage">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage">
     <Value>在商品資訊頁面顯示商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showskuonproductdetailspage.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage.Hint">
     <Value>在產品資訊頁面顯示商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.sortoptions.displayorder">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.DisplayOrder">
     <Value>排序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.sortoptions.isactive">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.IsActive">
     <Value>啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.sortoptions.name">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.Name">
     <Value>名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.TopCategoryMenuSubcategoryLevelsToDisplay">
@@ -5866,10 +5866,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.StreetAddressRequired.Hint">
     <Value>街道地址欄位必填</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.addressformfields.zippostalcodeenabled">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.ZipPostalCodeEnabled">
     <Value>啟用郵遞區號欄位</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.addressformfields.zippostalcodeenabled.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.ZipPostalCodeEnabled.Hint">
     <Value>啟用郵遞區號欄位</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.customeruser.addressformfields.zippostalcoderequired">
@@ -5902,7 +5902,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowViewingProfiles.Hint">
     <Value>允許會員查看其他會員資料</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.blocktitle.account">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Account">
     <Value>帳戶</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Common">
@@ -5911,16 +5911,16 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.DefaultFields">
     <Value>預設欄位</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.blocktitle.externalauthentication">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.ExternalAuthentication">
     <Value>外部認證</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.Blocktitle.Password">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Password">
     <Value>密碼與安全性</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.blocktitle.profile">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Profile">
     <Value>其他設定</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.Blocktitle.TimeZone">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.TimeZone">
     <Value>時區</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CheckUsernameAvailabilityEnabled">
@@ -5995,7 +5995,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired">
     <Value>『生日日期』是必須的</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.dateofbirthrequired.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired.Hint">
     <Value>選擇『生日日期』是必須的。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateTimeSettings">
