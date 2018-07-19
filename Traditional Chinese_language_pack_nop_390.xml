@@ -11114,13 +11114,13 @@
   <LocaleResource Name="Admin.Orders.Fields.PaymentStatus.Hint">
     <Value>付款狀態</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.pickupaddress">
+  <LocaleResource Name="Admin.Orders.Fields.PickupAddress">
     <Value>提取點地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.pickupaddress.hint">
+  <LocaleResource Name="Admin.Orders.Fields.PickupAddress.Hint">
     <Value>提取點地址資料</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.pickupaddress.viewongooglemaps">
+  <LocaleResource Name="Admin.Orders.Fields.PickupAddress.ViewOnGoogleMaps">
     <Value>Google Maps上預覽地址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.Profit">
@@ -11141,13 +11141,13 @@
   <LocaleResource Name="Admin.Orders.Fields.RecurringPayment.Hint">
     <Value>定期付款</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.redeemedrewardpoints">
+  <LocaleResource Name="Admin.Orders.Fields.RedeemedRewardPoints">
     <Value>我的紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.redeemedrewardpoints.hint">
+  <LocaleResource Name="Admin.Orders.Fields.RedeemedRewardPoints.Hint">
     <Value>獲得紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.redeemedrewardpoints.points">
+  <LocaleResource Name="Admin.Orders.Fields.RedeemedRewardPoints.Points">
     <Value>紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.Refund">
@@ -11351,7 +11351,7 @@
   <LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download">
     <Value>附加文件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.ordernotes.fields.download.hasdownload">
+  <LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.HasDownload">
     <Value>(選擇從而上載文件)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.Hint">
@@ -11384,13 +11384,13 @@
   <LocaleResource Name="admin.orders.pdfinvoice.selected">
     <Value>發票匯出PDF(已經選擇的)</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.pdfinvoices">
+  <LocaleResource Name="Admin.Orders.PdfInvoices">
     <Value>匯出PDF發票</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.pdfinvoices.all">
+  <LocaleResource Name="Admin.Orders.PdfInvoices.All">
     <Value>匯出全部訂單PDF發票</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.pdfinvoices.selected">
+  <LocaleResource Name="Admin.Orders.PdfInvoices.Selected">
     <Value>匯出所選訂單PDF發票</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Products">
@@ -11420,7 +11420,7 @@
   <LocaleResource Name="Admin.Orders.Products.AddNew.Quantity.Hint">
     <Value>輸入數量.</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.products.addnew.sku">
+  <LocaleResource Name="Admin.Orders.Products.AddNew.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalExclTax">
@@ -11453,7 +11453,7 @@
   <LocaleResource Name="Admin.Orders.Products.AddNew.UnitPriceInclTax.Hint">
     <Value>價格(含稅)</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.products.addnew.updatetotals">
+  <LocaleResource Name="Admin.Orders.Products.AddNew.UpdateTotals">
     <Value>添加產品後，請勿忘記更新訂單總額。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Products.Discount">
@@ -11513,7 +11513,7 @@
   <LocaleResource Name="Admin.Orders.Products.ReturnRequests">
     <Value>退貨請求:</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.products.sku">
+  <LocaleResource Name="Admin.Orders.Products.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Products.Total">
@@ -11549,13 +11549,13 @@
   <LocaleResource Name="Admin.Orders.Shipments.AddNew.Title">
     <Value>新增配送資訊到訂單編號： #{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.admincomment">
+  <LocaleResource Name="Admin.Orders.Shipments.AdminComment">
     <Value>管理員備註</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.admincomment.button">
+  <LocaleResource Name="Admin.Orders.Shipments.AdminComment.Button">
     <Value>設定管理員備註</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.admincomment.hint">
+  <LocaleResource Name="Admin.Orders.Shipments.AdminComment.Hint">
     <Value>管理員備註，僅供內部使用。</Value>
   </LocaleResource>
   <LocaleResource Name="admin.orders.shipments.allofshippeddateutcaredated">
@@ -11576,7 +11576,7 @@
   <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Button">
     <Value>標記為已交貨</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.deliverydate.enterutc">
+  <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.EnterUtc">
     <Value>日期和時間應輸入以世界協調時間 (UTC)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Hint">
