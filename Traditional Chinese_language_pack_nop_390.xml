@@ -6232,19 +6232,19 @@
   <LocaleResource Name="admin.configuration.settings.forums.activediscussionsfeedcount">
     <Value>熱門貼文RSS訂閱數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.activediscussionsfeedcount.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsFeedCount.Hint">
     <Value>熱門貼文RSS訂閱數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.activediscussionsfeedenabled">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsFeedEnabled">
     <Value>啟用熱門貼文訂閱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.activediscussionsfeedenabled.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsFeedEnabled.Hint">
     <Value>啟用熱門貼文訂閱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.activediscussionspagesize">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsPageSize">
     <Value>熱門貼文頁面筆數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.activediscussionspagesize.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsPageSize.Hint">
     <Value>設定熱門貼文頁面筆數，如『10』表示每頁10條貼文。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Forums.AllowCustomersToDeletePosts">
@@ -6280,7 +6280,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Forums.AllowPostVoting">
     <Value>允許用戶投票</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.allowpostvoting.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.AllowPostVoting.Hint">
     <Value>允許用戶投票</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Forums.AllowPrivateMessages">
@@ -6292,10 +6292,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Forums.BlockTitle.Common">
     <Value>一般設定</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.blocktitle.feeds">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.BlockTitle.Feeds">
     <Value>供稿</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.blocktitle.pagesizes">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.BlockTitle.PageSizes">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Forums.BlockTitle.Permissions">
@@ -6325,10 +6325,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Forums.ForumsEnabled.Hint">
     <Value>啟用論壇</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.maxvotesperday">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.MaxVotesPerDay">
     <Value>一天最多能投的次數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.maxvotesperday.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.MaxVotesPerDay.Hint">
     <Value>一天最多能投的次數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Forums.NotifyAboutPrivateMessages">
@@ -6352,7 +6352,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Forums.SearchResultsPageSize">
     <Value>搜尋結果每頁顯示筆數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.forums.searchresultspagesize.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Forums.SearchResultsPageSize.Hint">
     <Value>每頁搜尋結果顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Forums.ShowAlertForPM">
@@ -6406,22 +6406,22 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Common">
     <Value>一般設定</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Blocktitle.Fulltext">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.FullText">
     <Value>Full-Text</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.blocktitle.localization">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Localization">
     <Value>本地化</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Blocktitle.Pdf">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Pdf">
     <Value>Pdf</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Blocktitle.Security">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Security">
     <Value>安全性</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.SEO">
     <Value>SEO</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.blocktitle.sitemap">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Sitemap">
     <Value>網站地圖</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.generalcommon.blocktitle.sitemapd">
@@ -6430,7 +6430,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.SocialMedia">
     <Value>社交媒體</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.configuration.Settings.GeneralCommon.Blocktitle.Topmenuitems">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.TopMenuItems">
     <Value>導覽列項目</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CanonicalUrlsEnabled">
@@ -6439,7 +6439,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CanonicalUrlsEnabled.Hint">
     <Value>標準化的目的在於把普通的URL轉換為標準URL，啟用後在源代碼header中能看到效果</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.captcha.instructions">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions">
     <Value>CAPTCHA是一個程序，可以判斷其用戶是一個人類還是一台電腦。您可能已經看過它們 - 在網絡註冊表格底部有多個扭曲文本的彩色圖像。 許多網站都使用CAPTSA來防止“bot”的濫用，或通常用來生成垃圾郵件的自動程序。 沒有計算機程序可以讀取扭曲的文本以及人類可以，所以機器人不能瀏覽受CAPTCHA保護的站點。 nopCommerce使用reCAPTCHA。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaEnabled">
@@ -6460,10 +6460,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnBlogCommentPage.Hint">
     <Value>在部落格頁面顯示評論</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.captchashowoncontactuspage">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnContactUsPage">
     <Value>在聯絡我們頁面顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.captchashowoncontactuspage.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnContactUsPage.Hint">
     <Value>在聯絡我們頁面顯示</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnEmailProductToFriendPage">
@@ -6478,10 +6478,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnEmailWishlistToFriendPage.Hint">
     <Value>在發送願望清單給朋友頁面顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.captchashowonloginpage">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnLoginPage">
     <Value>在登入頁面顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.captchashowonloginpage.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnLoginPage.Hint">
     <Value>在登入頁面顯示</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnNewsCommentPage">
@@ -6508,10 +6508,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ConvertNonWesternChars.Hint">
     <Value>轉換非英文字符</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.customheadtags">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CustomHeadTags">
     <Value>自定義標籤</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.customheadtags.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CustomHeadTags.Hint">
     <Value>在此輸入自訂標籤。 例如，一些自定義Meta標記，或者留空忽略此設置。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultMetaDescription">
@@ -6529,7 +6529,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme">
     <Value>預設商店風格</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.defaultstoretheme.getmore">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.GetMore">
     <Value>您可以獲得更多風格在</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.Hint">
@@ -6904,10 +6904,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Media.BlockTitle.Common">
     <Value>一般設定</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.blocktitle.otherpages">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.BlockTitle.OtherPages">
     <Value>其他頁面</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.blocktitle.product">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.BlockTitle.Product">
     <Value>商品</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Media.CartThumbPictureSize">
@@ -6928,16 +6928,16 @@
   <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality.Hint">
     <Value>圖片質量將被應用於已上載的圖片。如果改動它， 您需要手動刪除已經生成的索引圖片。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.defaultpicturezoomenabled">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultPictureZoomEnabled">
     <Value>圖片縮放</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.defaultpicturezoomenabled.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultPictureZoomEnabled.Hint">
     <Value>產品資訊頁面可縮放圖片</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.importproductimagesusinghash">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.ImportProductImagesUsingHash">
     <Value>使用哈希導入產品圖像</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.media.importproductimagesusinghash.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Media.ImportProductImagesUsingHash.Hint">
     <Value>檢查使用快速HASHBYTES（hash sum）數據庫功能來比較導入產品時的圖片。 請注意，某些數據庫不支持此功能。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Media.ManufacturerThumbPictureSize">
@@ -9067,19 +9067,19 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Success">
     <Value>電子郵件已成功送入發送佇列。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.test.tokens">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens">
     <Value>代碼</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.test.tokens.description">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens.Description">
     <Value>請輸入您要在下面被替換的代碼</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.test.tokens.hint">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens.Hint">
     <Value>請輸入代碼。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.TestDetails">
     <Value>發送測試電子郵件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.tokens.conditionalstatement">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Tokens.ConditionalStatement">
     <Value>對於條件表達式，使用指令％if（您的條件）... endif％</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Updated">
@@ -9223,10 +9223,10 @@
   <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.MetaTitle.Hint">
     <Value>重寫META標題。預設標題是新聞標題</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.news.newsitems.fields.published">
+  <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.news.newsitems.fields.published.hint">
+  <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.SeName">
@@ -9343,10 +9343,10 @@
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Name.Required">
     <Value>請輸入名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.polls.fields.published">
+  <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.polls.fields.published.hint">
+  <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.ShowOnHomePage">
@@ -9451,7 +9451,7 @@
   <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInSitemap.Hint">
     <Value>選擇從而包含這個主題在網站地圖中。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.topics.fields.includeintopmenu">
+  <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInTopMenu">
     <Value>包含在主菜單中</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInTopMenu.Hint">
@@ -9493,10 +9493,10 @@
   <LocaleResource Name="Admin.ContentManagement.Topics.Fields.Password.Hint">
     <Value>密碼</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.topics.fields.published">
+  <LocaleResource Name="Admin.ContentManagement.Topics.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.topics.fields.published.hint">
+  <LocaleResource Name="Admin.ContentManagement.Topics.Fields.Published.Hint">
     <Value>決定您的商店中是否發布（可見）此主題。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Topics.Fields.SeName">
@@ -9538,7 +9538,7 @@
   <LocaleResource Name="Admin.ContentManagement.Topics.Fields.TopicTemplate">
     <Value>主題文章版型</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.topics.fields.topictemplate.hint">
+  <LocaleResource Name="Admin.ContentManagement.Topics.Fields.TopicTemplate.Hint">
     <Value>選擇主題板型，此板型定義如何顯示此主題。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Topics.Fields.URL">
