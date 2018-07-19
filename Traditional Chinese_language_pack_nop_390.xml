@@ -2343,7 +2343,7 @@
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Store">
     <Value>商店</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.productreviews.fields.store.hint">
+  <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Store.Hint">
     <Value>寫這個評論的商店名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Title">
@@ -2475,10 +2475,10 @@
   <LocaleResource Name="admin.catalog.products.copy.name.new">
     <Value>{0} - copy</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.copy.published">
+  <LocaleResource Name="Admin.Catalog.Products.Copy.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.copy.published.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Copy.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.CrossSells">
@@ -2538,10 +2538,10 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.AllowAddingOnlyExistingAttributeCombinations.Hint">
     <Value>檢查允許新增購物車/收藏列表只有屬性組合存在且庫存大於零。在這種情況下,您必須創建所有現有商品屬性的組合併保證有庫存.</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.allowbackinstocksubscriptions">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.AllowBackInStockSubscriptions">
     <Value>允許會員預先訂購</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.allowbackinstocksubscriptions.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.AllowBackInStockSubscriptions.Hint">
     <Value>允許會員訂購已經缺貨的商品。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.AllowCustomerReviews">
@@ -2571,10 +2571,10 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableEndDateTime">
     <Value>可用的結束日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.availableenddatetime.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableEndDateTime.Hint">
     <Value>該商品的可用性以世界協調時間 (UTC) 的結尾。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.availableforpreorder">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableForPreOrder">
     <Value>接受預購</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableForPreOrder.Hint">
@@ -2583,7 +2583,7 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStartDateTime">
     <Value>可用的開始日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.availablestartdatetime.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStartDateTime.Hint">
     <Value>該商品的可用性以世界協調時間 (UTC) 的開始。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStores">
@@ -2643,7 +2643,7 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.CategoryIds.Hint">
     <Value>商品目錄映射.</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.createdon">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
     <Value>建立時間</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn.Hint">
@@ -2784,10 +2784,10 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.IsRental">
     <Value>是否租用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.isrental.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.IsRental.Hint">
     <Value>選擇如果這是租用商品 （設定價格在一定時間段）。請注意庫存管理還沒有完全支持商品租用。推薦設定『庫存管理方法』 為『不跟蹤庫存』。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.isshipenabled">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.IsShipEnabled">
     <Value>需配送</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.IsShipEnabled.Hint">
@@ -2844,7 +2844,7 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers">
     <Value>所屬品牌</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.manufacturers.nomanufacturersavailable">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.NoManufacturersAvailable">
     <Value>選擇品牌</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNew">
@@ -2926,14 +2926,12 @@
     <Value>不可退貨</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.NotReturnable.Hint">
-    <Value>
-      檢查此商品是否不可退回。 在這種情況下，會員不能被允許提交退貨請求。
-    </Value>
+    <Value>檢查此商品是否不可退回。 在這種情況下，會員不能被允許提交退貨請求。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.oldprice">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.OldPrice">
     <Value>店面價</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.oldprice.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.OldPrice.Hint">
     <Value>或名實際售價，即在實體店面銷售的價格。如果您設定了一個店面價，將會在頁面上顯示網路價與店面價的差異。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMaximumQuantity">
@@ -2963,19 +2961,19 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.PreOrderAvailabilityStartDateTimeUtc.Hint">
     <Value>商品的可用開始日期。當到達設定日期時，「預定」按鈕將自動更改為「加入購物車」.</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.price">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Price">
     <Value>網路價</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.price.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Price.Hint">
     <Value>在平台銷售的價格。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.productavailabilityrange">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.ProductAvailabilityRange">
     <Value>商品可用範圍</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.productavailabilityrange.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.ProductAvailabilityRange.Hint">
     <Value>指產品在缺貨時預計可供貨的期間（例如Available in 10-14 days）。 您可以通過系統設定&gt;配送管理&gt;交貨日期管理、設定可用性範圍。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.productavailabilityrange.none">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.ProductAvailabilityRange.None">
     <Value>None</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductCost">
@@ -3005,10 +3003,10 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductType.Hint">
     <Value>請選擇您的商品類型。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.published">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.published.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.RecurringCycleLength">
@@ -3089,7 +3087,7 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.ShowOnHomePage.Hint">
     <Value>首頁顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.sku">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="admin.catalog.products.fields.sku.hint">
@@ -3205,19 +3203,19 @@
   <LocaleResource Name="Admin.Catalog.Products.Info">
     <Value>基本資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.inventory">
+  <LocaleResource Name="Admin.Catalog.Products.Inventory">
     <Value>庫存</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.DownloadPDF">
     <Value>匯出PDF文件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.list.godirectlytosku">
+  <LocaleResource Name="Admin.Catalog.Products.List.GoDirectlyToSku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.list.godirectlytosku.hint">
+  <LocaleResource Name="Admin.Catalog.Products.List.GoDirectlyToSku.Hint">
     <Value>直接轉到商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.list.importfromexceltip">
+  <LocaleResource Name="Admin.Catalog.Products.List.ImportFromExcelTip">
     <Value>如果SKU已經存在，匯入的商品將不會新增，而是會更新至其相應的商品。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchCategory">
@@ -3250,13 +3248,13 @@
   <LocaleResource Name="Admin.Catalog.Products.List.SearchProductType.Hint">
     <Value>按商品類型進行搜尋。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.list.searchpublished">
+  <LocaleResource Name="Admin.Catalog.Products.List.SearchPublished">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.All">
     <Value>全部</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.list.searchpublished.hint">
+  <LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.Hint">
     <Value>搜尋『已發佈』屬性。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.PublishedOnly">
@@ -3346,22 +3344,22 @@
   <LocaleResource Name="Admin.Catalog.Products.Prices">
     <Value>價格</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes">
     <Value>商品屬性</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations">
     <Value>屬性組合</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.addnew">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.AddNew">
     <Value>新增組合</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes.Attributecombinations.Addtitle">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.AddTitle">
     <Value>選擇新組合並且在下面輸入詳細資訊</Value>
   </LocaleResource>
   <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.allowoutofstock">
     <Value>允許缺貨</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.description">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Description">
     <Value>屬性組合變得非常有用當您的'管理庫存方式'設定為'通過商品屬性跟蹤庫存'</Value>
   </LocaleResource>
   <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.description2">
@@ -3922,7 +3920,7 @@
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Fields.AllowFiltering.Hint">
     <Value>允許該商品通過規格過濾</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.specificationattributes.fields.attributetype">
+  <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Fields.AttributeType">
     <Value>屬性類型</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Fields.AttributeType.Hint">
@@ -3958,7 +3956,7 @@
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Fields.SpecificationAttributeOption.Hint">
     <Value>屬性規格值。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.specificationattributes.fields.value">
+  <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Fields.Value">
     <Value>屬性規格值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Hint">
@@ -3973,25 +3971,25 @@
   <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory">
     <Value>庫存歷史</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.fields.combination">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Fields.Combination">
     <Value>屬性組合</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.fields.createdon">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Fields.CreatedOn">
     <Value>建立日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.fields.message">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Fields.Message">
     <Value>訊息</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.fields.quantityadjustment">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Fields.QuantityAdjustment">
     <Value>庫存數量變動</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.fields.stockquantity">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Fields.StockQuantity">
     <Value>庫存數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.fields.warehouse">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Fields.Warehouse">
     <Value>倉庫</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.stockquantityhistory.hint">
+  <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Hint">
     <Value>可以知道庫存的歷史變動</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Stores">
