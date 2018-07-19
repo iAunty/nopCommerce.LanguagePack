@@ -11657,7 +11657,7 @@
   <LocaleResource Name="Admin.Orders.Shipments.OrderID.Hint">
     <Value>這個貨運有關的訂單。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.printpackagingslip">
+  <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip">
     <Value>匯出貨物清單</Value>
   </LocaleResource>
   <LocaleResource Name="admin.orders.shipments.printpackagingslip.all">
@@ -11666,13 +11666,13 @@
   <LocaleResource Name="admin.orders.shipments.printpackagingslip.selected">
     <Value>匯出所選出貨單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.printpackagingslips">
+  <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlips">
     <Value>匯出出貨單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.printpackagingslips.all">
+  <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlips.All">
     <Value>匯出全部出貨單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.printpackagingslips.selected">
+  <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlips.Selected">
     <Value>匯出所選出貨單</Value>
   </LocaleResource>
   <LocaleResource Name="admin.orders.shipments.printpickinglist.all">
@@ -11705,7 +11705,7 @@
   <LocaleResource Name="Admin.Orders.Shipments.Products.ShipSeparately.Warning">
     <Value>報警: </Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.products.sku">
+  <LocaleResource Name="Admin.Orders.Shipments.Products.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse">
@@ -11741,7 +11741,7 @@
   <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Button">
     <Value>標記為已出貨</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.shippeddate.enterutc">
+  <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.EnterUtc">
     <Value>日期和時間應輸入以世界協調時間 (UTC)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Hint">
@@ -11765,7 +11765,7 @@
   <LocaleResource Name="Admin.Orders.Shipments.TrackingNumber.Button">
     <Value>儲存</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.shipments.trackingnumber.hint">
+  <LocaleResource Name="Admin.Orders.Shipments.TrackingNumber.Hint">
     <Value>宅配單號</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Shipments.TrackingNumber.ViewOnline">
@@ -11792,7 +11792,7 @@
   <LocaleResource Name="Admin.Pager.First">
     <Value>首頁</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.pager.itemsperpage">
+  <LocaleResource Name="Admin.Pager.ItemsPerPage">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Pager.Last">
@@ -11813,7 +11813,7 @@
   <LocaleResource Name="Admin.Pager.Previous">
     <Value>上頁</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.pager.refresh">
+  <LocaleResource Name="Admin.Pager.Refresh">
     <Value>刷新</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.PageTitle">
@@ -11849,10 +11849,10 @@
   <LocaleResource Name="Admin.Promotions.Campaigns.EditCampaignDetails">
     <Value>編輯活動</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.fields.allowedtokens">
+  <LocaleResource Name="Admin.Promotions.Campaigns.Fields.AllowedTokens">
     <Value>可接受的代碼</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.fields.allowedtokens.hint">
+  <LocaleResource Name="Admin.Promotions.Campaigns.Fields.AllowedTokens.Hint">
     <Value>可接受的代碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Body">
@@ -11870,7 +11870,7 @@
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRole">
     <Value>限定於會員角色</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.fields.customerrole.hint">
+  <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRole.Hint">
     <Value>選擇訂閱者中將收到此電子郵件的客戶角色。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.DontSendBeforeDate">
@@ -11879,10 +11879,10 @@
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.DontSendBeforeDate.Hint">
     <Value />
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.fields.emailaccount">
+  <LocaleResource Name="Admin.Promotions.Campaigns.Fields.EmailAccount">
     <Value>電子郵件帳戶</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.fields.emailaccount.hint">
+  <LocaleResource Name="Admin.Promotions.Campaigns.Fields.EmailAccount.Hint">
     <Value>這次活動的寄件信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Name">
@@ -11897,7 +11897,7 @@
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Store">
     <Value>限定於商店中</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.fields.store.hint">
+  <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Store.Hint">
     <Value>選擇訂閱者中將收到這個電子郵件的商店。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Subject">
@@ -11918,7 +11918,7 @@
   <LocaleResource Name="Admin.Promotions.Campaigns.List.Stores">
     <Value>Store</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.campaigns.list.stores.hint">
+  <LocaleResource Name="Admin.Promotions.Campaigns.List.Stores.Hint">
     <Value>特定商店搜尋</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Campaigns.MassEmailSentToCustomers">
@@ -12059,7 +12059,7 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.IsCumulative">
     <Value>累計其它折扣</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.fields.iscumulative.hint">
+  <LocaleResource Name="Admin.Promotions.Discounts.Fields.IsCumulative.Hint">
     <Value>勾選此項，該折扣可以與其他折扣同時使用。 請注意，此功能僅適用於具有相同折扣類型的折扣。 現在，不同類型的折扣已經累積了。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.LimitationTimes">
@@ -12074,7 +12074,7 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount">
     <Value>最大優惠金額</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.fields.maximumdiscountamount.hint">
+  <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount.Hint">
     <Value>最大允許的優惠金額。不輸入（留空）則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地應用到每一個商品。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity">
@@ -12101,7 +12101,7 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.StartDate">
     <Value>開始日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.fields.startdate.hint">
+  <LocaleResource Name="Admin.Promotions.Discounts.Fields.StartDate.Hint">
     <Value>優惠週期開始日期是使用世界協調時間 (UTC)。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.TimesUsed">
@@ -12158,7 +12158,7 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.DefaultRequirementGroup">
     <Value>預設折扣要求組</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.description">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Description">
     <Value>如果創建的折扣要根據客戶角色、花費的金額等要求，限制某些用戶，您可以使用單一類型或組合幾種類型並同時應用，需求組合是創建折扣要求模板的有用功能，您可以只創建一個需求組和，然後每次要應用此限制時使用它，如果需要，您可以將另外一個需求組合。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.DiscountRequirementType">
@@ -12176,34 +12176,34 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.FailedToSave">
     <Value>保存失敗</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.groupisempty">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupIsEmpty">
     <Value>群組是空</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupName">
     <Value>組名</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.interactiontypeingroup">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.InteractionTypeInGroup">
     <Value>群組間的邏輯關係</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Remove">
     <Value>移除</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.removegroup">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RemoveGroup">
     <Value>移除群組</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.removerequirement">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RemoveRequirement">
     <Value>移除要求</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.requirement.title">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Requirement.Title">
     <Value>Requirement</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.requirementgroup">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RequirementGroup">
     <Value>加入的群組</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.requirementgroup.hint">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RequirementGroup.Hint">
     <Value>選擇創建的需求組是屬於哪一組別</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.promotions.discounts.requirements.requirementgroup.title">
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RequirementGroup.Title">
     <Value>群組：</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.SaveBeforeEdit">
@@ -12407,7 +12407,7 @@
   <LocaleResource Name="Admin.ReturnRequests.Deleted">
     <Value>刪除退貨請求成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.returnrequests.description">
+  <LocaleResource Name="Admin.ReturnRequests.Description">
     <Value>退貨請求功能（RMA）使客戶可以將產品發回給您，在這裡您可以找到所有提交的退貨請求。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ReturnRequests.EditReturnRequestDetails">
@@ -12434,7 +12434,7 @@
   <LocaleResource Name="Admin.ReturnRequests.Fields.CustomNumber">
     <Value>ID</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.returnrequests.fields.customnumber.hint">
+  <LocaleResource Name="Admin.ReturnRequests.Fields.CustomNumber.Hint">
     <Value>退貨請求編號，可至系統設定 =&gt;參數設定=&gt; 訂單設定 =&gt;退貨請情，設定編號規則</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ReturnRequests.Fields.CustomOrderNumber">
@@ -12551,10 +12551,10 @@
   <LocaleResource Name="Admin.SalesReport.Bestsellers">
     <Value>暢銷商品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.bestsellers.billingcountry">
+  <LocaleResource Name="Admin.SalesReport.Bestsellers.BillingCountry">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.bestsellers.billingcountry.hint">
+  <LocaleResource Name="Admin.SalesReport.Bestsellers.BillingCountry.Hint">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.ByAmount">
@@ -12707,10 +12707,10 @@
   <LocaleResource Name="Admin.SalesReport.NeverSold.SearchManufacturer">
     <Value>品牌</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.neversold.searchstore">
+  <LocaleResource Name="Admin.SalesReport.NeverSold.SearchStore">
     <Value>商店</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.neversold.searchstore.hint">
+  <LocaleResource Name="Admin.SalesReport.NeverSold.SearchStore.Hint">
     <Value>商品過濾後的商店選項</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.NeverSold.SearchVendor">
