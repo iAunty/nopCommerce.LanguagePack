@@ -8761,8 +8761,8 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Tags.NoDots">
     <Value>標籤不支持逗點。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.blog.blogposts.fields.tags.placeholder">
-    <Value>輸入標籤...</Value>
+  <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Tags.Placeholder">
+    <Value>請輸入標籤...</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Title">
     <Value>標題</Value>
@@ -12416,7 +12416,7 @@
     <Value>編輯退貨請求</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ReturnRequests.Fields.CreatedOn">
-    <Value>創建日期</Value>
+    <Value>建立日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ReturnRequests.Fields.CreatedOn.Hint">
     <Value>創建日期</Value>
@@ -12616,7 +12616,7 @@
   <LocaleResource Name="Admin.SalesReport.Bestsellers.Store">
     <Value>商店</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.bestsellers.store.hint">
+  <LocaleResource Name="Admin.SalesReport.Bestsellers.Store.Hint">
     <Value>從訂單過濾後的商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.Vendor">
@@ -12655,7 +12655,7 @@
   <LocaleResource Name="Admin.SalesReport.Country.PaymentStatus.Hint">
     <Value>特定付款狀態搜尋如已付款</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.salesreport.country.runreport">
+  <LocaleResource Name="Admin.SalesReport.Country.RunReport">
     <Value>運行報表</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.StartDate">
@@ -12785,10 +12785,10 @@
     <Value>刪除系統日誌成功</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Log.DeleteSelected">
-    <Value>刪除所選</Value>
+    <Value>刪除選擇項目</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Log.Fields.CreatedOn">
-    <Value>創建日期</Value>
+    <Value>建立日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Log.Fields.CreatedOn.Hint">
     <Value>創建日期</Value>
@@ -13232,7 +13232,7 @@
     <Value>標準</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.SeNames.Name">
-    <Value>名稱</Value>
+    <Value>姓名</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.SeNames.Name.Hint">
     <Value>名稱</Value>
@@ -13351,7 +13351,7 @@
   <LocaleResource Name="Admin.System.Templates.Product.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.templates.product.ignoredproducttypes">
+  <LocaleResource Name="Admin.System.Templates.Product.IgnoredProductTypes">
     <Value>忽略產品類型Id (advanced)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Templates.Product.Name">
@@ -13898,10 +13898,10 @@
     <Value>新增一個供應商</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.VendorNotes.AddTitle">
-    <Value>A新增一個供應商備註</Value>
+    <Value>新增一個供應商備註</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.VendorNotes.Fields.CreatedOn">
-    <Value>創建於</Value>
+    <Value>建立於</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.VendorNotes.Fields.Note">
     <Value>說明</Value>
@@ -13909,11 +13909,11 @@
   <LocaleResource Name="Admin.Vendors.VendorNotes.Fields.Note.Hint">
     <Value>輸入供應商備註資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="backinstocksubscriptions.alreadysubscribed">
+  <LocaleResource Name="BackInStockSubscriptions.AlreadySubscribed">
     <Value>你已經訂閱該商品的到貨通知了，確定要移除訂閱嗎？</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.MaxSubscriptions">
-    <Value>您不能訂閱。最大允許訂閱數 {0}</Value>
+    <Value>您不能訂閱。最大允許訂閱數為 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="BackInStockSubscriptions.NotAllowed">
     <Value>對該商品的用戶不允許</Value>
@@ -13939,10 +13939,10 @@
   <LocaleResource Name="Bestsellers">
     <Value>熱賣商品</Value>
   </LocaleResource>
-  <LocaleResource Name="blog">
+  <LocaleResource Name="Blog">
     <Value>部落格</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.archive">
+  <LocaleResource Name="Blog.Archive">
     <Value>部落格檔案</Value>
   </LocaleResource>
   <LocaleResource Name="blog.categories">
@@ -13966,7 +13966,7 @@
   <LocaleResource Name="Blog.Comments.OnlyRegisteredUsersLeaveComments">
     <Value>只有註冊用戶才能評論。</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.comments.seeafterapproving">
+  <LocaleResource Name="Blog.Comments.SeeAfterApproving">
     <Value>部落格評論已成功添加， 您將在商店管理員批准後看到它。</Value>
   </LocaleResource>
   <LocaleResource Name="Blog.Comments.SubmitButton">
@@ -13981,10 +13981,10 @@
   <LocaleResource Name="blog.filteredbycategory">
     <Value>{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.filteredbymonth">
+  <LocaleResource Name="Blog.FilteredByMonth">
     <Value>部落格文章 '{0}' '{1}'</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.moreinfo">
+  <LocaleResource Name="Blog.MoreInfo">
     <Value>詳細</Value>
   </LocaleResource>
   <LocaleResource Name="Blog.RSS">
@@ -13993,13 +13993,13 @@
   <LocaleResource Name="Blog.RSS.Hint">
     <Value>點擊這裡時自動被告知我們，新項目新增到我們的網站</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.tagcloud">
+  <LocaleResource Name="Blog.TagCloud">
     <Value>熱門關鍵字</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.taggedwith">
+  <LocaleResource Name="Blog.TaggedWith">
     <Value>部落格文章標記 '{0}'</Value>
   </LocaleResource>
-  <LocaleResource Name="blog.tags">
+  <LocaleResource Name="Blog.Tags">
     <Value>標籤</Value>
   </LocaleResource>
   <LocaleResource Name="bloghomepage.block1">
@@ -14017,13 +14017,13 @@
   <LocaleResource Name="catalog.pagesize">
     <Value>顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="catalog.pagesize.perpage">
+  <LocaleResource Name="Catalog.PageSize.PerPage">
     <Value>每頁</Value>
   </LocaleResource>
-  <LocaleResource Name="catalog.viewmode">
+  <LocaleResource Name="Catalog.ViewMode">
     <Value>瀏覽為</Value>
   </LocaleResource>
-  <LocaleResource Name="catalog.viewmode.grid">
+  <LocaleResource Name="Catalog.ViewMode.Grid">
     <Value>網格</Value>
   </LocaleResource>
   <LocaleResource Name="catalog.viewmode.list">
@@ -14087,7 +14087,7 @@
     <Value>請稍等，幾秒鐘之前保存了一個新的訂單(幾秒鐘前已經提交另一個訂單)。</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.MinOrderSubtotalAmount">
-    <Value>最低訂單金額小計 {0}</Value>
+    <Value>最低訂單金額為 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.MinOrderTotalAmount">
     <Value>最低訂單總金額 {0}</Value>
@@ -14102,7 +14102,7 @@
     <Value>沒有可用的付款方式</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.OrderNumber">
-    <Value>訂單號</Value>
+    <Value>訂購單編號</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.OrderSummary">
     <Value>訂單匯總</Value>
@@ -14155,8 +14155,8 @@
   <LocaleResource Name="Checkout.SelectBillingAddress">
     <Value>選擇帳單地址</Value>
   </LocaleResource>
-  <LocaleResource Name="checkout.selectbillingaddressorenternewone">
-    <Value>從您的地址簿選擇一個帳單寄送地址或輸入一個新的地址。</Value>
+  <LocaleResource Name="Checkout.SelectBillingAddressOrEnterNewOne">
+    <Value>請選擇帳單地址或是新增帳單地址</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.SelectPaymentMethod">
     <Value>選擇付款方式</Value>
