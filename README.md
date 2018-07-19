@@ -2,9 +2,10 @@
 this language is fork from https://www.nopcommerce.com/p/2854/traditional-chinese-language-pack-390.aspx   
 .   
 feel free to give a pull request if you have a better translate.    
-.
+.   
 目前這份專案主要是維護中文版的nopCommerce翻譯   
 來源 : https://www.nopcommerce.com/p/2854/traditional-chinese-language-pack-390.aspx   
+.   
 使用方式 :   
 下載完後   
 1.以administrator身份登入並進入後台後，依路徑：Configuration > Languages進入語言編輯頁面。   
