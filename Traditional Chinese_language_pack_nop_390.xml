@@ -3082,7 +3082,7 @@
     <Value>簡短說明</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ShowOnHomePage">
-    <Value>首頁顯示</Value>
+    <Value>在首頁顯示</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ShowOnHomePage.Hint">
     <Value>首頁顯示</Value>
@@ -4145,7 +4145,7 @@
   <LocaleResource Name="Admin.Common.ImportFromExcel">
     <Value>從Excel匯入</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.common.importfromexcel.manyrecordswarning">
+  <LocaleResource Name="Admin.Common.ImportFromExcel.ManyRecordsWarning">
     <Value>匯入需要大量的內存資源。 建議不要一次匯入超過500 - 1,000條記錄， 如果您有更多的記錄，最好將它們分成多個Excel文件並單獨匯入。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Common.List">
@@ -4559,10 +4559,10 @@
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.Name.Required">
     <Value>請輸入名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.currencies.fields.published">
+  <LocaleResource Name="Admin.Configuration.Currencies.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.currencies.fields.published.hint">
+  <LocaleResource Name="Admin.Configuration.Currencies.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.Rate">
@@ -6803,11 +6803,11 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SEOSettings">
     <Value>搜尋引擎優化設定</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapenabled">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapEnabled">
     <Value>網站地圖啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapenabled.hint">
-    <Value>網站地圖啟用</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapEnabled.Hint">
+    <Value>點選以啟用網站地圖</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludecategories">
     <Value>網站地圖包含產品分類</Value>
@@ -8870,13 +8870,13 @@
   <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.DisplayOrder.Hint">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.forums.forum.fields.forumgroupid">
+  <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.ForumGroupId">
     <Value>所屬論壇主題</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.forums.forum.fields.forumgroupid.hint">
+  <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.ForumGroupId.Hint">
     <Value>選擇所屬論壇主題</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.forums.forum.fields.forumgroupid.required">
+  <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.ForumGroupId.Required">
     <Value>請選擇所屬論壇主題</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.Name">
@@ -17114,22 +17114,22 @@
   <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Store">
     <Value>商店</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.store.hint">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Store.Hint">
     <Value>If an asterisk is selected, then this shipping rate will apply to all stores.</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.taxcategory">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.TaxCategory">
     <Value>稅務分類</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.taxcategory.hint">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.TaxCategory.Hint">
     <Value>稅務分類</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.TaxCategoryName">
     <Value>稅務分類</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.zip">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Zip">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.zip.hint">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Zip.Hint">
     <Value>Zip / postal code. If zip is empty, then this tax rate will apply to all customers from the given country or state, regardless of the zip code.</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fixed">
@@ -17180,10 +17180,10 @@
   <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.IncludingTax.Hint">
     <Value>選擇從而包括稅當生成跟蹤碼給{ECOMMERCE}部分。</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.widgets.googleanalytics.instructions">
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.Instructions">
     <Value>&lt;p&gt;Google Analytics（分析）是Google免費的網站統計工具。 它跟踪您的網站上的訪問者和電子商務轉化的統計信息。&lt;br /&gt;&lt;br /&gt;按照以下步驟啟用Google Analytics（分析）：&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://www.google.com/analytics/" target="_blank"&gt; 創建Google Analytics帳戶&lt;/a&gt; ，然後按照嚮導添加您的網站&lt;/li&gt;&lt;li&gt;將跟踪ID複製到下面的“ID”框中&lt;/li&gt;&lt;li&gt; 點擊下面的“儲存”按鈕，Google Analytics（分析）將被整合到您的商店中&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;如果您希望在Google Analytics（默認使用）和Universal Analytics之間切換，請使用以下按鈕：&lt;/p&gt;</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.widgets.googleanalytics.note">
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.Note">
     <Value>&lt;p&gt;&lt;em&gt;請注意，{ECOMMERCE}行僅在“不使用訂單已完成頁”訂單設置為無效時才起作用。&lt;/em&gt;&lt;/p&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.TrackingScript">
