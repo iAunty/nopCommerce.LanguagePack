@@ -36,7 +36,7 @@
   <LocaleResource Name="Account.Avatar">
     <Value>頭像</Value>
   </LocaleResource>
-  <LocaleResource Name="account.avatar.maximumuploadedfilesize">
+  <LocaleResource Name="Account.Avatar.MaximumUploadedFileSize">
     <Value>文件大小不能超過{0} bytes</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Avatar.RemoveAvatar">
@@ -45,7 +45,7 @@
   <LocaleResource Name="Account.Avatar.UploadRules">
     <Value>文件必須是GIF或JPEG格式並且文件大小不能超過20 KB</Value>
   </LocaleResource>
-  <LocaleResource Name="account.backinstocksubscriptions">
+  <LocaleResource Name="Account.BackInStockSubscriptions">
     <Value>預購商品</Value>
   </LocaleResource>
   <LocaleResource Name="Account.BackInStockSubscriptions.DeleteSelected">
@@ -600,7 +600,7 @@
   <LocaleResource Name="Account.Register.Unsuccessful">
     <Value>註冊失敗，請重試</Value>
   </LocaleResource>
-  <LocaleResource Name="account.rewardpoints">
+  <LocaleResource Name="Account.RewardPoints">
     <Value>我的紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ShoppingCart">
@@ -2472,7 +2472,7 @@
   <LocaleResource Name="Admin.Catalog.Products.Copy.Name.Hint">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.copy.name.new">
+  <LocaleResource Name="Admin.Catalog.Products.Copy.Name.New">
     <Value>{0} - copy</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Published">
@@ -6809,22 +6809,22 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapEnabled.Hint">
     <Value>點選以啟用網站地圖</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludecategories">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeCategories">
     <Value>網站地圖包含產品分類</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludecategories.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeCategories.Hint">
     <Value>網站地圖包含產品分類</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludemanufacturers">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeManufacturers">
     <Value>網站地圖包含製造商</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludemanufacturers.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeManufacturers.Hint">
     <Value>網站地圖包含製造商</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludeproducts">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeProducts">
     <Value>網站地圖包含商品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.sitemapincludeproducts.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeProducts.Hint">
     <Value>網站地圖包含商品</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosed">
@@ -6866,10 +6866,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.UseImagesForLanguageSelection.Hint">
     <Value>使用圖片選擇語言種類</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.usesystememailforcontactusform">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.UseSystemEmailForContactUsForm">
     <Value>設定『聯絡我們』寄件者為系統信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.usesystememailforcontactusform.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.UseSystemEmailForContactUsForm.Hint">
     <Value>使用系統電子郵件作為『聯絡我們』訊息的寄件者。未勾選，寄件者將採用會員的電子郵件。請注意，有些電子郵件系統不允許這種操作。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.WwwRequirement">
@@ -7085,7 +7085,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder">
     <Value>禮品卡啟用時訂單狀態是"已完成"</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.activategiftcardsaftercompletingorder.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.AllowAdminsToBuyCallForPriceProducts.Hint">
     <Value>當訂單狀態轉成"已完成"，啟動禮品卡</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.AnonymousCheckoutAllowed">
@@ -7160,19 +7160,19 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Hint">
     <Value>訂單編號規則</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.deactivategiftcardsaftercancellingorder">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterCancellingOrder">
     <Value>禮品卡停用時，訂單狀態是"取消"</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.deactivategiftcardsaftercancellingorder.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterCancellingOrder.Hint">
     <Value>取消訂單時，禮品卡停用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.deactivategiftcardsafterdeletingorder">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterDeletingOrder">
     <Value>禮品卡停用時，訂單被刪除</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.deactivategiftcardsafterdeletingorder.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterDeletingOrder.Hint">
     <Value>訂單被刪除後，禮品卡停用</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.disablebillingaddresscheckoutstep">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DisableBillingAddressCheckoutStep">
     <Value>不使用「帳單地址」這步驟:</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.DisableBillingAddressCheckoutStep.Hint">
@@ -7238,10 +7238,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.NumberOfDaysReturnRequestAvailable">
     <Value>退貨有效期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.numberofdaysreturnrequestavailable.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.NumberOfDaysReturnRequestAvailable.Hint">
     <Value>設定退貨連結在會員頁面上顯示的天數.例如店主可以設定30天,這樣會員30天後登入後在"會員中心"的已完成訂單中無法看見退貨按鈕</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.onepagecheckoutdisplayordertotalsonpaymentinfotab">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.OnePageCheckoutDisplayOrderTotalsOnPaymentInfoTab">
     <Value>訂單小計付款資訊選項卡</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.OnePageCheckoutDisplayOrderTotalsOnPaymentInfoTab.Hint">
@@ -7304,19 +7304,19 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask">
     <Value>退貨請求編號規則</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.dd">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.DD">
     <Value>{DD} - 退貨請求建立日期</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.id">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.ID">
     <Value>{ID} - 退貨請求流水號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.mm">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.MM">
     <Value>{MM} - 退貨請求建立月份</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.yy">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.YY">
     <Value>{YY} - 退貨請求建立年份最後兩位數</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.order.returnrequestnumbermask.description.yyyy">
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.YYYY">
     <Value>{YYYY} - 退貨請求建立年份</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Hint">
@@ -8198,10 +8198,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.MaximumProductNumber.Hint">
     <Value>設定供應商管理商品最大數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.notifystoreowneraboutvendorinformationchange">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange">
     <Value>供應商更改資料通知管理員</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.vendor.notifystoreowneraboutvendorinformationchange.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange.Hint">
     <Value>供應商更改資料後，系統會寄一封信提醒管理員</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage">
@@ -8384,22 +8384,22 @@
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges">
     <Value>商品可用範圍</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.productavailabilityranges.addnew">
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.AddNew">
     <Value>新增一個新的商品可用範圍</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.productavailabilityranges.backtolist">
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.BackToList">
     <Value>返回商品可用範圍列表</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.productavailabilityranges.fields.displayorder.hint">
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.DisplayOrder.Hint">
     <Value>這個商品可用範圍的顯示順序。1代表列表的頂部。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.shipping.productavailabilityranges.fields.name.hint">
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name.Hint">
     <Value>輸入商品可用範圍名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Hint">
@@ -8972,10 +8972,10 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AvailableStores.Hint">
     <Value>選擇要顯示此郵件內容版型的商店</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.bccemailaddresses">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.BccEmailAddresses">
     <Value>密件副本</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.bccemailaddresses.hint">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.BccEmailAddresses.Hint">
     <Value>密件副本</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.Body">
@@ -8987,10 +8987,10 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.Body.Required">
     <Value>請輸入內容</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.delaybeforesend">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.DelayBeforeSend">
     <Value>延遲寄送</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.delaybeforesend.hint">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.DelayBeforeSend.Hint">
     <Value>延遲寄送</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.EmailAccount">
@@ -9020,10 +9020,10 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.Name.Hint">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.sendimmediately">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.SendImmediately">
     <Value>立即發送</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.sendimmediately.hint">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.SendImmediately.Hint">
     <Value>立即寄送訊息</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.Subject">
@@ -9839,13 +9839,13 @@
   <LocaleResource Name="Admin.Customers.Customers.Addresses.Updated">
     <Value>修改地址成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.adminaccountshouldexists.deactivate">
+  <LocaleResource Name="Admin.Customers.Customers.AdminAccountShouldExists.Deactivate">
     <Value>您不可停用最後一個管理員，至少應有一個管理員帳戶。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.adminaccountshouldexists.deleteadministrator">
+  <LocaleResource Name="Admin.Customers.Customers.AdminAccountShouldExists.DeleteAdministrator">
     <Value>您不可刪掉最後一個管理員，至少應有一個管理員帳戶。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.adminaccountshouldexists.deleterole">
+  <LocaleResource Name="Admin.Customers.Customers.AdminAccountShouldExists.DeleteRole">
     <Value>您不可移除最後一個管理員，至少應有一個管理員帳戶。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.AdminCouldNotbeVendor">
@@ -10139,19 +10139,19 @@
   <LocaleResource Name="Admin.Customers.Customers.Fields.Vendor">
     <Value>供應商經理</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.fields.vendor.hint">
+  <LocaleResource Name="Admin.Customers.Customers.Fields.Vendor.Hint">
     <Value>選擇此顧客帳戶要關聯的供應商。關聯以後此顧客可以入錄對應的供應商頁面來管理他的商品和訂單。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Vendor.None">
     <Value>不是供應商</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.fields.zippostalcode">
+  <LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.fields.zippostalcode.hint">
+  <LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode.Hint">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.fields.zippostalcode.required">
+  <LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode.Required">
     <Value>請輸入郵遞區號</Value>
   </LocaleResource>
   <LocaleResource Name="admin.customers.customers.impersonate">
@@ -10160,10 +10160,10 @@
   <LocaleResource Name="Admin.Customers.Customers.Impersonate.Button">
     <Value>模擬用戶下單</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.impersonate.description1">
+  <LocaleResource Name="Admin.Customers.Customers.Impersonate.Description1">
     <Value>通過代客下單，您能看到和用戶幾乎完全一樣的界面(除了菜單頭部有'模擬為customer@email-結束代客下單'外)。瀏覽會員需要的商品並像用戶一樣把它們新增到購物車，然後通過'付款'按鈕完成以往的購物流程。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.impersonate.description2">
+  <LocaleResource Name="Admin.Customers.Customers.Impersonate.Description2">
     <Value>備註：點擊'完成會話'以結束代客下單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Info">
@@ -10229,10 +10229,10 @@
   <LocaleResource Name="Admin.Customers.Customers.List.SearchUsername.Hint">
     <Value>用戶名篩選</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.list.searchzipcode">
+  <LocaleResource Name="Admin.Customers.Customers.List.SearchZipCode">
     <Value>郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.list.searchzipcode.hint">
+  <LocaleResource Name="Admin.Customers.Customers.List.SearchZipCode.Hint">
     <Value>郵遞區號篩選</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders">
@@ -10895,7 +10895,7 @@
   <LocaleResource Name="Admin.Orders.Fields.CustomOrderNumber">
     <Value>訂單ID</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.orders.fields.customordernumber.hint">
+  <LocaleResource Name="Admin.Orders.Fields.CustomOrderNumber.Hint">
     <Value>訂單編號、可至系統設定 =&gt; 參數設定 =&gt; 訂單設定，編輯規則</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.CustomValues">
