@@ -12743,25 +12743,25 @@
   <LocaleResource Name="Admin.SearchTermReport.Keyword">
     <Value>關鍵字</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.combination.edit">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.Combination.Edit">
     <Value>商品屬性組合庫存數量修改</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.edit">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.Edit">
     <Value>商品庫存數量修改</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.editorder">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditOrder">
     <Value>通過訂單＃{0}改變庫存數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.editwarehouse">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse">
     <Value>產品已被移動{0} {1}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.editwarehouse.new">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse.New">
     <Value>到{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.editwarehouse.old">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse.Old">
     <Value>從{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.stockquantityhistory.messages.placeorder">
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.PlaceOrder">
     <Value>通過訂單＃{0}減少庫存數量</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System">
@@ -12824,7 +12824,7 @@
   <LocaleResource Name="Admin.System.Log.Fields.ReferrerURL">
     <Value>引用連結</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.log.fields.referrerurl.hint">
+  <LocaleResource Name="Admin.System.Log.Fields.ReferrerURL.Hint">
     <Value>引用連結(URL)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Log.Fields.ShortMessage">
@@ -13058,10 +13058,10 @@
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyToName.Hint">
     <Value>回覆到 姓名（可選）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.queuedemails.fields.sendimmediately">
+  <LocaleResource Name="Admin.System.QueuedEmails.Fields.SendImmediately">
     <Value>立即發送</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.queuedemails.fields.sendimmediately.hint">
+  <LocaleResource Name="Admin.System.QueuedEmails.Fields.SendImmediately.Hint">
     <Value>立即寄送訊息</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.SentOn">
@@ -13088,7 +13088,7 @@
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.Subject">
     <Value>主題</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.queuedemails.fields.subject.hint">
+  <LocaleResource Name="Admin.System.QueuedEmails.Fields.Subject.Hint">
     <Value>郵件主題。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.To">
@@ -13862,7 +13862,7 @@
   <LocaleResource Name="Admin.Vendors.Fields.PageSizeOptions.Hint">
     <Value>逗號分隔的列表頁面大小選項(例如10、5、15、20)。第一個選項是預設頁面大小如果沒有被選中。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.vendors.fields.pagesizeoptions.shouldhaveuniqueitems">
+  <LocaleResource Name="Admin.Vendors.Fields.PageSizeOptions.ShouldHaveUniqueItems">
     <Value>分頁選項不應存在重複值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Fields.Picture">
@@ -14009,10 +14009,10 @@
   <LocaleResource Name="Captcha is enabled but the appropriate keys are not entered">
     <Value>驗證碼已啟用，但沒有輸入相應的密鑰</Value>
   </LocaleResource>
-  <LocaleResource Name="catalog.orderby">
+  <LocaleResource Name="Catalog.OrderBy">
     <Value>排序由</Value>
   </LocaleResource>
-  <LocaleResource Name="catalog.pagesize">
+  <LocaleResource Name="Catalog.PageSize">
     <Value>顯示</Value>
   </LocaleResource>
   <LocaleResource Name="Catalog.PageSize.PerPage">
@@ -14375,7 +14375,7 @@
   <LocaleResource Name="ContactUs.Email.Required">
     <Value>請輸入電子信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="contactus.emailsubject">
+  <LocaleResource Name="ContactUs.EmailSubject">
     <Value>{0}聯絡我們</Value>
   </LocaleResource>
   <LocaleResource Name="ContactUs.Enquiry">
@@ -14396,7 +14396,7 @@
   <LocaleResource Name="ContactUs.FullName.Required">
     <Value>請輸您的全名</Value>
   </LocaleResource>
-  <LocaleResource Name="contactus.subject">
+  <LocaleResource Name="ContactUs.Subject">
     <Value>主題</Value>
   </LocaleResource>
   <LocaleResource Name="ContactUs.Subject.Hint">
@@ -15002,7 +15002,7 @@
   <LocaleResource Name="Forum.ActiveDiscussionsRSSLinkTitle">
     <Value>點擊這裡訂閱</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.advancedsearch">
+  <LocaleResource Name="Forum.AdvancedSearch">
     <Value>進階搜尋</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Announcement">
@@ -15158,7 +15158,7 @@
   <LocaleResource Name="Forum.Search">
     <Value>搜尋</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.search.advancedsearch">
+  <LocaleResource Name="Forum.Search.AdvancedSearch">
     <Value>進階搜尋</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.Search.LimitResultsToPrevious">
@@ -15407,13 +15407,13 @@
   <LocaleResource Name="Messages.Order.Product(s).Quantity">
     <Value>數量</Value>
   </LocaleResource>
-  <LocaleResource Name="messages.order.product(s).sku">
+  <LocaleResource Name="Messages.Order.Product(s).SKU">
     <Value>商品料號（SKU）: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.Product(s).Total">
     <Value>合計</Value>
   </LocaleResource>
-  <LocaleResource Name="messages.order.rewardpoints">
+  <LocaleResource Name="Messages.Order.RewardPoints">
     <Value>{0}紅利積點：</Value>
   </LocaleResource>
   <LocaleResource Name="Messages.Order.Shipping">
@@ -15596,7 +15596,7 @@
   <LocaleResource Name="Order.Phone">
     <Value>電話號碼</Value>
   </LocaleResource>
-  <LocaleResource Name="order.print">
+  <LocaleResource Name="Order.Print">
     <Value>列印</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Product(s)">
@@ -15611,7 +15611,7 @@
   <LocaleResource Name="Order.Product(s).Quantity">
     <Value>數量</Value>
   </LocaleResource>
-  <LocaleResource Name="order.product(s).sku">
+  <LocaleResource Name="Order.Product(s).SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Product(s).Total">
@@ -15800,19 +15800,19 @@
   <LocaleResource Name="PageTitle.CompareProducts">
     <Value>商品比較</Value>
   </LocaleResource>
-  <LocaleResource Name="pagetitle.contactus">
+  <LocaleResource Name="PageTitle.ContactUs">
     <Value>聯絡我們</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.ContactVendor">
     <Value>聯繫供貨商 - {0}</Value>
   </LocaleResource>
-  <LocaleResource Name="pagetitle.customerproductreviews">
+  <LocaleResource Name="PageTitle.CustomerProductReviews">
     <Value>我的商品評論</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.ForumSubscriptions">
     <Value>論壇訂閱</Value>
   </LocaleResource>
-  <LocaleResource Name="pagetitle.login">
+  <LocaleResource Name="PageTitle.Login">
     <Value>登入</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.Manufacturers">
@@ -16007,7 +16007,7 @@
   <LocaleResource Name="PDFInvoice.PurchaseOrderNumber">
     <Value>採購單號: {0}</Value>
   </LocaleResource>
-  <LocaleResource Name="pdfinvoice.rewardpoints">
+  <LocaleResource Name="PDFInvoice.RewardPoints">
     <Value>{0}紅利積點：</Value>
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.Shipping">
@@ -16019,7 +16019,7 @@
   <LocaleResource Name="PDFInvoice.ShippingMethod">
     <Value>配送方式：{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="pdfinvoice.sku">
+  <LocaleResource Name="PDFInvoice.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.Sub-Total">
@@ -16064,13 +16064,13 @@
   <LocaleResource Name="PDFPackagingSlip.ShippingMethod">
     <Value>配送方式：{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="pdfpackagingslip.sku">
+  <LocaleResource Name="PDFPackagingSlip.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="PDFProductCatalog.Price">
     <Value>價格</Value>
   </LocaleResource>
-  <LocaleResource Name="pdfproductcatalog.sku">
+  <LocaleResource Name="PDFProductCatalog.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="PDFProductCatalog.StockQuantity">
@@ -16547,10 +16547,10 @@
   <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.AdditionalFeePercentage.Hint">
     <Value>決定是否應用比例附加費用訂單小計。如果沒有啟用,將使用一個固定的值。</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.payments.authorizenet.fields.loginid">
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.LoginId">
     <Value>登入ID</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.payments.authorizenet.fields.loginid.hint">
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.LoginId.Hint">
     <Value>指定的登入標識符。</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.TransactionKey">
@@ -16913,13 +16913,13 @@
   <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.Url.Hint">
     <Value>加拿大郵政指定URL</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.shipping.fixedorbyweight.addrecord">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.AddRecord">
     <Value>新增紀錄</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.AdditionalFixedCost">
     <Value>額外的固定成本</Value>
   </LocaleResource>
-  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.AdditionalFixedCost.hint">
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.AdditionalFixedCost.Hint">
     <Value>指定一個額外的固定成本/購物車這個選項。設定為0,如果您不想讓一個額外的固定成本。</Value>
   </LocaleResource>
   <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Country">
@@ -17105,13 +17105,13 @@
   <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Rate">
     <Value>比率</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.stateprovince">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.StateProvince">
     <Value>鄉鎮市區/州或省</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.stateprovince.hint">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.StateProvince.Hint">
     <Value>If an asterisk is selected, then this tax rate will apply to all customers from the given country, regardless of the state.</Value>
   </LocaleResource>
-  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.store">
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Store">
     <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.store.hint">
