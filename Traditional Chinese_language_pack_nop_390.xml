@@ -8531,7 +8531,7 @@
   <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyName">
     <Value>公司名稱</Value>
   </LocaleResource>
-  <<LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyName.Hint">
+  <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyName.Hint">
     <Value>請輸入公司名稱。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyPhoneNumber">
