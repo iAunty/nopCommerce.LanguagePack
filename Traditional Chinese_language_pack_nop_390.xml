@@ -5537,7 +5537,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.Performance">
     <Value>性能</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewPossibleOnlyAfterPurchasing.Hint">
+  <LocaleResource Name="admin.configuration.settings.catalog.productreviewpossibleonlyafterpurchasing">
     <Value>商品購買後才能被評論</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.catalog.productreviewpossibleonlyafterpurchasing.hint">
@@ -5633,7 +5633,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.Search">
     <Value>搜尋</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize.Hint">
+  <LocaleResource Name="admin.configuration.settings.catalog.searchpageallowcustomerstoselectpagesize">
     <Value>搜尋頁，允許會員選擇顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.catalog.searchpageallowcustomerstoselectpagesize.hint">
