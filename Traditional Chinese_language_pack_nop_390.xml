@@ -9027,7 +9027,7 @@
     <Value>立即寄送訊息</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.Subject">
-    <Value>主題</Value>
+    <Value>主旨</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.Subject.Hint">
     <Value>主題</Value>
@@ -9570,10 +9570,10 @@
     <Value>小工具區域</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Widgets.ChooseZone.Hint">
-    <Value>小工具區域</Value>
+    <Value>選擇小工具區域</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Widgets.Configure">
-    <Value>配置</Value>
+    <Value>設置</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Widgets.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -9603,7 +9603,7 @@
     <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.CurrentCarts.Total">
-    <Value>小計</Value>
+    <Value>合計</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.CurrentCarts.TotalItems">
     <Value>總數量</Value>
@@ -9831,7 +9831,7 @@
     <Value>新增新的地址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Addresses.BackToCustomer">
-    <Value>返回會員詳細頁</Value>
+    <Value>返回會員詳細頁面</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Addresses.EditAddress">
     <Value>編輯地址</Value>
@@ -9900,7 +9900,7 @@
     <Value>刪除會員成功</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.EditCustomerDetails">
-    <Value>編輯會員</Value>
+    <Value>編輯會員資料</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Active">
     <Value>已啟用</Value>
@@ -9948,7 +9948,7 @@
     <Value>公司抬頭</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Country">
-    <Value>縣市</Value>
+    <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Country.Hint">
     <Value>縣市</Value>
@@ -9978,13 +9978,13 @@
     <Value>請輸入電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Fax">
-    <Value>手機號碼</Value>
+    <Value>傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Fax.Hint">
-    <Value>手機號碼</Value>
+    <Value>傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Fax.Required">
-    <Value>請輸入手機號碼</Value>
+    <Value>請輸入傳真號碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.FirstName">
     <Value>名稱</Value>
@@ -10005,7 +10005,7 @@
     <Value>女</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Gender.Hint">
-    <Value>女</Value>
+    <Value>顧客的性別</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Gender.Male">
     <Value>男</Value>
@@ -10014,10 +10014,10 @@
     <Value>IP地址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.IPAddress.Hint">
-    <Value>IP地址</Value>
+    <Value>最後一次使用的IP地址</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.IsTaxExempt">
-    <Value>免稅</Value>
+    <Value>是否免稅</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.IsTaxExempt.Hint">
     <Value>免稅</Value>
@@ -10029,13 +10029,13 @@
     <Value>最後活動日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.LastName">
-    <Value>姓氏</Value>
+    <Value>名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.LastName.Hint">
-    <Value>姓氏</Value>
+    <Value>使用者名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.LastName.Required">
-    <Value>請輸入姓氏</Value>
+    <Value>請輸入名字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.LastVisitedPage">
     <Value>最後瀏覽頁面</Value>
@@ -10047,19 +10047,19 @@
     <Value>電子報</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Newsletter.Hint">
-    <Value>請訂閱電子報。</Value>
+    <Value>訂閱電子報。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Password">
-    <Value>當前密碼</Value>
+    <Value>目前密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Password.Change">
     <Value>修改密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Password.Hint">
-    <Value>當前密碼</Value>
+    <Value>目前密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Phone">
-    <Value>電話號碼</Value>
+    <Value>連絡電話</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Phone.Hint">
     <Value>電話號碼</Value>
@@ -10154,7 +10154,7 @@
   <LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode.Required">
     <Value>請輸入郵遞區號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.customers.customers.impersonate">
+  <LocaleResource Name="Admin.Customers.Customers.Impersonate">
     <Value>代客下單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Impersonate.Button">
@@ -10173,13 +10173,13 @@
     <Value>會員角色</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.CustomerRoles.Hint">
-    <Value>會員角色篩選</Value>
+    <Value>根據會員角色篩選</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchCompany">
     <Value>公司</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchCompany.Hint">
-    <Value>公司篩選</Value>
+    <Value>根據公司篩選</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchDateOfBirth">
     <Value>出生日期</Value>
@@ -10239,7 +10239,7 @@
     <Value>訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.CreatedOn">
-    <Value>創建日期</Value>
+    <Value>建立日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.CustomOrderNumber">
     <Value>自定義訂單編號</Value>
@@ -10251,7 +10251,7 @@
     <Value>訂單狀態</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.OrderTotal">
-    <Value>訂單小計</Value>
+    <Value>訂單總計</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.PaymentStatus">
     <Value>付款狀態</Value>
@@ -10341,7 +10341,7 @@
     <Value>立即發送</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.SendEmail.SendImmediately.Hint">
-    <Value>立即發送.</Value>
+    <Value>立即發送訊息.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.SendEmail.Subject">
     <Value>主題</Value>
@@ -10494,7 +10494,7 @@
     <Value>統計</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Dashboard.IncompleteOrders">
-    <Value>未完成的訂單匯總</Value>
+    <Value>未完成的訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Dashboard.LatestOrders">
     <Value>最新訂單</Value>
@@ -13086,7 +13086,7 @@
     <Value>請輸入發送嘗試次數。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.Subject">
-    <Value>主題</Value>
+    <Value>主旨</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.Subject.Hint">
     <Value>郵件主題。</Value>
@@ -13158,7 +13158,7 @@
     <Value>修改郵件佇列成功</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.ScheduleTasks">
-    <Value>排程維護</Value>
+    <Value>排程任務</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.ScheduleTasks.24days">
     <Value>任務期不得超過24天。</Value>
@@ -13298,10 +13298,10 @@
   <LocaleResource Name="Admin.System.SystemInfo.ServerVariables.Hint">
     <Value>服務器變量的列表</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.systeminfo.utctime">
+  <LocaleResource Name="Admin.System.SystemInfo.UTCTime">
     <Value>世界協調時間(GMT/UTC)</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.systeminfo.utctime.hint">
+  <LocaleResource Name="Admin.System.SystemInfo.UTCTime.Hint">
     <Value>世界協調時間(GMT/UTC)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Templates">
@@ -13317,7 +13317,7 @@
     <Value>名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Templates.Category.Name.Required">
-    <Value>名稱是必需的</Value>
+    <Value>請輸入名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Templates.Category.ViewPath">
     <Value>View路徑</Value>
@@ -13335,7 +13335,7 @@
     <Value>名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Templates.Manufacturer.Name.Required">
-    <Value>名稱是必需的</Value>
+    <Value>請輸入名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Templates.Manufacturer.ViewPath">
     <Value>View路徑</Value>
