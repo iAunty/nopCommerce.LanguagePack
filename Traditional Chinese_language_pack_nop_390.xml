@@ -3371,10 +3371,10 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders.Hint">
     <Value>這個值指示是否允許下訂單當無貨存。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.fields.attributes">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Attributes">
     <Value>屬性</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Gtin">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.GTIN">
     <Value>全球貿易項目代碼（GTIN）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.GTIN.Hint">
@@ -3398,10 +3398,10 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.OverriddenPrice.Hint">
     <Value>商店擁有者可覆寫商品預設的價格，輸入此欄後其他的折扣將被這個值覆蓋，不輸入任何資訊（留空）將忽略這個值。如要給予折扣，也可透過此欄位達成。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.fields.sku">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.fields.sku.hint">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku.Hint">
     <Value>商品料號（SKU）。您的內部唯一ID用於跟蹤這個屬性組合。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity">
@@ -3410,7 +3410,7 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity.Hint">
     <Value>這個組合的現在庫存數量。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.generateall">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.GenerateAll">
     <Value>生成所有可能的組合</Value>
   </LocaleResource>
   <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.gtin">
@@ -3458,19 +3458,19 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.ViewLink">
     <Value>查看/編輯 條件</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes.attributes.fields.attribute">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.Attribute">
     <Value>屬性</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributes.fields.attributecontroltype">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.AttributeControlType">
     <Value>控制類型</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes.attributes.fields.displayorder">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes.attributes.fields.isrequired">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.IsRequired">
     <Value>必須的</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes.attributes.fields.textprompt">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.TextPrompt">
     <Value>文本提示</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules">
@@ -3509,7 +3509,7 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.ViewLink">
     <Value>查看/編輯規則</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributes.values">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values">
     <Value>數值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.AddNew">
@@ -4427,10 +4427,10 @@
   <LocaleResource Name="Admin.Configuration.Countries.States.Fields.Name.Required">
     <Value>請輸入名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.countries.states.fields.published">
+  <LocaleResource Name="Admin.Configuration.Countries.States.Fields.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.countries.states.fields.published.hint">
+  <LocaleResource Name="Admin.Configuration.Countries.States.Fields.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.States.SaveBeforeEdit">
@@ -4679,10 +4679,10 @@
   <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.UseDefaultCredentials.Hint">
     <Value>使用預設憑證</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.emailaccounts.fields.username">
+  <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Username">
     <Value>使用者帳號</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.emailaccounts.fields.username.hint">
+  <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Username.Hint">
     <Value>使用者帳號</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.EmailAccounts.SendTestEmail">
@@ -5015,13 +5015,13 @@
   <LocaleResource Name="Admin.Configuration.Plugins">
     <Value>插件管理</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.plugins.additionalinfo">
+  <LocaleResource Name="Admin.Configuration.Plugins.AdditionalInfo">
     <Value>附加信息</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description">
     <Value>手動安裝插件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.plugins.description.downloadmoreplugins">
+  <LocaleResource Name="Admin.Configuration.Plugins.Description.DownloadMorePlugins">
     <Value>&lt;p&gt;插件可以下載，在nopcommerce的&lt;a href="http://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&amp;utm_medium=plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;&lt;/p&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description.Step1">
@@ -5186,7 +5186,7 @@
   <LocaleResource Name="Admin.Configuration.Plugins.ReloadList">
     <Value>重載插件</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.plugins.reloadlist.progress">
+  <LocaleResource Name="Admin.Configuration.Plugins.ReloadList.Progress">
     <Value>正在載入插件...</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Stores">
@@ -5300,7 +5300,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowAnonymousUsersToEmailAFriend">
     <Value>允許匿名用戶電子郵件給朋友</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.allowanonymoususerstoemailafriend.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowAnonymousUsersToEmailAFriend.Hint">
     <Value>允許匿名用戶電子郵件給朋友</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowAnonymousUsersToReviewProduct">
@@ -5537,7 +5537,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.Performance">
     <Value>性能</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.productreviewpossibleonlyafterpurchasing">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewPossibleOnlyAfterPurchasing.Hint">
     <Value>商品購買後才能被評論</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.catalog.productreviewpossibleonlyafterpurchasing.hint">
@@ -5552,10 +5552,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsMustBeApproved.Hint">
     <Value>商品評論必須通過管理員的審核</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.productreviewspagesizeonaccountpage">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsPageSizeOnAccountPage">
     <Value>顯示數量</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.productreviewspagesizeonaccountpage.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsPageSizeOnAccountPage.Hint">
     <Value>設定每頁顯示評論數。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductsAlsoPurchasedEnabled">
@@ -5633,7 +5633,7 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.Search">
     <Value>搜尋</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.searchpageallowcustomerstoselectpagesize">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize.Hint">
     <Value>搜尋頁，允許會員選擇顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="admin.configuration.settings.catalog.searchpageallowcustomerstoselectpagesize.hint">
