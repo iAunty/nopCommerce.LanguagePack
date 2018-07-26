@@ -7983,7 +7983,7 @@
     <Value>所有商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.StoreScope.CheckAll">
-    <Value>全選/全消</Value>
+    <Value>全選/取消</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.StoreScope.CheckAll.Hint">
     <Value>（如果您要為該商店設定自定義值請勾選此項）</Value>
@@ -8493,7 +8493,7 @@
     <Value>返回短信管理列表</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.SMSProviders.Configure">
-    <Value>配置</Value>
+    <Value>設置</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.SMSProviders.Fields.FriendlyName">
     <Value>友好名稱</Value>
@@ -8802,7 +8802,7 @@
     <Value>內容</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.CreatedOn">
-    <Value>創建日期</Value>
+    <Value>建立日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.Customer">
     <Value>會員</Value>
@@ -8951,10 +8951,10 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.EditMessageTemplateDetails">
     <Value>編輯郵件內容版型</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.allowedtokens">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AllowedTokens">
     <Value>可接受的代碼</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.contentmanagement.messagetemplates.fields.allowedtokens.hint">
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AllowedTokens.Hint">
     <Value>這是您可以在您的電子郵件中使用的代碼列表。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AttachedDownload">
