@@ -17711,7 +17711,7 @@
   <LocaleResource Name="ReturnRequests.Submitted">
     <Value>退貨申請已提交</Value>
   </LocaleResource>
-  <LocaleResource Name="returnrequests.title">
+  <LocaleResource Name="ReturnRequests.Title">
     <Value>退貨請求，訂單編號&lt;a href="{0}"&gt;order #{1}&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="ReturnRequests.UploadedFile">
@@ -17804,10 +17804,10 @@
   <LocaleResource Name="Reviews.Write">
     <Value>寫下您的評論</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.activatedlater">
+  <LocaleResource Name="RewardPoints.ActivatedLater">
     <Value>紅利積點將在{0}被啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.currentbalance">
+  <LocaleResource Name="RewardPoints.CurrentBalance">
     <Value>當前有{0}紅利積點可用，價值為：({1})</Value>
   </LocaleResource>
   <LocaleResource Name="RewardPoints.Fields.Date">
@@ -17816,25 +17816,25 @@
   <LocaleResource Name="RewardPoints.Fields.Message">
     <Value>說明</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.fields.points">
+  <LocaleResource Name="RewardPoints.Fields.Points">
     <Value>紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.fields.pointsbalance">
+  <LocaleResource Name="RewardPoints.Fields.PointsBalance">
     <Value>剩餘紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="RewardPoints.History">
     <Value>歷史記錄</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.message.earnedfororder">
+  <LocaleResource Name="RewardPoints.Message.EarnedForOrder">
     <Value>紅利積點增加完成訂單，訂單編號：＃{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.message.earnedforregistration">
+  <LocaleResource Name="RewardPoints.Message.EarnedForRegistration">
     <Value>註冊獲得紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.message.redeemedfororder">
+  <LocaleResource Name="RewardPoints.Message.RedeemedForOrder">
     <Value>使用紅利積點付款訂單，訂單編號：＃{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.message.reducedfororder">
+  <LocaleResource Name="RewardPoints.Message.ReducedForOrder">
     <Value>紅利積點減少取消訂單，訂單編號：＃{0}</Value>
   </LocaleResource>
   <LocaleResource Name="RewardPoints.Message.ReturnedForOrder">
