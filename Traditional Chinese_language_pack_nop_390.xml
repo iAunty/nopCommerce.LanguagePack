@@ -12683,7 +12683,7 @@
   <LocaleResource Name="Admin.SalesReport.Incomplete.TotalUnpaidOrders">
     <Value>未付款的訂單總數(待付款的訂單)</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Salesreport.Incomplete.View">
+  <LocaleResource Name="Admin.SalesReport.Incomplete.View">
     <Value>瀏覽所有的</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.NeverSold">
@@ -14345,7 +14345,7 @@
   <LocaleResource Name="Common.WrongCaptcha">
     <Value>驗證碼錯誤</Value>
   </LocaleResource>
-  <LocaleResource Name="common.wrongcaptchav2">
+  <LocaleResource Name="Common.WrongCaptchaV2">
     <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
   </LocaleResource>
   <LocaleResource Name="Common.WrongEmail">
@@ -14681,7 +14681,7 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToShipping">
     <Value>應用到配送金額</Value>
   </LocaleResource>
-  <LocaleResource Name="enums.nop.core.domain.discounts.discounttype.assignedtoskus">
+  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToSkus">
     <Value>應用到商品系列商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.BBCodeEditor">
