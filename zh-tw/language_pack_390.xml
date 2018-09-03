@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Language Name="繁體中文" SupportedVersion="3.90">
+<?xml version="1.0" encoding="utf-16"?>
+<Language Name="繁體中文" SupportedVersion="4.10">
   <LocaleResource Name="Account.AccountActivation">
     <Value>啟用帳戶</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AccountActivation.Activated">
     <Value>您的帳戶已啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.AccountActivation.AlreadyActivated">
+    <Value>您的帳戶已經被啟用</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Administration">
     <Value>後台管理</Value>
@@ -23,6 +26,9 @@
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.ExternalIdentifier">
     <Value>外部標識符</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.AssociatedExternalAuth.Or">
+    <Value>- 或 -</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.Remove">
     <Value>刪除</Value>
@@ -183,6 +189,9 @@
   <LocaleResource Name="Account.CustomerOrders.RecurringOrders.NextPayment">
     <Value>下次付款</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.CustomerOrders.RecurringOrders.RetryLastPayment">
+    <Value>嘗試上一次付款</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders.RecurringOrders.StartDate">
     <Value>開始日期</Value>
   </LocaleResource>
@@ -204,6 +213,9 @@
   <LocaleResource Name="Account.CustomerProductReviews.ApprovalStatus.Pending">
     <Value>等待</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.CustomerProductReviews.NoRecords">
+    <Value>Y你還沒有寫任何評論</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.CustomerProductReviews.ProductReviewFor">
     <Value>評論商品</Value>
   </LocaleResource>
@@ -216,20 +228,35 @@
   <LocaleResource Name="Account.CustomerReturnRequests.Comments">
     <Value>退貨說明</Value>
   </LocaleResource>
-  <LocaleResource Name="account.customerreturnrequests.date">
+  <LocaleResource Name="Account.CustomerReturnRequests.Date">
     <Value>退貨日期：</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests.Item">
     <Value>已退商品</Value>
   </LocaleResource>
-  <LocaleResource Name="account.customerreturnrequests.reason">
+  <LocaleResource Name="Account.CustomerReturnRequests.Reason">
     <Value>退貨原因：</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests.Title">
     <Value>已退物品 編號：{0} - {1}</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.CustomerReturnRequests.UploadedFile">
+    <Value>上傳檔案:</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.CustomerReturnRequests.UploadedFile.Download">
+    <Value>下載</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.DownloadableProducts">
     <Value>下載商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.EmailRevalidation">
+    <Value>驗證信箱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.EmailRevalidation.AlreadyChanged">
+    <Value>您的信箱之前已經被驗證</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.EmailRevalidation.Changed">
+    <Value>您的信箱已經被驗證</Value>
   </LocaleResource>
   <LocaleResource Name="Account.EmailUsernameErrors.EmailAlreadyExists">
     <Value>該電子信箱已被使用</Value>
@@ -283,6 +310,12 @@
     <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Country.Required">
+    <Value>請輸入國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Fields.County">
+    <Value>國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Fields.County.Required">
     <Value>請輸入國家</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.DateOfBirth">
@@ -384,6 +417,9 @@
   <LocaleResource Name="Account.Fields.Username">
     <Value>用戶名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.Fields.Username.NotValid">
+    <Value>用戶名稱無效</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.Fields.Username.Required">
     <Value>請輸入用戶名稱</Value>
   </LocaleResource>
@@ -419,6 +455,27 @@
   </LocaleResource>
   <LocaleResource Name="Account.ForumSubscriptions.NoSubscriptions">
     <Value>您目前沒有訂閱任何的論壇消息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr">
+    <Value>GDPR 工具</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr.Delete">
+    <Value>被遺忘的權利</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr.Delete.Button">
+    <Value>刪除帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr.Delete.Hint">
+    <Value>You can use the button below to remove your personal and other data from our store. Keep in mind that this process will delete your account, so you will no longer be able to access or use it anymore.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr.Export">
+    <Value>輸出個人資料</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr.Export.Button">
+    <Value>輸出</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Gdpr.Export.Hint">
+    <Value>You can use the button below to download all the data we store and use for a better experience in our store.</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ImpersonatedAs">
     <Value>模擬會員：{0}</Value>
