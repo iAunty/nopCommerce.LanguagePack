@@ -2857,13 +2857,16 @@
     <Value>名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Name.New">
-    <Value>{0} - copy</Value>
+    <Value>{0} - 複製</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Published.Hint">
     <Value>是否發佈</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Copy.SKU.New">
+    <Value>{0}-複製</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.CrossSells">
     <Value>交叉銷售</Value>
@@ -3027,6 +3030,12 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.CategoryIds.Hint">
     <Value>商品目錄映射.</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.Hint">
+    <Value>選擇類別。 您可以通過選擇目錄 &gt; 分類 來管理商品分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.NoCategoriesAvailable">
+    <Value>沒有目錄</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
     <Value>建立時間</Value>
   </LocaleResource>
@@ -3061,7 +3070,13 @@
     <Value>請檢查以禁用此商品願望清單按鈕。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts">
-    <Value>Discounts</Value>
+    <Value>折扣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.Hint">
+    <Value>選擇要應用於此產品的折扣。 您可以通過從"促銷"選單中選擇"折扣"來管理折扣。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.NoDiscounts">
+    <Value>沒有折扣存在，在Mapping前至少建立一個</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -3228,6 +3243,9 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers">
     <Value>所屬品牌</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.Hint">
+    <Value>選擇製造商。 您可以通過選擇目錄 &gt; 生產商來管理生產商</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.NoManufacturersAvailable">
     <Value>選擇品牌</Value>
   </LocaleResource>
@@ -3358,7 +3376,7 @@
     <Value>指產品在缺貨時預計可供貨的期間（例如Available in 10-14 days）。 您可以通過系統設定&gt;配送管理&gt;交貨日期管理、設定可用性範圍。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductAvailabilityRange.None">
-    <Value>None</Value>
+    <Value>無</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductCost">
     <Value>商品成本</Value>
@@ -3474,8 +3492,11 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.sku.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Hint">
     <Value>商品料號（SKU）。您可以用來跟蹤此商品的內部唯一標識符。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Reserved">
+    <Value>商品料號（SKU）已經出現在其他商品中 '{0}'</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.SpecialPrice">
     <Value>特別的價格</Value>
@@ -3580,6 +3601,18 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.GiftCard">
     <Value>禮品卡</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.CategoriesDontExist">
+    <Value>類別在以下名稱和/或ID的類別不存在: {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.CategoriesWithSameNameNotSupported">
+    <Value>同一類別級別不支持具有相同名稱的類別。 在 "Catalog -&gt; Categories" 頁面中檢查目錄列表</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.ManufacturersDontExist">
+    <Value>生產商在以下名稱和/或ID的類別不存在: {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.ProductAttributesDontExist">
+    <Value>商品在以下名稱和/或ID的類別不存在: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Imported">
     <Value>匯入商品成功</Value>
