@@ -765,11 +765,23 @@
   <LocaleResource Name="ActivityLog.AddNewManufacturer">
     <Value>新增新的製造商('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewMeasureDimension">
+    <Value>新增新的評估尺寸(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewMeasureWeight">
+    <Value>新增新的評估重量(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewNews">
+    <Value>新增新的新聞(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewProduct">
     <Value>新增新的商品('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewProductAttribute">
     <Value>新增新的商品屬性('{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewReviewType">
+    <Value>新增新的評論類型(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewSetting">
     <Value>新增新的設定('{0}')</Value>
@@ -777,8 +789,26 @@
   <LocaleResource Name="ActivityLog.AddNewSpecAttribute">
     <Value>新增新的屬性規格('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewStateProvince">
+    <Value>新增新的州或省(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewStore">
+    <Value>新增新的商店(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewTopic">
     <Value>新增主題 ("{0}")</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewVendor">
+    <Value>新增新的供應商(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewVendorAttribute">
+    <Value>新增新的供應商屬性(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewVendorAttributeValue">
+    <Value>新增新的供應商值(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewWarehouse">
+    <Value>新增新的倉庫(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewWidget">
     <Value>新增新的小工具(編號：{0})</Value>
@@ -786,14 +816,44 @@
   <LocaleResource Name="ActivityLog.DeleteActivityLog">
     <Value>刪除活動日誌</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteAddressAttribute">
+    <Value>刪除地址屬性(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteAddressAttributeValue">
+    <Value>刪除地址屬性值(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteAffiliate">
+    <Value>刪除子公司(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteBlogPost">
+    <Value>刪除Blog文章(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteBlogPostComment">
+    <Value>刪除Blog評論(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteCampaign">
+    <Value>刪除活動(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCategory">
     <Value>刪除分類('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCheckoutAttribute">
     <Value>刪除結帳屬性('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteCountry">
+    <Value>刪除國家(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteCurrency">
+    <Value>刪除貨幣(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCustomer">
     <Value>刪除會員(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteCustomerAttribute">
+    <Value>刪除會員屬性(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteCustomerAttributeValue">
+    <Value>刪除會員屬性值(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCustomerRole">
     <Value>刪除會員角色('{0}')</Value>
@@ -801,14 +861,38 @@
   <LocaleResource Name="ActivityLog.DeleteDiscount">
     <Value>刪除折扣('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteEmailAccount">
+    <Value>刪除Email帳號(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteGiftCard">
     <Value>刪除禮品卡('{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteLanguage">
+    <Value>刪除語言(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteManufacturer">
     <Value>刪除品牌('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteMeasureDimension">
+    <Value>刪除評估尺寸(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteMeasureWeight">
+    <Value>刪除評估重量(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteMessageTemplate">
+    <Value>刪除訊息樣板(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteNews">
+    <Value>刪除新聞(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteNewsComment">
+    <Value>刪除新的評論(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteOrder">
     <Value>刪除訂單 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeletePlugin">
+    <Value>刪除套件(FriendlyName: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteProduct">
     <Value>刪除商品('{0}')</Value>
@@ -816,14 +900,29 @@
   <LocaleResource Name="ActivityLog.DeleteProductAttribute">
     <Value>刪除商品屬性('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteProductReview">
+    <Value>刪除商品評論(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteReturnRequest">
     <Value>刪除退貨請求(編號：{0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteReviewType">
+    <Value>刪除商品評論類型(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteSetting">
     <Value>刪除設定('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteSpecAttribute">
     <Value>刪除屬性規格('{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteStateProvince">
+    <Value>刪除州或是省(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteStore">
+    <Value>刪除商店(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.DeleteSystemLog">
+    <Value>刪除系統日誌</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteTopic">
     <Value>刪除當前主題 ("{0}")</Value>
