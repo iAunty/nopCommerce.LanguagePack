@@ -313,10 +313,10 @@
     <Value>請輸入國家</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.County">
-    <Value>國家</Value>
+    <Value>縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.County.Required">
-    <Value>請輸入國家</Value>
+    <Value>請輸入國縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.DateOfBirth">
     <Value>生日</Value>
@@ -1189,10 +1189,10 @@
     <Value>請輸入國家</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.County">
-    <Value>國家</Value>
+    <Value>縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.County.Required">
-    <Value>請輸入國家</Value>
+    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Email">
     <Value>Email</Value>
@@ -1402,10 +1402,10 @@
     <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.County.Hint">
-    <Value>輸入國家</Value>
+    <Value>輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.County.Required">
-    <Value>請輸入國家</Value>
+    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email">
     <Value>Email</Value>
@@ -2566,7 +2566,7 @@
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Positive">
-    <Value>頁面大小應該要>0</Value>
+    <Value>頁面大小應該要大於0</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
@@ -10340,6 +10340,9 @@
   <LocaleResource Name="Admin.Customers.Customers.Fields.Affiliate.Remove">
     <Value>取消協銷聯盟</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Customers.Customers.Fields.Avatar">
+    <Value>腳色</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.City">
     <Value>城市</Value>
   </LocaleResource>
@@ -10368,7 +10371,16 @@
     <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Country.Hint">
+    <Value>國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.Customers.Fields.County">
     <Value>縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.Customers.Fields.County.Hint">
+    <Value>縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.Customers.Fields.County.Required">
+    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn">
     <Value>創建日期</Value>
@@ -12467,6 +12479,12 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountType.Hint">
     <Value>折扣類型</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountUrl">
+    <Value>夾帶折扣的網址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountUrl.Hint">
+    <Value>包含折扣優惠券代碼的示例網址，方便客戶無需在結賬時輸入優惠券代碼。您還可以將此查詢參數與商店的任何其他連結一起使用，例如連結到特定產品或類別。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.EndDate">
     <Value>結束日期</Value>
   </LocaleResource>
@@ -12545,6 +12563,9 @@
   <LocaleResource Name="Admin.Promotions.Discounts.History.OrderTotal">
     <Value>訂單總數</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.IgnoreDiscounts.Warning">
+    <Value>要使用此功能，您必須停用以下設置: 設置&gt; 目錄設置 &gt; 忽略折扣 (全站).</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Info">
     <Value>優惠資訊</Value>
   </LocaleResource>
@@ -12565,6 +12586,18 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountType.Hint">
     <Value>優惠類型搜尋。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchEndDate">
+    <Value>結束日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchEndDate.Hint">
+    <Value>搜尋結束日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchStartDate">
+    <Value>開始日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchStartDate.Hint">
+    <Value>搜尋開始日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements">
     <Value>折扣要求</Value>
@@ -12598,6 +12631,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupName">
     <Value>組名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupName.Hint">
+    <Value>指定需求組的名稱（例如“允許的客戶角色”）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.InteractionTypeInGroup">
     <Value>群組間的邏輯關係</Value>
@@ -12787,6 +12823,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.CreatedOn">
     <Value>創建日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.RecurringPayments.History.CustomOrderNumber">
+    <Value>創建訂單</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.RecurringPayments.History.LastPaymentFailed">
+    <Value>上一次付款失敗</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.NextPaymentDate">
     <Value>下一次付款日期是</Value>
@@ -13178,8 +13220,20 @@
   <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse.Old">
     <Value>從{0}</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.ImportProduct.Edit">
+    <Value>因為匯入商品，所以庫存量改變</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.ImportProduct.EditWarehouse">
+    <Value>商品被移動 {0} {1} 因為匯入商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.MultipleWarehouses">
+    <Value>多個倉庫</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.StockQuantityHistory.Messages.PlaceOrder">
     <Value>通過訂單＃{0}減少庫存數量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.StockQuantityHistory.Messages.Ship">
+    <Value>庫存量已經減少，當訂單 #{0} 已經發貨</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System">
     <Value>系統資訊</Value>
@@ -13298,6 +13352,9 @@
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Delete">
     <Value>刪除</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Description">
+    <Value>資料庫備份功能只在nopCommerce部署在與數據庫相同的伺服器上時才有效。否則，您必須自己處理備份（請聯繫您的系統管理員）。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Download">
     <Value>下載</Value>
   </LocaleResource>
@@ -13370,6 +13427,18 @@
   <LocaleResource Name="Admin.System.Maintenance.Maintenance">
     <Value>手動維護</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.Complete">
+    <Value>資料庫重新建立索引已經完成</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.Lable">
+    <Value>通過重新建立索引來修改現有的資料表。在資料表中執行重新索引時，僅更新與索引關聯的統計資料。表中建立的自動或手動統計資料（而不是索引）不會更新。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.Progress">
+    <Value>重新建立索引...</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.ReIndexNow">
+    <Value>重新建立索引</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails">
     <Value>郵件日誌</Value>
   </LocaleResource>
@@ -13390,6 +13459,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.EditQueuedEmailDetails">
     <Value>編輯郵件日誌項目</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachedDownload">
+    <Value>附加靜態文件</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachedDownload.Hint">
+    <Value>附加的靜態文件將在此電子郵件中發送</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachmentFilePath">
     <Value>附加文件路徑</Value>
@@ -13667,6 +13742,12 @@
   <LocaleResource Name="Admin.System.SystemInfo.CurrentUserTime.Hint">
     <Value>當前用戶時間 (基於指定的時間和時區設定).</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.System.SystemInfo.Headers">
+    <Value>Headers</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.SystemInfo.Headers.Hint">
+    <Value>A list of headers.</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.System.SystemInfo.HTTPHOST">
     <Value>HTTP_HOST</Value>
   </LocaleResource>
@@ -13826,6 +13907,9 @@
   <LocaleResource Name="Admin.System.Warnings.DirectoryPermission.Wrong">
     <Value>帳號{0}沒有修改文件夾{1}的權限，請重新配置權限</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.System.Warnings.Errors">
+    <Value>商店有一些錯誤或警告。 請在"警告"頁面上找到更多訊息</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.System.Warnings.ExchangeCurrency.NotSet">
     <Value>主要匯率的貨幣未設定</Value>
   </LocaleResource>
@@ -13868,8 +13952,14 @@
   <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreStoreLimitations">
     <Value>性能。只有一個商店時，建議忽略商店限制</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.system.warnings.performance.ignorestorelimitations.notification">
+  <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreStoreLimitations.Notification">
     <Value>為了使用這個功能您必須關閉隨後的系統設定&gt; 參數設定 &gt; 分類參數設定 &gt;  參數 &gt; 忽略 「限額對於每個商店」 規則 (網站範圍)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.Warnings.PluginNotEnabled">
+    <Value>您可以解除安裝並刪除沒在使用的套件，這樣會提高性能</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.Warnings.PluginNotLoaded">
+    <Value>套件'{0}'不相容或是無法被載入</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Warnings.PrimaryCurrency.NotSet">
     <Value>主貨幣未設定</Value>
@@ -13888,6 +13978,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.System.Warnings.URL.NoMatch">
     <Value>商店指定的地址({0})和地址({1})匹配失敗</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.System.Warnings.URL.Reserved">
+    <Value>輸入的名稱已經存在，所以會被'{0}'取代</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors">
     <Value>供應商</Value>
