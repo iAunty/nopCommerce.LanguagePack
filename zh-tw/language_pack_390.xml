@@ -2148,11 +2148,23 @@
   <LocaleResource Name="admin.catalog.blogposts.fields.vendor">
     <Value>供應商</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts">
+    <Value>由產品使用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Product">
+    <Value>商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Published">
+    <Value>公開</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit">
     <Value>商品批次管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod">
     <Value>庫存管理</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod.MultipleWarehouse">
+    <Value>(多個倉庫)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Name">
     <Value>名稱</Value>
@@ -2257,10 +2269,13 @@
     <Value>描述</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts">
-    <Value>Discounts</Value>
+    <Value>折扣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.Hint">
+    <Value>選擇要應用於此類別的折扣。 您可以通過從"促銷"選單中選擇"折扣"來管理折扣</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.NoDiscounts">
-    <Value>No Discounts</Value>
+    <Value>目前沒有折扣，在Mapping前至少建立一個</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -2316,6 +2331,9 @@
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Hint">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Positive">
+    <Value>頁面大小應該要>0</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
   </LocaleResource>
@@ -2369,6 +2387,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.SubjectToAcl.Hint">
     <Value>啟用權限管理</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Categories.Import.CategoriesArentImported">
+    <Value>不導入具有以下名稱的類別 - {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Imported">
     <Value>目錄匯入成功</Value>
@@ -2485,10 +2506,13 @@
     <Value>描述</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts">
-    <Value>Discounts</Value>
+    <Value>折扣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.Hint">
+    <Value>選擇要應用於此製造商的折扣。 您可以通過從"促銷"選單中選擇"折扣"來管理折扣。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.NoDiscounts">
-    <Value>No Discounts</Value>
+    <Value>沒有折扣</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -2540,6 +2564,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Hint">
     <Value>每頁顯示筆數</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Positive">
+    <Value>頁面大小應該要>0</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
@@ -2679,6 +2706,9 @@
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText">
     <Value>回覆內容</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText.Hint">
+    <Value>回复內容(由商店所有者提供)。如果不希望會員看到回復，請留空</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText">
     <Value>評論</Value>
   </LocaleResource>
@@ -2726,6 +2756,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.DisapprovedOnly">
     <Value>未審核</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.Hint">
+    <Value>搜尋已審核商品</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchProduct">
     <Value>商品</Value>
@@ -2804,6 +2837,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.CommonInfo">
     <Value>基本資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Copied">
+    <Value>商品複製成功</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy">
     <Value>複製商品</Value>
