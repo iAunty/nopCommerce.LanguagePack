@@ -466,7 +466,7 @@
     <Value>刪除帳號</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Gdpr.Delete.Hint">
-    <Value>You can use the button below to remove your personal and other data from our store. Keep in mind that this process will delete your account, so you will no longer be able to access or use it anymore.</Value>
+    <Value>您可以使用下面的按鈕從我們的商店中刪除您的個人和其他數據。 請注意，此過程會刪除您的帳戶，因此您將無法再訪問或使用該帳戶。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Gdpr.Export">
     <Value>輸出個人資料</Value>
@@ -475,7 +475,7 @@
     <Value>輸出</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Gdpr.Export.Hint">
-    <Value>You can use the button below to download all the data we store and use for a better experience in our store.</Value>
+    <Value>您可以使用下面的按鈕下載我們存儲和使用的所有數據，以便在我們的商店中獲得更好的體驗。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ImpersonatedAs">
     <Value>模擬會員：{0}</Value>
@@ -528,7 +528,7 @@
   <LocaleResource Name="Account.Login.Unsuccessful">
     <Value>登入失敗。請更正錯誤再登入。</Value>
   </LocaleResource>
-  <LocaleResource Name="account.login.welcome">
+  <LocaleResource Name="Account.Login.Welcome">
     <Value>歡迎，請登入！</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials">
@@ -539,6 +539,9 @@
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.Deleted">
     <Value>帳號已被刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.Login.WrongCredentials.LockedOut">
+    <Value>帳號已經被鎖住</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.NotActive">
     <Value>帳號沒有啟用</Value>
@@ -603,6 +606,9 @@
   <LocaleResource Name="Account.PasswordRecovery.OldPassword.Required">
     <Value>請輸入舊密碼</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.PasswordRecovery.PasswordAlreadyHasBeenChanged">
+    <Value>您的密碼已被更改。 要再次更改它，您需要再次恢復密碼。</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.PasswordHasBeenChanged">
     <Value>您的密碼已經變更成功</Value>
   </LocaleResource>
@@ -663,6 +669,9 @@
   <LocaleResource Name="Account.ShoppingCart">
     <Value>購物車</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.UserAgreement">
+    <Value>用戶協議</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.VendorInfo">
     <Value>供應商資訊</Value>
   </LocaleResource>
@@ -702,14 +711,41 @@
   <LocaleResource Name="Account.YourPersonalDetails">
     <Value>個人資料</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewAddressAttribute">
+    <Value>新增新的地址(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewAddressAttributeValue">
+    <Value>新增新的地址屬性(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewAffiliate">
+    <Value>新增新的子公司(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewBlogPost">
+    <Value>新增新的Blog文章(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewCampaign">
+    <Value>新增新的活動(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCategory">
     <Value>新增新的分類('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCheckoutAttribute">
     <Value>新增新的結帳屬性('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewCountry">
+    <Value>新增新的國家(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewCurrency">
+    <Value>新增新的貨幣(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCustomer">
     <Value>新增新的會員(編號：{0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewCustomerAttribute">
+    <Value>新增新的會員屬性(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewCustomerAttributeValue">
+    <Value>新增新的會員屬性值(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCustomerRole">
     <Value>新增新的會員角色('{0}')</Value>
@@ -717,8 +753,14 @@
   <LocaleResource Name="ActivityLog.AddNewDiscount">
     <Value>新增新的折扣('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewEmailAccount">
+    <Value>新增新的Email帳號(ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewGiftCard">
     <Value>新增新的禮品卡('{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.AddNewLanguage">
+    <Value>新增新的語言(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewManufacturer">
     <Value>新增新的製造商('{0}')</Value>
