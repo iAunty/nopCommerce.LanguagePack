@@ -2332,7 +2332,7 @@
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Positive">
-    <Value>頁面大小應該要>0</Value>
+    <Value>頁面大小應該要大於0</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
@@ -13991,6 +13991,9 @@
   <LocaleResource Name="Admin.Vendors.Fields.PageSize.Hint">
     <Value>設定頁面大小的商品在這個供應商。「4」個商品/頁面。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.Fields.PageSize.Positive">
+    <Value>頁面大小需要大於0</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Fields.PageSizeOptions">
     <Value>頁面大小選項(逗號分隔)</Value>
   </LocaleResource>
@@ -14023,6 +14026,93 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Updated">
     <Value>供應商已經更新成功。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes">
+    <Value>供應商屬性</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Added">
+    <Value>新的屬性已經被成功增加</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.AddNew">
+    <Value>增加新的供應商屬性</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.BackToList">
+    <Value>回到供應商設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Deleted">
+    <Value>該屬性已成功刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Description">
+    <Value>您可以在下面管理其他供應商屬性</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.EditAttributeDetails">
+    <Value>編輯廠商屬性詳細信息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.AttributeControlType">
+    <Value>控制類型</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.AttributeControlType.Hint">
+    <Value>選擇如何顯示屬性值</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.DisplayOrder">
+    <Value>顯示順序</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.DisplayOrder.Hint">
+    <Value>應商屬性顯示順序。 1代表列表中的第一項</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.IsRequired">
+    <Value>必填</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.IsRequired.Hint">
+    <Value>當需要屬性時，供應商必須先選擇適當的屬性值才能繼續</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.Name">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.Name.Hint">
+    <Value>供應商屬性名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.Name.Required">
+    <Value>請提供名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Info">
+    <Value>屬性資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Updated">
+    <Value>屬性成功更新</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values">
+    <Value>屬性值</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.AddNew">
+    <Value>新增屬性值</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.EditValueDetails">
+    <Value>編輯屬性值的詳細資料</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.DisplayOrder">
+    <Value>顯示順序</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.DisplayOrder.Hint">
+    <Value>屬性值的顯示順序。 1表示屬性值列表中的第一項</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.IsPreSelected">
+    <Value>預先選取</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.IsPreSelected.Hint">
+    <Value>確定此屬性值為預先選擇</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.Name">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.Name.Hint">
+    <Value>供應商屬性值名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.Name.Required">
+    <Value>請提供名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.SaveBeforeEdit">
+    <Value>您需要先保存供應商屬性，然後才能為其添加值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.VendorNotes">
     <Value>供應商備註</Value>
@@ -14147,8 +14237,14 @@
   <LocaleResource Name="Catalog.OrderBy">
     <Value>排序由</Value>
   </LocaleResource>
+  <LocaleResource Name="Catalog.OrderBy.Label">
+    <Value>選擇產品排序方式</Value>
+  </LocaleResource>
   <LocaleResource Name="Catalog.PageSize">
     <Value>顯示</Value>
+  </LocaleResource>
+  <LocaleResource Name="Catalog.PageSize.Label">
+    <Value>選擇每一頁的檢視數量</Value>
   </LocaleResource>
   <LocaleResource Name="Catalog.PageSize.PerPage">
     <Value>每頁</Value>
@@ -14159,7 +14255,7 @@
   <LocaleResource Name="Catalog.ViewMode.Grid">
     <Value>網格</Value>
   </LocaleResource>
-  <LocaleResource Name="catalog.viewmode.list">
+  <LocaleResource Name="Catalog.ViewMode.List">
     <Value>列表</Value>
   </LocaleResource>
   <LocaleResource Name="Categories">
@@ -14188,6 +14284,18 @@
   </LocaleResource>
   <LocaleResource Name="Categories.ViewMode.List">
     <Value>列表</Value>
+  </LocaleResource>
+  <LocaleResource Name="CheckGiftCard.GiftCardCouponCode.Button">
+    <Value>檢查禮物卡</Value>
+  </LocaleResource>
+  <LocaleResource Name="CheckGiftCardBalance">
+    <Value>檢查禮物卡餘額</Value>
+  </LocaleResource>
+  <LocaleResource Name="CheckGiftCardBalance.GiftCardCouponCode.Empty">
+    <Value>折扣碼是空的</Value>
+  </LocaleResource>
+  <LocaleResource Name="CheckGiftCardBalance.GiftCardCouponCode.Invalid">
+    <Value>折扣碼無效</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout">
     <Value>訂單結算</Value>
