@@ -16169,6 +16169,9 @@
   <LocaleResource Name="PDFInvoice.VATNumber">
     <Value>增值稅號碼：{0}</Value>
   </LocaleResource>
+  <LocaleResource Name="PDFInvoice.VendorName">
+    <Value>供應商名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="PDFPackagingSlip.Address">
     <Value>地址：{0}</Value>
   </LocaleResource>
@@ -16490,14 +16493,23 @@
   <LocaleResource Name="PrivateMessages.YouHaveUnreadPM">
     <Value>收件箱有{0}條未讀消息</Value>
   </LocaleResource>
+  <LocaleResource Name="ProductAttributes.Quantity">
+    <Value> - 數量 {0}</Value>
+  </LocaleResource>
   <LocaleResource Name="Products.AlsoPurchased">
     <Value>購買此商品的顧客還買了</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability">
     <Value>庫存資訊</Value>
   </LocaleResource>
+  LocaleResource Name="Products.Availability.AvailabilityRange">
+    <Value>庫存資訊 {0}</Value>
+  </LocaleResource>
   <LocaleResource Name="Products.Availability.Backordering">
     <Value>暫時缺貨 - 有貨的話第一時間配送</Value>
+  </LocaleResource>
+  <LocaleResource Name="Products.Availability.BackorderingWithDate">
+    <Value>暫時缺貨 - 有貨的話第一時間配送 ({0}).</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability.InStock">
     <Value>有貨</Value>
@@ -16507,6 +16519,9 @@
   </LocaleResource>
   <LocaleResource Name="Products.Availability.OutOfStock">
     <Value>商品銷售一空</Value>
+  </LocaleResource>
+  <LocaleResource Name="Products.Availability.SelectRequiredAttributes">
+    <Value>請選擇所需的屬性(s)</Value>
   </LocaleResource>
   <LocaleResource Name="Products.BasePrice">
     <Value>等於 {0} 每 {1} {2}</Value>
@@ -16694,6 +16709,12 @@
   <LocaleResource Name="Products.ProductAttributes.PriceAdjustment">
     <Value>{0} [{1}]</Value>
   </LocaleResource>
+  <LocaleResource Name="Products.ProductAttributes.PriceAdjustment.PerItem">
+    <Value> 每件</Value>
+  </LocaleResource>
+  <LocaleResource Name="Products.ProductAttributes.PriceAdjustment.Quantity">
+    <Value>輸入數量:</Value>
+  </LocaleResource>
   <LocaleResource Name="Products.ProductHasBeenAddedToCompareList">
     <Value>這個商品已經加入到您的商品比較列表</Value>
   </LocaleResource>
@@ -16771,6 +16792,9 @@
   </LocaleResource>
   <LocaleResource Name="Products.Wishlist.AddToWishlist">
     <Value>加入願望請單</Value>
+  </LocaleResource>
+  <LocaleResource Name="Products.Wishlist.AddToWishlist.Update">
+    <Value>更新</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.Country">
     <Value>國家</Value>
@@ -16907,13 +16931,13 @@
   <LocaleResource Name="Reviews.Overview.Reviews">
     <Value>評價</Value>
   </LocaleResource>
-  <LocaleResource Name="reviews.productreviewpossibleonlyafterpurchasing">
+  <LocaleResource Name="Reviews.ProductReviewPossibleOnlyAfterPurchasing">
     <Value>只有購買此商品的人，才可以對此商品進行評價</Value>
   </LocaleResource>
-  <LocaleResource Name="reviews.productreviewsfor">
+  <LocaleResource Name="Reviews.ProductReviewsFor">
     <Value>商品評價</Value>
   </LocaleResource>
-  <LocaleResource Name="reviews.reply">
+  <LocaleResource Name="Reviews.Reply">
     <Value>管理者回覆了該評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.SeeAfterApproving">
@@ -16940,6 +16964,12 @@
   <LocaleResource Name="RewardPoints.Fields.Date">
     <Value>日期</Value>
   </LocaleResource>
+  <LocaleResource Name="RewardPoints.Fields.CreatedDate">
+    <Value>建立日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="RewardPoints.Fields.EndDate">
+    <Value>結束日期</Value>
+  </LocaleResource>
   <LocaleResource Name="RewardPoints.Fields.Message">
     <Value>說明</Value>
   </LocaleResource>
@@ -16958,6 +16988,9 @@
   <LocaleResource Name="RewardPoints.Message.EarnedForRegistration">
     <Value>註冊獲得紅利積點</Value>
   </LocaleResource>
+  <LocaleResource Name="RewardPoints.Message.Expired">
+    <Value>未使用的紅利積點在 {0} 已經到期</Value>
+  </LocaleResource>
   <LocaleResource Name="RewardPoints.Message.RedeemedForOrder">
     <Value>使用紅利積點付款訂單，訂單編號：＃{0}</Value>
   </LocaleResource>
@@ -16967,7 +17000,7 @@
   <LocaleResource Name="RewardPoints.Message.ReturnedForOrder">
     <Value>返回訂單 #{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="rewardpoints.minimumbalance">
+  <LocaleResource Name="RewardPoints.MinimumBalance">
     <Value>允許的最低消費紅利積點是{0}。{1}</Value>
   </LocaleResource>
   <LocaleResource Name="RewardPoints.NoHistory">
@@ -17005,6 +17038,12 @@
   </LocaleResource>
   <LocaleResource Name="Search.PriceRange.To">
     <Value>到</Value>
+  </LocaleResource>
+  <LocaleResource Name="Search.SearchBox.SearchPageLink">
+    <Value>觀看所有結果...</Value>
+  </LocaleResource>
+  <LocaleResource Name="Search.SearchBox.Text.Label">
+    <Value>搜尋商店</Value>
   </LocaleResource>
   <LocaleResource Name="Search.SearchBox.Tooltip">
     <Value>站內搜尋</Value>
@@ -17047,6 +17086,9 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.AssociatedAttributeWarning">
     <Value>{0}.{1}。{2}</Value>
+  </LocaleResource>
+  <LocaleResource Name="ShoppingCart.AvailabilityRange">
+    <Value>目前還有 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.BuyingDisabled">
     <Value>此商品無法購買</Value>
@@ -17117,6 +17159,9 @@
   <LocaleResource Name="ShoppingCart.DiscountCouponCode.CurrentCode">
     <Value>當前使用的折扣碼{0}</Value>
   </LocaleResource>
+  <LocaleResource Name="ShoppingCart.DiscountCouponCode.Label">
+    <Value>輸入折扣碼</Value>
+  </LocaleResource>
   <LocaleResource Name="ShoppingCart.DiscountCouponCode.Tooltip">
     <Value>在此輸入您的折扣碼</Value>
   </LocaleResource>
@@ -17132,6 +17177,9 @@
   <LocaleResource Name="ShoppingCart.EstimateShipping.Country">
     <Value>國家</Value>
   </LocaleResource>
+  <LocaleResource Name="ShoppingCart.EstimateShipping.Country.Required">
+    <Value>國家為必填欄位</Value>
+  </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.ShippingOptionWithRate">
     <Value>{0} ({1})</Value>
   </LocaleResource>
@@ -17143,6 +17191,9 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.ZipPostalCode">
     <Value>郵遞區號</Value>
+  </LocaleResource>
+  <LocaleResource Name="ShoppingCart.EstimateShipping.ZipPostalCode.Required">
+    <Value>郵遞區號為必填欄位</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.FileUploaded">
     <Value>您的文件已經成功上傳！</Value>
@@ -17158,6 +17209,9 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.GiftCardCouponCode.DontWorkWithAutoshipProducts">
     <Value>自動出貨商品不能使用禮品卡</Value>
+  </LocaleResource>
+  <LocaleResource Name="ShoppingCart.GiftCardCouponCode.Label">
+    <Value>在此輸入禮品卡代碼</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.GiftCardCouponCode.Tooltip">
     <Value>在此輸入禮品卡代碼</Value>
@@ -17179,6 +17233,9 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.ItemYouSave">
     <Value>您節省了: {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="ShoppingCart.MaximumDiscountedQty">
+    <Value>打折數量: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumQuantity">
     <Value>能購買數量最多為{0}</Value>
@@ -17219,8 +17276,11 @@
   <LocaleResource Name="ShoppingCart.OutOfStock">
     <Value>缺貨</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.preorder">
+  <LocaleResource Name="ShoppingCart.PreOrder">
     <Value>預購</Value>
+  </LocaleResource>
+  <LocaleResource Name="ShoppingCart.PreOrderAvailability">
+    <Value>允許預購</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Product(s)">
     <Value>商品名稱</Value>
@@ -17270,6 +17330,9 @@
   <LocaleResource Name="ShoppingCart.Rental.StartDateShouldBeFuture">
     <Value>租賃起始日期應該是未來的日期</Value>
   </LocaleResource>
+  <LocaleResource Name="ShoppingCart.RequiredProductUpdateWarning">
+    <Value>此產品的數量為{0}</Value>
+  </LocaleResource>
   <LocaleResource Name="ShoppingCart.RequiredProductWarning">
     <Value>新增商品到購物車失敗</Value>
   </LocaleResource>
@@ -17282,7 +17345,7 @@
   <LocaleResource Name="ShoppingCart.SenderNameError">
     <Value>請輸入有效的發件人名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.sku">
+  <LocaleResource Name="ShoppingCart.SKU">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.TaxShipping.ExclTax">
@@ -17322,13 +17385,13 @@
   <LocaleResource Name="ShoppingCart.Totals.PaymentMethodAdditionalFee">
     <Value>付款方式附加費</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.totals.rewardpoints">
+  <LocaleResource Name="ShoppingCart.Totals.RewardPoints">
     <Value>{0} 紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.totals.rewardpoints.willearn">
+  <LocaleResource Name="ShoppingCart.Totals.RewardPoints.WillEarn">
     <Value>您將獲得</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.totals.rewardpoints.willearn.point">
+  <LocaleResource Name="ShoppingCart.Totals.RewardPoints.WillEarn.Point">
     <Value>紅利積點{0} 點</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Totals.Shipping">
@@ -17361,6 +17424,9 @@
   <LocaleResource Name="ShoppingCart.UpdateCartItem">
     <Value>更新數量</Value>
   </LocaleResource>
+  <LocaleResource Name="ShoppingCart.VendorName">
+    <Value>供應商名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="ShoppingCart.WishlistDisabled">
     <Value>該商品不能加入願望清單</Value>
   </LocaleResource>
@@ -17381,6 +17447,9 @@
   </LocaleResource>
   <LocaleResource Name="Sitemap.Products">
     <Value>商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Sitemap.ProductTags">
+    <Value>商品標籤</Value>
   </LocaleResource>
   <LocaleResource Name="Sitemap.Topics">
     <Value>資訊</Value>
@@ -17417,6 +17486,15 @@
   </LocaleResource>
   <LocaleResource Name="Vendors.ApplyAccount">
     <Value>申請供應商帳戶</Value>
+  </LocaleResource>
+  <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService">
+    <Value>我同意服務條款</Value>
+  </LocaleResource>
+  <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService.Read">
+    <Value>(閱讀)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService.Required">
+    <Value>請同意服務條款</Value>
   </LocaleResource>
   <LocaleResource Name="Vendors.ApplyAccount.AlreadyApplied">
     <Value>您已經申請了供應商帳戶，請註冊一個新帳戶來申請供應商帳戶。</Value>
@@ -17502,7 +17580,7 @@
   <LocaleResource Name="Wishlist.EmailAFriend.FriendEmail.Required">
     <Value>請輸入收件人信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="wishlist.emailafriend.onlyregisteredusers">
+  <LocaleResource Name="Wishlist.EmailAFriend.OnlyRegisteredUsers">
     <Value>只有註冊會員才能使用此功能，請先登入。</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.PersonalMessage">
