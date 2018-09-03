@@ -14210,6 +14210,9 @@
   <LocaleResource Name="Checkout.ConfirmYourOrder">
     <Value>確認您的訂單</Value>
   </LocaleResource>
+  <LocaleResource Name="Checkout.Disabled">
+    <Value>抱歉，結帳流程被禁用</Value>
+  </LocaleResource>
   <LocaleResource Name="Checkout.EnterBillingAddress">
     <Value>請輸入帳單寄送地址</Value>
   </LocaleResource>
@@ -14263,6 +14266,21 @@
   </LocaleResource>
   <LocaleResource Name="Checkout.PickUpInStoreAndFee">
     <Value>店內提貨 ({0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="Checkout.PickupPoints">
+    <Value>取貨</Value>
+  </LocaleResource>
+  <LocaleResource Name="Checkout.PickupPoints.Description">
+    <Value>在店內取貨</Value>
+  </LocaleResource>
+  <LocaleResource Name="Checkout.PickupPoints.Name">
+    <Value>Pickup at {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Checkout.PickupPoints.NotAvailable">
+    <Value>無法載入取貨地點</Value>
+  </LocaleResource>
+  <LocaleResource Name="Checkout.PickupPoints.SelectPickupPoint">
+    <Value>選擇取貨地點</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.PlacedOrderDetails">
     <Value>請點擊這裡查看訂單詳細資訊。</Value>
@@ -14483,6 +14501,9 @@
   <LocaleResource Name="Common.WrongCaptchaV2">
     <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
   </LocaleResource>
+  <LocaleResource Name="Common.WrongCaptchaMessage">
+    <Value>驗證碼輸入錯誤，請再試一次。</Value>
+  </LocaleResource>
   <LocaleResource Name="Common.WrongEmail">
     <Value>電子信箱無效</Value>
   </LocaleResource>
@@ -14597,6 +14618,9 @@
   <LocaleResource Name="Currencies">
     <Value>貨幣</Value>
   </LocaleResource>
+  <LocaleResource Name="Currency.Selector.Label">
+    <Value>選擇貨幣</Value>
+  </LocaleResource>
   <LocaleResource Name="Customer.Guest">
     <Value>匿名用戶</Value>
   </LocaleResource>
@@ -14644,6 +14668,9 @@
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.FileUpload">
     <Value>上傳文件</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.ImageSquares">
+    <Value>圖像方塊</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.MultilineTextbox">
     <Value>多行文本框</Value>
@@ -14792,6 +14819,48 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Hashed">
     <Value>雜湊</Value>
   </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.RewardPointsActivatingDelayPeriod.Days">
+    <Value>天</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.RewardPointsActivatingDelayPeriod.Hours">
+    <Value>小時</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.AdminApproval">
+    <Value>客戶要得到管理員批准</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.Disabled">
+    <Value>不允許註冊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.EmailValidation">
+    <Value>註冊後需要Email驗證</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.Standard">
+    <Value>建立標準帳戶</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding001">
+    <Value>預設的進位方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding005Down">
+    <Value>以 0.05 為間隔 (0.06 四捨五入為 0.05)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding005Up">
+    <Value>以 0.05 為間隔 (0.06 四捨五入為 0.10)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding01Down">
+    <Value>以 0.10 為間隔 (1.05 四捨五入為 1.00)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding01Up">
+    <Value>以 0.10 為間隔 (1.05 四捨五入為 1.10)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding05">
+    <Value>以 0.50 為間隔</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding1">
+    <Value>以 1.00 為間隔 (1.01-1.49 四捨五入為 1.00, 1.50-1.99 round to 2.00)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding1Up">
+    <Value>以 1.00 為間隔 (1.01–1.99 四捨五入為 2.00)</Value>
+  </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
     <Value>所有用戶</Value>
   </LocaleResource>
@@ -14819,6 +14888,12 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToSkus">
     <Value>應用到商品系列商品料號（SKU）</Value>
   </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.RequirementGroupInteractionType.And">
+    <Value>且</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.RequirementGroupInteractionType.Or">
+    <Value>或</Value>
+  </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.BBCodeEditor">
     <Value>BBCode編輯器</Value>
   </LocaleResource>
@@ -14845,6 +14920,18 @@
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Sticky">
     <Value>轉載</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.ConsentAgree">
+    <Value>承諾 (同意)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.ConsentDisagree">
+    <Value>承諾 (不同意)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.DeleteCustomer">
+    <Value>刪除會員</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.ExportData">
+    <Value>輸出日期</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Debug">
     <Value>除錯</Value>
@@ -14905,6 +14992,12 @@
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
     <Value>授權退貨</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ShoppingCartType.ShoppingCart">
+    <Value>購物車</Value>
+  </LocaleResource>
+  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ShoppingCartType.Wishlist">
+    <Value>願望清單</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Authorized">
     <Value>授權</Value>
@@ -15113,7 +15206,7 @@
   <LocaleResource Name="Footer.Information">
     <Value>訊息</Value>
   </LocaleResource>
-  <LocaleResource Name="footer.myaccount">
+  <LocaleResource Name="Footer.MyAccount">
     <Value>會員中心</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.TaxShipping.ExclTax">
@@ -15122,7 +15215,7 @@
   <LocaleResource Name="Footer.TaxShipping.InclTax">
     <Value>所有價格皆含稅。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
   </LocaleResource>
-  <LocaleResource Name="forum.activediscussions">
+  <LocaleResource Name="Forum.ActiveDiscussions">
     <Value>熱門討論</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.ActiveDiscussions.ViewAll">
@@ -15419,6 +15512,21 @@
   <LocaleResource Name="Forum.WatchTopic">
     <Value>關注</Value>
   </LocaleResource>
+  <LocaleResource Name="Gdpr.Consent.Newsletter">
+    <Value>電子報</Value>
+  </LocaleResource>
+  <LocaleResource Name="Gdpr.Consent.PrivacyPolicy">
+    <Value>隱私權政策</Value>
+  </LocaleResource>
+  <LocaleResource Name="Gdpr.DeleteRequested">
+    <Value>請求刪除帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Gdpr.DeleteRequested.Success">
+    <Value>我們會盡快處理您的請求</Value>
+  </LocaleResource>
+  <LocaleResource Name="Gdpr.Exported">
+    <Value>輸出個人資料</Value>
+  </LocaleResource>
   <LocaleResource Name="GiftCardAttribute.For.Physical">
     <Value>收件人: {0}</Value>
   </LocaleResource>
@@ -15650,6 +15758,9 @@
   <LocaleResource Name="Newsletter.ResultActivated">
     <Value>您的訂閱已被啟用</Value>
   </LocaleResource>
+  <LocaleResource Name="Newsletter.ResultAlreadyDeactivated">
+    <Value>您的訂閱已經被停用</Value>
+  </LocaleResource>
   <LocaleResource Name="Newsletter.ResultDeactivated">
     <Value>您的訂閱已被停用</Value>
   </LocaleResource>
@@ -15668,7 +15779,7 @@
   <LocaleResource Name="Nop.Web.Framework.Validators.MaxDecimal">
     <Value>The value is out of range. Maximum value is {0}.99</Value>
   </LocaleResource>
-  <LocaleResource Name="order.billingaddress">
+  <LocaleResource Name="Order.BillingAddress">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
   <LocaleResource Name="order.companytaxid">
@@ -15731,6 +15842,9 @@
   <LocaleResource Name="Order.Phone">
     <Value>電話號碼</Value>
   </LocaleResource>
+  <LocaleResource Name="Order.PickupAddress">
+    <Value>取貨地點</Value>
+  </LocaleResource>
   <LocaleResource Name="Order.Print">
     <Value>列印</Value>
   </LocaleResource>
@@ -15755,6 +15869,9 @@
   <LocaleResource Name="Order.PurchaseOrderNumber">
     <Value>採購單號</Value>
   </LocaleResource>
+  <LocaleResource Name="Order.Product(s).VendorName">
+    <Value>供應商名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="Order.Rental.FormattedDate">
     <Value>開始日期： {0}. 結束日期： {1}.</Value>
   </LocaleResource>
@@ -15770,7 +15887,7 @@
   <LocaleResource Name="Order.ReturnItems">
     <Value>需要退貨</Value>
   </LocaleResource>
-  <LocaleResource Name="order.rewardpoints">
+  <LocaleResource Name="Order.RewardPoints">
     <Value>{0}紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Shipments">
@@ -15799,6 +15916,9 @@
   </LocaleResource>
   <LocaleResource Name="Order.Shipments.Phone">
     <Value>電話號碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Order.Shipments.PickupAddress">
+    <Value>取貨地點</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Shipments.Product(s)">
     <Value>商品</Value>
@@ -15929,6 +16049,9 @@
   <LocaleResource Name="PageTitle.Blog">
     <Value>部落格</Value>
   </LocaleResource>
+  <LocaleResource Name="PageTitle.CheckGiftCardBalance">
+    <Value>檢查禮品卡餘額</Value>
+  </LocaleResource>
   <LocaleResource Name="PageTitle.Checkout">
     <Value>結算</Value>
   </LocaleResource>
@@ -15943,6 +16066,9 @@
   </LocaleResource>
   <LocaleResource Name="PageTitle.CustomerProductReviews">
     <Value>我的商品評論</Value>
+  </LocaleResource>
+  <LocaleResource Name="PageTitle.EmailRevalidation">
+    <Value>Email驗證</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.ForumSubscriptions">
     <Value>論壇訂閱</Value>
@@ -16058,6 +16184,9 @@
   <LocaleResource Name="Payment.ExpirationDate">
     <Value>有效日期</Value>
   </LocaleResource>
+  <LocaleResource Name="Payment.ExpirationDate.Expired">
+    <Value>卡片已經到期</Value>
+  </LocaleResource>
   <LocaleResource Name="Payment.ExpireMonth.Required">
     <Value>請輸有效日期</Value>
   </LocaleResource>
@@ -16123,6 +16252,9 @@
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.Phone">
     <Value>電話號碼： {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="PDFInvoice.Pickup">
+    <Value>取貨地點:</Value>
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.Product(s)">
     <Value>商品</Value>
