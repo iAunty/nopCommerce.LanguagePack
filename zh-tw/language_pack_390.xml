@@ -1398,6 +1398,15 @@
   <LocaleResource Name="Admin.Address.Fields.Country.Required">
     <Value>請輸入國家</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Address.Fields.County">
+    <Value>國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Address.Fields.County.Hint">
+    <Value>輸入國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Address.Fields.County.Required">
+    <Value>請輸入國家</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email">
     <Value>Email</Value>
   </LocaleResource>
@@ -1716,6 +1725,18 @@
   <LocaleResource Name="Admin.Catalog">
     <Value>商品管理</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Description">
+    <Value>描述</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Name">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Rating">
+    <Value>評價</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.VisibleToAllCustomers">
+    <Value>讓所有會員可以看到</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes">
     <Value>屬性管理</Value>
   </LocaleResource>
@@ -1994,6 +2015,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
     <Value>價格調整將被應用當選擇這個屬性值如『10』則增加10塊錢。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage">
+    <Value>價格調整。 使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage.Hint">
+    <Value>確定是否將百分比應用於產品。 如果未啟用，則使用固定值。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
     <Value>重量調整</Value>
