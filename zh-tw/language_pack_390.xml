@@ -5399,6 +5399,9 @@
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Configure">
     <Value>配置</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Payment.Methods.DownloadMorePlugins">
+    <Value>您可以從這裡下載更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=2&amp;utm_source=admin-panel&amp;utm_medium=payment-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
@@ -5429,11 +5432,20 @@
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.SystemName">
     <Value>系統名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.PaymentMethods">
+    <Value>付款方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.PaymentMethodsAndRestrictions">
+    <Value>付款方式和限制</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins">
     <Value>插件管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.AdditionalInfo">
     <Value>附加信息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Deleted">
+    <Value>套件已經被刪除.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description">
     <Value>手動安裝插件</Value>
@@ -5459,6 +5471,12 @@
   <LocaleResource Name="Admin.Configuration.Plugins.EditDetails">
     <Value>編輯插件</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles">
+    <Value>僅限於客戶角色</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles.Hint">
+    <Value>選擇一個或多個客戶角色，即管理員，供應商，訪客，他們將能夠使用此插件。如果您不需要此選項，請將此字段留空</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.Author">
     <Value>作者</Value>
   </LocaleResource>
@@ -5470,6 +5488,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.Configure">
     <Value>配置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete">
+    <Value>刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete.Progress">
+    <Value>刪除套件中...</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -5803,6 +5827,18 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled.Hint">
     <Value>啟用商品比較</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DefaultViewMode">
+    <Value>預設檢視模式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DefaultViewMode.Hint">
+    <Value>選擇目錄頁面的默認視圖模式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDatePreOrderAvailability">
+    <Value>顯示預訂可用性的日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDatePreOrderAvailability.Hint">
+    <Value>選中以顯示預訂可用性的日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDiscontinuedMessageForUnpublishedProducts">
     <Value>對未公佈的商品停產的消息</Value>
@@ -7502,6 +7538,12 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder">
     <Value>禮品卡啟用時訂單狀態是"已完成"</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder.Hint">
+    <Value>訂單完成後，選中以激活相關的禮品卡</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Order.AllowAdminsToBuyCallForPriceProducts">
+    <Value>允許管理員購買“價格徵詢”產品</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.AllowAdminsToBuyCallForPriceProducts.Hint">
     <Value>當訂單狀態轉成"已完成"，啟動禮品卡</Value>
   </LocaleResource>
@@ -7550,6 +7592,12 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.PdfInvoice">
     <Value>PDF發票</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Order.CheckoutDisabled">
+    <Value>結帳停止</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Order.CheckoutDisabled.Hint">
+    <Value>選中以禁用結帳過程(商店會變為唯讀模式)</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.CompleteOrderWhenDelivered">
     <Value>出貨狀態為"已送達"，訂單狀態才轉"已完成"</Value>
   </LocaleResource>
@@ -7588,6 +7636,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterDeletingOrder.Hint">
     <Value>訂單被刪除後，禮品卡停用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DeleteGiftCardUsageHistory">
+    <Value>訂單取消後刪除禮品卡使用記錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Order.DeleteGiftCardUsageHistory.Hint">
+    <Value>訂單取消後，請檢查以刪除禮品卡使用歷史記錄</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.DisableBillingAddressCheckoutStep">
     <Value>不使用「帳單地址」這步驟:</Value>
@@ -7864,6 +7918,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.BlockTitle.Mappings">
     <Value>映射</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.BlockTitle.OneColumnProductPage">
+    <Value>進階商品類型</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.BlockTitle.Price">
     <Value>價格</Value>
