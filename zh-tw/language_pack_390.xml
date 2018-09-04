@@ -8232,10 +8232,10 @@
     <Value>所有訂單超過該值將免運費。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey">
-    <Value>Google maps API key</Value>
+    <Value>Google 地圖的 API key</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey.Hint">
-    <Value>Specify Google maps API key.</Value>
+    <Value>特定的 Google 地圖 API key.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.HideShippingTotal">
     <Value>商品若是不須配送，隱藏運費估算</Value>
@@ -8621,11 +8621,23 @@
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange.Hint">
     <Value>供應商更改資料後，系統會寄一封信提醒管理員</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnOrderDetailsPage">
+    <Value>在訂單詳細信息頁面上顯示供應商名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnOrderDetailsPage.Hint">
+    <Value>選取在訂單詳細信息頁面上顯示產品的供應商名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage">
     <Value>商品詳細資訊頁面上顯示供應商</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage.Hint">
     <Value>查看商品詳細資訊頁面上顯示供應商名稱(如果關聯)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.TermsOfServiceEnabled">
+    <Value>服務條款</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Vendor.TermsOfServiceEnabled.Hint">
+    <Value>要求供應商在註冊期間接受服務條款</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorsBlockItemsToDisplay">
     <Value>要顯示供應商的數量</Value>
@@ -8681,8 +8693,17 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures">
     <Value>度量</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.AdditionalConfirm">
+    <Value>&lt;p&gt;警告! 建議不要在實際網站上執行此操作，因為: &lt;/p&gt;&lt;ol&gt;&lt;li&gt;其他費率必須手動更新&lt;/li&gt;&lt;li&gt;您必須確保每個產品都有效度量（維度和權重） - 它們不會自動調整&lt;/li&gt;&lt;/ol&gt;</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions">
     <Value>尺寸</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.CantDeletePrimary">
+    <Value>主要尺寸不能被刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Description">
+    <Value>注意：如果更改主要尺寸，則不要忘記更新單位的適當比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8696,14 +8717,26 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Name.Required">
+    <Value>請提供名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Ratio">
     <Value>尺寸比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.SystemKeyword">
     <Value>系統關鍵字</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.SystemKeyword.Required">
+    <Value>請提供系統關鍵字</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights">
     <Value>重量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.CantDeletePrimary">
+    <Value>主要重量不能被刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Description">
+    <Value>注意：如果更改主要重量，則不要忘記更新單位的適當比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8717,11 +8750,17 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Name.Required">
+    <Value>請輸入名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Ratio">
     <Value>重量比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.SystemKeyword">
     <Value>系統關鍵字</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.SystemKeyword.Required">
+    <Value>請輸入系統關鍵字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Methods">
     <Value>配送方式</Value>
@@ -8801,11 +8840,20 @@
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges">
     <Value>商品可用範圍</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Added">
+    <Value>新產品可用性範圍已成功添加</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.AddNew">
     <Value>新增一個新的商品可用範圍</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.BackToList">
     <Value>返回商品可用範圍列表</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Deleted">
+    <Value>產品可用性範圍已成功刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.EditProductAvailabilityRangeDetails">
+    <Value>編輯產品可用範圍詳細</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8819,8 +8867,14 @@
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name.Hint">
     <Value>輸入商品可用範圍名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name.Required">
+    <Value>請提供名稱</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Hint">
     <Value>可用範圍選項列表，在商品詳情頁展示。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Updated">
+    <Value>產品可用性範圍已成功更新</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers">
     <Value>運費計算方式</Value>
@@ -8830,6 +8884,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers.Configure">
     <Value>配置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Shipping.Providers.DownloadMorePlugins">
+    <Value>你可以在這裡下在更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=3&amp;utm_source=admin-panel&amp;utm_medium=shipping-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8966,6 +9023,9 @@
   <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage">
     <Value>預設語言</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage.DefaultItemText">
+    <Value>---</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage.Hint">
     <Value>此屬性允許一個商店管理員指定一個預設的語言。如果沒有指定，則預設語言顯示順序將被使用。</Value>
   </LocaleResource>
@@ -9040,6 +9100,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Tax.Providers.Configure">
     <Value>配置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Tax.Providers.DownloadMorePlugins">
+    <Value>你可以在這裡下在更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=11&amp;utm_source=admin-panel&amp;utm_medium=tax-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Tax.Providers.Fields.FriendlyName">
     <Value>友好名稱</Value>
@@ -9194,6 +9257,9 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.List.SearchStore">
     <Value>商店</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.List.SearchStore.Hint">
+    <Value>根據特定商店搜尋</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Stores">
     <Value>商店</Value>
   </LocaleResource>
@@ -9230,11 +9296,23 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.StoreName">
     <Value>商店名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.BlogPostId">
+    <Value>Blog貼文ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.BlogPostId.Hint">
+    <Value>根據Blog貼文ID搜尋</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnFrom">
     <Value>開始創建日期</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnFrom.Hint">
+    <Value>從搜索日期開始創建</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnTo">
     <Value>結束創建日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnTo.Hint">
+    <Value>迄今為止的搜索創建</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved">
     <Value>審核狀態</Value>
@@ -9248,8 +9326,14 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.DisapprovedOnly">
     <Value>未審核</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.Hint">
+    <Value>根據"已審核"屬性搜尋</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchText">
     <Value>關鍵字</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchText.Hint">
+    <Value>搜尋評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Forums">
     <Value>論壇管理</Value>
@@ -9356,6 +9440,9 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.BackToList">
     <Value>返回郵件內容版型列表</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Copied">
+    <Value>這個版型複製成功</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Copy">
     <Value>複製版型</Value>
   </LocaleResource>
@@ -9364,6 +9451,141 @@
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Blog.BlogComment">
     <Value>當創建某個部落格文章的新部落格評論時，將使用此郵件內容版型。 商店管理員將收到此消息。 您可以在配置 - 設定 - 部落格設定中勾選【關於新部落格評論通知】的復選框來設定此選項。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.BackInStock">
+    <Value>This message template is used when the customer subscribed for the certain product which is unavailable at the moment to notify the customer about the product being back to stock again. You can set up this option by ticking the checkbox &lt;strong&gt;Allow back in stock subscriptions&lt;/strong&gt; in Product info tab - Inventory section.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.EmailRevalidationMessage">
+    <Value>This message template is used when a customer changes an email address in his account. The customer receives a message to confirm an email address used when changing email address.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.EmailValidationMessage">
+    <Value>This message template is used when Configuration - Settings - Customer settings - "Registration method" dropdownlist is set to "Email validation". The customer receives a message to confirm an email address used when registering.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.NewOrderNote">
+    <Value>This message template is used when the customer gets a notification about a new order being placed from this account.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.NewPM">
+    <Value>This message template is used when the customer gets a notification about a new private message being received. You can set up this option by ticking the checkbox &lt;strong&gt;Show alert for PM&lt;/strong&gt; in Configuration - Settings - Forum settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.PasswordRecovery">
+    <Value>This message template is used when a customer forgets a password needed to log in the account. The customer receives a message with a link for entering a new password.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.WelcomeMessage">
+    <Value>This message template is used to welcome a new customer after registration.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Forums.NewForumPost">
+    <Value>This message template is used when a new forum post in certain forum topic is created. The message is received by a store owner.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Forums.NewForumTopic">
+    <Value>This message template is used when a new forum topic is created. The message is received by a store owner.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.GiftCard.Notification">
+    <Value>This message template is used to send a notification to a customer about getting a gift card.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewCustomer.Notification">
+    <Value>This message template is used when a new customer is registered. The message is received by a store owner. You can set up this option by ticking the checkbox &lt;strong&gt;Notify about new customer registration&lt;/strong&gt; in Configuration - Settings - Customer settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewReturnRequest.CustomerNotification">
+    <Value>This message template is used to notify a customer about a new return request submitted from his/her account.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewReturnRequest.StoreOwnerNotification">
+    <Value>This message template is used when a new return request is created. The message is received by a store owner.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.News.NewsComment">
+    <Value>This message template is used when a new comment to the certain news item is created. The message is received by a store owner. You can set up this option by ticking the checkbox &lt;strong&gt;Notify about new news comments&lt;/strong&gt; in Configuration - Settings - News settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewsLetterSubscription.ActivationMessage">
+    <Value>This message template is used when a customer subscribes to the newsletter to confirm the subscription.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewsLetterSubscription.DeactivationMessage">
+    <Value>This message template is used when a customer unsubscribes to the newsletter to confirm the subscription deactivation. You can allow users to unsubscribe by ticking the checkbox &lt;strong&gt;Newsletter box. Allow to unsubscribe&lt;/strong&gt; in Configuration - Settings - Customer settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewVATSubmitted.StoreOwnerNotification">
+    <Value>This message template is used when a new VAT is submitted. The message is received by a store owner. You can set up this option by clicking &lt;strong&gt;Notify admin when a new VAT number is submitted&lt;/strong&gt; in Configuration - Settings - Tax settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderCancelled.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain order was cancelled. The order can be cancelled by a customer on the account page or by store owner in Customers - Customers in Orders tab or in Sales - Orders.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderCompleted.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain order was completed. The order gets the order status Complete when it's paid and delivered, or it can be changed manually to Complete in Sales - Orders.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.AffiliateNotification">
+    <Value>This message template is used to notify an affiliate that the certain order was paid. The order gets the status Paid when the amount was charged.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain order was paid. The order gets the payment status Paid when the amount was charged, or it can be changed manually Sales - Orders by clicking Mark as paid button in Payment status.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the certain order was paid. The order gets the status Paid when the amount was charged, or it can be changed manually Sales - Orders by clicking Mark as paid button in Payment status.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.VendorNotification">
+    <Value>This message template is used to notify a vendor that the certain order was paid. The order gets the status Paid when the amount was charged.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.AffiliateNotification">
+    <Value>This message template is used to notify an affiliate that the certain order was placed.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain order was placed. Orders can be viewed by a customer on the account page.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the certain order was placed. Orders can be viewed by a store owner in Sales - Orders or in Customers menu.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.VendorNotification">
+    <Value>This message template is used to notify a vendor that the certain order was placed. Orders can be viewed by a vendor in Sales - Orders. You can allow them to access this part of Admin Area in Configuration - Access control list.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderRefunded.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain order was refunded. The customer can submit to refund the order when the payment status is paid on the account page, or it can be done by a store owner in Sales - Orders by clicking "Refund" button.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderRefunded.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the certain order was refunded. The customer can submit to refund the order when the payment status is paid on the account page, or it can be done by a store owner in Sales - Orders by clicking "Refund" button.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Product.ProductReview">
+    <Value>This message template is used to notify a store owner that a new product review is created. You can set up this option by ticking the checkbox &lt;strong&gt;Notify about new product reviews&lt;/strong&gt; in Configuration - Settings - Catalog settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ProductReview.Reply.CustomerNotification">
+    <Value>This message template is used to notify customers when a store owner (or vendor) replies to their product reviews. You can set up this option by ticking the checkbox &lt;strong&gt;Notify customer about product review reply&lt;/strong&gt; in Configuration - Settings - Catalog settings.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.QuantityBelow.AttributeCombination.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the certain product attribute combination is getting low stock. You can set up the combination minimum quantity when creating or editing the product in Product attribute tab - Attributes combinations tab in Notify admin for quantity below field.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.QuantityBelow.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the certain product is getting low stock. You can set up the minimum product quantity when creating or editing the product in Inventory section, &lt;strong&gt;Minimum stock qty field&lt;/strong&gt;.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.RecurringPaymentCancelled.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain recurring payment is cancelled. Payment can be cancelled by a customer in the account page or by a store owner in Sales - Recurring payments in History tab by clicking "Cancel recurring payment" button.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.RecurringPaymentCancelled.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the certain recurring payment is cancelled. Payment can be cancelled by a customer in the account page or by a store owner in Sales - Recurring payments in History tab by clicking "Cancel recurring payment" button.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.RecurringPaymentFailed.CustomerNotification">
+    <Value>This message template is used to notify a customer that the certain recurring payment is failed. For example, the amount can't be charged from the provided credit card.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ReturnRequestStatusChanged.CustomerNotification">
+    <Value>This message template is used to notify a customer that the request status to the certain order is changed. You can set up this option in Sales - Return requests by clicking "Notify customer about status change" button.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Service.ContactUs">
+    <Value>This message template is used to notify a store owner about a message sent through the contact form.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Service.ContactVendor">
+    <Value>This message template is used to notify a vendor about a message sent through the contact form.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Service.EmailAFriend">
+    <Value>This message template is used to send "email a friend" message.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ShipmentDelivered.CustomerNotification">
+    <Value>This message template is used to notify a customer that the shipping status of the certain order is set to delivered. You can set up this option in Configuration - Settings - Shipping settings by ticking the checkbox &lt;strong&gt;Display shipment events (customers)&lt;/strong&gt;.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ShipmentSent.CustomerNotification">
+    <Value>This message template is used to notify a customer that the shipping status of the certain order is sent. You can set up this option in Configuration - Settings - Shipping settings by ticking the checkbox &lt;strong&gt;Display shipment events (customers)&lt;/strong&gt;.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.VendorAccountApply.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that new user has applied for vendor account. You can allow customers to apply for vendor account in Configuration - Setting - Vendor settings by ticking the checkbox &lt;strong&gt;Allow customers to apply for vendor account&lt;/strong&gt;.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.VendorInformationChange.StoreOwnerNotification">
+    <Value>This message template is used to notify a store owner that the vendor changed some vendor's details. You can allow vendors to change info about themselves in Configuration - Setting - Vendor settings by ticking the checkbox &lt;strong&gt;Allow vendors to edit info&lt;/strong&gt;.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Wishlist.EmailAFriend">
+    <Value>This message template is used when a customer wants to share some product from the wishlist with a friend by sending an email. You can set up this option by ticking the checkbox Allow customers to email their wishlists in Configuration - Settings - Shopping cart settings.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.EditMessageTemplateDetails">
     <Value>編輯郵件內容版型</Value>
@@ -9539,8 +9761,20 @@
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnFrom">
     <Value>開始創建日期</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnFrom.Hint">
+    <Value>從搜索日期開始創建</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnTo">
     <Value>結束創建日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnTo.Hint">
+    <Value>迄今為止的搜索創建</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.NewsItemId">
+    <Value>新物件ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.NewsItemId.Hint">
+    <Value>根據新物件ID搜尋.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved">
     <Value>審核狀態</Value>
@@ -9554,8 +9788,14 @@
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.DisapprovedOnly">
     <Value>未審核</Value>
   </LocaleResource>
+   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.Hint">
+    <Value>搜尋有"審核"屬性</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchText">
     <Value>關鍵字</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchText.Hint">
+    <Value>搜尋開頭和評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.NewsItems">
     <Value>新聞</Value>
@@ -9749,6 +9989,12 @@
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Language.Hint">
     <Value>語言</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Polls.Fields.LimitedToStores">
+    <Value>限於商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Polls.Fields.LimitedToStores.Hint">
+    <Value>將此輪詢限制為某個商店的選項。 如果您有多個商店，請從列表中選擇一個或多個商店。 如果您不使用此選項，請將此字段留空。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
@@ -9784,6 +10030,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Info">
     <Value>基本資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Polls.List.SearchStore">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Polls.List.SearchStore.Hint">
+    <Value>搜尋特定商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Updated">
     <Value>修改投票成功</Value>
@@ -9965,6 +10217,12 @@
   <LocaleResource Name="Admin.ContentManagement.Topics.Info">
     <Value>基本資訊</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchKeywords">
+    <Value>搜尋關鍵字</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchKeywords.Hint">
+    <Value>根據關鍵字搜尋主題</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchStore">
     <Value>商店</Value>
   </LocaleResource>
@@ -10006,6 +10264,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.CurrentCarts">
     <Value>會員購物記錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CurrentCarts.CartsAndWishlists">
+    <Value>購物車和願望清單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.CurrentCarts.Customer">
     <Value>會員</Value>
@@ -10151,8 +10412,17 @@
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Active.Hint">
     <Value>已啟用</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.DefaultTaxDisplayType">
+    <Value>預設稅率顯示樣式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.DefaultTaxDisplayType.Hint">
+    <Value>預設稅率顯示樣式</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.EnablePasswordLifetime">
     <Value>啟用密碼生存期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.EnablePasswordLifetime.Hint">
+    <Value>檢查以強制客戶在指定時間後更改其密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.FreeShipping">
     <Value>免運費</Value>
@@ -10174,6 +10444,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Name.Required">
     <Value>請提供一個名稱。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.OverrideTaxDisplayType">
+    <Value>覆蓋原本稅率顯示方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.OverrideTaxDisplayType.Hint">
+    <Value>檢查覆蓋原本稅率顯示方式</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct">
     <Value>購買與商品</Value>
@@ -10228,6 +10504,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.ActivityLog.IpAddress.Hint">
     <Value>IP地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Customers.Customers.AddCustomerToGuestsOrRegisteredRoleError">
+    <Value>將會員加上"來賓"或"已註冊"會員角色</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Added">
     <Value>新增會員成功</Value>
