@@ -6361,7 +6361,94 @@
     <Value>貼文每頁顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Forums.TopicsPageSize.Hint">
-    <Value>每頁貼文顯示筆數</Value>
+    <Value>每頁貼文顯示筆數 例如每頁10筆</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr">
+    <Value>GDPR 設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.BlockTitle.Common">
+    <Value>一般</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.BlockTitle.Consents">
+    <Value>同意書</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Added">
+    <Value>新的同意書已成功添加</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.AddNew">
+    <Value>增加同意書</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.BackToList">
+    <Value>回到同意書</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Deleted">
+    <Value>同意書已成功刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.DisplayDuringRegistration">
+    <Value>註冊時顯示</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.DisplayDuringRegistration.Hint">
+    <Value>檢查以在註冊頁面上顯示此同意</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.DisplayOnCustomerInfoPage">
+    <Value>顯示在"客戶信息"頁面上</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.DisplayOnCustomerInfoPage.Hint">
+    <Value>選中以在"客戶信息"頁面上顯示此同意</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.DisplayOrder">
+    <Value>顯示順序</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.DisplayOrder.Hint">
+    <Value>同意顯示順序。 1代表列表中的第一項</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Edit">
+    <Value>編輯同意</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.IsRequired">
+    <Value>是必須的</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.IsRequired.Hint">
+    <Value>檢查是否需要勾選此同意</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Message">
+    <Value>訊息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Message.Hint">
+    <Value>輸入顯示給客戶的消息（問題）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Message.Required">
+    <Value>請提供信息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.RequiredMessage">
+    <Value>必填信息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.RequiredMessage.Hint">
+    <Value>輸入未在客戶簽署此同意書時顯示的消息（錯誤）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.RequiredMessage.Required">
+    <Value>請提供必要的訊息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.Consent.Updated">
+    <Value>GDPR同意已成功更新</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.GdprEnabled">
+    <Value>GDPR 啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.GdprEnabled.Hint">
+    <Value>檢查以啟用GDPR（通用數據保護法規）。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.LogNewsletterConsent">
+    <Value>記錄"時事通訊"的同意</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.LogNewsletterConsent.Hint">
+    <Value>檢查以記錄"簡報"同意（如果您的商店啟用了此功能）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.LogPrivacyPolicyConsent">
+    <Value>記錄"接受隱私政策"的同意</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Gdpr.LogPrivacyPolicyConsent.Hint">
+    <Value>檢查以記錄"接受隱私政策"同意（如果您的商店啟用了此功能）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon">
     <Value>綜合設定</Value>
