@@ -5746,7 +5746,7 @@
     <Value>設置是否啟用“國家/地區”</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyEnabled">
-    <Value>縣'啟用</Value>
+    <Value>'縣'啟用</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyEnabled.Hint">
     <Value>設置是否啟用“縣”</Value>
@@ -6453,6 +6453,12 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon">
     <Value>綜合設定</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminArea.UseRichEditorInMessageTemplates">
+    <Value>在消息模板上使用富編輯器</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminArea.UseRichEditorInMessageTemplates.Hint">
+    <Value>指示是否在郵件模板和活動詳細信息頁面上使用富編輯器。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminAreaAllowedIpAddresses">
     <Value>允許進入後台的IP地址</Value>
   </LocaleResource>
@@ -6471,11 +6477,17 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AutomaticallyDetectLanguage.Hint">
     <Value>檢查自動檢測語言是基於會員瀏覽器設定。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.blocktitle.captcha">
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.AdminArea">
+    <Value>管理員區域</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Captcha">
     <Value>CAPTCHA</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Common">
     <Value>一般設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.FooterItems">
+    <Value>Footer 物件</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.FullText">
     <Value>Full-Text</Value>
@@ -6495,9 +6507,6 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.Sitemap">
     <Value>網站地圖</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.blocktitle.sitemapd">
-    <Value>網站地圖</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.BlockTitle.SocialMedia">
     <Value>社交媒體</Value>
   </LocaleResource>
@@ -6512,6 +6521,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions">
     <Value>CAPTCHA是一個程序，可以判斷其用戶是一個人類還是一台電腦。您可能已經看過它們 - 在網絡註冊表格底部有多個扭曲文本的彩色圖像。 許多網站都使用CAPTSA來防止“bot”的濫用，或通常用來生成垃圾郵件的自動程序。 沒有計算機程序可以讀取扭曲的文本以及人類可以，所以機器人不能瀏覽受CAPTCHA保護的站點。 nopCommerce使用reCAPTCHA。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaAppropriateKeysNotEnteredError">
+    <Value>Captcha已啟用，但未輸入相應的密鑰</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaEnabled">
     <Value>啟用驗證碼</Value>
@@ -6606,32 +6618,107 @@
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.Hint">
     <Value>公共商店題材。 您可以下載風格從擴展頁 www.nopcommerce.com。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.defaultstorethemefordesktops">
-    <Value>預設版型</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.defaultstorethemefordesktops.getmore">
-    <Value>您可以得到更多的版型</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.defaultstorethemefordesktops.hint">
-    <Value>前台預設版型，您可以在www.nopcommerce.com的插件頁面下載版型</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.defaultstorethemeformobiledevices">
-    <Value>行動裝置版版型</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.defaultstorethemeformobiledevices.hint">
-    <Value>行動裝置版版型，您可以在www.nopcommerce.com的插件頁面下載版型</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultTitle">
-    <Value>商店預設標題</Value>
+    <Value>預設頁面開頭</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultTitle.Hint">
-    <Value>商店預設標題</Value>
+    <Value>商店中頁面的默認標題</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders">
-    <Value>停用等待處理中的訂單的收據</Value>
+    <Value>禁用掛單的PDF發票</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.generalcommon.disablepdfinvoicesforpendingorders.hint">
-    <Value>如果選擇， 會員不能匯出等待處理中的訂單的PDF收據。</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders.Hint">
+    <Value>如果選中，則不允許客戶打印掛單的PDF發票。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayApplyVendorAccountFooterItem">
+    <Value>顯示"申請供應商帳戶"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayApplyVendorAccountFooterItem.Hint">
+    <Value>檢查頁腳中是否應顯示“申請供應商帳戶”菜單項。 在這種情況下，還應啟用供應商功能。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayBlogFooterItem">
+    <Value>顯示"部落格"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayBlogFooterItem.Hint">
+    <Value>檢查是否應在頁腳中顯示"部落格"菜單項。 在這種情況下，還應啟用博客功能。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCompareProductsFooterItem">
+    <Value>顯示"比較產品列表"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCompareProductsFooterItem.Hint">
+    <Value>檢查頁腳中是否應顯示"比較產品列表"菜單項。 在這種情況下，還應啟用比較產品功能。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayContactUsFooterItem">
+    <Value>顯示"聯絡我們"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayContactUsFooterItem.Hint">
+    <Value>檢查頁腳中是否應顯示"聯繫我們"菜單項。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerAddressesFooterItem">
+    <Value>顯示"地址"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerAddressesFooterItem.Hint">
+    <Value>檢查頁腳中是否應顯示"地址"菜單項</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerInfoFooterItem">
+    <Value>顯示我的帳戶</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerInfoFooterItem.Hint">
+    <Value>Check if "My account" menu item should be displayed in the footer.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerOrdersFooterItem">
+    <Value>Display "Orders"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerOrdersFooterItem.Hint">
+    <Value>Check if "Orders" menu item should be displayed in the footer.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayForumsFooterItem">
+    <Value>Display "Forums"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayForumsFooterItem.Hint">
+    <Value>Check if "Forums" menu item should be displayed in the footer. Forums functionality should be also enabled in this case.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewProductsFooterItem">
+    <Value>Display "New products"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewProductsFooterItem.Hint">
+    <Value>Check if "New products" menu item should be displayed in the footer.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewsFooterItem">
+    <Value>Display "News"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewsFooterItem.Hint">
+    <Value>Check if "News" menu item should be displayed in the footer. News functionality should be also enabled in this case.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayProductSearchFooterItem">
+    <Value>Display "Search"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayProductSearchFooterItem.Hint">
+    <Value>Check if "Search" menu item should be displayed in the footer.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayRecentlyViewedProductsFooterItem">
+    <Value>Display "Recently viewed products"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayRecentlyViewedProductsFooterItem.Hint">
+    <Value>Check if "Recently viewed products" menu item should be displayed in the footer. "Recently viewed products" functionality should be also enabled in this case.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayShoppingCartFooterItem">
+    <Value>Display "Shopping cart"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayShoppingCartFooterItem.Hint">
+    <Value>Check if "Shopping cart" menu item should be displayed in the footer.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplaySitemapFooterItem">
+    <Value>Display "Sitemap"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplaySitemapFooterItem.Hint">
+    <Value>Check if "Sitemap" menu item should be displayed in the footer.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayWishlistFooterItem">
+    <Value>Display "Wishlist"</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayWishlistFooterItem.Hint">
+    <Value>Check if "Wishlist" menu item should be displayed in the footer.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayBlogMenuItem">
     <Value>顯示"部落格"</Value>
