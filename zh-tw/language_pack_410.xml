@@ -1596,107 +1596,20 @@
   <LocaleResource Name="Admin.Affiliates.Updated">
     <Value>修改協銷聯盟成功</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Blog.Categories.Manage">
-    <Value>部落格分類管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.AclCustomerRoles">
-    <Value>會員角色</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.AllowCustomersToSelectPageSize">
-    <Value>允許會員選擇每頁顯示筆數</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.deleted">
-    <Value>刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.Description">
-    <Value>描述</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.description.hint">
-    <Value>描述</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.displayorder.hint">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.HomePage">
-    <Value>首頁位置</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.HomePage.Hint">
-    <Value>以,分開，0不顯示</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.IncludeInTopMenu">
-    <Value>顯示於頂部選單</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.LimitedToStores">
-    <Value>限定用於某商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.limitedtostores.hint">
-    <Value>限定用於某商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.MetaDescription">
-    <Value>Meta描述</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.metadescription.hint">
-    <Value>Meta描述</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.MetaKeywords">
-    <Value>Meta關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.metakeywords.hint">
-    <Value>Meta關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.MetaTitle">
-    <Value>Meta標題</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.metatitle.hint">
-    <Value>重寫頁面的標題，預設為商品的名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.name.hint">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.PageSizeOptions">
-    <Value>筆數選項(用逗號隔開)</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.parent">
-    <Value>父類別名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.parent.hint">
-    <Value>父類別名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.parent.none">
-    <Value>請選擇父類別</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.Picture">
-    <Value>圖片</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.PriceRanges ">
-    <Value>父級分類</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.Published">
-    <Value>是否發佈</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.published.hint">
-    <Value>是否發佈</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.SeName">
-    <Value>搜尋引擎友好名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.sename.hint">
-    <Value>搜尋引擎友好名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Blogs.Categories.Fields.ShowOnHomePage">
-    <Value>顯示於首頁</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.blogs.categories.fields.showonhomepage.hint">
-    <Value>顯示於首頁第一部分</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog">
-    <Value>商品管理</Value>
+    <Value>分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Description">
+    <Value>描述</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Name">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Rating">
+    <Value>評分</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.VisibleToAllCustomers">
+    <Value>所有客戶都可以看到</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes">
     <Value>屬性管理</Value>
@@ -1833,9 +1746,6 @@
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Info">
     <Value>屬性資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Stores">
-    <Value>商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Updated">
     <Value>修改結帳屬性成功</Value>
   </LocaleResource>
@@ -1969,7 +1879,13 @@
     <Value>價格調整</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
-    <Value>價格調整將被應用當選擇這個屬性值如『10』則增加10塊錢。</Value>
+    <Value>選擇此屬性值時應用的價格調整。 比如'10'加10美元。 如果勾選“使用百分比”，則為10％。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage">
+    <Value>價格調整。 使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage.Hint">
+    <Value>確定是否將百分比應用於產品。 如果未啟用，則使用固定值。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
     <Value>重量調整</Value>
@@ -2082,26 +1998,23 @@
   <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Updated">
     <Value>修改規格成功</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.blogcategories.manage">
-    <Value>部落格分類管理</Value>
+  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts">
+    <Value>由商品使用</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.BlogPosts.Fields.Categories">
-    <Value>部落格分類</Value>
+  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Product">
+    <Value>商品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.blogposts.fields.categories.Hint">
-    <Value>部落格分類</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.blogposts.fields.manufacturers">
-    <Value>品牌</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.blogposts.fields.vendor">
-    <Value>供應商</Value>
+  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Published">
+    <Value>發布</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit">
     <Value>商品批次管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod">
     <Value>庫存管理</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod.MultipleWarehouse">
+    <Value>(多個倉庫)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Name">
     <Value>名稱</Value>
@@ -2142,9 +2055,6 @@
   <LocaleResource Name="Admin.Catalog.Categories">
     <Value>分類管理</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Acl">
-    <Value>權限管理</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Added">
     <Value>新增分類成功</Value>
   </LocaleResource>
@@ -2160,12 +2070,6 @@
   <LocaleResource Name="Admin.Catalog.Categories.Deleted">
     <Value>刪除分類成功</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Discounts">
-    <Value>折扣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Discounts.NoDiscounts">
-    <Value>未找到該折扣</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.EditCategoryDetails">
     <Value>編輯分類</Value>
   </LocaleResource>
@@ -2180,12 +2084,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.AllowCustomersToSelectPageSize.Hint">
     <Value>允許會員選擇每頁顯示筆數</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.AvailableStores.Hint">
-    <Value>選擇要顯示此分類的商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.CategoryTemplate">
     <Value>分類版型</Value>
@@ -2206,10 +2104,13 @@
     <Value>描述</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts">
-    <Value>Discounts</Value>
+    <Value>折扣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.Hint">
+    <Value>選擇要應用於此類別的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.NoDiscounts">
-    <Value>No Discounts</Value>
+    <Value>沒有折扣</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -2256,14 +2157,14 @@
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Name.Required">
     <Value>請輸入分類名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.NoDiscounts">
-    <Value>No Discounts</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Hint">
     <Value>每頁顯示筆數</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Positive">
+    <Value>頁面大小應該要大於0。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
@@ -2313,11 +2214,8 @@
   <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnHomePage.Hint">
     <Value>首頁顯示</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.SubjectToAcl">
-    <Value>啟用權限管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.SubjectToAcl.Hint">
-    <Value>啟用權限管理</Value>
+  <LocaleResource Name="Admin.Catalog.Categories.Import.CategoriesArentImported">
+    <Value>不導入具有以下名稱的類別 - {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Imported">
     <Value>目錄匯入成功</Value>
@@ -2361,26 +2259,14 @@
   <LocaleResource Name="Admin.Catalog.Categories.Products.SaveBeforeEdit">
     <Value>您需要先保存才能進一步操作</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Stores">
-    <Value>商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.SwitchToListView">
     <Value>切換到列表視圖</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.SwitchToTreeView">
-    <Value>切換到樹結構視圖</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Updated">
     <Value>修改分類成功</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.LowStockReport">
-    <Value>低於安全庫存量表</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers">
     <Value>品牌管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Acl">
-    <Value>權限管理列表</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Added">
     <Value>新增品牌成功</Value>
@@ -2393,12 +2279,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Deleted">
     <Value>刪除品牌成功。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Discounts">
-    <Value>折扣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Discounts.NoDiscounts">
-    <Value>沒有折扣。在映射（mapping）之前創建至少一個折扣。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.EditManufacturerDetails">
     <Value>編輯品牌</Value>
@@ -2415,12 +2295,6 @@
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AllowCustomersToSelectPageSize.Hint">
     <Value>允許會員選擇每頁顯示筆數</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AvailableStores.Hint">
-    <Value>選擇要顯示此品牌的商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.CreatedOn">
     <Value>創建日期</Value>
   </LocaleResource>
@@ -2434,10 +2308,13 @@
     <Value>描述</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts">
-    <Value>Discounts</Value>
+    <Value>折扣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.Hint">
+    <Value>選擇要應用於此製造商的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.NoDiscounts">
-    <Value>No Discounts</Value>
+    <Value>沒有折扣</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -2490,6 +2367,9 @@
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Hint">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Positive">
+    <Value>頁樹需要大於0</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
   </LocaleResource>
@@ -2522,12 +2402,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SeName.Hint">
     <Value>搜尋引擎友好名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SubjectToAcl">
-    <Value>	啟用權限管理	</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SubjectToAcl.Hint">
-    <Value>	啟用權限管理	</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Imported">
     <Value>品牌資料匯入成功</Value>
@@ -2567,9 +2441,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Products.SaveBeforeEdit">
     <Value>您需要先保存才能進一步操作</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Stores">
-    <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Updated">
     <Value>修改品牌成功</Value>
@@ -2627,6 +2498,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText">
     <Value>回覆內容</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText.Hint">
+    <Value>回复文本（由店主）。 如果指定，則客戶可以看到它。 留空以忽略此功能。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText">
     <Value>評論</Value>
@@ -2700,9 +2574,6 @@
   <LocaleResource Name="Admin.Catalog.Products">
     <Value>商品維護</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Acl">
-    <Value>權限管理</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Added">
     <Value>新增商品成功</Value>
   </LocaleResource>
@@ -2733,26 +2604,11 @@
   <LocaleResource Name="Admin.Catalog.Products.BackToList">
     <Value>返回商品列表</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Categories">
-    <Value>所屬分類</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.Category">
-    <Value>分類</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.IsFeaturedProduct">
-    <Value>特色商品？</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Categories.NoCategoriesAvailable">
-    <Value>未找到分類，請先創建分類</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Categories.SaveBeforeEdit">
-    <Value>您需要先保存才能進一步操作</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.CommonInfo">
-    <Value>基本資訊</Value>
+    <Value>一般資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Copied">
+    <Value>該產品已成功複製</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy">
     <Value>複製商品</Value>
@@ -2778,6 +2634,9 @@
   <LocaleResource Name="Admin.Catalog.Products.Copy.Published.Hint">
     <Value>是否發佈</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Copy.SKU.New">
+    <Value>{0}-複製</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.CrossSells">
     <Value>交叉銷售</Value>
   </LocaleResource>
@@ -2795,12 +2654,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Deleted">
     <Value>刪除商品成功</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Discounts">
-    <Value>折扣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Discounts.NoDiscounts">
-    <Value>沒有任何優惠。創建映射之前至少一個折扣。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.DownloadableProduct">
     <Value>可下載的商品</Value>
@@ -2883,12 +2736,6 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStartDateTime.Hint">
     <Value>該商品的可用性以世界協調時間 (UTC) 的開始。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStores.Hint">
-    <Value>選擇要顯示此商品的商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.BackorderMode">
     <Value>延期交貨</Value>
   </LocaleResource>
@@ -2934,11 +2781,11 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Categories">
     <Value>所屬分類</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.CategoryIds">
-    <Value>目錄</Value>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.Hint">
+    <Value>選擇類別。 您可以通過選擇目錄＆gt;來管理產品類別。分類。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.CategoryIds.Hint">
-    <Value>商品目錄映射.</Value>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.NoCategoriesAvailable">
+    <Value>沒有可用的類別。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
     <Value>建立時間</Value>
@@ -2974,7 +2821,13 @@
     <Value>請檢查以禁用此商品願望清單按鈕。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts">
-    <Value>Discounts</Value>
+    <Value>折扣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.Hint">
+    <Value>選擇要應用於此產品的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.NoDiscounts">
+    <Value>沒有折扣。 在映射之前創建至少一個折扣。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -3126,12 +2979,6 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.ManageInventoryMethod.Hint">
     <Value>選擇管理庫存的方法。如啟用,當會員購買時商品時，庫存數量會自動調整。還可以設定低存時的庫存操作和是否發出通知。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.ManufacturerIds">
-    <Value>品牌</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.ManufacturerIds.Hint">
-    <Value>商品目錄映射.</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ManufacturerPartNumber">
     <Value>品牌零件號</Value>
   </LocaleResource>
@@ -3140,6 +2987,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers">
     <Value>所屬品牌</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.Hint">
+    <Value>選擇製造商。 您可以通過選擇目錄&gt;來管理製造商。製造商。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.NoManufacturersAvailable">
     <Value>選擇品牌</Value>
@@ -3271,7 +3121,7 @@
     <Value>指產品在缺貨時預計可供貨的期間（例如Available in 10-14 days）。 您可以通過系統設定&gt;配送管理&gt;交貨日期管理、設定可用性範圍。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductAvailabilityRange.None">
-    <Value>None</Value>
+    <Value>無</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductCost">
     <Value>商品成本</Value>
@@ -3387,26 +3237,11 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.sku.hint">
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Hint">
     <Value>商品料號（SKU）。您可以用來跟蹤此商品的內部唯一標識符。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.SpecialPrice">
-    <Value>特別的價格</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.SpecialPrice.Hint">
-    <Value>設定一個特殊的價格的商品。新的價格將開始日期和結束日期之間有效。將忽略欄位留空。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.SpecialPriceEndDateTimeUtc">
-    <Value>特別的價格結束日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.specialpriceenddatetimeutc.hint">
-    <Value>特殊價格以世界協調時間 (UTC) 的結束日期。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.SpecialPriceStartDateTimeUtc">
-    <Value>特別的價格開始日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.fields.specialpricestartdatetimeutc.hint">
-    <Value>特殊價格以世界協調時間 (UTC) 的開始日期。</Value>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Reserved">
+    <Value>輸入的SKU已預留給產品 '{0}'</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.StockQuantity">
     <Value>庫存數量</Value>
@@ -3416,12 +3251,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.StockQuantity.Hint">
     <Value>此商品的當前庫存數量。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.SubjectToAcl">
-    <Value>啟用權限管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.SubjectToAcl.Hint">
-    <Value>啟用權限管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.TaxCategory">
     <Value>稅分類</Value>
@@ -3491,6 +3320,18 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.GiftCard">
     <Value>禮品卡</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.CategoriesDontExist">
+    <Value>具有以下名稱和/或ID的類別不存在： {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.CategoriesWithSameNameNotSupported">
+    <Value>同一類別級別不支持具有相同名稱的類別。 檢查您的類別列表 "目錄 -&gt; 類別" 頁面</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.ManufacturersDontExist">
+    <Value>不存在具有以下名稱和/或ID的製造商： {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Import.ProductAttributesDontExist">
+    <Value>具有以下ID的產品屬性不存在： {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Imported">
     <Value>匯入商品成功</Value>
@@ -3576,27 +3417,6 @@
   <LocaleResource Name="Admin.Catalog.Products.List.SearchWarehouse.Hint">
     <Value>搜尋一個特定的倉庫.</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manage">
-    <Value>商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manufacturers">
-    <Value>所屬品牌</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.IsFeaturedProduct">
-    <Value>特色商品？</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.Manufacturer">
-    <Value>品牌</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manufacturers.NoManufacturersAvailable">
-    <Value>未找到品牌資訊，請先創建品牌</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Manufacturers.SaveBeforeEdit">
-    <Value>您需要先保存才能進一步操作</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Mappings">
     <Value>所屬設定</Value>
   </LocaleResource>
@@ -3651,14 +3471,14 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.AddTitle">
     <Value>選擇新組合並且在下面輸入詳細資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.allowoutofstock">
-    <Value>允許缺貨</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.AlreadyExists">
+    <Value>已經存在相同的組合</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Description">
     <Value>屬性組合變得非常有用當您的'管理庫存方式'設定為'通過商品屬性跟蹤庫存'</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.description2">
-    <Value>此外注意一些支持用戶輸入的屬性控制類型(例如 文件上載, 文本框, 日期選擇框)是沒有用的對於屬性組合</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Edit">
+    <Value>編輯組合</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders">
     <Value>允許無貨存</Value>
@@ -3693,11 +3513,23 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.OverriddenPrice.Hint">
     <Value>商店擁有者可覆寫商品預設的價格，輸入此欄後其他的折扣將被這個值覆蓋，不輸入任何資訊（留空）將忽略這個值。如要給予折扣，也可透過此欄位達成。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Picture">
+    <Value>圖片</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Picture.Hint">
+    <Value>選擇與此屬性組合關聯的圖片。 選擇此產品屬性組合時，此圖片將替換主產品圖像。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Picture.NoPicture">
+    <Value>沒有圖片</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku.Hint">
     <Value>商品料號（SKU）。您的內部唯一ID用於跟蹤這個屬性組合。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku.Reserved">
+    <Value>輸入的SKU已保留用於產品的其中一種組合 '{0}'</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity">
     <Value>庫存數量</Value>
@@ -18435,7 +18267,7 @@
   <LocaleResource Name="ShoppingCart.OutOfStock">
     <Value>缺貨</Value>
   </LocaleResource>
-  <LocaleResource Name="shoppingcart.preorder">
+  <LocaleResource Name="ShoppingCart.PreOrder">
     <Value>預購</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Product(s)">
@@ -18669,26 +18501,8 @@
   <LocaleResource Name="Vendors.List">
     <Value>供應商列表</Value>
   </LocaleResource>
-  <LocaleResource Name="Vendors.OrderBy">
-    <Value>排序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.PageSize">
-    <Value>頁面大小</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.PageSize.PerPage">
-    <Value>前一頁面大小</Value>
-  </LocaleResource>
   <LocaleResource Name="Vendors.ViewAll">
     <Value>顯示所有</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.ViewMode">
-    <Value>顯示為</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.ViewMode.Grid">
-    <Value>表格</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.ViewMode.List">
-    <Value>列表</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist">
     <Value>願望清單</Value>
@@ -18714,7 +18528,7 @@
   <LocaleResource Name="Wishlist.EmailAFriend.FriendEmail.Required">
     <Value>請輸入收件人信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="wishlist.emailafriend.onlyregisteredusers">
+  <LocaleResource Name="Wishlist.EmailAFriend.OnlyRegisteredUsers">
     <Value>只有註冊會員才能使用此功能，請先登入。</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.PersonalMessage">
