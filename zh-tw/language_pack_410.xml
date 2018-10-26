@@ -5739,23 +5739,23 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CompanyRequired.Hint">
     <Value>公司欄位必填</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CompanyTaxIdEnabled">
-    <Value>啟用統一編號</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CompanyTaxIdRequired">
-    <Value>統一編號必填</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CompanyTitleEnabled">
-    <Value>啟用公司抬頭</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CompanyTitleRequired">
-    <Value>公司抬頭必填</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountryEnabled">
-    <Value>啟用縣市欄位</Value>
+    <Value>'國家'已啟用</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountryEnabled.Hint">
-    <Value>啟用縣市欄位</Value>
+    <Value>設置是否啟用“國家/地區”</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyEnabled">
+    <Value>縣'啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyEnabled.Hint">
+    <Value>設置是否啟用“縣”</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyRequired">
+    <Value>'縣'需要輸入</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyRequired.Hint">
+    <Value>檢查是否需要'縣'。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.Description">
     <Value>在結帳時您可新增和管理要顯示在地址中的資訊</Value>
@@ -5820,11 +5820,23 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.ZipPostalCodeEnabled.Hint">
     <Value>啟用郵遞區號欄位</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.addressformfields.zippostalcoderequired">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.ZipPostalCodeRequired">
     <Value>郵遞區號欄位必填</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.addressformfields.zippostalcoderequired.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.ZipPostalCodeRequired.Hint">
     <Value>郵遞區號欄位必填</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToCheckGiftCardBalance">
+    <Value>允許客戶檢查禮品卡餘額</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToCheckGiftCardBalance.Hint">
+    <Value>檢查以允許客戶檢查禮品卡餘額。 如果選中，則必須在管理區域中啟用CAPTCHA設置。 此功能可能不安全，需要CAPTCHA來防止和復雜暴力。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToRemoveAssociations">
+    <Value>允許客戶刪除關聯</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToRemoveAssociations.Hint">
+    <Value>選中以允許客戶刪除外部身份驗證關聯。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToSetTimeZone">
     <Value>允許會員選擇時區</Value>
@@ -5913,6 +5925,18 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountryRequired.Hint">
     <Value>選擇如果『縣市』是必須的。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyEnabled">
+    <Value>'縣'啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyEnabled.Hint">
+    <Value>設置是否啟用“縣”</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyRequired">
+    <Value>'縣'需要</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyRequired.Hint">
+    <Value>檢查是否需要'縣'</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CustomerFormFields">
     <Value>會員表單欄位</Value>
   </LocaleResource>
@@ -5946,9 +5970,6 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired.Hint">
     <Value>選擇『生日日期』是必須的。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateTimeSettings">
-    <Value>時間日期設定</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DefaultAvatarEnabled">
     <Value>啟用預設頭像</Value>
   </LocaleResource>
@@ -5967,20 +5988,11 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DefaultStoreTimeZone.Hint">
     <Value>商店預設時區</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.enteringemailtwice">
-    <Value>再次確認信箱</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.EnteringEmailTwice">
+    <Value>強制再次確認信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.enteringemailtwice.hint">
-    <Value>會員註冊時要寄送確認信，以再次確認信箱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationAutoRegisterEnabled">
-    <Value>啟用自動註冊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationAutoRegisterEnabled.Hint">
-    <Value>當使用外部認證時自動註冊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationSettings">
-    <Value>外部認證</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.EnteringEmailTwice.Hint">
+    <Value>強制會員註冊時要寄送確認信，以再次確認信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordAllowedAttempts">
     <Value>允許登入失敗次數</Value>
@@ -5988,10 +6000,10 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordAllowedAttempts.Hint">
     <Value>如果登入失數次數超過定值，將會把帳戶鎖起來。如果不想使用此功能，將此數值設定0即可。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.failedpasswordlockoutminutes">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordLockoutMinutes">
     <Value>鎖定時間（登錄失敗）</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.failedpasswordlockoutminutes.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordLockoutMinutes.Hint">
     <Value>帳號鎖定（數分鐘），用於登入失敗</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FaxEnabled">
@@ -6015,37 +6027,37 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideBackInStockSubscriptionsTab">
     <Value>隱藏到貨通知選項卡</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.hidebackinstocksubscriptionstab.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideBackInStockSubscriptionsTab.Hint">
     <Value>在會員中心中隱藏到貨通知連結</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideDownloadableProductsTab">
     <Value>隱藏下載商品選項卡</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.hidedownloadableproductstab.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideDownloadableProductsTab.Hint">
     <Value>在會員中心中隱藏下載商品連結</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.hidenewsletterblock">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideNewsletterBlock">
     <Value>隱藏訂閱管理模塊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.hidenewsletterblock.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideNewsletterBlock.Hint">
     <Value>隱藏訂閱管理模塊</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.newsletterblockallowtounsubscribe">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterBlockAllowToUnsubscribe">
     <Value>允許取消訂閱。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.newsletterblockallowtounsubscribe.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterBlockAllowToUnsubscribe.Hint">
     <Value>勾選此項，將顯示「撤銷訂閱」選項。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.newsletterenabled">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterEnabled">
     <Value>啟用電子報</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.newsletterenabled.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterEnabled.Hint">
     <Value>啟用電子報</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.newslettertickedbydefault">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterTickedByDefault">
     <Value>讓註冊會員透過勾選訂閱電子報</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.customeruser.newslettertickedbydefault.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterTickedByDefault.Hint">
     <Value>讓註冊會員透過勾選訂閱電子報</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NotifyNewCustomerRegistration">
@@ -6114,6 +6126,12 @@
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StateProvinceRequired.Hint">
     <Value>選擇如果『州/省』是必須的。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreIpAddresses">
+    <Value>存儲IP地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreIpAddresses.Hint">
+    <Value>啟用後，將存儲客戶的IP地址。 禁用時，可以提高性能。 此外，禁止在某些國家/地區存儲IP地址（私人客戶數據）。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreLastVisitedPage">
     <Value>保存最後一次訪問的頁面</Value>
   </LocaleResource>
@@ -6155,6 +6173,24 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernamesEnabled.Hint">
     <Value>在商店中使用會員用戶名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernameValidationEnabled">
+    <Value>用戶名驗證已啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernameValidationEnabled.Hint">
+    <Value>選中以啟用用戶名驗證（在“我的帳戶”頁面上註冊或更改時）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernameValidationRule">
+    <Value>用戶名驗證規則</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernameValidationRule.Hint">
+    <Value>設置用戶名的驗證規則。 您可以指定允許的字符列表或正則表達式。 如果使用正則表達式，請選中“使用正則表達式進行用戶名驗證”設置。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernameValidationUseRegex">
+    <Value>使用正則表達式進行用戶名驗證</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernameValidationUseRegex.Hint">
+    <Value>選中使用正則表達式進行用戶名驗證（在“我的帳戶”頁面上註冊或更改時）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UserRegistrationType">
     <Value>註冊方式</Value>
