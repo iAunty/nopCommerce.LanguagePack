@@ -942,14 +942,44 @@
   <LocaleResource Name="ActivityLog.EditActivityLogTypes">
     <Value>編輯活動日誌的類型</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditAddressAttribute">
+    <Value>編輯地址屬性 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditAddressAttributeValue">
+    <Value>編輯地址屬性值 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditAffiliate">
+    <Value>編輯一個會員 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditBlogComment">
+    <Value>編輯部落格評論 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditBlogPost">
+    <Value>編輯部落格會員 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditCampaign">
+    <Value>編輯會員 (ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCategory">
     <Value>編輯分類('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCheckoutAttribute">
     <Value>編輯結帳屬性('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditCountry">
+    <Value>編輯國家 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditCurrency">
+    <Value>編輯貨幣 (ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCustomer">
     <Value>編輯會員(ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditCustomerAttribute">
+    <Value>編輯會員屬性 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditCustomerAttributeValue">
+    <Value>編輯會員屬性質 (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCustomerRole">
     <Value>編輯會員角色('{0}')</Value>
@@ -957,14 +987,38 @@
   <LocaleResource Name="ActivityLog.EditDiscount">
     <Value>編輯折扣('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditEmailAccount">
+    <Value>編輯Email帳號 (ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditGiftCard">
     <Value>編輯禮品卡('{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditLanguage">
+    <Value>編輯語言 (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditManufacturer">
     <Value>編輯品牌('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditMeasureDimension">
+    <Value>編輯度量維度 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditMeasureWeight">
+    <Value>編輯量度 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditMessageTemplate">
+    <Value>編輯訊息樣板 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditNews">
+    <Value>編輯新聞 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditNewsComment">
+    <Value>編輯新聞評論 (ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditOrder">
     <Value>編輯訂單 (ID = {0}). 查看訂單詳情備註</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditPlugin">
+    <Value>編輯Plugin (名稱: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditProduct">
     <Value>編輯商品('{0}')</Value>
@@ -972,8 +1026,14 @@
   <LocaleResource Name="ActivityLog.EditProductAttribute">
     <Value>編輯商品屬性('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditProductReview">
+    <Value>編輯商品評論 (ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditReturnRequest">
     <Value>編輯退貨請求(編號：{0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditReviewType">
+    <Value>編輯商品評論類型 (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditSettings">
     <Value>編輯設定</Value>
@@ -981,8 +1041,29 @@
   <LocaleResource Name="ActivityLog.EditSpecAttribute">
     <Value>編輯屬性規格('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditStateProvince">
+    <Value>編輯州或省 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditStore">
+    <Value>編輯商店 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditTask">
+    <Value>新增任務 (ID = {0})</Value>
+  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditTopic">
     <Value>編輯主題 ("{0}")</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditVendor">
+    <Value>編輯供應商 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditVendorAttribute">
+    <Value>編輯供應商屬性 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditVendorAttributeValue">
+    <Value>編輯供應商屬性值 (ID = {0})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.EditWarehouse">
+    <Value>編輯一個倉庫 (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditWidget">
     <Value>編輯小工具(編號：{0})</Value>
@@ -998,6 +1079,21 @@
   </LocaleResource>
   <LocaleResource Name="ActivityLog.Impersonation.Started.StoreOwner">
     <Value>開啟會員身份模擬 (Email: {0}, ID = {1})</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.ImportCategories">
+    <Value>{0} 類別被匯入</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.ImportManufacturers">
+    <Value>{0} 製造商被匯入</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.ImportProducts">
+    <Value>{0} 商品被匯入</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.ImportStates">
+    <Value>{0} 州或省被匯入</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.InstallNewPlugin">
+    <Value>安裝了一個套件 (名稱: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.AddBlogComment">
     <Value>新增部落格評論</Value>
@@ -1041,6 +1137,15 @@
   <LocaleResource Name="ActivityLog.PublicStore.ViewProduct">
     <Value>前台，瀏覽商品詳細頁('{0}')</Value>
   </LocaleResource>
+  <LocaleResource Name="ActivityLog.UninstallPlugin">
+    <Value>解除安裝了一個套件 (名稱: '{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.UploadNewPlugin">
+    <Value>更新了一個套件 (名稱: '{0}')</Value>
+  </LocaleResource>
+  <LocaleResource Name="ActivityLog.UploadNewTheme">
+    <Value>更新了一個主題 (名稱: '{0}')</Value>
+  </LocaleResource>
   <LocaleResource Name="Address">
     <Value>地址</Value>
   </LocaleResource>
@@ -1068,17 +1173,17 @@
   <LocaleResource Name="Address.Fields.Company.Required">
     <Value>請輸入公司名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Address.Fields.CompanyTaxId">
-    <Value>公司統編</Value>
-  </LocaleResource>
-  <LocaleResource Name="Address.Fields.CompanyTitle">
-    <Value>公司抬頭</Value>
-  </LocaleResource>
   <LocaleResource Name="Address.Fields.Country">
     <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Country.Required">
     <Value>請輸入國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Address.Fields.County">
+    <Value>縣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Address.Fields.County.Required">
+    <Value>請輸入縣</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Email">
     <Value>Email</Value>
@@ -1133,9 +1238,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin">
     <Value>後台管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin area. Manage BlogCategory">
-    <Value>系統管理後台.管理部落格分類</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.AccessDenied.Description">
     <Value>您沒有權限執行該操作</Value>
@@ -1269,12 +1371,6 @@
   <LocaleResource Name="Admin.Address.Fields.Company.Required">
     <Value>請輸入公司名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.address.fields.companytaxid.required">
-    <Value>統一編號為必填</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.address.fields.companytitle.required">
-    <Value>公司抬頭為必填</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country">
     <Value>國家</Value>
   </LocaleResource>
@@ -1283,6 +1379,15 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country.Required">
     <Value>請輸入國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Address.Fields.County">
+    <Value>縣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Address.Fields.County.Hint">
+    <Value>請輸入縣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Address.Fields.County.Required">
+    <Value>請輸入縣</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email">
     <Value>Email</Value>
@@ -1401,12 +1506,6 @@
   <LocaleResource Name="Admin.Affiliates.Fields.FriendlyUrlName.Hint">
     <Value>在生成的聯盟URL （聯盟ID將被使用。）中使用友好URL名將有助於協銷活動。此欄留空將使用聯盟ID。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Affiliates.Fields.ID">
-    <Value>標識符</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Affiliates.Fields.ID.Hint">
-    <Value>標識符</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Fields.URL">
     <Value>推廣連結</Value>
   </LocaleResource>
@@ -1466,9 +1565,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.EndDate.Hint">
     <Value>搜尋結束日期。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Affiliates.Orders.Order">
-    <Value>訂單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.OrderStatus">
     <Value>訂單狀態</Value>
@@ -1652,12 +1748,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.AttributeControlType.Hint">
     <Value>選擇如何顯示您的屬性值。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.AvailableStores.Hint">
-    <Value>選擇由哪個商店顯示這些屬性。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.DefaultValue">
     <Value>預設值</Value>
