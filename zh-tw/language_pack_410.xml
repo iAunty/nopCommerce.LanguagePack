@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<Language Name="繁體中文" SupportedVersion="4.10">
+<Language Name="中文" SupportedVersion="4.10">
   <LocaleResource Name="Account.AccountActivation">
     <Value>啟用帳戶</Value>
   </LocaleResource>
@@ -25,13 +25,13 @@
     <Value>電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.EmailAlreadyExists">
-    <Value>具有指定電子郵件的用戶已經註冊。如果這是您的帳戶，並且您想將其與 '{0}' 外部記錄，請先登錄</Value>
+    <Value>這個email已經被註冊掉了，如果這是你的帳戶，想要對 '{0}' 進行關聯，請先登入</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.ExternalIdentifier">
     <Value>外部標識符</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.Or">
-    <Value>- 或 -</Value>
+    <Value>- or -</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.Remove">
     <Value>刪除</Value>
@@ -192,9 +192,6 @@
   <LocaleResource Name="Account.CustomerOrders.RecurringOrders.NextPayment">
     <Value>下次付款</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.CustomerOrders.RecurringOrders.RetryLastPayment">
-    <Value>嘗試上一次付款</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.CustomerOrders.RecurringOrders.StartDate">
     <Value>開始日期</Value>
   </LocaleResource>
@@ -216,9 +213,6 @@
   <LocaleResource Name="Account.CustomerProductReviews.ApprovalStatus.Pending">
     <Value>等待</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.CustomerProductReviews.NoRecords">
-    <Value>Y你還沒有寫任何評論</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.CustomerProductReviews.ProductReviewFor">
     <Value>評論商品</Value>
   </LocaleResource>
@@ -231,35 +225,20 @@
   <LocaleResource Name="Account.CustomerReturnRequests.Comments">
     <Value>退貨說明</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.CustomerReturnRequests.Date">
+  <LocaleResource Name="account.customerreturnrequests.date">
     <Value>退貨日期：</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests.Item">
     <Value>已退商品</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.CustomerReturnRequests.Reason">
+  <LocaleResource Name="account.customerreturnrequests.reason">
     <Value>退貨原因：</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CustomerReturnRequests.Title">
     <Value>已退物品 編號：{0} - {1}</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.CustomerReturnRequests.UploadedFile">
-    <Value>上傳檔案:</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.CustomerReturnRequests.UploadedFile.Download">
-    <Value>下載</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.DownloadableProducts">
     <Value>下載商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.EmailRevalidation">
-    <Value>驗證信箱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.EmailRevalidation.AlreadyChanged">
-    <Value>您的信箱之前已經被驗證</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.EmailRevalidation.Changed">
-    <Value>您的信箱已經被驗證</Value>
   </LocaleResource>
   <LocaleResource Name="Account.EmailUsernameErrors.EmailAlreadyExists">
     <Value>該電子信箱已被使用</Value>
@@ -314,12 +293,6 @@
   </LocaleResource>
   <LocaleResource Name="Account.Fields.Country.Required">
     <Value>請輸入國家</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Fields.County">
-    <Value>縣市</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Fields.County.Required">
-    <Value>請輸入國縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Fields.DateOfBirth">
     <Value>生日</Value>
@@ -420,9 +393,6 @@
   <LocaleResource Name="Account.Fields.Username">
     <Value>用戶名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.Fields.Username.NotValid">
-    <Value>用戶名稱無效</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.Fields.Username.Required">
     <Value>請輸入用戶名稱</Value>
   </LocaleResource>
@@ -458,27 +428,6 @@
   </LocaleResource>
   <LocaleResource Name="Account.ForumSubscriptions.NoSubscriptions">
     <Value>您目前沒有訂閱任何的論壇消息</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr">
-    <Value>GDPR 工具</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr.Delete">
-    <Value>被遺忘的權利</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr.Delete.Button">
-    <Value>刪除帳號</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr.Delete.Hint">
-    <Value>您可以使用下面的按鈕從我們的商店中刪除您的個人和其他數據。 請注意，此過程會刪除您的帳戶，因此您將無法再訪問或使用該帳戶。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr.Export">
-    <Value>輸出個人資料</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr.Export.Button">
-    <Value>輸出</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Gdpr.Export.Hint">
-    <Value>您可以使用下面的按鈕下載我們存儲和使用的所有數據，以便在我們的商店中獲得更好的體驗。</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ImpersonatedAs">
     <Value>模擬會員：{0}</Value>
@@ -531,7 +480,7 @@
   <LocaleResource Name="Account.Login.Unsuccessful">
     <Value>登入失敗。請更正錯誤再登入。</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.Login.Welcome">
+  <LocaleResource Name="account.login.welcome">
     <Value>歡迎，請登入！</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials">
@@ -542,9 +491,6 @@
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.Deleted">
     <Value>帳號已被刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Account.Login.WrongCredentials.LockedOut">
-    <Value>帳號已經被鎖住</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.WrongCredentials.NotActive">
     <Value>帳號沒有啟用</Value>
@@ -609,9 +555,6 @@
   <LocaleResource Name="Account.PasswordRecovery.OldPassword.Required">
     <Value>請輸入舊密碼</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.PasswordRecovery.PasswordAlreadyHasBeenChanged">
-    <Value>您的密碼已被更改。 要再次更改它，您需要再次恢復密碼。</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.PasswordRecovery.PasswordHasBeenChanged">
     <Value>您的密碼已經變更成功</Value>
   </LocaleResource>
@@ -672,9 +615,6 @@
   <LocaleResource Name="Account.ShoppingCart">
     <Value>購物車</Value>
   </LocaleResource>
-  <LocaleResource Name="Account.UserAgreement">
-    <Value>用戶協議</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.VendorInfo">
     <Value>供應商資訊</Value>
   </LocaleResource>
@@ -714,41 +654,14 @@
   <LocaleResource Name="Account.YourPersonalDetails">
     <Value>個人資料</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewAddressAttribute">
-    <Value>新增新的地址(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewAddressAttributeValue">
-    <Value>新增新的地址屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewAffiliate">
-    <Value>新增新的子公司(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewBlogPost">
-    <Value>新增新的Blog文章(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewCampaign">
-    <Value>新增新的活動(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCategory">
     <Value>新增新的分類('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCheckoutAttribute">
     <Value>新增新的結帳屬性('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewCountry">
-    <Value>新增新的國家(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewCurrency">
-    <Value>新增新的貨幣(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCustomer">
     <Value>新增新的會員(編號：{0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewCustomerAttribute">
-    <Value>新增新的會員屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewCustomerAttributeValue">
-    <Value>新增新的會員屬性值(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewCustomerRole">
     <Value>新增新的會員角色('{0}')</Value>
@@ -756,26 +669,11 @@
   <LocaleResource Name="ActivityLog.AddNewDiscount">
     <Value>新增新的折扣('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewEmailAccount">
-    <Value>新增新的Email帳號(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewGiftCard">
     <Value>新增新的禮品卡('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewLanguage">
-    <Value>新增新的語言(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewManufacturer">
     <Value>新增新的製造商('{0}')</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewMeasureDimension">
-    <Value>新增新的評估尺寸(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewMeasureWeight">
-    <Value>新增新的評估重量(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewNews">
-    <Value>新增新的新聞(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewProduct">
     <Value>新增新的商品('{0}')</Value>
@@ -783,35 +681,14 @@
   <LocaleResource Name="ActivityLog.AddNewProductAttribute">
     <Value>新增新的商品屬性('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewReviewType">
-    <Value>新增新的評論類型(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewSetting">
     <Value>新增新的設定('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewSpecAttribute">
     <Value>新增新的屬性規格('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewStateProvince">
-    <Value>新增新的州或省(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewStore">
-    <Value>新增新的商店(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewTopic">
     <Value>新增主題 ("{0}")</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewVendor">
-    <Value>新增新的供應商(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewVendorAttribute">
-    <Value>新增新的供應商屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewVendorAttributeValue">
-    <Value>新增新的供應商值(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.AddNewWarehouse">
-    <Value>新增新的倉庫(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewWidget">
     <Value>新增新的小工具(編號：{0})</Value>
@@ -819,44 +696,14 @@
   <LocaleResource Name="ActivityLog.DeleteActivityLog">
     <Value>刪除活動日誌</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteAddressAttribute">
-    <Value>刪除地址屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteAddressAttributeValue">
-    <Value>刪除地址屬性值(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteAffiliate">
-    <Value>刪除子公司(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteBlogPost">
-    <Value>刪除Blog文章(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteBlogPostComment">
-    <Value>刪除Blog評論(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteCampaign">
-    <Value>刪除活動(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCategory">
     <Value>刪除分類('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCheckoutAttribute">
     <Value>刪除結帳屬性('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteCountry">
-    <Value>刪除國家(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteCurrency">
-    <Value>刪除貨幣(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCustomer">
     <Value>刪除會員(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteCustomerAttribute">
-    <Value>刪除會員屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteCustomerAttributeValue">
-    <Value>刪除會員屬性值(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteCustomerRole">
     <Value>刪除會員角色('{0}')</Value>
@@ -864,38 +711,14 @@
   <LocaleResource Name="ActivityLog.DeleteDiscount">
     <Value>刪除折扣('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteEmailAccount">
-    <Value>刪除Email帳號(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteGiftCard">
     <Value>刪除禮品卡('{0}')</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteLanguage">
-    <Value>刪除語言(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteManufacturer">
     <Value>刪除品牌('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteMeasureDimension">
-    <Value>刪除評估尺寸(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteMeasureWeight">
-    <Value>刪除評估重量(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteMessageTemplate">
-    <Value>刪除訊息樣板(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteNews">
-    <Value>刪除新聞(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteNewsComment">
-    <Value>刪除新的評論(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteOrder">
     <Value>刪除訂單 (ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeletePlugin">
-    <Value>刪除套件(FriendlyName: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteProduct">
     <Value>刪除商品('{0}')</Value>
@@ -903,14 +726,8 @@
   <LocaleResource Name="ActivityLog.DeleteProductAttribute">
     <Value>刪除商品屬性('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteProductReview">
-    <Value>刪除商品評論(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteReturnRequest">
     <Value>刪除退貨請求(編號：{0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteReviewType">
-    <Value>刪除商品評論類型(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteSetting">
     <Value>刪除設定('{0}')</Value>
@@ -918,29 +735,8 @@
   <LocaleResource Name="ActivityLog.DeleteSpecAttribute">
     <Value>刪除屬性規格('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteStateProvince">
-    <Value>刪除州或是省(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteStore">
-    <Value>刪除商店(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteSystemLog">
-    <Value>刪除系統日誌</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteTopic">
     <Value>刪除當前主題 ("{0}")</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteVendor">
-    <Value>刪除供應商(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteVendorAttribute">
-    <Value>刪除供應商屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteVendorAttributeValue">
-    <Value>刪除供應商屬性值(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.DeleteWarehouse">
-    <Value>刪除倉庫(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.DeleteWidget">
     <Value>刪除小工具(編號：{0})</Value>
@@ -948,44 +744,14 @@
   <LocaleResource Name="ActivityLog.EditActivityLogTypes">
     <Value>編輯活動日誌的類型</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditAddressAttribute">
-    <Value>編輯地址屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditAddressAttributeValue">
-    <Value>編輯地址屬性值(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditAffiliate">
-    <Value>編輯子公司(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditBlogComment">
-    <Value>編輯Blog評論(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditBlogPost">
-    <Value>編輯Blog文章(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditCampaign">
-    <Value>編輯活動(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCategory">
     <Value>編輯分類('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCheckoutAttribute">
     <Value>編輯結帳屬性('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditCountry">
-    <Value>編輯國家(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditCurrency">
-    <Value>編輯貨幣(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCustomer">
     <Value>編輯會員(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditCustomerAttribute">
-    <Value>編輯會員屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditCustomerAttributeValue">
-    <Value>編輯會員屬性質(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditCustomerRole">
     <Value>編輯會員角色('{0}')</Value>
@@ -993,38 +759,14 @@
   <LocaleResource Name="ActivityLog.EditDiscount">
     <Value>編輯折扣('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditEmailAccount">
-    <Value>編輯Eamil帳號(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditGiftCard">
     <Value>編輯禮品卡('{0}')</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditLanguage">
-    <Value>編輯語言(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditManufacturer">
     <Value>編輯品牌('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditMeasureDimension">
-    <Value>編輯評估尺寸(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditMeasureWeight">
-    <Value>編輯評估重量(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditMessageTemplate">
-    <Value>編輯訊息樣板(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditNews">
-    <Value>編輯新聞(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditNewsComment">
-    <Value>編輯新的評論(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditOrder">
     <Value>編輯訂單 (ID = {0}). 查看訂單詳情備註</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditPlugin">
-    <Value>編輯套件(名稱: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditProduct">
     <Value>編輯商品('{0}')</Value>
@@ -1032,14 +774,8 @@
   <LocaleResource Name="ActivityLog.EditProductAttribute">
     <Value>編輯商品屬性('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditProductReview">
-    <Value>編輯商品評論(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditReturnRequest">
     <Value>編輯退貨請求(編號：{0})</Value>
-  </LocaleResource>
- <LocaleResource Name="ActivityLog.EditReviewType">
-    <Value>編輯評論類型(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditSettings">
     <Value>編輯設定</Value>
@@ -1047,29 +783,8 @@
   <LocaleResource Name="ActivityLog.EditSpecAttribute">
     <Value>編輯屬性規格('{0}')</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditStateProvince">
-    <Value>編輯州或是省(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditStore">
-    <Value>編輯商店(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditTask">
-    <Value>編輯任務(ID = {0})</Value>
-  </LocaleResource>
   <LocaleResource Name="ActivityLog.EditTopic">
     <Value>編輯主題 ("{0}")</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditVendor">
-    <Value>編輯供應商(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditVendorAttribute">
-    <Value>編輯供應商屬性(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditVendorAttributeValue">
-    <Value>編輯供應商屬性值(ID = {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.EditWarehouse">
-    <Value>編輯倉庫(ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditWidget">
     <Value>編輯小工具(編號：{0})</Value>
@@ -1085,21 +800,6 @@
   </LocaleResource>
   <LocaleResource Name="ActivityLog.Impersonation.Started.StoreOwner">
     <Value>開啟會員身份模擬 (Email: {0}, ID = {1})</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.ImportCategories">
-    <Value>{0}類別已經被匯入</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.ImportManufacturers">
-    <Value>{0}生產商已經被匯入</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.ImportProducts">
-    <Value>{0}商品已經被匯入</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.ImportStates">
-    <Value>{0}州和省已經被匯入</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.InstallNewPlugin">
-    <Value>安裝了新的套件(名稱: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.AddBlogComment">
     <Value>新增部落格評論</Value>
@@ -1122,7 +822,7 @@
   <LocaleResource Name="ActivityLog.PublicStore.ContactUs">
     <Value>來自聯絡我們</Value>
   </LocaleResource>
-  <LocaleResource Name="ActivityLog.PublicStore.Login">
+  <LocaleResource Name="activitylog.publicstore.login">
     <Value>登入</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.Logout">
@@ -1142,15 +842,6 @@
   </LocaleResource>
   <LocaleResource Name="ActivityLog.PublicStore.ViewProduct">
     <Value>前台，瀏覽商品詳細頁('{0}')</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.UninstallPlugin">
-    <Value>解除安裝了一個套件(FriendlyName: '{0}')</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.UploadNewPlugin">
-    <Value>上傳了一個套件(FriendlyName: '{0}')</Value>
-  </LocaleResource>
-  <LocaleResource Name="ActivityLog.UploadNewTheme">
-    <Value>上傳了一個主題(FriendlyName: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="Address">
     <Value>地址</Value>
@@ -1190,12 +881,6 @@
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Country.Required">
     <Value>請輸入國家</Value>
-  </LocaleResource>
-  <LocaleResource Name="Address.Fields.County">
-    <Value>縣市</Value>
-  </LocaleResource>
-  <LocaleResource Name="Address.Fields.County.Required">
-    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Email">
     <Value>Email</Value>
@@ -1400,15 +1085,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country.Required">
     <Value>請輸入國家</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Address.Fields.County">
-    <Value>國家</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Address.Fields.County.Hint">
-    <Value>輸入縣市</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Address.Fields.County.Required">
-    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email">
     <Value>Email</Value>
@@ -1728,18 +1404,6 @@
   <LocaleResource Name="Admin.Catalog">
     <Value>商品管理</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Description">
-    <Value>描述</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.Rating">
-    <Value>評價</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.AdditionalProductReviews.Fields.VisibleToAllCustomers">
-    <Value>讓所有會員可以看到</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes">
     <Value>屬性管理</Value>
   </LocaleResource>
@@ -2019,12 +1683,6 @@
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
     <Value>價格調整將被應用當選擇這個屬性值如『10』則增加10塊錢。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage">
-    <Value>價格調整。 使用百分比</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage.Hint">
-    <Value>確定是否將百分比應用於產品。 如果未啟用，則使用固定值。</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
     <Value>重量調整</Value>
   </LocaleResource>
@@ -2151,23 +1809,11 @@
   <LocaleResource Name="admin.catalog.blogposts.fields.vendor">
     <Value>供應商</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts">
-    <Value>由產品使用</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Product">
-    <Value>商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Published">
-    <Value>公開</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit">
     <Value>商品批次管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod">
     <Value>庫存管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod.MultipleWarehouse">
-    <Value>(多個倉庫)</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Name">
     <Value>名稱</Value>
@@ -2272,13 +1918,10 @@
     <Value>描述</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts">
-    <Value>折扣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.Hint">
-    <Value>選擇要應用於此類別的折扣。 您可以通過從"促銷"選單中選擇"折扣"來管理折扣</Value>
+    <Value>Discounts</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.NoDiscounts">
-    <Value>目前沒有折扣，在Mapping前至少建立一個</Value>
+    <Value>No Discounts</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -2334,9 +1977,6 @@
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Hint">
     <Value>每頁顯示筆數</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Positive">
-    <Value>頁面大小應該要大於0</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
   </LocaleResource>
@@ -2390,9 +2030,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.SubjectToAcl.Hint">
     <Value>啟用權限管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Categories.Import.CategoriesArentImported">
-    <Value>不導入具有以下名稱的類別 - {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Imported">
     <Value>目錄匯入成功</Value>
@@ -2509,13 +2146,10 @@
     <Value>描述</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts">
-    <Value>折扣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.Hint">
-    <Value>選擇要應用於此製造商的折扣。 您可以通過從"促銷"選單中選擇"折扣"來管理折扣。</Value>
+    <Value>Discounts</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.NoDiscounts">
-    <Value>沒有折扣</Value>
+    <Value>No Discounts</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -2567,9 +2201,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Hint">
     <Value>每頁顯示筆數</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Positive">
-    <Value>頁面大小應該要大於0</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSizeOptions">
     <Value>每頁顯示筆數選項(逗號隔開)</Value>
@@ -2709,9 +2340,6 @@
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText">
     <Value>回覆內容</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText.Hint">
-    <Value>回复內容(由商店所有者提供)。如果不希望會員看到回復，請留空</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText">
     <Value>評論</Value>
   </LocaleResource>
@@ -2759,9 +2387,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.DisapprovedOnly">
     <Value>未審核</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.Hint">
-    <Value>搜尋已審核商品</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchProduct">
     <Value>商品</Value>
@@ -2841,9 +2466,6 @@
   <LocaleResource Name="Admin.Catalog.Products.CommonInfo">
     <Value>基本資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Copied">
-    <Value>商品複製成功</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy">
     <Value>複製商品</Value>
   </LocaleResource>
@@ -2860,16 +2482,13 @@
     <Value>名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Name.New">
-    <Value>{0} - 複製</Value>
+    <Value>{0} - copy</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Published">
     <Value>是否發佈</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Copy.Published.Hint">
     <Value>是否發佈</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Copy.SKU.New">
-    <Value>{0}-複製</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.CrossSells">
     <Value>交叉銷售</Value>
@@ -3033,12 +2652,6 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.CategoryIds.Hint">
     <Value>商品目錄映射.</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.Hint">
-    <Value>選擇類別。 您可以通過選擇目錄 &gt; 分類 來管理商品分類</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.NoCategoriesAvailable">
-    <Value>沒有目錄</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
     <Value>建立時間</Value>
   </LocaleResource>
@@ -3073,13 +2686,7 @@
     <Value>請檢查以禁用此商品願望清單按鈕。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts">
-    <Value>折扣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.Hint">
-    <Value>選擇要應用於此產品的折扣。 您可以通過從"促銷"選單中選擇"折扣"來管理折扣。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.NoDiscounts">
-    <Value>沒有折扣存在，在Mapping前至少建立一個</Value>
+    <Value>Discounts</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -3246,9 +2853,6 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers">
     <Value>所屬品牌</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.Hint">
-    <Value>選擇製造商。 您可以通過選擇目錄 &gt; 生產商來管理生產商</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Manufacturers.NoManufacturersAvailable">
     <Value>選擇品牌</Value>
   </LocaleResource>
@@ -3379,7 +2983,7 @@
     <Value>指產品在缺貨時預計可供貨的期間（例如Available in 10-14 days）。 您可以通過系統設定&gt;配送管理&gt;交貨日期管理、設定可用性範圍。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductAvailabilityRange.None">
-    <Value>無</Value>
+    <Value>None</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ProductCost">
     <Value>商品成本</Value>
@@ -3495,11 +3099,8 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Hint">
+  <LocaleResource Name="admin.catalog.products.fields.sku.hint">
     <Value>商品料號（SKU）。您可以用來跟蹤此商品的內部唯一標識符。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Reserved">
-    <Value>商品料號（SKU）已經出現在其他商品中 '{0}'</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.SpecialPrice">
     <Value>特別的價格</Value>
@@ -3523,9 +3124,7 @@
     <Value>庫存數量</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.StockQuantity.ChangedWarning">
-    <Value>
-      您當前編輯的商品數量已被改變，變化已被保存.請確認所有資訊準確無誤並且再次點擊保存按鈕
-    </Value>
+    <Value>      您當前編輯的商品數量已被改變，變化已被保存.請確認所有資訊準確無誤並且再次點擊保存按鈕    </Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.StockQuantity.Hint">
     <Value>此商品的當前庫存數量。</Value>
@@ -3604,18 +3203,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.GiftCard">
     <Value>禮品卡</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Import.CategoriesDontExist">
-    <Value>類別在以下名稱和/或ID的類別不存在: {0}</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Import.CategoriesWithSameNameNotSupported">
-    <Value>同一類別級別不支持具有相同名稱的類別。 在 "Catalog -&gt; Categories" 頁面中檢查目錄列表</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Import.ManufacturersDontExist">
-    <Value>生產商在以下名稱和/或ID的類別不存在: {0}</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Import.ProductAttributesDontExist">
-    <Value>商品在以下名稱和/或ID的類別不存在: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Imported">
     <Value>匯入商品成功</Value>
@@ -3830,9 +3417,6 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity.Hint">
     <Value>這個組合的現在庫存數量。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Generate">
-    <Value>產生</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.GenerateAll">
     <Value>生成所有可能的組合</Value>
   </LocaleResource>
@@ -3859,9 +3443,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.AlreadyExists">
     <Value>當前屬性已新增至本商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.BackToProduct">
-    <Value>回到商品詳細頁</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition">
     <Value>條件</Value>
@@ -4477,6 +4058,51 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductTags.Fields.ProductCount">
     <Value>包含商品數量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays">
+    <Value>CCPay</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies">
+    <Value>匯率管理</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.AverageRate">
+    <Value>五家銀行的平均匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.CreatedOn">
+    <Value>建立時間</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.CurrencyCode">
+    <Value>貨幣代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Name">
+    <Value>貨幣名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.ProductAvailable">
+    <Value>是否提供帶付服務</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate1">
+    <Value>銀行1匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate2">
+    <Value>銀行2匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate3">
+    <Value>銀行3匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate4">
+    <Value>銀行4匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate5">
+    <Value>銀行5匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.UpdateToProduct">
+    <Value>把目前匯率更新到代購服務上</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.RefreshLiveRates">
+    <Value>更新觀看匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.CcPays.CurrecncyProducts">
+    <Value>可供代付貨幣種類</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Common.ActionConfirmation">
     <Value>您確定要執行此操作嗎？</Value>
@@ -5408,9 +5034,6 @@
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Configure">
     <Value>配置</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Payment.Methods.DownloadMorePlugins">
-    <Value>您可以從這裡下載更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=2&amp;utm_source=admin-panel&amp;utm_medium=payment-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
@@ -5441,20 +5064,11 @@
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.SystemName">
     <Value>系統名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.PaymentMethods">
-    <Value>付款方式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.PaymentMethodsAndRestrictions">
-    <Value>付款方式和限制</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins">
     <Value>插件管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.AdditionalInfo">
     <Value>附加信息</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Deleted">
-    <Value>套件已經被刪除.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description">
     <Value>手動安裝插件</Value>
@@ -5480,12 +5094,6 @@
   <LocaleResource Name="Admin.Configuration.Plugins.EditDetails">
     <Value>編輯插件</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles">
-    <Value>僅限於客戶角色</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles.Hint">
-    <Value>選擇一個或多個客戶角色，即管理員，供應商，訪客，他們將能夠使用此插件。如果您不需要此選項，請將此字段留空</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.Author">
     <Value>作者</Value>
   </LocaleResource>
@@ -5497,12 +5105,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.Configure">
     <Value>配置</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete">
-    <Value>刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete.Progress">
-    <Value>刪除套件中...</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -5836,18 +5438,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled.Hint">
     <Value>啟用商品比較</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DefaultViewMode">
-    <Value>預設檢視模式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DefaultViewMode.Hint">
-    <Value>選擇目錄頁面的默認視圖模式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDatePreOrderAvailability">
-    <Value>顯示預訂可用性的日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDatePreOrderAvailability.Hint">
-    <Value>選中以顯示預訂可用性的日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDiscontinuedMessageForUnpublishedProducts">
     <Value>對未公佈的商品停產的消息</Value>
@@ -7547,12 +7137,6 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder">
     <Value>禮品卡啟用時訂單狀態是"已完成"</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder.Hint">
-    <Value>訂單完成後，選中以激活相關的禮品卡</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Order.AllowAdminsToBuyCallForPriceProducts">
-    <Value>允許管理員購買“價格徵詢”產品</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.AllowAdminsToBuyCallForPriceProducts.Hint">
     <Value>當訂單狀態轉成"已完成"，啟動禮品卡</Value>
   </LocaleResource>
@@ -7601,12 +7185,6 @@
   <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.PdfInvoice">
     <Value>PDF發票</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Order.CheckoutDisabled">
-    <Value>結帳停止</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Order.CheckoutDisabled.Hint">
-    <Value>選中以禁用結帳過程(商店會變為唯讀模式)</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.CompleteOrderWhenDelivered">
     <Value>出貨狀態為"已送達"，訂單狀態才轉"已完成"</Value>
   </LocaleResource>
@@ -7645,12 +7223,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterDeletingOrder.Hint">
     <Value>訂單被刪除後，禮品卡停用</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Order.DeleteGiftCardUsageHistory">
-    <Value>訂單取消後刪除禮品卡使用記錄</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Order.DeleteGiftCardUsageHistory.Hint">
-    <Value>訂單取消後，請檢查以刪除禮品卡使用歷史記錄</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Order.DisableBillingAddressCheckoutStep">
     <Value>不使用「帳單地址」這步驟:</Value>
@@ -7927,9 +7499,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.BlockTitle.Mappings">
     <Value>映射</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.BlockTitle.OneColumnProductPage">
-    <Value>進階商品類型</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.BlockTitle.Price">
     <Value>價格</Value>
@@ -8298,10 +7867,10 @@
     <Value>所有訂單超過該值將免運費。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey">
-    <Value>Google 地圖的 API key</Value>
+    <Value>Google maps API key</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey.Hint">
-    <Value>特定的 Google 地圖 API key.</Value>
+    <Value>Specify Google maps API key.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Shipping.HideShippingTotal">
     <Value>商品若是不須配送，隱藏運費估算</Value>
@@ -8687,23 +8256,11 @@
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange.Hint">
     <Value>供應商更改資料後，系統會寄一封信提醒管理員</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnOrderDetailsPage">
-    <Value>在訂單詳細信息頁面上顯示供應商名</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnOrderDetailsPage.Hint">
-    <Value>選取在訂單詳細信息頁面上顯示產品的供應商名稱</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage">
     <Value>商品詳細資訊頁面上顯示供應商</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage.Hint">
     <Value>查看商品詳細資訊頁面上顯示供應商名稱(如果關聯)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Vendor.TermsOfServiceEnabled">
-    <Value>服務條款</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Vendor.TermsOfServiceEnabled.Hint">
-    <Value>要求供應商在註冊期間接受服務條款</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorsBlockItemsToDisplay">
     <Value>要顯示供應商的數量</Value>
@@ -8759,17 +8316,8 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures">
     <Value>度量</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.AdditionalConfirm">
-    <Value>&lt;p&gt;警告! 建議不要在實際網站上執行此操作，因為: &lt;/p&gt;&lt;ol&gt;&lt;li&gt;其他費率必須手動更新&lt;/li&gt;&lt;li&gt;您必須確保每個產品都有效度量（維度和權重） - 它們不會自動調整&lt;/li&gt;&lt;/ol&gt;</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions">
     <Value>尺寸</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.CantDeletePrimary">
-    <Value>主要尺寸不能被刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Description">
-    <Value>注意：如果更改主要尺寸，則不要忘記更新單位的適當比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8783,26 +8331,14 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Name.Required">
-    <Value>請提供名稱</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Ratio">
     <Value>尺寸比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.SystemKeyword">
     <Value>系統關鍵字</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.SystemKeyword.Required">
-    <Value>請提供系統關鍵字</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights">
     <Value>重量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.CantDeletePrimary">
-    <Value>主要重量不能被刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Description">
-    <Value>注意：如果更改主要重量，則不要忘記更新單位的適當比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8816,17 +8352,11 @@
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Name.Required">
-    <Value>請輸入名稱</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Ratio">
     <Value>重量比率</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.SystemKeyword">
     <Value>系統關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.SystemKeyword.Required">
-    <Value>請輸入系統關鍵字</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Methods">
     <Value>配送方式</Value>
@@ -8906,20 +8436,11 @@
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges">
     <Value>商品可用範圍</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Added">
-    <Value>新產品可用性範圍已成功添加</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.AddNew">
     <Value>新增一個新的商品可用範圍</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.BackToList">
     <Value>返回商品可用範圍列表</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Deleted">
-    <Value>產品可用性範圍已成功刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.EditProductAvailabilityRangeDetails">
-    <Value>編輯產品可用範圍詳細</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -8933,14 +8454,8 @@
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name.Hint">
     <Value>輸入商品可用範圍名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name.Required">
-    <Value>請提供名稱</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Hint">
     <Value>可用範圍選項列表，在商品詳情頁展示。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Updated">
-    <Value>產品可用性範圍已成功更新</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers">
     <Value>運費計算方式</Value>
@@ -8950,9 +8465,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers.Configure">
     <Value>配置</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Shipping.Providers.DownloadMorePlugins">
-    <Value>你可以在這裡下在更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=3&amp;utm_source=admin-panel&amp;utm_medium=shipping-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -9089,9 +8601,6 @@
   <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage">
     <Value>預設語言</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage.DefaultItemText">
-    <Value>---</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage.Hint">
     <Value>此屬性允許一個商店管理員指定一個預設的語言。如果沒有指定，則預設語言顯示順序將被使用。</Value>
   </LocaleResource>
@@ -9166,9 +8675,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Tax.Providers.Configure">
     <Value>配置</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Tax.Providers.DownloadMorePlugins">
-    <Value>你可以在這裡下在更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=11&amp;utm_source=admin-panel&amp;utm_medium=tax-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Tax.Providers.Fields.FriendlyName">
     <Value>友好名稱</Value>
@@ -9323,9 +8829,6 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.List.SearchStore">
     <Value>商店</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.List.SearchStore.Hint">
-    <Value>根據特定商店搜尋</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Stores">
     <Value>商店</Value>
   </LocaleResource>
@@ -9362,23 +8865,11 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.StoreName">
     <Value>商店名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.BlogPostId">
-    <Value>Blog貼文ID</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.BlogPostId.Hint">
-    <Value>根據Blog貼文ID搜尋</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnFrom">
     <Value>開始創建日期</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnFrom.Hint">
-    <Value>從搜索日期開始創建</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnTo">
     <Value>結束創建日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnTo.Hint">
-    <Value>迄今為止的搜索創建</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved">
     <Value>審核狀態</Value>
@@ -9392,14 +8883,8 @@
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.DisapprovedOnly">
     <Value>未審核</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.Hint">
-    <Value>根據"已審核"屬性搜尋</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchText">
     <Value>關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchText.Hint">
-    <Value>搜尋評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Forums">
     <Value>論壇管理</Value>
@@ -9506,9 +8991,6 @@
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.BackToList">
     <Value>返回郵件內容版型列表</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Copied">
-    <Value>這個版型複製成功</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Copy">
     <Value>複製版型</Value>
   </LocaleResource>
@@ -9517,141 +8999,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Blog.BlogComment">
     <Value>當創建某個部落格文章的新部落格評論時，將使用此郵件內容版型。 商店管理員將收到此消息。 您可以在配置 - 設定 - 部落格設定中勾選【關於新部落格評論通知】的復選框來設定此選項。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.BackInStock">
-    <Value>This message template is used when the customer subscribed for the certain product which is unavailable at the moment to notify the customer about the product being back to stock again. You can set up this option by ticking the checkbox &lt;strong&gt;Allow back in stock subscriptions&lt;/strong&gt; in Product info tab - Inventory section.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.EmailRevalidationMessage">
-    <Value>This message template is used when a customer changes an email address in his account. The customer receives a message to confirm an email address used when changing email address.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.EmailValidationMessage">
-    <Value>This message template is used when Configuration - Settings - Customer settings - "Registration method" dropdownlist is set to "Email validation". The customer receives a message to confirm an email address used when registering.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.NewOrderNote">
-    <Value>This message template is used when the customer gets a notification about a new order being placed from this account.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.NewPM">
-    <Value>This message template is used when the customer gets a notification about a new private message being received. You can set up this option by ticking the checkbox &lt;strong&gt;Show alert for PM&lt;/strong&gt; in Configuration - Settings - Forum settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.PasswordRecovery">
-    <Value>This message template is used when a customer forgets a password needed to log in the account. The customer receives a message with a link for entering a new password.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.WelcomeMessage">
-    <Value>This message template is used to welcome a new customer after registration.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Forums.NewForumPost">
-    <Value>This message template is used when a new forum post in certain forum topic is created. The message is received by a store owner.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Forums.NewForumTopic">
-    <Value>This message template is used when a new forum topic is created. The message is received by a store owner.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.GiftCard.Notification">
-    <Value>This message template is used to send a notification to a customer about getting a gift card.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewCustomer.Notification">
-    <Value>This message template is used when a new customer is registered. The message is received by a store owner. You can set up this option by ticking the checkbox &lt;strong&gt;Notify about new customer registration&lt;/strong&gt; in Configuration - Settings - Customer settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewReturnRequest.CustomerNotification">
-    <Value>This message template is used to notify a customer about a new return request submitted from his/her account.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewReturnRequest.StoreOwnerNotification">
-    <Value>This message template is used when a new return request is created. The message is received by a store owner.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.News.NewsComment">
-    <Value>This message template is used when a new comment to the certain news item is created. The message is received by a store owner. You can set up this option by ticking the checkbox &lt;strong&gt;Notify about new news comments&lt;/strong&gt; in Configuration - Settings - News settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewsLetterSubscription.ActivationMessage">
-    <Value>This message template is used when a customer subscribes to the newsletter to confirm the subscription.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewsLetterSubscription.DeactivationMessage">
-    <Value>This message template is used when a customer unsubscribes to the newsletter to confirm the subscription deactivation. You can allow users to unsubscribe by ticking the checkbox &lt;strong&gt;Newsletter box. Allow to unsubscribe&lt;/strong&gt; in Configuration - Settings - Customer settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.NewVATSubmitted.StoreOwnerNotification">
-    <Value>This message template is used when a new VAT is submitted. The message is received by a store owner. You can set up this option by clicking &lt;strong&gt;Notify admin when a new VAT number is submitted&lt;/strong&gt; in Configuration - Settings - Tax settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderCancelled.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain order was cancelled. The order can be cancelled by a customer on the account page or by store owner in Customers - Customers in Orders tab or in Sales - Orders.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderCompleted.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain order was completed. The order gets the order status Complete when it's paid and delivered, or it can be changed manually to Complete in Sales - Orders.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.AffiliateNotification">
-    <Value>This message template is used to notify an affiliate that the certain order was paid. The order gets the status Paid when the amount was charged.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain order was paid. The order gets the payment status Paid when the amount was charged, or it can be changed manually Sales - Orders by clicking Mark as paid button in Payment status.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the certain order was paid. The order gets the status Paid when the amount was charged, or it can be changed manually Sales - Orders by clicking Mark as paid button in Payment status.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPaid.VendorNotification">
-    <Value>This message template is used to notify a vendor that the certain order was paid. The order gets the status Paid when the amount was charged.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.AffiliateNotification">
-    <Value>This message template is used to notify an affiliate that the certain order was placed.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain order was placed. Orders can be viewed by a customer on the account page.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the certain order was placed. Orders can be viewed by a store owner in Sales - Orders or in Customers menu.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderPlaced.VendorNotification">
-    <Value>This message template is used to notify a vendor that the certain order was placed. Orders can be viewed by a vendor in Sales - Orders. You can allow them to access this part of Admin Area in Configuration - Access control list.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderRefunded.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain order was refunded. The customer can submit to refund the order when the payment status is paid on the account page, or it can be done by a store owner in Sales - Orders by clicking "Refund" button.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderRefunded.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the certain order was refunded. The customer can submit to refund the order when the payment status is paid on the account page, or it can be done by a store owner in Sales - Orders by clicking "Refund" button.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Product.ProductReview">
-    <Value>This message template is used to notify a store owner that a new product review is created. You can set up this option by ticking the checkbox &lt;strong&gt;Notify about new product reviews&lt;/strong&gt; in Configuration - Settings - Catalog settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ProductReview.Reply.CustomerNotification">
-    <Value>This message template is used to notify customers when a store owner (or vendor) replies to their product reviews. You can set up this option by ticking the checkbox &lt;strong&gt;Notify customer about product review reply&lt;/strong&gt; in Configuration - Settings - Catalog settings.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.QuantityBelow.AttributeCombination.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the certain product attribute combination is getting low stock. You can set up the combination minimum quantity when creating or editing the product in Product attribute tab - Attributes combinations tab in Notify admin for quantity below field.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.QuantityBelow.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the certain product is getting low stock. You can set up the minimum product quantity when creating or editing the product in Inventory section, &lt;strong&gt;Minimum stock qty field&lt;/strong&gt;.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.RecurringPaymentCancelled.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain recurring payment is cancelled. Payment can be cancelled by a customer in the account page or by a store owner in Sales - Recurring payments in History tab by clicking "Cancel recurring payment" button.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.RecurringPaymentCancelled.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the certain recurring payment is cancelled. Payment can be cancelled by a customer in the account page or by a store owner in Sales - Recurring payments in History tab by clicking "Cancel recurring payment" button.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.RecurringPaymentFailed.CustomerNotification">
-    <Value>This message template is used to notify a customer that the certain recurring payment is failed. For example, the amount can't be charged from the provided credit card.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ReturnRequestStatusChanged.CustomerNotification">
-    <Value>This message template is used to notify a customer that the request status to the certain order is changed. You can set up this option in Sales - Return requests by clicking "Notify customer about status change" button.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Service.ContactUs">
-    <Value>This message template is used to notify a store owner about a message sent through the contact form.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Service.ContactVendor">
-    <Value>This message template is used to notify a vendor about a message sent through the contact form.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Service.EmailAFriend">
-    <Value>This message template is used to send "email a friend" message.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ShipmentDelivered.CustomerNotification">
-    <Value>This message template is used to notify a customer that the shipping status of the certain order is set to delivered. You can set up this option in Configuration - Settings - Shipping settings by ticking the checkbox &lt;strong&gt;Display shipment events (customers)&lt;/strong&gt;.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.ShipmentSent.CustomerNotification">
-    <Value>This message template is used to notify a customer that the shipping status of the certain order is sent. You can set up this option in Configuration - Settings - Shipping settings by ticking the checkbox &lt;strong&gt;Display shipment events (customers)&lt;/strong&gt;.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.VendorAccountApply.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that new user has applied for vendor account. You can allow customers to apply for vendor account in Configuration - Setting - Vendor settings by ticking the checkbox &lt;strong&gt;Allow customers to apply for vendor account&lt;/strong&gt;.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.VendorInformationChange.StoreOwnerNotification">
-    <Value>This message template is used to notify a store owner that the vendor changed some vendor's details. You can allow vendors to change info about themselves in Configuration - Setting - Vendor settings by ticking the checkbox &lt;strong&gt;Allow vendors to edit info&lt;/strong&gt;.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Wishlist.EmailAFriend">
-    <Value>This message template is used when a customer wants to share some product from the wishlist with a friend by sending an email. You can set up this option by ticking the checkbox Allow customers to email their wishlists in Configuration - Settings - Shopping cart settings.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.EditMessageTemplateDetails">
     <Value>編輯郵件內容版型</Value>
@@ -9827,20 +9174,8 @@
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnFrom">
     <Value>開始創建日期</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnFrom.Hint">
-    <Value>從搜索日期開始創建</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnTo">
     <Value>結束創建日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnTo.Hint">
-    <Value>迄今為止的搜索創建</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.NewsItemId">
-    <Value>新物件ID</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.NewsItemId.Hint">
-    <Value>根據新物件ID搜尋.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved">
     <Value>審核狀態</Value>
@@ -9854,14 +9189,8 @@
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.DisapprovedOnly">
     <Value>未審核</Value>
   </LocaleResource>
-   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.Hint">
-    <Value>搜尋有"審核"屬性</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchText">
     <Value>關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchText.Hint">
-    <Value>搜尋開頭和評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.NewsItems">
     <Value>新聞</Value>
@@ -10055,12 +9384,6 @@
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Language.Hint">
     <Value>語言</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Polls.Fields.LimitedToStores">
-    <Value>限於商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Polls.Fields.LimitedToStores.Hint">
-    <Value>將此輪詢限制為某個商店的選項。 如果您有多個商店，請從列表中選擇一個或多個商店。 如果您不使用此選項，請將此字段留空。</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Name">
     <Value>名稱</Value>
   </LocaleResource>
@@ -10096,12 +9419,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Info">
     <Value>基本資訊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Polls.List.SearchStore">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Polls.List.SearchStore.Hint">
-    <Value>搜尋特定商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Updated">
     <Value>修改投票成功</Value>
@@ -10283,12 +9600,6 @@
   <LocaleResource Name="Admin.ContentManagement.Topics.Info">
     <Value>基本資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchKeywords">
-    <Value>搜尋關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchKeywords.Hint">
-    <Value>根據關鍵字搜尋主題</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchStore">
     <Value>商店</Value>
   </LocaleResource>
@@ -10330,9 +9641,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.CurrentCarts">
     <Value>會員購物記錄</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CurrentCarts.CartsAndWishlists">
-    <Value>購物車和願望清單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.CurrentCarts.Customer">
     <Value>會員</Value>
@@ -10478,17 +9786,8 @@
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Active.Hint">
     <Value>已啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.DefaultTaxDisplayType">
-    <Value>預設稅率顯示樣式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.DefaultTaxDisplayType.Hint">
-    <Value>預設稅率顯示樣式</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.EnablePasswordLifetime">
     <Value>啟用密碼生存期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.EnablePasswordLifetime.Hint">
-    <Value>檢查以強制客戶在指定時間後更改其密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.FreeShipping">
     <Value>免運費</Value>
@@ -10510,12 +9809,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Name.Required">
     <Value>請提供一個名稱。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.OverrideTaxDisplayType">
-    <Value>覆蓋原本稅率顯示方式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.OverrideTaxDisplayType.Hint">
-    <Value>檢查覆蓋原本稅率顯示方式</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct">
     <Value>購買與商品</Value>
@@ -10570,9 +9863,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.ActivityLog.IpAddress.Hint">
     <Value>IP地址</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.Customers.AddCustomerToGuestsOrRegisteredRoleError">
-    <Value>將會員加上"來賓"或"已註冊"會員角色</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Added">
     <Value>新增會員成功</Value>
@@ -10685,9 +9975,6 @@
   <LocaleResource Name="Admin.Customers.Customers.Fields.Affiliate.Remove">
     <Value>取消協銷聯盟</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Customers.Customers.Fields.Avatar">
-    <Value>腳色</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.City">
     <Value>城市</Value>
   </LocaleResource>
@@ -10716,16 +10003,7 @@
     <Value>國家</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.Country.Hint">
-    <Value>國家</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.Customers.Fields.County">
     <Value>縣市</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.Customers.Fields.County.Hint">
-    <Value>縣市</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Customers.Customers.Fields.County.Required">
-    <Value>請輸入縣市</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn">
     <Value>創建日期</Value>
@@ -12824,12 +12102,6 @@
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountType.Hint">
     <Value>折扣類型</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountUrl">
-    <Value>夾帶折扣的網址</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountUrl.Hint">
-    <Value>包含折扣優惠券代碼的示例網址，方便客戶無需在結賬時輸入優惠券代碼。您還可以將此查詢參數與商店的任何其他連結一起使用，例如連結到特定產品或類別。</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Fields.EndDate">
     <Value>結束日期</Value>
   </LocaleResource>
@@ -12908,9 +12180,6 @@
   <LocaleResource Name="Admin.Promotions.Discounts.History.OrderTotal">
     <Value>訂單總數</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.IgnoreDiscounts.Warning">
-    <Value>要使用此功能，您必須停用以下設置: 設置&gt; 目錄設置 &gt; 忽略折扣 (全站).</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Info">
     <Value>優惠資訊</Value>
   </LocaleResource>
@@ -12931,18 +12200,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountType.Hint">
     <Value>優惠類型搜尋。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchEndDate">
-    <Value>結束日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchEndDate.Hint">
-    <Value>搜尋結束日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchStartDate">
-    <Value>開始日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.List.SearchStartDate.Hint">
-    <Value>搜尋開始日期</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements">
     <Value>折扣要求</Value>
@@ -12976,9 +12233,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupName">
     <Value>組名</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupName.Hint">
-    <Value>指定需求組的名稱（例如“允許的客戶角色”）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Requirements.InteractionTypeInGroup">
     <Value>群組間的邏輯關係</Value>
@@ -13168,12 +12422,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.CreatedOn">
     <Value>創建日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.RecurringPayments.History.CustomOrderNumber">
-    <Value>創建訂單</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.RecurringPayments.History.LastPaymentFailed">
-    <Value>上一次付款失敗</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.NextPaymentDate">
     <Value>下一次付款日期是</Value>
@@ -13565,20 +12813,8 @@
   <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse.Old">
     <Value>從{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.StockQuantityHistory.Messages.ImportProduct.Edit">
-    <Value>因為匯入商品，所以庫存量改變</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.StockQuantityHistory.Messages.ImportProduct.EditWarehouse">
-    <Value>商品被移動 {0} {1} 因為匯入商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.StockQuantityHistory.Messages.MultipleWarehouses">
-    <Value>多個倉庫</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.StockQuantityHistory.Messages.PlaceOrder">
     <Value>通過訂單＃{0}減少庫存數量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.StockQuantityHistory.Messages.Ship">
-    <Value>庫存量已經減少，當訂單 #{0} 已經發貨</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System">
     <Value>系統資訊</Value>
@@ -13697,9 +12933,6 @@
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Delete">
     <Value>刪除</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Description">
-    <Value>資料庫備份功能只在nopCommerce部署在與數據庫相同的伺服器上時才有效。否則，您必須自己處理備份（請聯繫您的系統管理員）。</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Download">
     <Value>下載</Value>
   </LocaleResource>
@@ -13772,18 +13005,6 @@
   <LocaleResource Name="Admin.System.Maintenance.Maintenance">
     <Value>手動維護</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.Complete">
-    <Value>資料庫重新建立索引已經完成</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.Lable">
-    <Value>通過重新建立索引來修改現有的資料表。在資料表中執行重新索引時，僅更新與索引關聯的統計資料。表中建立的自動或手動統計資料（而不是索引）不會更新。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.Progress">
-    <Value>重新建立索引...</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.Maintenance.ReIndexTables.ReIndexNow">
-    <Value>重新建立索引</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails">
     <Value>郵件日誌</Value>
   </LocaleResource>
@@ -13804,12 +13025,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.EditQueuedEmailDetails">
     <Value>編輯郵件日誌項目</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachedDownload">
-    <Value>附加靜態文件</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachedDownload.Hint">
-    <Value>附加的靜態文件將在此電子郵件中發送</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachmentFilePath">
     <Value>附加文件路徑</Value>
@@ -14087,12 +13302,6 @@
   <LocaleResource Name="Admin.System.SystemInfo.CurrentUserTime.Hint">
     <Value>當前用戶時間 (基於指定的時間和時區設定).</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.System.SystemInfo.Headers">
-    <Value>Headers</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.SystemInfo.Headers.Hint">
-    <Value>A list of headers.</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.System.SystemInfo.HTTPHOST">
     <Value>HTTP_HOST</Value>
   </LocaleResource>
@@ -14252,9 +13461,6 @@
   <LocaleResource Name="Admin.System.Warnings.DirectoryPermission.Wrong">
     <Value>帳號{0}沒有修改文件夾{1}的權限，請重新配置權限</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.System.Warnings.Errors">
-    <Value>商店有一些錯誤或警告。 請在"警告"頁面上找到更多訊息</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.System.Warnings.ExchangeCurrency.NotSet">
     <Value>主要匯率的貨幣未設定</Value>
   </LocaleResource>
@@ -14297,14 +13503,8 @@
   <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreStoreLimitations">
     <Value>性能。只有一個商店時，建議忽略商店限制</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreStoreLimitations.Notification">
+  <LocaleResource Name="admin.system.warnings.performance.ignorestorelimitations.notification">
     <Value>為了使用這個功能您必須關閉隨後的系統設定&gt; 參數設定 &gt; 分類參數設定 &gt;  參數 &gt; 忽略 「限額對於每個商店」 規則 (網站範圍)。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.Warnings.PluginNotEnabled">
-    <Value>您可以解除安裝並刪除沒在使用的套件，這樣會提高性能</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.System.Warnings.PluginNotLoaded">
-    <Value>套件'{0}'不相容或是無法被載入</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Warnings.PrimaryCurrency.NotSet">
     <Value>主貨幣未設定</Value>
@@ -14324,8 +13524,287 @@
   <LocaleResource Name="Admin.System.Warnings.URL.NoMatch">
     <Value>商店指定的地址({0})和地址({1})匹配失敗</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.System.Warnings.URL.Reserved">
-    <Value>輸入的名稱已經存在，所以會被'{0}'取代</Value>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Bold">
+    <Value>粗體</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Close">
+    <Value>關閉</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.CreateLink">
+    <Value>插入連結</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.DeleteFile">
+    <Value>確定刪除 "{0}"？</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.DirectoryNotFound">
+    <Value>未找到目錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.EmptyFolder">
+    <Value>空文件夾</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.FontName">
+    <Value>選擇字體</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.FontNameInherit">
+    <Value>(繼承字體)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.FontSize">
+    <Value>選擇字體大小</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.FontSizeInherit">
+    <Value>(繼承大小)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.FormatBlock">
+    <Value>選擇段類型</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Indent">
+    <Value>縮進</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertHtml">
+    <Value>插入HTML</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertImage">
+    <Value>插入圖片</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertOrderedList">
+    <Value>插入有序列表</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertUnorderedList">
+    <Value>插入無序列表</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.InvalidFileType">
+    <Value>選定的文件 \"{0}\"無效。支持的文件類型為 {1}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Italic">
+    <Value>斜體</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyCenter">
+    <Value>文本居中</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyFull">
+    <Value>圓</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyLeft">
+    <Value>文本左對齊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyRight">
+    <Value>文本右對齊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.OpenInNewWindow">
+    <Value>在新窗口中打開連結</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Or">
+    <Value>或者</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.OrderBy">
+    <Value>排列方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.OrderByName">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.OrderBySize">
+    <Value>大小</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Outdent">
+    <Value>凸出</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.OverwriteFile">
+    <Value>文件名 "{0}"已存在，是否要覆蓋它？</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Strikethrough">
+    <Value>刪除線</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Style">
+    <Value>樣式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Tooltip">
+    <Value>小提示</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Underline">
+    <Value>下劃線</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.Unlink">
+    <Value>移除連結</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.UploadFile">
+    <Value>上傳文件</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.EditorLocalization.WebAddress">
+    <Value>Web地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.AddNew">
+    <Value>新增記錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Cancel">
+    <Value>取消</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.CancelChanges">
+    <Value>取消更改</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Delete">
+    <Value>刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.DeleteConfirmation">
+    <Value>確定刪除該記錄？</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.DisplayingItems">
+    <Value>顯示記錄{0}-{1},共{2}條</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Edit">
+    <Value>編輯</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Filter">
+    <Value>篩選</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterAnd">
+    <Value>與</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterBoolIsFalse">
+    <Value>假</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterBoolIsTrue">
+    <Value>真</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterClear">
+    <Value>清除篩選</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateEq">
+    <Value>等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateGe">
+    <Value>之後或等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateGt">
+    <Value>之後</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateLe">
+    <Value>之前或等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateLt">
+    <Value>之前</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateNe">
+    <Value>不等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterEnumEq">
+    <Value>等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterEnumNe">
+    <Value>不等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterForeignKeyEq">
+    <Value>等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterForeignKeyNe">
+    <Value>不等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberEq">
+    <Value>等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberGe">
+    <Value>大於或等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberGt">
+    <Value>大於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberLe">
+    <Value>小於或等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberLt">
+    <Value>小於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberNe">
+    <Value>不等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterOr">
+    <Value>或</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterSelectValue">
+    <Value>-請選擇-</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterShowRows">
+    <Value>顯示行值</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringEndsWith">
+    <Value>以XX結束</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringEq">
+    <Value>等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringNe">
+    <Value>不等於</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringNotSubstringOf">
+    <Value>不包含</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringStartsWith">
+    <Value>以XX開始</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringSubstringOf">
+    <Value>包含</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.GroupHint">
+    <Value>拖動該列標題放置組裡</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Insert">
+    <Value>插入</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.NoRecords">
+    <Value>未找到記錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Page">
+    <Value>頁</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.PageOf">
+    <Value>{0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Refresh">
+    <Value>刷新</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.SaveChanges">
+    <Value>儲存變更</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Select">
+    <Value>選中</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.SortedAsc">
+    <Value>升序</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.SortedDesc">
+    <Value>降序</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.UnGroup">
+    <Value>取消分組</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.GridLocalization.Update">
+    <Value>更新</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.Cancel">
+    <Value>取消</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.DropFilesHere">
+    <Value>拖放文件至此</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.Remove">
+    <Value>移除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.Retry">
+    <Value>重試</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.Select">
+    <Value>正在查詢...</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.StatusFailed">
+    <Value>失敗</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.StatusUploaded">
+    <Value>上傳</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.StatusUploading">
+    <Value>正在上傳...</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Telerik.UploadLocalization.UploadSelectedFiles">
+    <Value>上傳文件</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors">
     <Value>供應商</Value>
@@ -14429,9 +13908,6 @@
   <LocaleResource Name="Admin.Vendors.Fields.PageSize.Hint">
     <Value>設定頁面大小的商品在這個供應商。「4」個商品/頁面。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.Fields.PageSize.Positive">
-    <Value>頁面大小需要大於0</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Fields.PageSizeOptions">
     <Value>頁面大小選項(逗號分隔)</Value>
   </LocaleResource>
@@ -14464,93 +13940,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Updated">
     <Value>供應商已經更新成功。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes">
-    <Value>供應商屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Added">
-    <Value>新的屬性已經被成功增加</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.AddNew">
-    <Value>增加新的供應商屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.BackToList">
-    <Value>回到供應商設定</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Deleted">
-    <Value>該屬性已成功刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Description">
-    <Value>您可以在下面管理其他供應商屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.EditAttributeDetails">
-    <Value>編輯廠商屬性詳細信息</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.AttributeControlType">
-    <Value>控制類型</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.AttributeControlType.Hint">
-    <Value>選擇如何顯示屬性值</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.DisplayOrder.Hint">
-    <Value>應商屬性顯示順序。 1代表列表中的第一項</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.IsRequired">
-    <Value>必填</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.IsRequired.Hint">
-    <Value>當需要屬性時，供應商必須先選擇適當的屬性值才能繼續</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.Name.Hint">
-    <Value>供應商屬性名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Fields.Name.Required">
-    <Value>請提供名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Info">
-    <Value>屬性資訊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Updated">
-    <Value>屬性成功更新</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values">
-    <Value>屬性值</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.AddNew">
-    <Value>新增屬性值</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.EditValueDetails">
-    <Value>編輯屬性值的詳細資料</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.DisplayOrder.Hint">
-    <Value>屬性值的顯示順序。 1表示屬性值列表中的第一項</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.IsPreSelected">
-    <Value>預先選取</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.IsPreSelected.Hint">
-    <Value>確定此屬性值為預先選擇</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.Name.Hint">
-    <Value>供應商屬性值名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.Fields.Name.Required">
-    <Value>請提供名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Vendors.VendorAttributes.Values.SaveBeforeEdit">
-    <Value>您需要先保存供應商屬性，然後才能為其添加值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.VendorNotes">
     <Value>供應商備註</Value>
@@ -14675,14 +14064,8 @@
   <LocaleResource Name="Catalog.OrderBy">
     <Value>排序由</Value>
   </LocaleResource>
-  <LocaleResource Name="Catalog.OrderBy.Label">
-    <Value>選擇產品排序方式</Value>
-  </LocaleResource>
   <LocaleResource Name="Catalog.PageSize">
     <Value>顯示</Value>
-  </LocaleResource>
-  <LocaleResource Name="Catalog.PageSize.Label">
-    <Value>選擇每一頁的檢視數量</Value>
   </LocaleResource>
   <LocaleResource Name="Catalog.PageSize.PerPage">
     <Value>每頁</Value>
@@ -14693,7 +14076,7 @@
   <LocaleResource Name="Catalog.ViewMode.Grid">
     <Value>網格</Value>
   </LocaleResource>
-  <LocaleResource Name="Catalog.ViewMode.List">
+  <LocaleResource Name="catalog.viewmode.list">
     <Value>列表</Value>
   </LocaleResource>
   <LocaleResource Name="Categories">
@@ -14723,18 +14106,6 @@
   <LocaleResource Name="Categories.ViewMode.List">
     <Value>列表</Value>
   </LocaleResource>
-  <LocaleResource Name="CheckGiftCard.GiftCardCouponCode.Button">
-    <Value>檢查禮物卡</Value>
-  </LocaleResource>
-  <LocaleResource Name="CheckGiftCardBalance">
-    <Value>檢查禮物卡餘額</Value>
-  </LocaleResource>
-  <LocaleResource Name="CheckGiftCardBalance.GiftCardCouponCode.Empty">
-    <Value>折扣碼是空的</Value>
-  </LocaleResource>
-  <LocaleResource Name="CheckGiftCardBalance.GiftCardCouponCode.Invalid">
-    <Value>折扣碼無效</Value>
-  </LocaleResource>
   <LocaleResource Name="Checkout">
     <Value>訂單結算</Value>
   </LocaleResource>
@@ -14755,9 +14126,6 @@
   </LocaleResource>
   <LocaleResource Name="Checkout.ConfirmYourOrder">
     <Value>確認您的訂單</Value>
-  </LocaleResource>
-  <LocaleResource Name="Checkout.Disabled">
-    <Value>抱歉，結帳流程被禁用</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.EnterBillingAddress">
     <Value>請輸入帳單寄送地址</Value>
@@ -14812,21 +14180,6 @@
   </LocaleResource>
   <LocaleResource Name="Checkout.PickUpInStoreAndFee">
     <Value>店內提貨 ({0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="Checkout.PickupPoints">
-    <Value>取貨</Value>
-  </LocaleResource>
-  <LocaleResource Name="Checkout.PickupPoints.Description">
-    <Value>在店內取貨</Value>
-  </LocaleResource>
-  <LocaleResource Name="Checkout.PickupPoints.Name">
-    <Value>Pickup at {0}</Value>
-  </LocaleResource>
-  <LocaleResource Name="Checkout.PickupPoints.NotAvailable">
-    <Value>無法載入取貨地點</Value>
-  </LocaleResource>
-  <LocaleResource Name="Checkout.PickupPoints.SelectPickupPoint">
-    <Value>選擇取貨地點</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.PlacedOrderDetails">
     <Value>請點擊這裡查看訂單詳細資訊。</Value>
@@ -15047,9 +14400,6 @@
   <LocaleResource Name="Common.WrongCaptchaV2">
     <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
   </LocaleResource>
-  <LocaleResource Name="Common.WrongCaptchaMessage">
-    <Value>驗證碼輸入錯誤，請再試一次。</Value>
-  </LocaleResource>
   <LocaleResource Name="Common.WrongEmail">
     <Value>電子信箱無效</Value>
   </LocaleResource>
@@ -15164,9 +14514,6 @@
   <LocaleResource Name="Currencies">
     <Value>貨幣</Value>
   </LocaleResource>
-  <LocaleResource Name="Currency.Selector.Label">
-    <Value>選擇貨幣</Value>
-  </LocaleResource>
   <LocaleResource Name="Customer.Guest">
     <Value>匿名用戶</Value>
   </LocaleResource>
@@ -15214,9 +14561,6 @@
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.FileUpload">
     <Value>上傳文件</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.ImageSquares">
-    <Value>圖像方塊</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.MultilineTextbox">
     <Value>多行文本框</Value>
@@ -15365,48 +14709,6 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Hashed">
     <Value>雜湊</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.RewardPointsActivatingDelayPeriod.Days">
-    <Value>天</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.RewardPointsActivatingDelayPeriod.Hours">
-    <Value>小時</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.AdminApproval">
-    <Value>客戶要得到管理員批准</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.Disabled">
-    <Value>不允許註冊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.EmailValidation">
-    <Value>註冊後需要Email驗證</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Customers.UserRegistrationType.Standard">
-    <Value>建立標準帳戶</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding001">
-    <Value>預設的進位方式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding005Down">
-    <Value>以 0.05 為間隔 (0.06 四捨五入為 0.05)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding005Up">
-    <Value>以 0.05 為間隔 (0.06 四捨五入為 0.10)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding01Down">
-    <Value>以 0.10 為間隔 (1.05 四捨五入為 1.00)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding01Up">
-    <Value>以 0.10 為間隔 (1.05 四捨五入為 1.10)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding05">
-    <Value>以 0.50 為間隔</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding1">
-    <Value>以 1.00 為間隔 (1.01-1.49 四捨五入為 1.00, 1.50-1.99 round to 2.00)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Directory.RoundingType.Rounding1Up">
-    <Value>以 1.00 為間隔 (1.01–1.99 四捨五入為 2.00)</Value>
-  </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
     <Value>所有用戶</Value>
   </LocaleResource>
@@ -15434,12 +14736,6 @@
   <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToSkus">
     <Value>應用到商品系列商品料號（SKU）</Value>
   </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.RequirementGroupInteractionType.And">
-    <Value>且</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.RequirementGroupInteractionType.Or">
-    <Value>或</Value>
-  </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.BBCodeEditor">
     <Value>BBCode編輯器</Value>
   </LocaleResource>
@@ -15466,18 +14762,6 @@
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Sticky">
     <Value>轉載</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.ConsentAgree">
-    <Value>承諾 (同意)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.ConsentDisagree">
-    <Value>承諾 (不同意)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.DeleteCustomer">
-    <Value>刪除會員</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Gdpr.GdprRequestType.ExportData">
-    <Value>輸出日期</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Debug">
     <Value>除錯</Value>
@@ -15538,12 +14822,6 @@
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
     <Value>授權退貨</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ShoppingCartType.ShoppingCart">
-    <Value>購物車</Value>
-  </LocaleResource>
-  <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ShoppingCartType.Wishlist">
-    <Value>願望清單</Value>
   </LocaleResource>
   <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Authorized">
     <Value>授權</Value>
@@ -15752,7 +15030,7 @@
   <LocaleResource Name="Footer.Information">
     <Value>訊息</Value>
   </LocaleResource>
-  <LocaleResource Name="Footer.MyAccount">
+  <LocaleResource Name="footer.myaccount">
     <Value>會員中心</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.TaxShipping.ExclTax">
@@ -15761,7 +15039,7 @@
   <LocaleResource Name="Footer.TaxShipping.InclTax">
     <Value>所有價格皆含稅。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
   </LocaleResource>
-  <LocaleResource Name="Forum.ActiveDiscussions">
+  <LocaleResource Name="forum.activediscussions">
     <Value>熱門討論</Value>
   </LocaleResource>
   <LocaleResource Name="Forum.ActiveDiscussions.ViewAll">
@@ -16058,21 +15336,6 @@
   <LocaleResource Name="Forum.WatchTopic">
     <Value>關注</Value>
   </LocaleResource>
-  <LocaleResource Name="Gdpr.Consent.Newsletter">
-    <Value>電子報</Value>
-  </LocaleResource>
-  <LocaleResource Name="Gdpr.Consent.PrivacyPolicy">
-    <Value>隱私權政策</Value>
-  </LocaleResource>
-  <LocaleResource Name="Gdpr.DeleteRequested">
-    <Value>請求刪除帳號</Value>
-  </LocaleResource>
-  <LocaleResource Name="Gdpr.DeleteRequested.Success">
-    <Value>我們會盡快處理您的請求</Value>
-  </LocaleResource>
-  <LocaleResource Name="Gdpr.Exported">
-    <Value>輸出個人資料</Value>
-  </LocaleResource>
   <LocaleResource Name="GiftCardAttribute.For.Physical">
     <Value>收件人: {0}</Value>
   </LocaleResource>
@@ -16304,9 +15567,6 @@
   <LocaleResource Name="Newsletter.ResultActivated">
     <Value>您的訂閱已被啟用</Value>
   </LocaleResource>
-  <LocaleResource Name="Newsletter.ResultAlreadyDeactivated">
-    <Value>您的訂閱已經被停用</Value>
-  </LocaleResource>
   <LocaleResource Name="Newsletter.ResultDeactivated">
     <Value>您的訂閱已被停用</Value>
   </LocaleResource>
@@ -16325,7 +15585,7 @@
   <LocaleResource Name="Nop.Web.Framework.Validators.MaxDecimal">
     <Value>The value is out of range. Maximum value is {0}.99</Value>
   </LocaleResource>
-  <LocaleResource Name="Order.BillingAddress">
+  <LocaleResource Name="order.billingaddress">
     <Value>帳單寄送地址</Value>
   </LocaleResource>
   <LocaleResource Name="order.companytaxid">
@@ -16388,9 +15648,6 @@
   <LocaleResource Name="Order.Phone">
     <Value>電話號碼</Value>
   </LocaleResource>
-  <LocaleResource Name="Order.PickupAddress">
-    <Value>取貨地點</Value>
-  </LocaleResource>
   <LocaleResource Name="Order.Print">
     <Value>列印</Value>
   </LocaleResource>
@@ -16415,9 +15672,6 @@
   <LocaleResource Name="Order.PurchaseOrderNumber">
     <Value>採購單號</Value>
   </LocaleResource>
-  <LocaleResource Name="Order.Product(s).VendorName">
-    <Value>供應商名稱</Value>
-  </LocaleResource>
   <LocaleResource Name="Order.Rental.FormattedDate">
     <Value>開始日期： {0}. 結束日期： {1}.</Value>
   </LocaleResource>
@@ -16433,7 +15687,7 @@
   <LocaleResource Name="Order.ReturnItems">
     <Value>需要退貨</Value>
   </LocaleResource>
-  <LocaleResource Name="Order.RewardPoints">
+  <LocaleResource Name="order.rewardpoints">
     <Value>{0}紅利積點</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Shipments">
@@ -16462,9 +15716,6 @@
   </LocaleResource>
   <LocaleResource Name="Order.Shipments.Phone">
     <Value>電話號碼</Value>
-  </LocaleResource>
-  <LocaleResource Name="Order.Shipments.PickupAddress">
-    <Value>取貨地點</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Shipments.Product(s)">
     <Value>商品</Value>
@@ -16595,9 +15846,6 @@
   <LocaleResource Name="PageTitle.Blog">
     <Value>部落格</Value>
   </LocaleResource>
-  <LocaleResource Name="PageTitle.CheckGiftCardBalance">
-    <Value>檢查禮品卡餘額</Value>
-  </LocaleResource>
   <LocaleResource Name="PageTitle.Checkout">
     <Value>結算</Value>
   </LocaleResource>
@@ -16612,9 +15860,6 @@
   </LocaleResource>
   <LocaleResource Name="PageTitle.CustomerProductReviews">
     <Value>我的商品評論</Value>
-  </LocaleResource>
-  <LocaleResource Name="PageTitle.EmailRevalidation">
-    <Value>Email驗證</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.ForumSubscriptions">
     <Value>論壇訂閱</Value>
@@ -16730,9 +15975,6 @@
   <LocaleResource Name="Payment.ExpirationDate">
     <Value>有效日期</Value>
   </LocaleResource>
-  <LocaleResource Name="Payment.ExpirationDate.Expired">
-    <Value>卡片已經到期</Value>
-  </LocaleResource>
   <LocaleResource Name="Payment.ExpireMonth.Required">
     <Value>請輸有效日期</Value>
   </LocaleResource>
@@ -16799,9 +16041,6 @@
   <LocaleResource Name="PDFInvoice.Phone">
     <Value>電話號碼： {0}</Value>
   </LocaleResource>
-  <LocaleResource Name="PDFInvoice.Pickup">
-    <Value>取貨地點:</Value>
-  </LocaleResource>
   <LocaleResource Name="PDFInvoice.Product(s)">
     <Value>商品</Value>
   </LocaleResource>
@@ -16846,9 +16085,6 @@
   </LocaleResource>
   <LocaleResource Name="PDFInvoice.VATNumber">
     <Value>增值稅號碼：{0}</Value>
-  </LocaleResource>
-  <LocaleResource Name="PDFInvoice.VendorName">
-    <Value>供應商名稱</Value>
   </LocaleResource>
   <LocaleResource Name="PDFPackagingSlip.Address">
     <Value>地址：{0}</Value>
@@ -17051,6 +16287,1017 @@
   <LocaleResource Name="Permission.PublicStoreAllowNavigation">
     <Value>公共商店。允許導航</Value>
   </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiSVC.Fields.SvcIp.Hint">
+    <Value>Service Ip 輸入格式 Ip : port</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Database">
+    <Value>正航資料庫名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Database.Hint">
+    <Value>正航資料庫名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Enabled">
+    <Value>啟用排程</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Enabled.Hint">
+    <Value>啟用排程</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Password">
+    <Value>正航資料庫登入密碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Password.Hint">
+    <Value>正航資料庫登入密碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Seconds">
+    <Value>間隔時間(秒)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Seconds.Hint">
+    <Value>間隔時間(秒)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Server">
+    <Value>正航資料庫伺服器名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.Server.Hint">
+    <Value>正航資料庫伺服器名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.StopOnError">
+    <Value>發生錯誤時停止</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.StopOnError.Hint">
+    <Value>發生錯誤時停止</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.UserID">
+    <Value>正航資料庫登入帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.AutoChi.AutoChiTask.Fields.UserID.Hint">
+    <Value>正航資料庫登入帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.HctApi.HctApiStockTask.Fields.Cmd">
+    <Value>參數</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.HctApi.HctApiStockTask.Fields.Cmd.Hint">
+    <Value>判別代號(-ot -up)，-op查詢多運單號，-up上傳託運單</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.HctApi.HctApiStockTask.Fields.Filename">
+    <Value>API檔名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.HctApi.HctApiStockTask.Fields.Filename.Hint">
+    <Value>API檔名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.HctApi.HctApiStockTask.Fields.position">
+    <Value>檔案位置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugin.Atluz.HctApi.HctApiStockTask.Fields.position.Hint">
+    <Value>AP請放置C:\inetpub\wwwroot 底下位置，記得最後要加上/</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.CustomerRoles.Fields.CustomerRole">
+    <Value>請求會員角色</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.CustomerRoles.Fields.CustomerRole.Hint">
+    <Value>如果會員是在選定的會員角色折扣將應用。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HadSpentAmount.Fields.Amount">
+    <Value>請求計費金額</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HadSpentAmount.Fields.Amount.Hint">
+    <Value>購買折扣將應用如果會員消費了/ x。xx。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HadSpentAmount.NotEnough">
+    <Value>很抱歉，此優惠需要更多的錢（以前下的訂單）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasAllProducts.Fields.Products">
+    <Value>受限制的商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasAllProducts.Fields.Products.AddNew">
+    <Value>新增商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasAllProducts.Fields.Products.Choose">
+    <Value>選擇</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasAllProducts.Fields.Products.Hint">
+    <Value>以逗號分隔的商品標識符(如77、123、77)。通過商品ID細節頁面操作。您還可以指定商品數量的以逗號分隔的商品標識符({商品ID }:{數量}。例如,77:1 123:2 156:3)。,您還可以指定數量的以逗號分隔的商品標識符範圍({商品ID }:{最小數量} - {最大數量}。例如,77:1-3 123:2-5 156:3-8)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasOneProduct.Fields.Products">
+    <Value>受限制的商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasOneProduct.Fields.Products.AddNew">
+    <Value>新增商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasOneProduct.Fields.Products.Choose">
+    <Value>選擇</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.DiscountRules.HasOneProduct.Fields.Products.Hint">
+    <Value>以逗號分隔的商品標識符(如77、123、77)。通過商品ID細節頁面操作。您還可以指定商品數量的以逗號分隔的商品標識符({商品ID }:{數量}。例如,77:1 123:2 156:3)。您還可以指定數量的以逗號分隔的商品標識符範圍({商品ID }:{最小數量} - {最大數量}。例如,77:1-3 123:2-5 156:3-8)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExchangeRate.EcbExchange.Error">
+    <Value>You can use ECB (European central bank) exchange rate provider only when the primary exchange rate currency is supported by ECB</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExchangeRate.EcbExchange.SetCurrencyToEURO">
+    <Value>您只能使用在主匯率貨幣設定為歐元ECB（歐洲央行）的匯率提供商</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.externalauth.facebook.login">
+    <Value>使用Facebook帳號登入</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.OpenId.Login">
+    <Value>使用OpenID帳戶登入</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.OpenId.Manually">
+    <Value>手動輸入您的OpenID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.OpenId.SignIn">
+    <Value>登入</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.OpenId.YourAccount">
+    <Value>請點擊您的帳戶提供商</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.QQConnect.CallbackUrl">
+    <Value>Callback Url</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.QQConnect.ClientKeyIdentifier">
+    <Value>App ID/API Key</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.QQConnect.ClientKeyIdentifier.Hint">
+    <Value>Enter your app ID/API key here. You can find it on your QQConnect application page.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.QQConnect.ClientSecret">
+    <Value>App Secret</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.QQConnect.ClientSecret.Hint">
+    <Value>Enter your app secret here. You can find it on your QQConnect application page.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.ExternalAuth.QQConnect.Login">
+    <Value>Login using QQConnect account</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Currency">
+    <Value>貨幣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Currency.Hint">
+    <Value>選擇用來生成預設貨幣</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.DefaultGoogleCategory">
+    <Value>預設谷歌分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.DefaultGoogleCategory.Hint">
+    <Value>如果沒有指定另一個，預設谷歌分類將繼承。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.General">
+    <Value>一般</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Generate">
+    <Value>生成提要</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Override">
+    <Value>覆蓋的商品設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.PassShippingInfoDimensions">
+    <Value>通過貨運資訊（尺寸）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.PassShippingInfoDimensions.Hint">
+    <Value>選擇如果您需要包括貨運資訊(尺寸)到生成的XML文件中。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.PassShippingInfoWeight">
+    <Value>通過貨運資訊（重量）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.PassShippingInfoWeight.Hint">
+    <Value>選擇如果您需要包括貨運資訊（重量）到生成的XML文件中。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.PricesConsiderPromotions">
+    <Value>可以考慮價格優惠</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.PricesConsiderPromotions.Hint">
+    <Value>選擇如果您想要計算價格和優惠（級別性價格， 折扣， 特殊價格， 稅等等）。但請注意它可能減少大量生成的供給文件的時間。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.ProductPictureSize">
+    <Value>商品縮略圖大小</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.ProductPictureSize.Hint">
+    <Value>預設大小(像素)商品縮略圖。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.AgeGroup">
+    <Value>年齡組</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.Color">
+    <Value>顏色</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.CustomGoods">
+    <Value>會員貨品 (沒有任何ID存在)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.Gender">
+    <Value>性別</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.GoogleCategory">
+    <Value>谷歌分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.ProductName">
+    <Value>商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Products.Size">
+    <Value>尺寸</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.StaticFilePath">
+    <Value>生成的文件路徑(靜態)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.StaticFilePath.Hint">
+    <Value>生成的Froogle文件的文件路徑。它是靜態的存儲和與Froogle服務可以共享。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Store">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.Store.Hint">
+    <Value>選擇將用於生成的預設商店。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Feed.Froogle.SuccessResult">
+    <Value>Froogle預設已成功生成。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Misc.WebServices.Description1">
+    <Value>實際的配置不是必需的。只是一些注意事項:</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Misc.WebServices.Description2">
+    <Value>確保正確配置權限權限管理列表頁面(預設情況下禁用)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Misc.WebServices.Description3">
+    <Value>訪問服務使用 {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Misc.WebServices.Description4">
+    <Value>mex endpoint使用 {0}</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CashOnDelivery.AdditionalFee">
+    <Value>額外費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CashOnDelivery.AdditionalFee.Hint">
+    <Value>額外的費用。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CashOnDelivery.AdditionalFeePercentage">
+    <Value>額外的費用。使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CashOnDelivery.AdditionalFeePercentage.Hint">
+    <Value>決定是否應用比例附加費用訂單小計。如果沒有啟用,將使用一個固定的值。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CashOnDelivery.DescriptionText">
+    <Value>描述</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CashOnDelivery.DescriptionText.Hint">
+    <Value>會員輸入將顯示在結帳的資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.AdditionalFee">
+    <Value>額外的費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.AdditionalFee.Hint">
+    <Value>額外的費用。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.AdditionalFeePercentage">
+    <Value>額外的費用。使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.AdditionalFeePercentage.Hint">
+    <Value>決定是否應用比例附加費用訂單小計。如果沒有啟用,將使用一個固定的值。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.DescriptionText">
+    <Value>描述</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.DescriptionText.Hint">
+    <Value>會員輸入資訊將顯示在結帳</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.ShippableProductRequired">
+    <Value>必須是可運輸的商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payment.CheckMoneyOrder.ShippableProductRequired.Hint">
+    <Value>這個選項指示是否可運輸的商品是必須的以便在結賬時顯示付款方式。</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.payments.alipay.additionalfee">
+    <Value>額外的費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.payments.alipay.additionalfee.hint">
+    <Value>輸入附加費用收取您的會員。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.Key">
+    <Value>Key</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.Key.Hint">
+    <Value>Enter key.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.Partner">
+    <Value>Partner</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.Partner.Hint">
+    <Value>Enter partner.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.RedirectionTip">
+    <Value>You will be redirected to AliPay site to complete the order.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.SellerEmail">
+    <Value>賣家電子信箱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AliPay.SellerEmail.Hint">
+    <Value>填寫賣家電子信箱.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.AdditionalFee">
+    <Value>額外的費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.AdditionalFee.Hint">
+    <Value>輸入附加費用收取您的會員。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.AdditionalFeePercentage">
+    <Value>額外的費用。使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.AdditionalFeePercentage.Hint">
+    <Value>決定是否應用比例附加費用訂單小計。如果沒有啟用,將使用一個固定的值。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.LoginId">
+    <Value>登入ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.LoginId.Hint">
+    <Value>指定的登入標識符。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.TransactionKey">
+    <Value>交易方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.TransactionKey.Hint">
+    <Value>交易方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.TransactModeValues">
+    <Value>交易方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.TransactModeValues.Hint">
+    <Value>選擇交易方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.UseSandbox">
+    <Value>使用沙箱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Fields.UseSandbox.Hint">
+    <Value>檢查使沙箱(測試環境)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.AuthorizeNet.Notes">
+    <Value>如果您使用這個網關,確保您的主要存儲貨幣支持Authorize.NET。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ChinaBank.Fields.AdditionalFee">
+    <Value>額外費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ChinaBank.Fields.AdditionalFeePercentage">
+    <Value>額外費用（使用百分比）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ChinaBank.Fields.Md5Key">
+    <Value>MD5Key</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ChinaBank.Fields.RedirectionTip">
+    <Value>將跳轉到網銀在線付款!</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ChinaBank.Fields.Vmid">
+    <Value>商戶號</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.payments.esunatm.fields.additionalfee">
+    <Value>額外的費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.payments.esunatm.fields.additionalfee.hint">
+    <Value>輸入附加費用收取您的會員。</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.payments.esunatm.fields.additionalfeepercentage">
+    <Value>額外的費用。使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.payments.esunatm.fields.additionalfeepercentage.hint">
+    <Value>決定是否應用比例附加費用訂單總額。如果沒有啟用,將使用一個固定的值。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.CompanyId">
+    <Value>企業識別碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.CompanyId.Hint">
+    <Value>企業識別碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.EndDate">
+    <Value>繳款期限(天)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.EndDate.Hint">
+    <Value>繳款期限為本日後X天</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.OrderID">
+    <Value>交易序號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.OrderID.Hint">
+    <Value>交易序號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.PassPurchasedItems">
+    <Value>購買商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.PassPurchasedItems.Hint">
+    <Value>確認購買商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.RedirectionTip">
+    <Value>訂單建立後，請至訂單詳細頁取得您的 ATM 轉帳資料</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.ServerIp">
+    <Value>AP2AP Server IP</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.ServerIp.Hint">
+    <Value>AP2AP Server IP</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.TransAmt">
+    <Value>交易金額</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.TransAmt.Hint">
+    <Value>交易金額</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.TransMode">
+    <Value>交易種類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.ESunATM.Fields.TransMode.Hint">
+    <Value>交易種類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.AdditionalFee">
+    <Value>額外的費用。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.AdditionalFee.Hint">
+    <Value>給您的會員額外的費用。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.AdditionalFeePercentage">
+    <Value>額外的費用。使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.AdditionalFeePercentage.Hint">
+    <Value>決定是否應用比例附加費用訂單小計。如果沒有啟用,將使用一個固定的值。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.ApiAccountName">
+    <Value>API帳戶名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.ApiAccountName.Hint">
+    <Value>帳戶名稱指定API。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.ApiAccountPassword">
+    <Value>API帳戶密碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.ApiAccountPassword.Hint">
+    <Value>指定API帳戶密碼。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.Signature">
+    <Value>簽名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.Signature.Hint">
+    <Value>指定簽名。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.TransactMode">
+    <Value>交易模式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.TransactMode.Hint">
+    <Value>交易模式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.UseSandbox">
+    <Value>使用沙箱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalDirect.Fields.UseSandbox.Hint">
+    <Value>檢查使沙箱(測試環境)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.ApiSignature">
+    <Value>API簽名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.ApiSignature.Hint">
+    <Value>在您PayPal帳號指定API簽名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.CartBorderColor">
+    <Value>購物車邊框顏色</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.CartBorderColor.Hint">
+    <Value>在PayPal頁面購物車邊框顏色是6字節HTML16進制ASCII格式顏色代碼的值</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.DoNotHaveBusinessAccount">
+    <Value>我沒有一個PayPal的企業帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.DoNotHaveBusinessAccount.Hint">
+    <Value>我沒有一個PayPal的企業帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.EmailAddress">
+    <Value>Eamil 地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.EmailAddress.Hint">
+    <Value>您要使用的這個Email地址，如果存在就可以用這個帳號來收款，否則會用這個Email地址建立一個帳號用來收款.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.EnableDebugLogging">
+    <Value>調式日誌可用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.EnableDebugLogging.Hint">
+    <Value>允許插件寫額外資訊到系統日誌表</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.HandlingFee">
+    <Value>處理費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.HandlingFee.Hint">
+    <Value>輸入從會員收取的額外處理費用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.HandlingFeeIsPercentage">
+    <Value>佣金比率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.HandlingFeeIsPercentage.Hint">
+    <Value>是否使用佣金比率，否則使用固定金額當作處理費.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.IsLive">
+    <Value>在線?</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.IsLive.Hint">
+    <Value>選中此框，使系統在線(即退出沙箱模式)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.LocaleCode">
+    <Value>本地代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.LocaleCode.Hint">
+    <Value>使用快速結帳期間，由PayPal顯示區域設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.LogoImageURL">
+    <Value>快速結帳圖片地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.LogoImageURL.Hint">
+    <Value>您要顯示快速結帳圖片地址留在付款頁面。圖片最大750px*90px。PayPal建議您提供存儲在一個安全(https)伺服器的圖片。如果您不指定一個圖片，將顯示頁業務名稱。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.Password">
+    <Value>密碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.Password.Hint">
+    <Value>在您PayPal帳號指定的API密碼(不是您PayPal帳號的密碼)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.PaymentAction">
+    <Value>付款方式選擇</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.PaymentAction.Hint">
+    <Value>選擇您想讓最後一個銷售,或授權和捕獲在稍後的日期(即,到完成為止)Select whether you want to make a final sale, or authorise and capture at a later date (i.e. upon fulfilment)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.RequireConfirmedShippingAddress">
+    <Value>需要確認運輸地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.RequireConfirmedShippingAddress.Hint">
+    <Value>您是否需要買方的地址與PayPal確認地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.Username">
+    <Value>使用者帳號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Payments.PayPalExpressCheckout.Fields.Username.Hint">
+    <Value>指定的API使用者帳號在您PayPal帳號中(這個不是您您PayPal帳號的Email)</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.pickup.pickupinstore.addnew">
+    <Value>新增提取點</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Pickup.PickupInStore.Fields.Description">
+    <Value>描述</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Pickup.PickupInStore.Fields.Description.hint">
+    <Value>描述</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.pickup.pickupinstore.fields.name">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.pickup.pickupinstore.fields.openinghours">
+    <Value>營業時間</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.pickup.pickupinstore.fields.pickupfee">
+    <Value>提取費</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.pickup.pickupinstore.fields.store">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.AustraliaPost.Fields.GatewayUrl">
+    <Value>網關地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.AustraliaPost.Fields.GatewayUrl.Hint">
+    <Value>網關地址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.AustraliaPost.Fields.HideDeliveryInformation">
+    <Value>隱藏配送資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.AustraliaPost.Fields.HideDeliveryInformation.Hint">
+    <Value>在退貨方法說明上隱藏配送資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.AddRecord">
+    <Value>新增記錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.AdditionalFixedCost">
+    <Value>額外的固定成本</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.AdditionalFixedCost.Hint">
+    <Value>指定一個額外的固定成本/購物車這個選項。設定為0,如果您不想讓一個額外的固定成本。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.Country">
+    <Value>縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.Country.Hint">
+    <Value>如果星號被選中時,那麼這航運率將適用於所有會員,不管這個縣市。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.DataHtml">
+    <Value>數據</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.From">
+    <Value>訂單重量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.From.Hint">
+    <Value>訂單重量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.LimitMethodsToCreated">
+    <Value>限制運輸的方法來配置的</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.LimitMethodsToCreated.Hint">
+    <Value>如果您檢查這個選項,那麼您的會員將有限的運輸選項配置。否則,他們將能夠選擇任何現有的運輸選項甚至他們這裡沒有配置(在這種情況下,零運費)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.LowerWeightLimit">
+    <Value>較低的重量限制</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.LowerWeightLimit.Hint">
+    <Value>降低重量限制。這一領域可用於「每額外的重量單位」場景。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.PercentageRateOfSubtotal">
+    <Value>小計(of工作量百分比)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.PercentageRateOfSubtotal.Hint">
+    <Value>小計(百分比)負責。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.RatePerWeightUnit">
+    <Value>每單位重量率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.RatePerWeightUnit.Hint">
+    <Value>每單位重量率</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.shipping.byweight.fields.shippingmethod">
+    <Value>配送方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.shipping.byweight.fields.shippingmethod.hint">
+    <Value>配送方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.StateProvince">
+    <Value>州/省</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.StateProvince.Hint">
+    <Value>如果星號被選中時,那麼這航運率將適用於所有會員從給定的縣市,無論狀態。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.Store">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.Store.Hint">
+    <Value>如果星號被選中時,那麼這航運率將適用於所有商店。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.To">
+    <Value>訂單重量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.To.Hint">
+    <Value>訂單重量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.Warehouse">
+    <Value>倉庫</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Fields.Warehouse.Hint">
+    <Value>如果選擇星號， 這個貨運比率將應用到所有的倉庫。</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.shipping.byweight.fields.zip">
+    <Value>郵遞區號</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.shipping.byweight.fields.zip.hint">
+    <Value>郵遞區號。如果郵遞區號為空,那麼這航運率將適用於所有會員從指定縣市或州,無論郵遞區號。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Formula">
+    <Value>計算公式率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.ByWeight.Formula.Value">
+    <Value>[額外固定成本] + ([訂單總重量] - [最小重量界限]) * [單位重量價格] + [訂單小計] * [收費百分比]</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.CustomerId">
+    <Value>加拿大郵政會員ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.CustomerId.Hint">
+    <Value>指定加拿大郵政會員標識符。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.Port">
+    <Value>加拿大郵政指定連接埠</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.Port.Hint">
+    <Value>加拿大郵政指定連接埠。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.Url">
+    <Value>加拿大郵政的網址</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.CanadaPost.Fields.Url.Hint">
+    <Value>加拿大郵政指定URL</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.AddRecord">
+    <Value>新增紀錄</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.AdditionalFixedCost">
+    <Value>額外的固定成本</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.AdditionalFixedCost.Hint">
+    <Value>指定一個額外的固定成本/購物車這個選項。設定為0,如果您不想讓一個額外的固定成本。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Country">
+    <Value>國家</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.DataHtml">
+    <Value>資料</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.From">
+    <Value>訂單重量(from)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.From.Hint">
+    <Value>訂單重量(從多重)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LimitMethodsToCreated">
+    <Value>限制運輸的方法來配置的</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LimitMethodsToCreated.Hint">
+    <Value>如果您檢查這個選項,那麼您的會員將有限的運輸選項配置。否則,他們將能夠選擇任何現有的運輸選項甚至他們這裡沒有配置(在這種情況下,零運費)。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LowerWeightLimit">
+    <Value>較低的重量限制</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.LowerWeightLimit.Hint">
+    <Value>降低重量限制。這一領域可用於「每額外的重量單位」場景。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.PercentageRateOfSubtotal">
+    <Value>小計(of工作量百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.PercentageRateOfSubtotal.Hint">
+    <Value>小計(百分比)負責。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Rate">
+    <Value>Rate</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.RatePerWeightUnit">
+    <Value>每單位重量率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.RatePerWeightUnit.Hint">
+    <Value>每單位重量率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.ShippingMethod">
+    <Value>配送方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.StateProvince">
+    <Value>鄉鎮區</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Store">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.To">
+    <Value>訂單重量(To)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.To.Hint">
+    <Value>訂單重量(到多重)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Warehouse">
+    <Value>倉庫</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fields.Zip">
+    <Value>郵遞區號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Fixed">
+    <Value>Fixed Rate</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Formula">
+    <Value>計算公式率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.Formula.Value">
+    <Value>[additional fixed cost] + ([order total weight] - [lower weight limit]) * [rate per weight unit] + [order subtotal] * [charge percentage]</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedOrByWeight.ShippingByWeight">
+    <Value>By Weight</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedRateShipping.Fields.Rate">
+    <Value>費率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.FixedRateShipping.Fields.ShippingMethodName">
+    <Value>配送方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.UPS.Fields.DefaultShippedFromCountry">
+    <Value>始發縣市代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.UPS.Fields.DefaultShippedFromCountry.Hint">
+    <Value>輸入始發縣市代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.UPS.Fields.DefaultShippedFromZipPostalCode">
+    <Value>始發郵編</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Shipping.UPS.Fields.DefaultShippedFromZipPostalCode.Hint">
+    <Value>輸入始發郵編</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.Fields.Email">
+    <Value>電子信箱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.Fields.Email.Hint">
+    <Value>Verizon的電子信箱（比如your_phone_number@vtext.com）</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.Fields.Enabled">
+    <Value>已啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.Fields.Enabled.Hint">
+    <Value>已啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.Fields.TestMessage">
+    <Value>消息文本</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.Fields.TestMessage.Hint">
+    <Value>用於測試的消息文本</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.SendTest">
+    <Value>發送</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.SendTest.Hint">
+    <Value>發送測試的短信消息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.TestFailed">
+    <Value>測試短信發送失敗</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Sms.Verizon.TestSuccess">
+    <Value>測試短信已發送(待發送)</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.AddRecord">
+    <Value>新增稅率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.AddRecord.Hint">
+    <Value>新增新稅的率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.Country">
+    <Value>縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.Country.Hint">
+    <Value>縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.Percentage">
+    <Value>百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.Percentage.Hint">
+    <Value>百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.StateProvince">
+    <Value>鄉鎮市區</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.StateProvince.Hint">
+    <Value>如果選擇一個星號,那麼這個稅率將適用於所有會員，在給定的縣市,無論狀態。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.Store">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.Store.Hint">
+    <Value>如果星號被選中時,那麼這配送率將適用於所有商店。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.TaxCategory">
+    <Value>稅務種類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.CountryStateZip.Fields.TaxCategory.Hint">
+    <Value>稅務種類</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.countrystatezip.fields.zip">
+    <Value>郵遞區號</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.countrystatezip.fields.zip.hint">
+    <Value>郵遞區號</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.addrecord">
+    <Value>新增</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.addrecordtitle">
+    <Value>新增稅務提供商</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.country">
+    <Value>縣市/縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.country.hint">
+    <Value>縣市/縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.percentage">
+    <Value>稅率</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.tax.fixedorbycountrystatezip.fields.percentage.hint">
+    <Value>The tax rate.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Rate">
+    <Value>比率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.StateProvince">
+    <Value>鄉鎮市區/州或省</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.StateProvince.Hint">
+    <Value>If an asterisk is selected, then this tax rate will apply to all customers from the given country, regardless of the state.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Store">
+    <Value>商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Store.Hint">
+    <Value>If an asterisk is selected, then this shipping rate will apply to all stores.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.TaxCategory">
+    <Value>稅務分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.TaxCategory.Hint">
+    <Value>稅務分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.TaxCategoryName">
+    <Value>稅務分類</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Zip">
+    <Value>郵遞區號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fields.Zip.Hint">
+    <Value>Zip / postal code. If zip is empty, then this tax rate will apply to all customers from the given country or state, regardless of the zip code.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.Fixed">
+    <Value>固定比率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedOrByCountryStateZip.TaxByCountryStateZip">
+    <Value>按縣市</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedRate.Fields.Rate">
+    <Value>稅率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Tax.FixedRate.Fields.TaxCategoryName">
+    <Value>稅種</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.AdminNotification.CssConfigurationString">
+    <Value>Css Path Configuration</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.widgets.adminnotification.cssconfigurationstring.hint">
+    <Value>Please configure your css path</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.widgets.adminnotification.jsconfigurationstring">
+    <Value>Js Path Configuration</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.AdminNotification.JsConfigurationString.Hint">
+    <Value>Please configure your js path</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.EcommerceDetailScript">
+    <Value>{DETAILS} 部分的跟蹤代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.EcommerceDetailScript.Hint">
+    <Value>在此放置谷歌生成的跟蹤代碼,{ORDERID}, {PRODUCTSKU}, {PRODUCTNAME}, {CATEGORYNAME}, {UNITPRICE}, {QUANTITY}這些會自動替換</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.EcommerceScript">
+    <Value>{ECOMMERCE}部分包含有{DETAILS}行的跟蹤代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.EcommerceScript.Hint">
+    <Value>在此放置谷歌生成的跟蹤代碼。{ORDERID}, {SITE}, {TOTAL}, {TAX}, {SHIP}, {CITY}, {STATEPROVINCE}, {COUNTRY}, {DETAILS}這些會自動替換</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.GoogleId">
+    <Value>編號</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.GoogleId.Hint">
+    <Value>谷歌分析編號。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.IncludingTax">
+    <Value>包含稅</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.IncludingTax.Hint">
+    <Value>選擇從而包括稅當生成跟蹤碼給{ECOMMERCE}部分。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.Instructions">
+    <Value>&lt;p&gt;Google Analytics（分析）是Google免費的網站統計工具。 它跟踪您的網站上的訪問者和電子商務轉化的統計信息。&lt;br /&gt;&lt;br /&gt;按照以下步驟啟用Google Analytics（分析）：&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://www.google.com/analytics/" target="_blank"&gt; 創建Google Analytics帳戶&lt;/a&gt; ，然後按照嚮導添加您的網站&lt;/li&gt;&lt;li&gt;將跟踪ID複製到下面的“ID”框中&lt;/li&gt;&lt;li&gt; 點擊下面的“儲存”按鈕，Google Analytics（分析）將被整合到您的商店中&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;如果您希望在Google Analytics（默認使用）和Universal Analytics之間切換，請使用以下按鈕：&lt;/p&gt;</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.Note">
+    <Value>&lt;p&gt;&lt;em&gt;請注意，{ECOMMERCE}行僅在“不使用訂單已完成頁”訂單設置為無效時才起作用。&lt;/em&gt;&lt;/p&gt;</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.TrackingScript">
+    <Value>帶有 {ECOMMERCE} 行的跟蹤代碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.GoogleAnalytics.TrackingScript.Hint">
+    <Value>在此放置谷歌生成的跟蹤代碼。{GOOGLEID} and {ECOMMERCE}會自動替換</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.CustomerRole.hint">
+    <Value>自訂角色</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Description">
+    <Value>內容</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Description.hint">
+    <Value>內容</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.DisplayOrder">
+    <Value>排序</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.widgets.WildHtml.displayorder.hint">
+    <Value>排序</Value>
+  </LocaleResource>
+  <LocaleResource Name="plugins.widgets.WildHtml.edit">
+    <Value>修改</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Enabled">
+    <Value>啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Enabled.hint">
+    <Value>啟用</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.General">
+    <Value>Html 設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.gWidgetZone">
+    <Value>小工具位置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.LimitedToStores">
+    <Value>限制商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.LimitedToStores.hint">
+    <Value>限制商店</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Name">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Name.hint">
+    <Value>名稱</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildHtml.Product">
+    <Value>產品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildSlider.General">
+    <Value>一般設定</Value>
+  </LocaleResource>
+  <LocaleResource Name="Plugins.Widgets.WildSlider.Stores">
+    <Value>商店</Value>
+  </LocaleResource>
   <LocaleResource Name="Polls.OnlyRegisteredUsersVote">
     <Value>只有註冊用戶可投票</Value>
   </LocaleResource>
@@ -17171,23 +17418,14 @@
   <LocaleResource Name="PrivateMessages.YouHaveUnreadPM">
     <Value>收件箱有{0}條未讀消息</Value>
   </LocaleResource>
-  <LocaleResource Name="ProductAttributes.Quantity">
-    <Value> - 數量 {0}</Value>
-  </LocaleResource>
   <LocaleResource Name="Products.AlsoPurchased">
     <Value>購買此商品的顧客還買了</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability">
     <Value>庫存資訊</Value>
   </LocaleResource>
-  LocaleResource Name="Products.Availability.AvailabilityRange">
-    <Value>庫存資訊 {0}</Value>
-  </LocaleResource>
   <LocaleResource Name="Products.Availability.Backordering">
     <Value>暫時缺貨 - 有貨的話第一時間配送</Value>
-  </LocaleResource>
-  <LocaleResource Name="Products.Availability.BackorderingWithDate">
-    <Value>暫時缺貨 - 有貨的話第一時間配送 ({0}).</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Availability.InStock">
     <Value>有貨</Value>
@@ -17197,9 +17435,6 @@
   </LocaleResource>
   <LocaleResource Name="Products.Availability.OutOfStock">
     <Value>商品銷售一空</Value>
-  </LocaleResource>
-  <LocaleResource Name="Products.Availability.SelectRequiredAttributes">
-    <Value>請選擇所需的屬性(s)</Value>
   </LocaleResource>
   <LocaleResource Name="Products.BasePrice">
     <Value>等於 {0} 每 {1} {2}</Value>
@@ -17387,12 +17622,6 @@
   <LocaleResource Name="Products.ProductAttributes.PriceAdjustment">
     <Value>{0} [{1}]</Value>
   </LocaleResource>
-  <LocaleResource Name="Products.ProductAttributes.PriceAdjustment.PerItem">
-    <Value> 每件</Value>
-  </LocaleResource>
-  <LocaleResource Name="Products.ProductAttributes.PriceAdjustment.Quantity">
-    <Value>輸入數量:</Value>
-  </LocaleResource>
   <LocaleResource Name="Products.ProductHasBeenAddedToCompareList">
     <Value>這個商品已經加入到您的商品比較列表</Value>
   </LocaleResource>
@@ -17470,9 +17699,6 @@
   </LocaleResource>
   <LocaleResource Name="Products.Wishlist.AddToWishlist">
     <Value>加入願望請單</Value>
-  </LocaleResource>
-  <LocaleResource Name="Products.Wishlist.AddToWishlist.Update">
-    <Value>更新</Value>
   </LocaleResource>
   <LocaleResource Name="Profile.Country">
     <Value>國家</Value>
@@ -17609,13 +17835,13 @@
   <LocaleResource Name="Reviews.Overview.Reviews">
     <Value>評價</Value>
   </LocaleResource>
-  <LocaleResource Name="Reviews.ProductReviewPossibleOnlyAfterPurchasing">
+  <LocaleResource Name="reviews.productreviewpossibleonlyafterpurchasing">
     <Value>只有購買此商品的人，才可以對此商品進行評價</Value>
   </LocaleResource>
-  <LocaleResource Name="Reviews.ProductReviewsFor">
+  <LocaleResource Name="reviews.productreviewsfor">
     <Value>商品評價</Value>
   </LocaleResource>
-  <LocaleResource Name="Reviews.Reply">
+  <LocaleResource Name="reviews.reply">
     <Value>管理者回覆了該評價</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.SeeAfterApproving">
@@ -17642,12 +17868,6 @@
   <LocaleResource Name="RewardPoints.Fields.Date">
     <Value>日期</Value>
   </LocaleResource>
-  <LocaleResource Name="RewardPoints.Fields.CreatedDate">
-    <Value>建立日期</Value>
-  </LocaleResource>
-  <LocaleResource Name="RewardPoints.Fields.EndDate">
-    <Value>結束日期</Value>
-  </LocaleResource>
   <LocaleResource Name="RewardPoints.Fields.Message">
     <Value>說明</Value>
   </LocaleResource>
@@ -17666,9 +17886,6 @@
   <LocaleResource Name="RewardPoints.Message.EarnedForRegistration">
     <Value>註冊獲得紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="RewardPoints.Message.Expired">
-    <Value>未使用的紅利積點在 {0} 已經到期</Value>
-  </LocaleResource>
   <LocaleResource Name="RewardPoints.Message.RedeemedForOrder">
     <Value>使用紅利積點付款訂單，訂單編號：＃{0}</Value>
   </LocaleResource>
@@ -17678,7 +17895,7 @@
   <LocaleResource Name="RewardPoints.Message.ReturnedForOrder">
     <Value>返回訂單 #{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="RewardPoints.MinimumBalance">
+  <LocaleResource Name="rewardpoints.minimumbalance">
     <Value>允許的最低消費紅利積點是{0}。{1}</Value>
   </LocaleResource>
   <LocaleResource Name="RewardPoints.NoHistory">
@@ -17716,12 +17933,6 @@
   </LocaleResource>
   <LocaleResource Name="Search.PriceRange.To">
     <Value>到</Value>
-  </LocaleResource>
-  <LocaleResource Name="Search.SearchBox.SearchPageLink">
-    <Value>觀看所有結果...</Value>
-  </LocaleResource>
-  <LocaleResource Name="Search.SearchBox.Text.Label">
-    <Value>搜尋商店</Value>
   </LocaleResource>
   <LocaleResource Name="Search.SearchBox.Tooltip">
     <Value>站內搜尋</Value>
@@ -17764,9 +17975,6 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.AssociatedAttributeWarning">
     <Value>{0}.{1}。{2}</Value>
-  </LocaleResource>
-  <LocaleResource Name="ShoppingCart.AvailabilityRange">
-    <Value>目前還有 {0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.BuyingDisabled">
     <Value>此商品無法購買</Value>
@@ -17837,9 +18045,6 @@
   <LocaleResource Name="ShoppingCart.DiscountCouponCode.CurrentCode">
     <Value>當前使用的折扣碼{0}</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.DiscountCouponCode.Label">
-    <Value>輸入折扣碼</Value>
-  </LocaleResource>
   <LocaleResource Name="ShoppingCart.DiscountCouponCode.Tooltip">
     <Value>在此輸入您的折扣碼</Value>
   </LocaleResource>
@@ -17855,9 +18060,6 @@
   <LocaleResource Name="ShoppingCart.EstimateShipping.Country">
     <Value>國家</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.EstimateShipping.Country.Required">
-    <Value>國家為必填欄位</Value>
-  </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.ShippingOptionWithRate">
     <Value>{0} ({1})</Value>
   </LocaleResource>
@@ -17869,9 +18071,6 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.ZipPostalCode">
     <Value>郵遞區號</Value>
-  </LocaleResource>
-  <LocaleResource Name="ShoppingCart.EstimateShipping.ZipPostalCode.Required">
-    <Value>郵遞區號為必填欄位</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.FileUploaded">
     <Value>您的文件已經成功上傳！</Value>
@@ -17887,9 +18086,6 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.GiftCardCouponCode.DontWorkWithAutoshipProducts">
     <Value>自動出貨商品不能使用禮品卡</Value>
-  </LocaleResource>
-  <LocaleResource Name="ShoppingCart.GiftCardCouponCode.Label">
-    <Value>在此輸入禮品卡代碼</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.GiftCardCouponCode.Tooltip">
     <Value>在此輸入禮品卡代碼</Value>
@@ -17911,9 +18107,6 @@
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.ItemYouSave">
     <Value>您節省了: {0}</Value>
-  </LocaleResource>
-  <LocaleResource Name="ShoppingCart.MaximumDiscountedQty">
-    <Value>打折數量: {0}</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.MaximumQuantity">
     <Value>能購買數量最多為{0}</Value>
@@ -17954,11 +18147,8 @@
   <LocaleResource Name="ShoppingCart.OutOfStock">
     <Value>缺貨</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.PreOrder">
+  <LocaleResource Name="shoppingcart.preorder">
     <Value>預購</Value>
-  </LocaleResource>
-  <LocaleResource Name="ShoppingCart.PreOrderAvailability">
-    <Value>允許預購</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Product(s)">
     <Value>商品名稱</Value>
@@ -18008,9 +18198,6 @@
   <LocaleResource Name="ShoppingCart.Rental.StartDateShouldBeFuture">
     <Value>租賃起始日期應該是未來的日期</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.RequiredProductUpdateWarning">
-    <Value>此產品的數量為{0}</Value>
-  </LocaleResource>
   <LocaleResource Name="ShoppingCart.RequiredProductWarning">
     <Value>新增商品到購物車失敗</Value>
   </LocaleResource>
@@ -18023,18 +18210,14 @@
   <LocaleResource Name="ShoppingCart.SenderNameError">
     <Value>請輸入有效的發件人名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.SKU">
+  <LocaleResource Name="shoppingcart.sku">
     <Value>商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.TaxShipping.ExclTax">
-    <Value>
-      所有的價格都輸入不含稅。除了 配送
-    </Value>
+    <Value>      所有的價格都輸入不含稅。除了 配送    </Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.TaxShipping.InclTax">
-    <Value>
-      所有的價格都輸入都含稅。除了 配送
-    </Value>
+    <Value>      所有的價格都輸入都含稅。除了 配送    </Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.TextboxMaximumLength">
     <Value>{0} : 最大長度為 {1} 字</Value>
@@ -18063,13 +18246,13 @@
   <LocaleResource Name="ShoppingCart.Totals.PaymentMethodAdditionalFee">
     <Value>付款方式附加費</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.Totals.RewardPoints">
+  <LocaleResource Name="shoppingcart.totals.rewardpoints">
     <Value>{0} 紅利積點</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.Totals.RewardPoints.WillEarn">
+  <LocaleResource Name="shoppingcart.totals.rewardpoints.willearn">
     <Value>您將獲得</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.Totals.RewardPoints.WillEarn.Point">
+  <LocaleResource Name="shoppingcart.totals.rewardpoints.willearn.point">
     <Value>紅利積點{0} 點</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.Totals.Shipping">
@@ -18102,9 +18285,6 @@
   <LocaleResource Name="ShoppingCart.UpdateCartItem">
     <Value>更新數量</Value>
   </LocaleResource>
-  <LocaleResource Name="ShoppingCart.VendorName">
-    <Value>供應商名稱</Value>
-  </LocaleResource>
   <LocaleResource Name="ShoppingCart.WishlistDisabled">
     <Value>該商品不能加入願望清單</Value>
   </LocaleResource>
@@ -18125,9 +18305,6 @@
   </LocaleResource>
   <LocaleResource Name="Sitemap.Products">
     <Value>商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Sitemap.ProductTags">
-    <Value>商品標籤</Value>
   </LocaleResource>
   <LocaleResource Name="Sitemap.Topics">
     <Value>資訊</Value>
@@ -18164,15 +18341,6 @@
   </LocaleResource>
   <LocaleResource Name="Vendors.ApplyAccount">
     <Value>申請供應商帳戶</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService">
-    <Value>我同意服務條款</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService.Read">
-    <Value>(閱讀)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService.Required">
-    <Value>請同意服務條款</Value>
   </LocaleResource>
   <LocaleResource Name="Vendors.ApplyAccount.AlreadyApplied">
     <Value>您已經申請了供應商帳戶，請註冊一個新帳戶來申請供應商帳戶。</Value>
@@ -18258,7 +18426,7 @@
   <LocaleResource Name="Wishlist.EmailAFriend.FriendEmail.Required">
     <Value>請輸入收件人信箱</Value>
   </LocaleResource>
-  <LocaleResource Name="Wishlist.EmailAFriend.OnlyRegisteredUsers">
+  <LocaleResource Name="wishlist.emailafriend.onlyregisteredusers">
     <Value>只有註冊會員才能使用此功能，請先登入。</Value>
   </LocaleResource>
   <LocaleResource Name="Wishlist.EmailAFriend.PersonalMessage">
