@@ -3537,32 +3537,38 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity.Hint">
     <Value>這個組合的現在庫存數量。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Generate">
+    <Value>產生</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.GenerateAll">
     <Value>生成所有可能的組合</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.gtin">
-    <Value>GTIN(全球交易品項識別碼)</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.GenerateSeveral">
+    <Value>產生幾種組合</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.manufacturerpartnumber">
-    <Value>品牌的零件編號</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.GenerateSeveralTitle">
+    <Value>選擇一些屬性值以生成必要的組合</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.notifyadminforquantitybelow">
-    <Value>低於庫存時通知管理員</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.RequiredAttribute">
+    <Value>* - 需要的屬性</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.overriddenprice">
-    <Value>自訂價格</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.SelectRequiredAttributes">
+    <Value>必要的屬性: {0}</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.sku">
-    <Value>商品料號（SKU）</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productattributes.attributecombinations.stockquantity">
-    <Value>庫存數量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Productattributes.attributes">
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes">
     <Value>屬性</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Added">
+    <Value>新屬性已成功添加.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.AddNew">
+    <Value>增加新屬性</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.AlreadyExists">
     <Value>當前屬性已新增至本商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.BackToProduct">
+    <Value>回到產品詳細訊息</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition">
     <Value>條件</Value>
@@ -3582,23 +3588,50 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.EnableCondition.Hint">
     <Value>檢查指定的條件（取決於其他屬性）時，此屬性應啟用（可見）。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.ViewLink">
-    <Value>查看/編輯 條件</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.SaveBeforeEdit">
+    <Value>您需要先保存產品屬性，然後才能編輯條件屬性。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Deleted">
+    <Value>該屬性已成功刪除。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.EditAttributeDetails">
+    <Value>編輯商品屬性</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.Attribute">
     <Value>屬性</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.Attribute.Hint">
+    <Value>請選擇屬性</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.AttributeControlType">
     <Value>控制類型</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.AttributeControlType.Hint">
+    <Value>選擇如何顯示屬性值</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.DisplayOrder">
     <Value>顯示順序</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.DisplayOrder.Hint">
+    <Value>屬性顯示順序。 1代表列表中的第一項。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.IsRequired">
     <Value>必須的</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.IsRequired.Hint">
+    <Value>當需要屬性時，客戶必須先選擇適當的屬性值才能繼續。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.TextPrompt">
     <Value>文本提示</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.TextPrompt.Hint">
+    <Value>輸入文字提示（您可以將其留空）。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Info">
+    <Value>資訊</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Updated">
+    <Value>該屬性已成功更新。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules">
     <Value>驗證規則</Value>
@@ -3642,9 +3675,6 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.AddNew">
     <Value>新增一個屬性值</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.BackToProduct">
-    <Value>回到商品詳細資訊</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.EditAttributeDetails">
     <Value>新增/編輯數值與 [{0}] 屬性。 商品： {1}</Value>
   </LocaleResource>
@@ -3656,6 +3686,21 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.AddNew">
     <Value>關聯一個商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Choose">
+    <Value>選擇關聯商品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Downloadable">
+    <Value>相關產品可下載，請記住無法下載。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.GiftCard">
+    <Value>相關產品是禮品卡，請記住，客戶無法在產品詳細信息頁面中指定其詳細信息。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.HasAttributes">
+    <Value>關聯產品具有屬性，請記住，客戶無法在產品詳細信息頁面中選擇它們。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.HasRequiredAttributes">
+    <Value>關聯產品具有所需的產品屬性，因此客戶將無法選擇此產品屬性值。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Hint">
     <Value>關聯的商品。</Value>
@@ -3677,6 +3722,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.Cost.Hint">
     <Value>這個屬性值成本是組成這個屬性所有部件的成本之和。 這可能是購買價格如果從外部供應商購買這些部件部件, 或者原材料和各種製造環節成本總和如果這個部件是公司內部製造的。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.CustomerEntersQty">
+    <Value>客戶輸入數量</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.CustomerEntersQty.Hint">
+    <Value>允許客戶輸入相關產品的數量。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -3720,6 +3771,12 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.PriceAdjustment.Hint">
     <Value>應用價格調整當選擇這個屬性值 例如選擇『10』將增加10元錢。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.PriceAdjustmentUsePercentage">
+    <Value>價格調整。 使用百分比</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.PriceAdjustmentUsePercentage.Hint">
+    <Value>確定是否將百分比應用於產品。 如果未啟用，則使用固定值。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.Quantity">
     <Value>商品數量</Value>
   </LocaleResource>
@@ -3735,11 +3792,8 @@
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
     <Value>應用重量調整當選擇這個屬性值</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.TotalValues">
-    <Value>總和： </Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.ViewLink">
-    <Value>瀏覽/編輯數值</Value>
+  <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.SaveBeforeEdit">
+    <Value>您需要先保存產品屬性，然後才能為此產品屬性頁面添加值。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Hint">
     <Value>商品屬性</Value>
@@ -3748,217 +3802,7 @@
     <Value>沒有定義任何商品屬性。在映射（mapping）之前創建至少一個商品屬性。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.SaveBeforeEdit">
-    <Value>您需要保存這個商品然後您才在這個頁面裡可以新增屬性。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes">
-    <Value>商品屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations">
-    <Value>屬性組合</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.AddNew">
-    <Value>新增組合</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.AddTitle">
-    <Value>選擇新的組合，並輸入下面的詳細資訊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Description">
-    <Value>當您管理庫存方法設定為按商品屬性跟蹤庫存時，屬性組合是有用的</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Description2">
-    <Value>提示：一些支持用戶自定義輸入的屬性類型(例如文件上傳、文本框、日期選擇器)對屬性組合是沒有影響的</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders">
-    <Value>允許缺貨</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders.Hint">
-    <Value>一個值，該值指示是否允許缺貨時的訂單。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.Attributes">
-    <Value>屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.GTIN">
-    <Value>GTIN</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.GTIN.Hint">
-    <Value>輸入全球貿易項目代碼 (GTIN)。這些標籤碼包括通用商品代碼（UPC在北美洲)、 歐洲物品號(EAN歐洲)、日本物品號（JAN在日本），國際標準書號 (ISBN)。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.ManufacturerPartNumber">
-    <Value>品牌零件編號</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.ManufacturerPartNumber.Hint">
-    <Value>此屬性組合的品牌的零件號。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.OverriddenPrice">
-    <Value>覆蓋價格</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.OverriddenPrice.Hint">
-    <Value>當該屬性由組合新增到購物車中時，可以覆蓋預設的商品價格，例如：您可以使用折扣這種方式，在不設定忽略欄位時，其他所有應用了這個欄位的商品都會使用這個折扣。</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productvariantattributes.attributecombinations.fields.sku">
-    <Value>商品料號（SKU）</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.catalog.products.productvariantattributes.attributecombinations.fields.sku.hint">
-    <Value>商品料號（SKU）。您可以用來跟蹤此屬性組合的內部唯一標籤碼。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.StockQuantity">
-    <Value>庫存數量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.StockQuantity.Hint">
-    <Value>目前的庫存量的這種組合。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.GenerateAll">
-    <Value>生成所有可能的組合</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes">
-    <Value>屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.Attribute">
-    <Value>屬性</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.AttributeControlType">
-    <Value>控制形式</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.IsRequired">
-    <Value>需要</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.TextPrompt">
-    <Value>文本提示</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules">
-    <Value>驗證規則</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileAllowedExtensions">
-    <Value>允許文件擴展名</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileAllowedExtensions.Hint">
-    <Value>指定一個以逗號分隔的文件擴展名。不填時允許任何文件擴展名.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileMaximumSize">
-    <Value>最大文件大小(KB)</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileMaximumSize.Hint">
-    <Value>在KB指定最大文件大小。不填時跳過此驗證</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MaxLength">
-    <Value>最大長度</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MaxLength.Hint">
-    <Value>最大長度限制，不填時跳過此驗證.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MinLength">
-    <Value>最小長度</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MinLength.Hint">
-    <Value>最小長度限制，不填時跳過此驗證.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.ViewLink">
-    <Value>查看/編輯規則</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values">
-    <Value>值</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.AddNew">
-    <Value>新增一個新值</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.BackToProduct">
-    <Value>返回到商品詳細資訊</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.EditAttributeDetails">
-    <Value>新增/編輯 [{0}] 屬性的值。商品: {1}</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.EditValueDetails">
-    <Value>編輯值</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AssociatedProduct">
-    <Value>關聯的商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AssociatedProduct.AddNew">
-    <Value>將商品相關聯</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AssociatedProduct.Hint">
-    <Value>關聯的商品。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AttributeValueType">
-    <Value>屬性的值類型</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AttributeValueType.Hint">
-    <Value>選擇您的屬性值類型。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.ColorSquaresRgb">
-    <Value>RGB 顏色</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.ColorSquaresRgb.Hint">
-    <Value>選擇顏色與顏色方塊屬性控件一起使用。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Cost">
-    <Value>成本</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Cost.Hint">
-    <Value>目前商品的成本，或是組合目前商品的各組件成本之合.</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.DisplayOrder.Hint">
-    <Value>屬性值的顯示順序。1 表示屬性的值列表中的第一個項目。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.IsPreSelected">
-    <Value>預先選定</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.IsPreSelected.Hint">
-    <Value>確定此屬性的值是否為會員選擇的預</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Name.Hint">
-    <Value>屬性值名稱如 '藍' 的顏色屬性。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Name.Required">
-    <Value>請提供一個名稱。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Picture">
-    <Value>圖片</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Picture.Hint">
-    <Value>選擇圖片關聯到此屬性的值。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Picture.NoPicture">
-    <Value>沒有圖片</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.PriceAdjustment">
-    <Value>價格調整</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.PriceAdjustment.Hint">
-    <Value>應用時選擇此屬性的值如"10"，新增 10 美元的價格調整。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Quantity">
-    <Value>商品數量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Quantity.GreaterThanOrEqualTo1">
-    <Value>數量應大於或等於1</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Quantity.Hint">
-    <Value>指定數量的相關的商品將被新增。最小允許的值是1。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.WeightAdjustment">
-    <Value>調整重量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
-    <Value>當選擇此屬性的值時，應用的調整重量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.ViewLink">
-    <Value>查看/編輯值 (總： {0})</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.NoAttributesAvailable">
-    <Value>沒有可用的商品特性。建立映射之前至少一個商品屬性。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.SaveBeforeEdit">
-    <Value>您需要儲存商品之前您可以新增此頁的屬性。</Value>
+    <Value>您需要先保存產品，然後才能為此頁面添加屬性。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductWarehouseInventory">
     <Value>倉庫</Value>
@@ -4089,11 +3933,17 @@
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Hint">
     <Value>商品規格</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.NoAttributeOptions">
+    <Value>首先，請創建至少一個規範屬性選項</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.NoAttributes">
     <Value>未找到商品規格屬性資訊，請先創建商品規格</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.SaveBeforeEdit">
     <Value>您需要先保存才能進一步操作</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.SelectOption">
+    <Value>選擇規範屬性選項</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory">
     <Value>庫存歷史</Value>
@@ -4119,14 +3969,14 @@
   <LocaleResource Name="Admin.Catalog.Products.StockQuantityHistory.Hint">
     <Value>可以知道庫存的歷史變動</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Stores">
-    <Value>商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices">
     <Value>售價等級</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.AddNew">
     <Value>新增</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Edit">
+    <Value>編輯等級價格詳細信息</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole">
     <Value>會員角色</Value>
@@ -4134,17 +3984,32 @@
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole.All">
     <Value>所有會員角色</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole.Hint">
+    <Value>選擇層級價格可用的客戶角色。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTimeUtc">
     <Value>結束日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTimeUtc.Hint">
+    <Value>協調世界時（UTC）中等級價格的結束日期。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Price">
     <Value>價格</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Price.Hint">
+    <Value>指定價格。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Quantity">
     <Value>數量</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Quantity.Hint">
+    <Value>指定此層級價格可用的數量。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.StartDateTimeUtc">
     <Value>開始日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.StartDateTimeUtc.Hint">
+    <Value>協調世界時（UTC）中層級價格的開始日期。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store">
     <Value>商店</Value>
@@ -4152,8 +4017,11 @@
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store.All">
     <Value>所有商店</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Catalog.Products.Tierprices.Hint">
-    <Value>針對不同會員角色，可設定專屬的折扣價格。</Value>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store.Hint">
+    <Value>可選擇將此等級價格限制為某個商店。 如果您有多個商店，請從列表中選擇一個。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.TierPrices.Hint">
+    <Value>層級定價是一種促銷工具，允許商店所有者以更高的數量對商品定價。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.TierPrices.SaveBeforeEdit">
     <Value>您需要保存商品之前您可以新增層價格為此商品頁。</Value>
@@ -4179,50 +4047,11 @@
   <LocaleResource Name="Admin.Catalog.ProductTags.Fields.ProductCount">
     <Value>包含商品數量</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.CcPays">
-    <Value>CCPay</Value>
+  <LocaleResource Name="Admin.Catalog.ViewMode.Grid">
+    <Value>表格</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies">
-    <Value>匯率管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.AverageRate">
-    <Value>五家銀行的平均匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.CreatedOn">
-    <Value>建立時間</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.CurrencyCode">
-    <Value>貨幣代碼</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Name">
-    <Value>貨幣名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.ProductAvailable">
-    <Value>是否提供帶付服務</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate1">
-    <Value>銀行1匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate2">
-    <Value>銀行2匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate3">
-    <Value>銀行3匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate4">
-    <Value>銀行4匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.Rate5">
-    <Value>銀行5匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.Fields.UpdateToProduct">
-    <Value>把目前匯率更新到代購服務上</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CcPayCurrencies.RefreshLiveRates">
-    <Value>更新觀看匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.CcPays.CurrecncyProducts">
-    <Value>可供代付貨幣種類</Value>
+  <LocaleResource Name="Admin.Catalog.ViewMode.List">
+    <Value>清單</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Common.ActionConfirmation">
     <Value>您確定要執行此操作嗎？</Value>
@@ -4239,10 +4068,13 @@
   <LocaleResource Name="Admin.Common.AreYouSure">
     <Value>確認該操作</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Common.BulkEdit">
+    <Value>批量編輯</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Common.Cancel">
     <Value>取消</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Common.Cancelchanges">
+  <LocaleResource Name="Admin.Common.CancelChanges">
     <Value>取消變更</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Common.Change">
@@ -4338,7 +4170,7 @@
   <LocaleResource Name="Admin.Common.Save">
     <Value>儲存</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Common.Savechanges">
+  <LocaleResource Name="Admin.Common.SaveChanges">
     <Value>儲存變更</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Common.SaveContinue">
@@ -4359,9 +4191,6 @@
   <LocaleResource Name="Admin.Common.Standard">
     <Value>標準</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Common.Treeview">
-    <Value>樹結構視圖</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Common.Update">
     <Value>更新</Value>
   </LocaleResource>
@@ -4376,6 +4205,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Common.Yes">
     <Value>是</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Common.ZipFile">
+    <Value>壓縮檔</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration">
     <Value>系統設定</Value>
@@ -4478,12 +4310,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.Fields.AllowsShipping.Hint">
     <Value>允許配送到該縣市</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Countries.Fields.AvailableStores">
-    <Value>倉庫</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Countries.Fields.AvailableStores.Hint">
-    <Value>選擇商店的縣市將被顯示.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -4608,9 +4434,6 @@
   <LocaleResource Name="Admin.Configuration.Countries.States.SaveBeforeEdit">
     <Value>您需要先保存才能進一步操作</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Countries.Stores">
-    <Value>倉庫</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Countries.UnpublishSelected">
     <Value>取消發佈</Value>
   </LocaleResource>
@@ -4623,11 +4446,17 @@
   <LocaleResource Name="Admin.Configuration.Currencies.Added">
     <Value>新增貨幣成功</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Currencies.AdditionalConfirm">
+    <Value>&lt;p&gt;WARNING. It is not recommended to do this on live sites because: &lt;/p&gt;&lt;ol&gt;&lt;li&gt;Product prices, order totals, shipping rates, etc are not automatically converted to a new currency&lt;/li&gt;&lt;li&gt;Currency exhange rates are not automatically updated&lt;/li&gt;&lt;/ol&gt;</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.AddNew">
     <Value>新增新的貨幣</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.ApplyRate">
     <Value>應用匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Currencies.ApplyRate.All">
+    <Value>套用所有</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.BackToList">
     <Value>返回貨幣列表</Value>
@@ -4643,12 +4472,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.EditCurrencyDetails">
     <Value>編輯貨幣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Currencies.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Currencies.Fields.AvailableStores.Hint">
-    <Value>選擇要顯示此貨幣的商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.CreatedOn">
     <Value>創建日期</Value>
@@ -4670,6 +4493,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.CurrencyRateAutoUpdateEnabled">
     <Value>自動更新匯率</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Currencies.Fields.CurrencyRateAutoUpdateEnabled.Hint">
+    <Value>確定匯率是否會自動更新。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.CustomFormatting">
     <Value>自定義格式</Value>
@@ -4700,6 +4526,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.ExchangeRateProvider">
     <Value>目前的匯率提供商</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Currencies.Fields.ExchangeRateProvider.Hint">
+    <Value>選擇匯率提供商。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.IsPrimaryExchangeRateCurrency">
     <Value>是貨幣主匯率</Value>
@@ -4749,11 +4578,11 @@
   <LocaleResource Name="Admin.Configuration.Currencies.Fields.RoundingType">
     <Value>四捨五入類型</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Currencies.Fields.RoundingType.Hint">
+    <Value>四捨五入類型</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.GetLiveRates">
     <Value>獲取匯率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Currencies.Info">
-    <Value>資訊</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.LiveRates">
     <Value>實時貨幣匯率</Value>
@@ -4761,11 +4590,11 @@
   <LocaleResource Name="Admin.Configuration.Currencies.Localization">
     <Value>本地化內容</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Currencies.PublishedCurrencyRequired">
+    <Value>至少需要一種已公佈的貨幣</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Select">
     <Value>請選擇貨幣</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Currencies.Stores">
-    <Value>商店</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Currencies.Updated">
     <Value>修改貨幣成功</Value>
@@ -4911,12 +4740,6 @@
   <LocaleResource Name="Admin.Configuration.Languages.Export">
     <Value>匯出語言包</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Fields.AvailableStores.Hint">
-    <Value>選擇要顯示此語言的商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Fields.DefaultCurrency">
     <Value>預設貨幣</Value>
   </LocaleResource>
@@ -4995,17 +4818,11 @@
   <LocaleResource Name="Admin.Configuration.Languages.Info">
     <Value>資訊</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Localization">
-    <Value>本地化內容</Value>
+  <LocaleResource Name="Admin.Configuration.Languages.PublishedLanguageRequired">
+    <Value>至少需要一種已發布的語言</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Resources">
     <Value>本地化內容</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Resources.Description">
-    <Value>要查找資源字符串(名稱或值)，您可以使用過濾器(漏斗形圖標)來過濾資源字符串</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Resources.Fields.LanguageName">
-    <Value>語言</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Resources.Fields.Name">
     <Value>名稱</Value>
@@ -5037,15 +4854,6 @@
   <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceValue.Hint">
     <Value>搜尋資源值</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Resources.View">
-    <Value>查看資源</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Select">
-    <Value>選擇語言</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Languages.Stores">
-    <Value>商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.Updated">
     <Value>修改語言成功</Value>
   </LocaleResource>
@@ -5057,81 +4865,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Languages.XmlFile.Note2">
     <Value>注意：不要點擊兩次</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures">
-    <Value>度量管理</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions">
-    <Value>尺寸</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.CantDeletePrimary">
-    <Value>主尺寸不能刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Description">
-    <Value>注意：如果您修改主尺寸以後，請記得適當微調單位比率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryDimension">
-    <Value>是主尺寸</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryWeight">
-    <Value>是主尺寸</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.MarkAsPrimaryDimension">
-    <Value>標記為主尺寸</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.Name.Required">
-    <Value>請輸入名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.Ratio">
-    <Value>尺寸比率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.SystemKeyword">
-    <Value>系統關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.SystemKeyword.Required">
-    <Value>請輸入系統關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights">
-    <Value>重量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.CantDeletePrimary">
-    <Value>主重量不能刪除</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Description">
-    <Value>注意：如果您修改主重量以後，請記得適當微調單位比率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.DisplayOrder">
-    <Value>顯示順序</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.IsPrimaryWeight">
-    <Value>是主重量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.MarkAsPrimaryWeight">
-    <Value>標記為主重量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.Name">
-    <Value>名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.Name.Required">
-    <Value>請輸入名稱</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.Ratio">
-    <Value>重量比率</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.SystemKeyword">
-    <Value>系統關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.SystemKeyword.Required">
-    <Value>請輸入系統關鍵字</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Payment">
-    <Value>付款方式</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions">
     <Value>付款方式的限制</Value>
@@ -5153,6 +4886,9 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Configure">
     <Value>配置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Payment.Methods.DownloadMorePlugins">
+    <Value>你可以從這裡下載更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=2&amp;utm_source=admin-panel&amp;utm_medium=payment-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -5184,11 +4920,20 @@
   <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.SystemName">
     <Value>系統名稱</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.PaymentMethods">
+    <Value>付款方式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.PaymentMethodsAndRestrictions">
+    <Value>付款方式和限制</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins">
-    <Value>插件管理</Value>
+    <Value>套件管理</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.AdditionalInfo">
     <Value>附加信息</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Deleted">
+    <Value>套件已經被刪除</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description">
     <Value>手動安裝插件</Value>
@@ -5208,23 +4953,26 @@
   <LocaleResource Name="Admin.Configuration.Plugins.Description.Step4">
     <Value>單擊安裝連結來安裝插件</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Description.Step5">
-    <Value>注意：如果將nopcommerce設定為中等信任,它們將刪除您的\Plugins\bin\directory目錄下的文件</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.EditDetails">
     <Value>編輯插件</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles">
+    <Value>僅限於客戶角色</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles.Hint">
+    <Value>選擇一個或多個客戶角色，即管理員，供應商，訪客，他們將能夠使用此插件。 如果您不需要此選項，請將此字段留空。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.Author">
     <Value>作者</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores">
-    <Value>商店</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores.Hint">
-    <Value>選擇的存儲為，將使用該插件。</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.Configure">
     <Value>配置</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete">
+    <Value>刪除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete.Progress">
+    <Value>刪除套件中...</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Fields.DisplayOrder">
     <Value>顯示順序</Value>
@@ -5361,20 +5109,35 @@
   <LocaleResource Name="Admin.Configuration.Plugins.ReloadList.Progress">
     <Value>正在載入插件...</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Plugins.Stores">
-    <Value>商店</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Uninstalled">
-    <Value>插件已卸載</Value>
+    <Value>套件已經被移除</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Upload">
+    <Value>更新套件或是主題</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint1">
+    <Value>存檔應該只包含一個根插件或主題目錄（已經為插件編譯）。 例如，Payments.PayPalDirect。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint2">
+    <Value>Or it should have the '{0}' file with the archive structure (in case if the archive has many plugins and themes).</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint3">
+    <Value>請注意，如果插件或主題目錄已存在，則會被覆蓋。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint4">
+    <Value>如果此方法不適合您，您還可以使用FTP手動上傳插件或主題。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Upload.Progress">
+    <Value>上傳主題或是套件...</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Plugins.Uploaded">
+    <Value>{0} 套件和 {1} 主題已經被上傳</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings">
     <Value>參數設定</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.AllSettings">
     <Value>進階參數設定</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.AllSettings.Description">
-    <Value>要查找設定(名稱或值)，您可以使用過濾器(漏斗形圖標)來過濾資源字符串</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.AllSettings.Fields.Name">
     <Value>名稱</Value>
@@ -5453,12 +5216,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowBlogCommentsPerStore.Hint">
     <Value>顯示此商店的部落格評論</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowBlogOnMainPage">
-    <Value>顯示於首頁</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowBlogOnMainPage.hint">
-    <Value>允許部落格顯示在首頁</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Blog.ShowHeaderRSSUrl">
     <Value>在瀏覽器地址欄顯示部落格RSS訂閱快捷連結</Value>
@@ -5550,14 +5307,23 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.CategoryBreadcrumbEnabled.Hint">
     <Value>啟用商品分類導航(麵包屑)</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProducts">
-    <Value>比較商品</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled">
     <Value>啟用商品比較</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled.Hint">
     <Value>啟用商品比較</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DefaultViewMode">
+    <Value>預測檢視模式</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DefaultViewMode.Hint">
+    <Value>選擇目錄頁面的默認視圖模式。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDatePreOrderAvailability">
+    <Value>顯示預訂可用性的日期</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDatePreOrderAvailability.Hint">
+    <Value>選中以顯示預訂可用性的日期。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDiscontinuedMessageForUnpublishedProducts">
     <Value>對未公佈的商品停產的消息</Value>
@@ -5601,32 +5367,53 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoWishlist.Hint">
     <Value>選擇從而顯示稅和貨運資訊在希望清單頁面。德國使用這個選項。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DynamicPriceUpdateAjax">
-    <Value>使用AJAX去需改動態價格</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.DynamicPriceUpdateAjax.Hint">
-    <Value>選擇如果您想要動態修改價格通過使用AJAX。這個設定更小心計算價格 （考慮屬性組合和打折）。 它同時修改SKU, MPN, GTIN等在屬性組合中可重寫的數值。但是這個方式輕微地影響系統性能。</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.EmailAFriendEnabled">
     <Value>啟用電子郵件發送給朋友</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.EmailAFriendEnabled.Hint">
     <Value>啟用電子郵件給朋友功能</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.EnableDynamicPriceUpdate">
-    <Value>啟用商品頁動態更新價格</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportAllowDownloadImages">
+    <Value>出口/進口產品。 允許下載圖片</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.EnableDynamicPriceUpdate.Hint">
-    <Value>在商品詳細頁面，選擇不同的屬性後，可以動態更新價格</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportAllowDownloadImages.Hint">
+    <Value>檢查導出產品時是否可以從遠程服務器下載圖像</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.exportimportproductattributes">
-    <Value>匯出/匯入 商品屬性組合</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportCategoriesUsingCategoryName">
+    <Value>使用類別名稱導出/導入類別</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.exportimportproductattributes.hint">
-    <Value>若商品有屬性組合，匯出商品時，一併匯出</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportCategoriesUsingCategoryName.Hint">
+    <Value>檢查是否應使用類別名稱導出/導入類別。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.General">
-    <Value>通用</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportProductAttributes">
+    <Value>導出/導入帶有屬性的產品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportProductAttributes.Hint">
+    <Value>檢查是否應使用產品屬性導出/導入產品。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportProductCategoryBreadcrumb">
+    <Value>導出/導入類別為breadcrumb的產品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportProductCategoryBreadcrumb.Hint">
+    <Value>檢查是否應使用完整的類別名稱導出/導入產品，包括其所有父項的名稱。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportProductSpecificationAttributes">
+    <Value>導出/導入具有規範屬性的產品</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportProductSpecificationAttributes.Hint">
+    <Value>檢查是否應使用規範屬性導出/導入產品。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportRelatedEntitiesByName">
+    <Value>使用名稱導出/導入相關實體</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportRelatedEntitiesByName.Hint">
+    <Value>檢查是否應使用name導出/導入相關實體。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportSplitProductsFile">
+    <Value>出口/進口產品。 允許拆分文件</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ExportImportSplitProductsFile.Hint">
+    <Value>檢查是否要從最佳大小的單個文件導入產品，這些文件是從主文件自動創建的。 此功能將幫助您以較小的延遲導入大量數據。</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreAcl">
     <Value>忽略權限管理(站點範圍)</Value>
@@ -5682,6 +5469,12 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.NewProductsNumber.Hint">
     <Value>當啟用新商品頁面時，要顯示的商品數量。</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.NotifyCustomerAboutProductReviewReply">
+    <Value>通知客戶產品評論回復</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.NotifyCustomerAboutProductReviewReply.Hint">
+    <Value>檢查以通知客戶產品評論回复。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.NotifyStoreOwnerAboutNewProductReviews">
     <Value>有新商品評論時通知管理員</Value>
   </LocaleResource>
@@ -5706,17 +5499,11 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.PageShareCode.Hint">
     <Value>一頁共享按鈕的代碼。預設情況下，我們使用 AddThis 服務。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.Performance">
-    <Value>性能</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewPossibleOnlyAfterPurchasing">
+    <Value>產品購買後才能進行產品評審</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.productreviewpossibleonlyafterpurchasing">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewPossibleOnlyAfterPurchasing.Hint">
     <Value>商品購買後才能被評論</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.productreviewpossibleonlyafterpurchasing.hint">
-    <Value>會員購買商品後，才能評論</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviews">
-    <Value>商品評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsMustBeApproved">
     <Value>商品評論必須通過管理員的審核</Value>
@@ -5729,6 +5516,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsPageSizeOnAccountPage.Hint">
     <Value>設定每頁顯示評論數。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsSortByCreatedDateAscending">
+    <Value>按升序排序</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsSortByCreatedDateAscending.Hint">
+    <Value>檢查產品評論是否應按創建日期升序排序</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductsAlsoPurchasedEnabled">
     <Value>啟用購買此商品的顧客也同時購買的商品功能</Value>
@@ -5778,18 +5571,6 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductSearchTermMinimumLength.Hint">
     <Value>規定搜尋關鍵字的最小長度。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsEnabled">
-    <Value>啟用最新商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsEnabled.Hint">
-    <Value>啟用最新商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsNumber">
-    <Value>最新商品的數量</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsNumber.Hint">
-    <Value>最新商品的數量</Value>
-  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsEnabled">
     <Value>啟用最近瀏覽的商品</Value>
   </LocaleResource>
@@ -5802,16 +5583,19 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsNumber.Hint">
     <Value>顯示『近期瀏覽的水平』數量當啟用『近期瀏覽的水平』選項option。</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.Search">
-    <Value>搜尋</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.RemoveRequiredProducts">
+    <Value>刪除所需的產品</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.searchpageallowcustomerstoselectpagesize">
-    <Value>搜尋頁，允許會員選擇顯示筆數</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.RemoveRequiredProducts.Hint">
+    <Value>如果卸下主要產品，請從購物車中取出所需產品。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.searchpageallowcustomerstoselectpagesize.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize">
     <Value>搜尋頁，允許會員從預先定義的選項列表中選擇頁筆數。</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.searchpagepagesizeoptions">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize.Hint">
+    <Value>搜尋頁，選中以允許客戶從預定義的選項列表中選擇頁面大小。</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions">
     <Value>搜尋頁，顯示筆數的選項 （逗號分隔）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions.Hint">
@@ -5822,9 +5606,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageProductsPerPage.Hint">
     <Value>設定搜尋頁顯示商品數量。</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.Sharing">
-    <Value>共享</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowBestsellersOnHomepage">
     <Value>在首頁顯示暢銷商品</Value>
@@ -5856,6 +5637,12 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowGtin.Hint">
     <Value>在商品頁顯示GTIN</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowLinkToAllResultInSearchAutoComplete">
+    <Value>在自動填充框中顯示指向所有搜索結果的鏈接</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowLinkToAllResultInSearchAutoComplete.Hint">
+    <Value>確定是否應在自動填充搜索框中顯示指向所有結果的鏈接。 如果找到的項目數大於自動完成框中顯示的數量，則顯示。</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowManufacturerPartNumber">
     <Value>在商品頁顯示品牌零件編號</Value>
   </LocaleResource>
@@ -5868,16 +5655,16 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductImagesInSearchAutoComplete.Hint">
     <Value>搜尋自動完成框中包含商品圖片</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showproductreviewsperstore">
-    <Value>顯示此商店的評論</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsPerStore">
+    <Value>每家商店的評論</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showproductreviewsperstore.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsPerStore.Hint">
     <Value>會員只能看到某商品在此商店的評論(在產品詳細頁面上)</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showproductreviewstabonaccountpage">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsTabOnAccountPage">
     <Value>在會員中心顯示商品評論</Value>
   </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showproductreviewstabonaccountpage.hint">
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsTabOnAccountPage.Hint">
     <Value>在會員中心顯示評論過的商品評論</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductsFromSubcategories">
@@ -5885,12 +5672,6 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductsFromSubcategories.Hint">
     <Value>在當前分類中是否顯示子分類的商品</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showproductsku">
-    <Value>在商品頁顯示商品料號（SKU）</Value>
-  </LocaleResource>
-  <LocaleResource Name="admin.configuration.settings.catalog.showproductsku.hint">
-    <Value>在商品頁顯示商品料號（SKU）</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowShareButton">
     <Value>在商品頁顯示分享按鈕</Value>
@@ -5919,11 +5700,8 @@
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.Name">
     <Value>名稱</Value>
   </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.TopCategoryMenuSubcategoryLevelsToDisplay">
-    <Value>子類在頂部選單中的顯示層級</Value>
-  </LocaleResource>
-  <LocaleResource Name="Admin.Configuration.Settings.Catalog.TopCategoryMenuSubcategoryLevelsToDisplay.Hint">
-    <Value>子類在頂部選單中的顯示層級</Value>
+  <LocaleResource Name="Admin.Configuration.Settings.CustomerSettings.RegexValidationRule.Error">
+    <Value>用戶名驗證的正則表達式不正確</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser">
     <Value>會員中心設定</Value>
